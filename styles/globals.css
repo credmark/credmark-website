@@ -12,10 +12,6 @@
   src: url("/fonts/Credmark-Regular.otf") format("truetype");
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-
 html,
 body {
   padding: 0;
@@ -31,6 +27,7 @@ a {
 
 h1, h2, h3, h4, p, a, li, em {
   @apply text-credmarkpurple;
+  font-family: 'Roboto';
 }
 
 p {
