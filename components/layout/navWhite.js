@@ -2,7 +2,6 @@ import { Fragment, useState } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import Link from 'next/link'
 import Footer from '../layout/footer'
-import SimpleBar from 'simplebar-react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 function classNames(...classes) {
