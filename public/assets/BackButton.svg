@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="32px" viewBox="0 0 16 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Back</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Roboto-Regular, Roboto" font-size="24" font-weight="normal">
+        <g id="BlogExamplePage" transform="translate(-266.000000, -142.000000)" fill="#3B0065">
+            <g id="Back" transform="translate(266.000000, 142.000000)">
+                <text id="&lt;">
+                    <tspan x="1.90039062" y="25">&lt;</tspan>
+                    <tspan x="14.0996094" y="25" font-size="15" letter-spacing="-0.450000018"> </tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

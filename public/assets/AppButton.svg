@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="18px" viewBox="0 0 56 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>App</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-712.000000, -64.000000)">
+            <g id="BG-Copy" transform="translate(2.000000, 52.000000)">
+                <g id="App" transform="translate(710.000000, 12.000000)">
+                    <rect id="Rectangle" stroke="#979797" stroke-width="0.5292" fill="#DE1A60" x="0.2646" y="0.2646" width="55.4708" height="17.4708" rx="8.7354"></rect>
+                    <text id="APP" font-family="Credmark" font-size="10.584" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="17.4442529" y="12.5">APP</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
