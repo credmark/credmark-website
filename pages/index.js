@@ -9,19 +9,16 @@ export default function Home() {
         <title>CREDMARK</title>
         <meta content="Credmark | High Integrity Data | Risk Modeling" property="og:title" key="og:title" />
         <meta name="description" content="Credmark aims to provide high integrity data and risk metrics through a transparent, community-driven platform." />
-        <meta property="og:image" content="https://credmark.com/assets/credmark-og-image.png" />
+        <meta property="og:image" content="https://credmark.com/assets/credmark-og-image.png"/>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet"></link>
-        {/* Global Site Tag (gtag.js) - Google Analytics */}
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+          {/* Global Site Tag (gtag.js) - Google Analytics */}
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
@@ -29,13 +26,13 @@ export default function Home() {
               page_path: window.location.pathname,
             });
           `,
-          }}
-        />
+            }}
+          />
       </Head>
 
       <div className="nav">
-        <Nav
-          page={<Homepage />} />
+      <Nav
+                page={<Homepage />} />
       </div>
     </>
   )
