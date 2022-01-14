@@ -61,7 +61,7 @@ export default function Team() {
                             />
                             <Menu
                                 category='Team'
-                                img="../assets/paul.jpg"
+                                img="../assets/paul.png"
                                 alt="Paul Murphy"
                                 name="Paul Murphy"
                                 title="Operations"
