@@ -8,7 +8,7 @@ const MediaCard = (props) => {
                             <img
                                 alt={props.alt}
                                 src={props.img}
-                                className='rounded-md w-auto h-80 flex justify-center cursor-pointer mb-5'
+                                className='object-cover	rounded-md w-auto h-80 flex justify-center cursor-pointer mb-5'
                             />
                         </a>
                         <p className="text-xs text-black font-bold px-5">{props.date}</p>
