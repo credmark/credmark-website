@@ -28,6 +28,14 @@ export default function Home() {
           `,
             }}
           />
+          {/* Hubspot code */}
+           <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21299988.js"
+          `,
+            }}
+            />
       </Head>
 
       <div className="nav">
