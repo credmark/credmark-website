@@ -18,7 +18,7 @@ export default function faq() {
                 <div className="md:m-auto pb-10 faqBackground px-5">
                     <div className="max-w-5xl md:m-auto">
                         <div className="max-w-5xl md:m-auto">
-                            <h3 className="text-white font-extrabold uppercase text-center md:text-left text-3xl md:text-4xl pt-10">
+                            <h3 className="roboto text-white font-extrabold uppercase text-center md:text-left text-3xl md:text-4xl pt-10">
                                 Introduction
                             </h3>
                             <QuestionsIntro />
@@ -33,7 +33,7 @@ export default function faq() {
                                 </a>
                             </div>
                         </div>
-                        <h3 className="text-white font-extrabold uppercase text-center md:text-left text-3xl md:text-4xl pt-10">
+                        <h3 className="roboto text-white font-extrabold uppercase text-center md:text-left text-3xl md:text-4xl pt-10">
                             Token
                         </h3>
                         <QuestionsToken />
@@ -49,7 +49,7 @@ export default function faq() {
                         </div>
                     </div>
                     <div className="max-w-5xl md:m-auto">
-                        <h3 className="text-white font-extrabold uppercase text-center md:text-left text-3xl md:text-4xl pt-12">
+                        <h3 className="roboto text-white font-extrabold uppercase text-center md:text-left text-3xl md:text-4xl pt-12">
                             Platform
                         </h3>
                         <QuestionsPlatform />

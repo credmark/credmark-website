@@ -146,7 +146,7 @@ function BlogPageContent({ posts }) {
             <div className="header-bg py-20">
                 <div className="max-w-6xl px-5 block m-auto">
                     <h1 className="uppercase text-5xl py-5">Credmark Blog</h1>
-                    <h2 className="uppercase font-bold text-pink text-lg">For the latest technical analysis, partnerships, and community updates</h2>
+                    <h2 className="roboto uppercase font-bold text-pink text-lg">For the latest technical analysis, partnerships, and community updates</h2>
                 </div>
             </div>
             {<div className="px-5 max-w-5xl md:m-auto">

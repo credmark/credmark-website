@@ -7,7 +7,7 @@ const DescriptionFrontend = (props) => {
             <div className="header-bg py-20">
                 <div className="max-w-3xl px-5 block m-auto">
                     <h1 className="uppercase text-center text-5xl py-5">{props.title}</h1>
-                    <h2 className="text-lg text-pink text-center pb-10 md:pb-32">{props.description}</h2>
+                    <h2 className="roboto text-lg text-pink text-center pb-10 md:pb-32">{props.description}</h2>
                 </div>
             </div>
             <div className="bg-white">

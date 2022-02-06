@@ -6,9 +6,9 @@ const CenteredHeader = (props) => {
             <div className="header-bg py-20">
                 <div className="max-w-3xl px-5 block m-auto">
                     <strong><h1 className="uppercase font-extrabold text-center text-4xl md:text-5xl py-5">{props.title}</h1></strong>
-                    <h2 className="uppercase text-lg font-bold text-pink text-center">{props.description}</h2>
+                    <h2 className="roboto uppercase text-lg font-bold text-pink text-center">{props.description}</h2>
                     <br />
-                    <h3 className="uppercase text-pink font-bold text-center">{props.descriptionTwo}</h3>
+                    <h3 className="roboto uppercase text-pink font-bold text-center">{props.descriptionTwo}</h3>
                 </div>
             </div>
         </>

@@ -126,7 +126,7 @@ export default function Footer() {
                             <div>
                             </div>
                             <div>
-                                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase text-lightpurple">Projects</h3>
+                                <h3 className="roboto text-sm font-semibold text-gray-400 tracking-wider uppercase text-lightpurple">Projects</h3>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.projects.map((item) => (
                                         <li className="list-none" key={item.name}>
@@ -140,7 +140,7 @@ export default function Footer() {
                         </div>
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
-                                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase text-lightpurple">Learn</h3>
+                                <h3 className="roboto text-sm font-semibold text-gray-400 tracking-wider uppercase text-lightpurple">Learn</h3>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.learn.map((item) => (
                                         <li className="list-none" key={item.name}>
@@ -152,7 +152,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                             <div className="mt-12 md:mt-0">
-                                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase text-lightpurple">Community</h3>
+                                <h3 className="roboto text-sm font-semibold text-gray-400 tracking-wider uppercase text-lightpurple">Community</h3>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.community.map((item) => (
                                         <li className="list-none" key={item.name}>

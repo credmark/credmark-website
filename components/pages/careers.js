@@ -18,7 +18,7 @@ export default function Careers() {
                         button="Join us"
                     />
                     <div className="px-5 py-10">
-                        <h3 className="uppercase font-extrabold text-center py-5 text-5xl md:text-4xl md:pt-10">
+                        <h3 className="roboto uppercase font-extrabold text-center py-5 text-5xl md:text-4xl md:pt-10">
                             Our Culture
                         </h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 block m-auto pb-10">
@@ -45,7 +45,7 @@ export default function Careers() {
                             />
                         </div>
                         <div className="py-10 bg-pinkextralight">
-                            <h3 className="font-extrabold uppercase text-center py-5 text-5xl md:text-4xl pb-10 md:pt-10">
+                            <h3 className="roboto font-extrabold uppercase text-center py-5 text-5xl md:text-4xl pb-10 md:pt-10">
                                 Open Roles
                             </h3>
                             <OpenRoles
@@ -70,7 +70,7 @@ export default function Careers() {
                             />
                         </div>
                         <div className="px-5 py-10">
-                            <h3 className="uppercase font-extrabold text-center py-5 text-5xl md:text-4xl pb-10 md:pt-10">
+                            <h3 className="roboto uppercase font-extrabold text-center py-5 text-5xl md:text-4xl pb-10 md:pt-10">
                                 Our mission
                             </h3>
                             <div className="grid grid-cols-1 md:grid-cols-3 block m-auto">
