@@ -155,6 +155,7 @@ function BlogPageContent({ posts }) {
                     <button className="border-b-2 border-transparent hover:border-purple pb-5" onClick={() => { setSelectedCategory("Technical Analysis") }}>Technical Analysis</button>
                     <button className="border-b-2 border-transparent hover:border-purple pb-5" onClick={() => { setSelectedCategory("Community Updates") }}>Community Updates</button>
                     <button className="border-b-2 border-transparent hover:border-purple pb-5" onClick={() => { setSelectedCategory("Partnerships") }}>Partnerships</button>
+                    <button className="border-b-2 border-transparent hover:border-purple pb-5" onClick={() => { setSelectedCategory("Credmark 101") }}>Credmark 101</button>
                 </div>
             </div>}
             <div className="max-w-5xl block m-auto px-4 pt-10 pb-24">
