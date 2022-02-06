@@ -28,8 +28,14 @@ export default function BlogPostPage({ post }) {
                 <meta content={`${post.title} | Blog | Credmark`} property="og:title" key="og:title" />
                 <meta content={`${post.title} | Blog | Credmark`} name="twitter:title" key="twitter:title" />
                 <meta content={post.description} property="og:description" key="og:description" />
-                <meta content={post.description} property="twitter:description" key="twitter:description" />
                 <meta property="og:image" content={post.mainImage} />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:site" content="@credmarkhq" />
+                <meta name="twitter:title" content={`${post.title} | Blog | Credmark`} />
+                <meta name="twitter:description" content={post.description} />
+                <meta name="twitter:image" content={post.mainImage} />
+                <meta content={post.mainImage} name="twitter:image" key="twitter:image" />
+
                 {post.mainImage && (
                     <>
                         <meta content={post.mainImage} property="og:image" key="og:image" />

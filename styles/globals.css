@@ -25,9 +25,14 @@ a {
   cursor: pointer;
 }
 
-h1, h2, h3, h4, p, a, li, em {
+h1, p, a, li, em {
   @apply text-credmarkpurple;
   font-family: 'Roboto';
+}
+
+h2, h3, h4 {
+  @apply text-credmarkpurple;
+  font-family: "Credmark";
 }
 
 p {
@@ -41,6 +46,10 @@ h1{
 
 .credmark {
   font-family: 'Credmark';
+}
+
+.roboto {
+  font-family: 'Roboto';
 }
 
 #blogbutton {
@@ -83,14 +92,8 @@ img {
 }
 
 .riskPlatform {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(64, 8, 93, 0.5),
-  rgba(243, 222, 255, 0.5));
-}
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(218, 193, 232, 0.5) 10.94%, rgba(255, 255, 255, 0.5) 24.48%, rgba(243, 222, 255, 0.5) 31.77%, rgba(248, 186, 209, 0.5) 45.31%, rgba(255, 193, 219, 0.125) 62.5%, rgba(255, 227, 239, 0.330645) 70.83%, rgba(255, 255, 255, 0.5) 79.69%);
 
-.staking {
-  background: linear-gradient(rgba(243, 222, 255, 0.5),
-  rgba(255, 193, 219, 0.5),
-  rgba(255, 255, 255, 0.5));
 }
 
 .footerBg {
@@ -104,6 +107,15 @@ img {
 
 .riskEncyclopedia{
   background: radial-gradient(100% 360% at 100% 100%, #FDEDF3 0%, #E21569 18.75%, #005488 55.73%, #40085D 100%);
+  border-radius: 20px;
+}
+
+.roadmap {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(218, 193, 232, 0.5) 10.94%, rgba(255, 255, 255, 0.5) 24.48%, rgba(243, 222, 255, 0.5) 31.77%, rgba(248, 186, 209, 0.5) 45.31%, rgba(255, 193, 219, 0.125) 62.5%, rgba(255, 227, 239, 0.330645) 70.83%, rgba(255, 255, 255, 0.5) 79.69%);
+}
+
+.innerRoadmap {
+  background: linear-gradient(180deg, #3F0561 0%, #005488 0.01%, #3F0561 100%);
   border-radius: 20px;
 }
 
