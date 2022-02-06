@@ -9,7 +9,7 @@ export default function Home() {
         <title>CREDMARK</title>
         <meta content="Credmark | High Integrity Data | Risk Modeling" property="og:title" key="og:title" />
         <meta name="description" content="Credmark aims to provide high integrity data and risk metrics through a transparent, community-driven platform." />
-        <meta property="og:image" content="https://credmark.com/assets/credmark-og-image.png"/>
+        <meta property="og:image" content="https://credmark.com/assets/credmark-og-image.png" />
         <link rel="icon" href="/favicon.ico" />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
@@ -31,8 +31,8 @@ export default function Home() {
       </Head>
 
       <div className="nav">
-      <Nav
-                page={<Homepage />} />
+        <Nav
+          page={<Homepage />} />
       </div>
     </>
   )
