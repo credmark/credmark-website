@@ -36,18 +36,6 @@ export default [
         linkedin: "https://www.linkedin.com/in/prmurphy/",
     },
     {
-        id: 4,
-        category: 'Team',
-        img: "../assets/emilie.jpg",
-        alt: "Emilie Yeager",
-        name: "Emilie Yeager",
-        title: "Engineering",
-        description: "Emilie Yeager is a dev ops pro, engineering manager, and DIY aficionado. For the past 20+ years, Emilie has worked in tech- from systems administration to engineering to devops. Her specialties include AWS, Terraform, Bash, and Python automation.",
-        descriptiontwo: "In her spare time, she enjoys the Austin music scene, rock climbing, two-stepping, and adding to her exotic plant collection.",
-        twitter: "https://twitter.com/emilieyeager",
-        linkedin: "https://www.linkedin.com/in/emilieyeager/",
-    },
-    {
         id: 5,
         category: 'Team',
         img: "../assets/matt.png",

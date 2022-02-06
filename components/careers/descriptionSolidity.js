@@ -40,7 +40,7 @@ const DescriptionSolidity = (props) => {
                         <p className="px-5 cursor-pointer text-center text-base text-xl font-bold pt-5">{props.job}</p>
                     </div>
                 </div>
-                <div className="max-w-3xl block m-auto">
+                <div className="max-w-3xl block m-auto px-5">
                 <h3 className="credmark text-3xl pt-16">Job Summary</h3>
                 <p className="text-black">{props.summary}</p>
                     <h3 className="credmark text-3xl pt-16">Responsibilities</h3>
