@@ -49,6 +49,10 @@ export default function Careers() {
                                 Open Roles
                             </h3>
                             <OpenRoles
+                                jobtitle="Senior Backend Python Developer"
+                                link="/careers/senior-python-developer"
+                            />
+                            <OpenRoles
                                 jobtitle="Senior Backend Engineer"
                                 link="/careers/senior-backend-engineer"
                             />

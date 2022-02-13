@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 
-const DescriptionSolidity = (props) => {
+const DescriptionPython = (props) => {
     return (
         <>
             <div className="header-bg py-20">
@@ -48,19 +48,19 @@ const DescriptionSolidity = (props) => {
                         <li className="text-black">{props.responsibilities}</li>
                         <li className="text-black">{props.responsibilitiesOne}</li>
                         <li className="text-black">{props.responsibilitiesTwo}</li>
-                        <li className="text-black">{props.responsibilitiesThree}</li>
-                        <li className="text-black">{props.responsibilitiesFour}</li>
-                        <li className="text-black">{props.responsibilitiesFive}</li>
-                        <li className="text-black">{props.responsibilitiesSix}</li>
-
                     </ul>
-                    <h3 className="credmark text-3xl pt-16">The Ideal Candidate</h3>
+                    <h3 className="credmark text-3xl pt-10">The Ideal Candidate</h3>
+                    <p>Our model framework is written in Python. It is still in its infancy. We are looking for an engineer who is fluent in python to help us build out the existing software. The right candidate:</p>
                     <ul>
                     <li className="text-black">{props.skills}</li>
                         <li className="text-black">{props.skillsOne}</li>
                         <li className="text-black">{props.skillsTwo}</li>
                         <li className="text-black">{props.skillsThree}</li>
+                        <li className="text-black">{props.skillsFour}</li>
                     </ul>
+                    <p>The perfect candidate will also be familiar with DeFi and/or financial models.</p>
+                    <p>The core contributors to the Credmark project are completely distributed, so the candidate’s physical location doesn’t matter to us. Because of the remote nature of our interactions, however, we look for solid written and verbal English communication skills.</p>
+                    <p>Remuneration is competitive.</p>
                     <h3 className="credmark text-3xl pt-16">About the team</h3>
                     <p className="text-black">
                         Credmark aims to provide high integrity data and risk metrics through a transparent, community-driven platform. By leveraging our community, we provide transparent models and data that can be used to make better investment decisions. Our goal is to be both a credible resource in the crypto community and a creator of useful tools & products inside and outside of crypto.
@@ -87,4 +87,4 @@ const DescriptionSolidity = (props) => {
     );
 }
 
-export default DescriptionSolidity;
+export default DescriptionPython;
