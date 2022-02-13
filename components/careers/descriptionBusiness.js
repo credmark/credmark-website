@@ -13,31 +13,31 @@ const DescriptionBusiness = (props) => {
             <div className="bg-white">
                 <div className="grid grid-cols-1 md:grid-cols-3 block m-auto py-10 max-w-4xl px-5 block m-auto">
                     <div className="job-image mb-10 h-72 w-60 max-w-xl block m-auto bg-white border-2 border-credmarkpurple rounded-lg p-10">
-                        <p className="px-5 credmark cursor-pointer text-center text-lg max-w-xs block m-auto">Experience</p>
+                        <p className="text-credmarkpurple px-5 credmark cursor-pointer text-center text-lg max-w-xs block m-auto">Experience</p>
                         <img
                             alt="Experience Image"
                             src="../assets/experience.svg"
                             className='cursor-pointer px-5'
                         />
-                        <p className="px-5 cursor-pointer text-center text-xl font-bold pt-5">{props.experience}</p>
+                        <p className="text-credmarkpurple px-5 cursor-pointer text-center text-xl font-bold pt-5">{props.experience}</p>
                     </div>
                     <div className="job-image mb-10 h-72 w-60 max-w-xl block m-auto bg-white border-2 border-credmarkpurple rounded-lg p-10">
-                        <p className="px-5 credmark cursor-pointer text-center text-lg max-w-xs block m-auto">Location</p>
+                        <p className="text-credmarkpurple px-5 credmark cursor-pointer text-center text-lg max-w-xs block m-auto">Location</p>
                         <img
                             alt="Location"
                             src="../assets/location.svg"
                             className='cursor-pointer px-5'
                         />
-                        <p className="px-5 cursor-pointer text-center text-base text-xl font-bold pt-5">{props.location}</p>
+                        <p className="text-credmarkpurple px-5 cursor-pointer text-center text-base text-xl font-bold pt-5">{props.location}</p>
                     </div>
                     <div className="job-image mb-10 h-72 w-60 max-w-xl block m-auto bg-white border-2 border-credmarkpurple rounded-lg p-10">
-                        <p className="px-5 credmark cursor-pointer text-center text-lg max-w-xs block m-auto">Job Type</p>
+                        <p className="text-credmarkpurple px-5 credmark cursor-pointer text-center text-lg max-w-xs block m-auto">Job Type</p>
                         <img
                             alt="Clock"
                             src="../assets/clock.svg"
                             className='cursor-pointer px-5'
                         />
-                        <p className="px-5 cursor-pointer text-center text-base text-xl font-bold pt-5">{props.job}</p>
+                        <p className="text-credmarkpurple px-5 cursor-pointer text-center text-base text-xl font-bold pt-5">{props.job}</p>
                     </div>
                 </div>
                 <div className="max-w-3xl block m-auto px-5">

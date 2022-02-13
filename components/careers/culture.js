@@ -11,8 +11,8 @@ const Culture = (props) => {
                                 className='cursor-pointer px-5'
                             />
                         </a>
-                        <p className="px-5 mt-5 credmark cursor-pointer text-center text-lg max-w-xs block m-auto">{props.title}</p>
-                        <p className="px-5 cursor-pointer text-center text-base">{props.description}</p>
+                        <p className="text-credmarkpurple px-5 mt-5 credmark cursor-pointer text-center text-lg max-w-xs block m-auto">{props.title}</p>
+                        <p className="text-credmarkpurple px-5 cursor-pointer text-center text-base">{props.description}</p>
                     </div>
         </>
     );

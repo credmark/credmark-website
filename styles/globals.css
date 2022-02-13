@@ -25,7 +25,7 @@ a {
   cursor: pointer;
 }
 
-h1, p, a, li, em {
+h1, a, li, em {
   @apply text-credmarkpurple;
   font-family: 'Roboto';
 }

@@ -14,11 +14,11 @@ const BlogCard = (props) => {
                         />
                     </Link>
                     <div className="pl-5 font-light pb-10">
-                        <p>{props.date}</p>
+                        <p className="text-credmarkpurple">{props.date}</p>
                         <Link href={`/blog/${props.slug}`}>
-                        <p className="credmark cursor-pointer text-xl">{props.title}</p>
+                        <p className="text-credmarkpurple credmark cursor-pointer text-xl">{props.title}</p>
                         </Link>
-                        <p>by {props.author}</p>
+                        <p className="text-credmarkpurple">by {props.author}</p>
                     </div>
                 </div>
         </>

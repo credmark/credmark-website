@@ -45,8 +45,8 @@ export default function Homepage() {
 
                         </div>
                         <div className="max-w-4xl pb-7 block m-auto">
-                            <p className="pt-5 text-center text-base">Credmark is a community-driven project that connects data providers, risk modelers and DeFi users.</p>
-                            <p className="text-center text-base">Our community curates crypto data, develop risk management tools, and publish industry leading research.</p>
+                            <p className="text-credmarkpurple pt-5 text-center text-base">Credmark is a community-driven project that connects data providers, risk modelers and DeFi users.</p>
+                            <p className="text-credmarkpurple text-center text-base">Our community curates crypto data, develop risk management tools, and publish industry leading research.</p>
                         </div>
                         <div className="max-w-4xl block m-auto pb-16">
                             <img alt="What is Credmark graph" className="hidden md:flex block m-auto" src="/assets/what-is-credmark.png" />
@@ -103,8 +103,8 @@ export default function Homepage() {
                             <img alt="Staking CMK token" className="pt-10" src="/assets/cmktoken.svg" />
                         </div>
                         <div className="pl-5 md:pl-10 order-1 lg:order-2">
-                            <img alt="Staking CMK token" className="float-left mr-5" src="/assets/cmklogo.svg" /><p className="credmark text-2xl text-base">$CMK Token</p>
-                            <p className="text-base pt-5">Use your $CMK to access the Credmark Risk Terminal. How? Easy. Stake your $CMK to get $xCMK. You $xCMK is your key to the Terminal. And, by the way, while your $CMK is staked, you’ll be earning interest. Win, win.</p>
+                            <img alt="Staking CMK token" className="float-left mr-5" src="/assets/cmklogo.svg" /><p className="text-credmarkpurple credmark text-2xl text-base">$CMK Token</p>
+                            <p className="text-credmarkpurple text-base pt-5">Use your $CMK to access the Credmark Risk Terminal. How? Easy. Stake your $CMK to get $xCMK. You $xCMK is your key to the Terminal. And, by the way, while your $CMK is staked, you’ll be earning interest. Win, win.</p>
                             <div className="flex">
                                 <a href="https://app.sushi.com/swap" target="_blank" rel="noreferrer">
                                     <button

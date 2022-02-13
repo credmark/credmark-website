@@ -27,8 +27,8 @@ const Menu = (props) => {
                                     </div>
                                 </div>
                                 <div>
-                                    <p className="credmark py-1.5 text-center text-lg">{props.name}</p>
-                                    <p className="credmark pb-5 text-center text-base"> {props.title}</p>
+                                    <p className="text-credmarkpurple credmark py-1.5 text-center text-lg">{props.name}</p>
+                                    <p className="text-credmarkpurple credmark pb-5 text-center text-base"> {props.title}</p>
                                     <div className="flex justify-center">
                                         <a href={props.twitter} target="_blank" rel="noreferrer">
                                             <svg className="twitter" width={25} fill="#7E5594" viewBox="0 0 24 24">

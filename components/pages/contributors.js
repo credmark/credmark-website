@@ -159,8 +159,8 @@ export default function Team() {
                                             </div>
                                         </div>
                                         <div>
-                                            <p className="credmark py-1.5 text-center text-lg">0xPeterSatoshi</p>
-                                            <p className="credmark pb-5 text-center text-base">Data</p>
+                                            <p className="text-credmarkpurple credmark py-1.5 text-center text-lg">0xPeterSatoshi</p>
+                                            <p className="text-credmarkpurple credmark pb-5 text-center text-base">Data</p>
                                             <div className="flex justify-center">
                                                 <a href="https://twitter.com/0xPeterSatoshi" target="_blank" rel="noreferrer">
                                                     <svg className="twitter" width={25} fill="#7E5594" viewBox="0 0 24 24">
@@ -183,8 +183,8 @@ export default function Team() {
                             <div className="grid grid-cols-1 md:grid-cols-2 block m-auto max-w-4xl">
                                 <div className="md:pt-10 text-center py-10">
                                     <img className="block m-auto max-w-xs" src="../assets/renner.png" alt="Renan Feldman" />
-                                    <strong><p className="credmark text-lg py-2.5">Renan Feldman</p></strong>
-                                    <p className="credmark text-base pb-4">Security</p>
+                                    <strong><p className="text-credmarkpurple credmark text-lg py-2.5">Renan Feldman</p></strong>
+                                    <p className="text-credmarkpurple credmark text-base pb-4">Security</p>
                                     <div className="flex justify-center">
                                         <a href="https://www.linkedin.com/in/renanfeldman/" target="_blank" rel="noreferrer">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -225,8 +225,8 @@ export default function Team() {
                                 />
                                 <div className="md:pt-10 text-center py-10">
                                     <img className="block m-auto max-w-xs" src="../assets/serge.png" alt="Serge Ugarte" />
-                                    <strong><p className="credmark text-lg py-2.5">Serge Ugarte</p></strong>
-                                    <p className="credmark text-base pb-4">Strategy</p>
+                                    <strong><p className="text-credmarkpurple credmark text-lg py-2.5">Serge Ugarte</p></strong>
+                                    <p className="text-credmarkpurple credmark text-base pb-4">Strategy</p>
                                     <div className="flex justify-center">
                                         <a href="https://www.linkedin.com/in/serge-ugarte/" target="_blank" rel="noreferrer">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

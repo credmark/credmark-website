@@ -6,8 +6,8 @@ const AdvisorCard = (props) => {
         <>
             <div className="md:pt-10 text-center py-10">
                 <img className="block m-auto max-w-xs" src={props.img} alt={props.alt} />
-                <strong><p className="credmark text-lg py-2.5">{props.name}</p></strong>
-                <p className="credmark text-base pb-4">{props.role}</p>
+                <strong><p className="text-credmarkpurple credmark text-lg py-2.5">{props.name}</p></strong>
+                <p className="text-credmarkpurple credmark text-base pb-4">{props.role}</p>
                 <div className="flex justify-center">
                     <a href={props.twitter} target="_blank" rel="noreferrer">
                         <svg className="twitter" width={25} fill="#7E5594" viewBox="0 0 24 24">
