@@ -103,7 +103,7 @@ export default function Homepage() {
                             <img alt="Staking CMK token" className="pt-10" src="/assets/cmktoken.svg" />
                         </div>
                         <div className="pl-5 md:pl-10 order-1 lg:order-2">
-                            <img alt="Staking CMK token" className="float-left mr-5" src="/assets/cmklogo.svg" /><p className="text-credmarkpurple credmark text-2xl text-base">$CMK Token</p>
+                            <a href="https://coinmarketcap.com/currencies/credmark/" target="_blank" rel="noreferrer"><img alt="Staking CMK token" className="float-left mr-5" src="/assets/cmklogo.svg" /><p className="text-credmarkpurple credmark text-2xl text-base">$CMK Token</p></a>
                             <p className="text-credmarkpurple text-base pt-5">Use your $CMK to access the Credmark Risk Terminal. How? Easy. Stake your $CMK to get $xCMK. You $xCMK is your key to the Terminal. And, by the way, while your $CMK is staked, you’ll be earning interest. Win, win.</p>
                             <div className="flex">
                                 <a href="https://app.sushi.com/swap" target="_blank" rel="noreferrer">
