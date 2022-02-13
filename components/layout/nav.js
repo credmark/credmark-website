@@ -66,6 +66,14 @@ export default function Nav(props) {
                                                         Media
                                                     </Link>
                                                     </div>
+                                                    <div className="mx-5 border-transparent inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                                                    <Link
+                                                        href="https://discord.com/invite/3dSfMqP3d4"
+                                                        className="mx-8 border-transparent inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                                                    >
+                                                        Discord
+                                                    </Link>
+                                                    </div>
                                                     <a
                                                         href="https://app.credmark.com/"
                                                         target="_blank"
@@ -118,6 +126,13 @@ export default function Nav(props) {
                                         className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
                                     >
                                         Media
+                                    </Disclosure.Button>
+                                    <Disclosure.Button
+                                        as="a"
+                                        href="https://discord.com/invite/3dSfMqP3d4"
+                                        className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                                    >
+                                        Discord
                                     </Disclosure.Button>
                                     <a
                                         href="https://app.credmark.com/"
