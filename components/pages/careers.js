@@ -65,10 +65,6 @@ export default function Careers() {
                                 link="/careers/senior-frontend-engineer"
                             />
                             <OpenRoles
-                                jobtitle="Business Intelligence Senior Manager"
-                                link="/careers/business-intelligence-manager"
-                            />
-                            <OpenRoles
                                 jobtitle="Senior Solidity Engineer"
                                 link="/careers/senior-solidity-engineer"
                             />
