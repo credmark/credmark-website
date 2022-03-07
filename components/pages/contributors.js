@@ -43,8 +43,6 @@ export default function Team() {
                                 alt="Neil Zumwalde"
                                 name="Neil Zumwalde"
                                 title="Technology"
-                                description="An Electrical/Software Engineer, Neil has developed products and provided technical advisement in blockchain, industrial automation, and renewable energy markets. To Neil, nothing is impossible."
-                                descriptiontwo="In his spare time he writes music for children and podcasts."
                                 twitter="https://twitter.com/neilzum"
                                 linkedin="https://www.linkedin.com/in/neilzumwalde/"
                             />
@@ -54,8 +52,6 @@ export default function Team() {
                                 alt="Momin Ahmad "
                                 name="Momin Ahmad"
                                 title="Growth"
-                                description="Momin is Credmark’s secret weapon. He is versatile, a quick study, and usually in a good mood after 10AM. Besides being responsible for the development of Credmark’s projects, Momin is the author of our Crypto Credit Report."
-                                descriptiontwo="Outside of work, he enjoys playing bluegrass on his upright bass."
                                 twitter="https://twitter.com/mostarz93"
                                 linkedin="https://www.linkedin.com/in/momin-ahmad/"
                             />
@@ -65,8 +61,6 @@ export default function Team() {
                                 alt="Paul Murphy"
                                 name="Paul Murphy"
                                 title="Operations"
-                                description="Born in Argentina, Paul has lived and worked all over the world. He used to write a lot of code. Now he’s kind of rusty. He does whatever needs doing, whether or not it’s fun."
-                                descriptiontwo="He believes the answer to most questions can be found in musical and opera scores."
                                 twitter="https://twitter.com/prmurphy"
                                 linkedin="https://www.linkedin.com/in/prmurphy/"
                             />
@@ -85,7 +79,6 @@ export default function Team() {
                                 alt="Asan Tulemis"
                                 name="Asan Tulemis"
                                 title="Risk"
-                                description="Asan has worked in the risk departments of two of Australia’s largest banks. He has a PhD in applied math. He loves risk strategy and building the most complicated risk models."
                                 twitter="https://twitter.com/atulemis1"
                                 linkedin="https://www.linkedin.com/in/atulemis/"
                             />
@@ -95,8 +88,6 @@ export default function Team() {
                                 alt="Nishchal Gaba"
                                 name="Nishchal Gaba"
                                 title="Data Science"
-                                description="Nish eats data instead of food. Armed with a Master’s in AI from Edinburgh University, he has become one of India’s greatest technologists."
-                                descriptiontwo="Outside of work he writes and reviews academic papers. For fun."
                                 twitter="https://twitter.com/gaba_nishchal"
                                 linkedin="https://www.linkedin.com/in/nishchal-gaba-295701a5/"
                             />
@@ -106,21 +97,33 @@ export default function Team() {
                                 alt="Collier Gray"
                                 name="Collier Gray"
                                 title="Partnerships"
-                                description="A native Austinite, Collier spent 6 years in technology and finance in NYC, working from Product to leading a Lean Governance group."
-                                descriptiontwo="When he's not working through his substantial to-do list, you can find Collier reading and trying to keep his vegetable garden alive."
                                 twitter="https://twitter.com/JoeCollierGray"
                                 linkedin="https://www.linkedin.com/in/joseph-collier-gray-7a323054/"
                             />
+                            <div className="box col-xs">
+                                <div id="team" className="py-10">
+                                    <div>
+                                        <div className="rounded-full img-hover">
+                                            <img className="text-center bio-photo" src="../assets/mark-valentine.jpg" alt="Mark Valentine" />
+                                            <div className="overlay relative">
+
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p className="text-credmarkpurple credmark py-1.5 text-center text-lg">Mark Valentine</p>
+                                            <p className="text-credmarkpurple credmark pb-5 text-center text-base">Design</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <Menu
                                 category='Team'
-                                img="../assets/stijn.jpg"
-                                alt="Stijn Dobbelaere"
-                                name="Stijn Dobbelaere"
-                                title="Design"
-                                description="From editing national ad campaigns for Capital One, to creating viral-ready memes for Southwest Airlines, to voicing Pizza Hut commercials, Stijn has  years of experience in design, advertising and marketing."
-                                descriptiontwo="Outside of his work, he bangs loudly on drums."
-                                twitter="https://twitter.com/S7IJN"
-                                linkedin="https://www.linkedin.com/in/stijn-dobbelaere-5b9a476b/"
+                                img="../assets/punit-kumar.jpg"
+                                alt="Punit Kumar"
+                                name="Punit Kumar"
+                                title="Data"
+                                twitter="https://twitter.com/tweet_wid_punit"
+                                linkedin="https://www.linkedin.com/in/punit-kumar01/"
                             />
                             <Menu
                                 category='Team'
@@ -131,17 +134,6 @@ export default function Team() {
                                 description="Originally from Taiwan,  Wen-Chiao grew up in the US, went back to Taiwan for high school, and then moved to Japan for university. He’s worked in both Taipei and Tokyo in tech and innovation. In his spare time, he likes reading and asking questions."
                                 twitter="https://twitter.com/wc_su95"
                                 linkedin="https://www.linkedin.com/in/wen-chiao-su/"
-                            />
-                            <Menu
-                                category='Team'
-                                img="../assets/joey.jpg"
-                                alt="Joseph Hirsh"
-                                name="Joseph Hirsh"
-                                title="Data"
-                                description="After receiving a PhD in algebraic topology and postdoctoral fellowships at MIT and MSRI, Joe worked in blockchain/AI consulting and served as a mentor for dLab."
-                                descriptiontwo="Outside of work, Joe is either cooking, bodybuilding, or watching YouTube videos about non-duality."
-                                twitter="https://twitter.com/corepresentable"
-                                linkedin="https://www.linkedin.com/in/joseph-hirsh/"
                             />
                             <div className="box col-xs">
                                 <div id="team" className="py-10">
@@ -172,6 +164,42 @@ export default function Team() {
                                     </div>
                                 </div>
                             </div>
+                            <div className="box col-xs">
+                                <div id="team" className="py-10">
+                                    <div>
+                                        <div className="rounded-full img-hover">
+                                            <img className="text-center bio-photo" src="../assets/kunlun-yang.jpg" alt="Kunlun Yang" />
+                                            <div className="overlay relative">
+
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p className="text-credmarkpurple credmark py-1.5 text-center text-lg">Kunlun Yang</p>
+                                            <p className="text-credmarkpurple credmark pb-5 text-center text-base">Analysis</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <Menu
+                                category='Team'
+                                img="../assets/ivo.jpg"
+                                alt="Ivo Rothschild"
+                                name="Ivo Rothschild"
+                                title="Technology"
+                                twitter="https://twitter.com/iorothschild"
+                                linkedin="https://www.linkedin.com/in/ivo-rothschild/"
+                            />
+                            <Menu
+                                category='Team'
+                                img="../assets/joey.jpg"
+                                alt="Joseph Hirsh"
+                                name="Joseph Hirsh"
+                                title="Data"
+                                description="After receiving a PhD in algebraic topology and postdoctoral fellowships at MIT and MSRI, Joe worked in blockchain/AI consulting and served as a mentor for dLab."
+                                descriptiontwo="Outside of work, Joe is either cooking, bodybuilding, or watching YouTube videos about non-duality."
+                                twitter="https://twitter.com/corepresentable"
+                                linkedin="https://www.linkedin.com/in/joseph-hirsh/"
+                            />
                         </div>
                     </div>
 
