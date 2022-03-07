@@ -83,6 +83,10 @@ img {
 
 /* Gradient backgrounds */ 
 
+.cta-bg {
+  background: linear-gradient(90deg, #E93173 0%, #238DCE 100%);
+}
+
 .header-bg {
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 193, 219, 0.5));
 }
