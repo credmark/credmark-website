@@ -106,7 +106,7 @@ const BlogDetail = ({ post }) => {
                 </div>
                 <img className="px-5 md:px-20" id="blogPage" src={post.mainImage} />
                 <BlockContent
-                    className="blog text-left leading-loose pt-10 px-5 md:px-20"
+                    className="blog sanity-block text-left leading-loose pt-10 px-5 md:px-20"
                     serializers={serializers}
                     blocks={post.content}
                     {...sanity.config()}

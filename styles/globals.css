@@ -25,14 +25,13 @@ a {
   cursor: pointer;
 }
 
-h1, a, li, em {
+h1, h2, h3, h4, a {
   @apply text-credmarkpurple;
   font-family: 'Roboto';
 }
 
-h2, h3, h4 {
-  @apply text-credmarkpurple;
-  font-family: "Credmark";
+em {
+  font-family: 'Roboto';
 }
 
 p {
@@ -42,6 +41,61 @@ p {
 h1{
   font-family: 'Roboto';
   font-weight: 900;
+}
+
+/** Sanity **/ 
+
+.sanity-block li{
+  @apply list-disc;
+  @apply list-outside;
+  @apply ml-6;
+  @apply py-2.5;
+}
+
+.sanity-block p {
+  @apply text-base;
+  @apply font-light;
+  @apply leading-8;
+}
+
+.sanity-block img {
+  @apply py-5;
+}
+
+.sanity-block h1 {
+  font-family: 'Credmark';
+  @apply text-credmarkpurple;
+  @apply text-xl;
+  @apply font-light;
+  @apply pt-10;
+  @apply pb-2;
+}
+
+.sanity-block h2 {
+  font-family: 'Credmark';
+  @apply text-credmarkpurple;
+  @apply text-xl;
+  @apply font-light;
+  @apply pt-10;
+  @apply pb-2;
+}
+
+.sanity-block h3 {
+  font-family: 'Credmark';
+  @apply text-credmarkpurple;
+  @apply text-xl;
+  @apply font-light;
+  @apply pt-10;
+  @apply pb-2;
+}
+
+.sanity-block h4 {
+  font-family: 'Credmark';
+  @apply text-credmarkpurple;
+  @apply text-xl;
+  @apply font-light;
+  @apply pt-10;
+  @apply pb-2;
 }
 
 .credmark {
