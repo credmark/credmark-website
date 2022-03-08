@@ -84,6 +84,7 @@ const BlogDetail = ({ post }) => {
         <div className="bg-white pb-10">
             <div className="max-w-6xl block m-auto px-5 md:px-20">
                 <h1 className="leading-snug pt-20 text-5xl pb-5 px-5 md:px-20">{post.title}</h1>
+                <h3 className="leading-snug text-3xl pb-5 px-5 md:px-20">{post.subtitle}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 px-5 md:px-20 pb-5">
                     <div>
                         <p className="text-pink credmark text-base float-left">{post.author}</p>
