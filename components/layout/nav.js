@@ -11,11 +11,13 @@ function classNames(...classes) {
 export default function Nav(props) {
     return (
         <>
+        {/* 
         <div className="py-2 cta-bg text-center">
             <div className="block mx-auto max-w-5xl">
             <a href="/getting-started"><p className="text-white text-base">The Credmark Model Framework is now in Open Beta! | Start building models in python with institutional-grade crypto data. →</p></a>
             </div>
         </div>
+        */}
         <div className="h-16 sticky top-0 z-10">
                 <main>
                     <Disclosure as="nav">
