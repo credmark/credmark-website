@@ -48,12 +48,13 @@ h1{
 .sanity-block li{
   @apply list-disc;
   @apply list-outside;
+  @apply text-base;
   @apply ml-6;
   @apply py-2.5;
 }
 
 .sanity-block p {
-  @apply text-base;
+  @apply text-lg;
   @apply font-light;
   @apply leading-8;
 }
@@ -96,6 +97,14 @@ h1{
   @apply font-light;
   @apply pt-10;
   @apply pb-2;
+}
+
+.sanity-block a {
+  @apply text-black;
+  @apply text-lg;
+  @apply font-light;
+  @apply leading-8;
+  @apply underline;
 }
 
 .credmark {
