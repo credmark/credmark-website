@@ -45,12 +45,29 @@ h1{
 
 /** Sanity **/ 
 
-.sanity-block li{
+.sanity-block ul li{
   @apply list-disc;
   @apply list-outside;
-  @apply text-base;
+  @apply text-lg;
   @apply ml-6;
   @apply py-2.5;
+}
+
+.sanity-block ol li{
+  @apply list-decimal;
+  @apply list-outside;
+  @apply text-lg;
+  @apply ml-6;
+  @apply py-2.5;
+}
+
+.sanity-block ol {
+  padding-left: 20px;
+  @apply py-5;
+}
+
+.sanity-block ul {
+  padding-left: 20px;
 }
 
 .sanity-block p {
