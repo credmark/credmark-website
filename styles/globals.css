@@ -12,6 +12,7 @@
   src: url("/fonts/Credmark-Regular.otf") format("truetype");
 }
 
+
 html,
 body {
   padding: 0;
@@ -139,11 +140,6 @@ h1{
   margin-right: 0px;
   margin-left: 50px;
   padding-top: 40px;
-}
-
-img {
-  margin: auto;
-  display: block;
 }
 
 #hackathon{

@@ -13,8 +13,8 @@ export default function Nav(props) {
         <>
         {/* 
         <div className="py-2 cta-bg text-center">
-            <div className="block mx-auto max-w-5xl">
-            <a href="/getting-started"><p className="text-white text-base">The Credmark Model Framework is now in Open Beta! | Start building models in python with institutional-grade crypto data. →</p></a>
+            <div>
+            <a href="/getting-started"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">The Credmark Model Framework is now in Open Beta! | Start building models in python with institutional-grade crypto data.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" width={24} alt="Right arrow" /></p></a>
             </div>
         </div>
         */}
