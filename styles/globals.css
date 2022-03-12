@@ -74,6 +74,7 @@ h1{
   @apply text-lg;
   @apply font-light;
   @apply leading-8;
+  padding-top: 13px;
 }
 
 .sanity-block img {
