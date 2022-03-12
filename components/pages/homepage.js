@@ -29,9 +29,6 @@ export default function Homepage() {
                     title="MANAGE DEFI RISK"
                     description="A risk ecosystem powered by reliable data, original research, and an engaged community reducing risk for everyone."
                     url="#what-is-credmark" />
-                <div className="swirls">
-                    <img src="/assets/swirls-transparent.png" alt="colored swirls" />
-                </div>
             </div>
             <div>
             </div>
@@ -39,7 +36,7 @@ export default function Homepage() {
                 <div className="max-w-7xl block m-auto">
                     <div className="px-5">
                         <div className="text-center">
-                            <h3 id="what-is-credmark" className="roboto font-extrabold text-5xl md:text-4xl pt-10">
+                            <h3 id="what-is-credmark" className="roboto font-extrabold text-5xl md:text-4xl pt-20 md:pt-40 lg:pt-60">
                                 WHAT IS CREDMARK?
                             </h3>
 

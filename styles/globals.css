@@ -159,7 +159,7 @@ img {
 }
 
 .swirls {
-  margin-top: -155px;
+  position:relative;
 }
 
 /* Gradient backgrounds */ 
@@ -363,9 +363,6 @@ li {
 }
 
 @media (min-width: 1450px){
-  .swirls {
-    margin-top: -220px;
-  }
   .riskEncyclopedia {
     background: url(/assets/purple-bg.jpg);
     background-size: cover;
@@ -384,9 +381,6 @@ li {
 }
 
 @media screen and (max-width: 480px) {
-  .swirls {
-    margin-top: -75px;
-  }
   .app-image {
     margin-top: 0px;
     margin-bottom: 0px;
