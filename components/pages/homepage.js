@@ -148,8 +148,8 @@ export default function Homepage() {
             <div className="roadmap py-24 rounded-xl ">
                 <div className="rounded-xl max-w-7xl block py-16 mx-5 lg:m-auto innerRoadmap">
                     <h3 className="text-white text-center md:pt-28 roboto font-bold text-4xl uppercase pb-20">Credmark Roadmap</h3>
-                    <img alt="How Credmark Works" className="hidden md:block m-auto max-w-2xl pb-28" src="/assets/Roadmap.png" />
-                    <img alt="How Credmark Works" className="block md:hidden m-auto pb-14 px-2" src="/assets/mobile-roadmap.png" />
+                    <img alt="Credmark product roadmap" className="hidden md:block m-auto max-w-2xl pb-28" src="/assets/credmark-roadmap.png" />
+                    <img alt="Credmark product roadmap" className="block md:hidden m-auto pb-14 px-2" src="/assets/mobile-roadmap.png" />
                 </div>
             </div>
             <div>

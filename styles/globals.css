@@ -224,9 +224,7 @@ img {
 }
 
 .riskLibrary {
-  background: url("/assets/risk-encyclopedia.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: radial-gradient(100% 360% at 100% 100%, #FFFFFF 0%, #005488 44.79%, #001725 100%);
 }
 
 #blogPage{
