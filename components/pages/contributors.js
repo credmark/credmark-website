@@ -182,6 +182,15 @@ export default function Team() {
                             </div>
                             <Menu
                                 category='Team'
+                                img="../assets/vineet-kumar.jpeg"
+                                alt="Vineet Kumar"
+                                name="Vineet Kumar"
+                                title="TECH"
+                                twitter="https://twitter.com/v1nvn"
+                                linkedin="https://www.linkedin.com/in/v1nvn/"
+                            />
+                            <Menu
+                                category='Team'
                                 img="../assets/ivo.jpg"
                                 alt="Ivo Rothschild"
                                 name="Ivo Rothschild"
