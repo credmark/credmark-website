@@ -13,7 +13,7 @@ export default function Nav(props) {
         <>
         <div className="py-2 cta-bg text-center">
             <div>
-            <a href="https://github.com/credmark/credmark-models-py/blob/main/README.md" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">The Credmark Model Framework is now in Open Beta! | Start building models in python with institutional-grade reliable crypto data.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" width={24} alt="Right arrow" /></p></a>
+            <a href="https://github.com/credmark/credmark-models-py/blob/main/README.md" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">The Credmark Model Framework is now in Open Beta! | Start building DeFi models in python with reliable crypto data</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" width={24} alt="Right arrow" /></p></a>
             </div>
         </div>
         <div className="h-16 sticky top-0 z-10">
