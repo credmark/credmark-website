@@ -36,7 +36,7 @@ export default function Homepage() {
                 <div className="max-w-7xl block m-auto">
                     <div className="px-5">
                         <div className="text-center">
-                            <h3 id="what-is-credmark" className="roboto font-extrabold text-5xl md:text-4xl pt-20 md:pt-40 lg:pt-60">
+                            <h3 id="what-is-credmark" className="roboto font-extrabold text-5xl md:text-4xl pt-32 md:pt-40 xl:pt-60 2xl:pt-96">
                                 WHAT IS CREDMARK?
                             </h3>
 

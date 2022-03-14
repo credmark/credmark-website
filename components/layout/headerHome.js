@@ -10,7 +10,7 @@ const HeaderHome = (props) => {
                     <a href={props.url}>
                         <button
                             type="button"
-                            className="uppercase transform hover:scale-110 mt-5 inline-flex items-center px-4 py-2 shadow-sm text-sm font-medium rounded-md text-white bg-credmarkpurple"
+                            className="uppercase transform hover:scale-110 mt-5 inline-flex items-center px-4 py-2 shadow-sm text-sm font-medium rounded-md text-white bg-credmarkpurple mb-10"
                         >
                             Learn more
                         </button>
