@@ -83,27 +83,16 @@ const BlogDetail = ({ post }) => {
     return (
         <div className="bg-white pb-10">
             <div className="max-w-6xl block m-auto px-5 md:px-20">
-                <h1 className="leading-snug pt-20 text-5xl pb-5 px-5 md:px-20">{post.title}</h1>
-                <h3 className="leading-snug text-3xl pb-5 px-5 md:px-20">{post.subtitle}</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 px-5 md:px-20 pb-5">
+                <h1 className="leading-snug pt-20 text-5xl pb-5 px-5 md:px-20 text-center">{post.title}</h1>
+                <h3 className="leading-snug text-3xl pb-5 px-5 md:px-20 text-center">{post.subtitle}</h3>
+                <div className="flex justify-center px-5 md:px-20">
                     <div>
-                        <p className="text-pink credmark text-base float-left">{post.author}</p>
+                        <p className="text-pink credmark text-base float-left pb-5">{post.author}</p>
                         <svg className="mx-4 float-left" width="2" height="30" viewBox="0 0 2 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="2" height="30" fill="#DE1A60" />
                         </svg>
                         <p className="text-pink credmark text-base float-left">{moment(post.date).format('MM.DD.YYYY')}</p>
                     </div>
-                    <span className="flex justify-start md:justify-end cursor-pointer" onClick={doCopy}>
-                        <img className="flex justify-end m-0.5" width={24} id="blogPage" src="../assets/link.svg" alt="copy to clipboard" />
-                    </span>
-                    {showCopyModal && (
-                        <div className="z-10 fixed inset-x-0 top-0 flex items-center justify-center">
-                            <div className="relative w-full z-10 p-4 bg-pink text-white text-center">
-                                Link copied
-                            </div>
-                            <div className="absolute inset-0 bg-gray-100 opacity-75"></div>
-                        </div>
-                    )}
                 </div>
                 <img className="px-5 md:px-20" id="blogPage" src={post.mainImage} />
                 <BlockContent

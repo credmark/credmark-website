@@ -85,7 +85,7 @@ h1{
 .sanity-block h1 {
   font-family: 'Credmark';
   @apply text-credmarkpurple;
-  @apply text-xl;
+  @apply text-2xl;
   @apply font-light;
   @apply pt-10;
   @apply pb-2;
@@ -94,7 +94,7 @@ h1{
 .sanity-block h2 {
   font-family: 'Credmark';
   @apply text-credmarkpurple;
-  @apply text-xl;
+  @apply text-2xl;
   @apply font-light;
   @apply pt-10;
   @apply pb-2;
@@ -103,7 +103,7 @@ h1{
 .sanity-block h3 {
   font-family: 'Credmark';
   @apply text-credmarkpurple;
-  @apply text-xl;
+  @apply text-2xl;
   @apply font-light;
   @apply pt-10;
   @apply pb-2;
@@ -112,7 +112,7 @@ h1{
 .sanity-block h4 {
   font-family: 'Credmark';
   @apply text-credmarkpurple;
-  @apply text-xl;
+  @apply text-2xl;
   @apply font-light;
   @apply pt-10;
   @apply pb-2;
