@@ -8,7 +8,7 @@ const Culture = (props) => {
                             <img
                                 alt={props.alt}
                                 src={props.img}
-                                className='cursor-pointer px-5'
+                                className='block mx-auto cursor-pointer px-5'
                             />
                         </a>
                         <p className="text-credmarkpurple px-5 mt-5 credmark cursor-pointer text-center text-lg max-w-xs block m-auto">{props.title}</p>

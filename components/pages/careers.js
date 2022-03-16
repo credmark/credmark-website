@@ -32,7 +32,7 @@ export default function Careers() {
                                     <img
                                         alt="Global Team"
                                         src="../assets/global.svg"
-                                        className='cursor-pointer px-5 pt-10'
+                                        className='block mx-auto cursor-pointer px-5 pt-10'
                                     />
                                 <p className="text-credmarkpurple px-5 credmark cursor-pointer text-center text-lg max-w-xs block m-auto">Global</p>
                                 <p className="text-credmarkpurple px-5 cursor-pointer text-center text-base">Credmark is a DAO quickly moving towards full decentralization. We are building a global community to take over the DAO&apos;s governance.</p>

@@ -17,7 +17,7 @@ const Description = (props) => {
                         <img
                             alt="Experience Image"
                             src="../assets/experience.svg"
-                            className='cursor-pointer px-5'
+                            className='block mx-auto cursor-pointer px-5'
                         />
                         <p className="text-credmarkpurple px-5 cursor-pointer text-center text-xl font-bold pt-5">{props.experience}</p>
                     </div>
@@ -26,7 +26,7 @@ const Description = (props) => {
                         <img
                             alt="Location"
                             src="../assets/location.svg"
-                            className='cursor-pointer px-5'
+                            className='block mx-auto cursor-pointer px-5'
                         />
                         <p className="text-credmarkpurple px-5 cursor-pointer text-center text-base text-xl font-bold pt-5">{props.location}</p>
                     </div>
@@ -35,7 +35,7 @@ const Description = (props) => {
                         <img
                             alt="Clock"
                             src="../assets/clock.svg"
-                            className='cursor-pointer px-5'
+                            className='block mx-auto cursor-pointer px-5'
                         />
                         <p className="text-credmarkpurple px-5 cursor-pointer text-center text-base text-xl font-bold pt-5">{props.job}</p>
                     </div>
