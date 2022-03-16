@@ -75,7 +75,7 @@ export default function Team() {
                             />
                             <Menu
                                 category='Team'
-                                img="../assets/Asan.png"
+                                img="../assets/asan-tulemis.JPG"
                                 alt="Asan Tulemis"
                                 name="Asan Tulemis"
                                 title="Risk"
