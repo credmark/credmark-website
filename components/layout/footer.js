@@ -110,7 +110,7 @@ export default function Footer() {
                                 src="../assets/credmark-logo.png"
                                 alt="Credmark logo"
                             />
-                            <p className="uppercase credmark text-md">Credmark</p>
+                            <p className="uppercase credmark text-credmarkpurple text-md">Credmark</p>
                         </div>
                         <div className="flex space-x-6">
                             {navigation.social.map((item) => (

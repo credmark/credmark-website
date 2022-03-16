@@ -21,7 +21,7 @@ const Subscribe = () => {
                             <Link href="/media" rel="noreferrer">
                             <button
                                 type="button"
-                                className="uppercase font-semibold mt-5 inline-flex items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md text-white text-credmarkpurple bg-white mx-4 hover:bg-credmarkpurple hover:text-white"
+                                className="uppercase font-semibold mt-5 inline-flex items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-white mx-4 hover:bg-credmarkpurple hover:text-white"
                             >
                                 Media
                             </button>
