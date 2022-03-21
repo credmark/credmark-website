@@ -83,7 +83,7 @@ const BlogDetail = ({ post }) => {
     return (
         <div className="bg-white pb-10">
             <div className="max-w-6xl block m-auto px-5 md:px-20">
-                <h1 className="leading-snug pt-20 text-5xl pb-5 px-5 md:px-20 text-center">{post.title}</h1>
+                <h1 className="leading-snug pt-20 text-5xl pb-5 px-5 max-w-3xl mx-auto text-center">{post.title}</h1>
                 <h3 className="leading-snug text-3xl pb-5 px-5 md:px-20 text-center">{post.subtitle}</h3>
                 <div className="flex justify-center px-5 md:px-20">
                     <div>
@@ -94,9 +94,9 @@ const BlogDetail = ({ post }) => {
                         <p className="text-pink credmark text-base float-left">{moment(post.date).format('MM.DD.YYYY')}</p>
                     </div>
                 </div>
-                <img className="px-5 md:px-20" id="blogPage" src={post.mainImage} />
+                <img className="px-5 max-w-3xl mx-auto" id="blogPage" src={post.mainImage} />
                 <BlockContent
-                    className="blog sanity-block text-left leading-loose pt-10 px-5 md:px-20"
+                    className="blog sanity-block text-left leading-loose pt-10 px-5 max-w-3xl mx-auto"
                     serializers={serializers}
                     blocks={post.content}
                     {...sanity.config()}
