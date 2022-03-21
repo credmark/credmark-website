@@ -81,9 +81,9 @@ const BlogDetail = ({ post }) => {
         setTimeout(() => setShowCopyModal(false), 2000);
     }, []);
     return (
-        <div className="bg-white pb-10">
-            <div className="max-w-6xl block m-auto px-5 md:px-20">
-                <h1 className="leading-snug pt-20 text-5xl pb-5 px-5 max-w-3xl mx-auto text-center">{post.title}</h1>
+        <div className="bg-white pb-10 max-w-3xl mx-auto">
+            <div>
+                <h1 className="leading-snug pt-20 text-5xl pb-5 px-5 text-center">{post.title}</h1>
                 <h3 className="leading-snug text-3xl pb-5 px-5 md:px-20 text-center">{post.subtitle}</h3>
                 <div className="flex justify-center px-5 md:px-20">
                     <div>
@@ -94,19 +94,19 @@ const BlogDetail = ({ post }) => {
                         <p className="text-pink credmark text-base float-left">{moment(post.date).format('MM.DD.YYYY')}</p>
                     </div>
                 </div>
-                <img className="px-5 max-w-3xl mx-auto" id="blogPage" src={post.mainImage} />
+                <img className="px-5" id="blogPage" src={post.mainImage} />
                 <BlockContent
-                    className="blog sanity-block text-left leading-loose pt-10 px-5 max-w-3xl mx-auto"
+                    className="blog sanity-block text-left leading-loose pt-10 px-5"
                     serializers={serializers}
                     blocks={post.content}
                     {...sanity.config()}
                 />
                 <span onClick={doCopy}>
-                    <img className="px-5 md:px-20 flex m-5 cursor-pointer" id="blogPage" src="../assets/link.svg" alt="copy to clipboard" />
+                    <img className="px-5 flex m-5 cursor-pointer" id="blogPage" src="../assets/link.svg" alt="copy to clipboard" />
                 </span>
                 <div className="flex">
                     <Link href="/blog" rel="noreferrer">
-                        <p className="cursor-pointer font-bold pt-10 pb-5 px-5 md:px-20">Back to blog<img width={40} className="float-right pt-2 pl-5" src="../assets/arrow-right-2.svg" /></p>
+                        <p className="cursor-pointer font-bold pt-10 pb-5 px-5 text-credmarkpurple">Back to blog<img width={40} className="float-right pt-2 pl-5" src="../assets/arrow-right-2.svg" /></p>
                     </Link>
                 </div>
             </div>

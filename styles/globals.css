@@ -126,6 +126,10 @@ h1{
   @apply underline;
 }
 
+.sanity-block strong {
+  @apply font-medium;
+}
+
 .credmark {
   font-family: 'Credmark';
 }
