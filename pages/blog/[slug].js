@@ -94,9 +94,15 @@ const BlogDetail = ({ post }) => {
                         <p className="text-pink credmark text-base float-left">{moment(post.date).format('MM.DD.YYYY')}</p>
                     </div>
                 </div>
-                <img className="px-5" id="blogPage" src={post.mainImage} />
+                <img className="px-5 mb-10" id="blogPage" src={post.mainImage} />
                 <BlockContent
-                    className="blog sanity-block text-left leading-loose pt-10 px-5"
+                    className="border-box px-5 mx-5 border-2 rounded-md border-gray-300"
+                    serializers={serializers}
+                    blocks={post.border}
+                    {...sanity.config()} 
+                />
+                <BlockContent
+                    className="blog sanity-block text-left leading-loose px-5"
                     serializers={serializers}
                     blocks={post.content}
                     {...sanity.config()}

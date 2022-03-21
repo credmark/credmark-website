@@ -63,12 +63,12 @@ h1{
 }
 
 .sanity-block ol {
-  padding-left: 20px;
+  padding-left: 15px;
   @apply py-5;
 }
 
 .sanity-block ul {
-  padding-left: 20px;
+  padding-left: 15px;
 }
 
 .sanity-block p {
@@ -127,6 +127,90 @@ h1{
 }
 
 .sanity-block strong {
+  @apply font-medium;
+}
+
+.border-box ul li{
+  @apply list-disc;
+  @apply list-outside;
+  @apply text-lg;
+  @apply ml-6;
+  @apply py-2.5;
+}
+
+.border-box ol li{
+  @apply list-decimal;
+  @apply list-outside;
+  @apply text-lg;
+  @apply ml-6;
+  @apply py-2.5;
+}
+
+.border-box ol {
+  padding-left: 15px;
+  @apply py-5;
+}
+
+.border-box ul {
+  padding-left: 15px;
+}
+
+.border-box p {
+  @apply text-lg;
+  @apply font-light;
+  @apply leading-8;
+  padding-top: 13px;
+}
+
+.border-box img {
+  @apply py-5;
+}
+
+.border-box h1 {
+  font-family: 'Credmark';
+  @apply text-credmarkpurple;
+  @apply text-2xl;
+  @apply font-light;
+  @apply pt-10;
+  @apply pb-2;
+}
+
+.border-box h2 {
+  font-family: 'Credmark';
+  @apply text-credmarkpurple;
+  @apply text-2xl;
+  @apply font-light;
+  @apply pt-10;
+  @apply pb-2;
+}
+
+.border-box h3 {
+  font-family: 'Credmark';
+  @apply text-credmarkpurple;
+  @apply text-2xl;
+  @apply font-light;
+  @apply pt-10;
+  @apply pb-2;
+}
+
+.border-box h4 {
+  font-family: 'Credmark';
+  @apply text-credmarkpurple;
+  @apply text-2xl;
+  @apply font-light;
+  @apply pt-10;
+  @apply pb-2;
+}
+
+.border-box a {
+  @apply text-black;
+  @apply text-lg;
+  @apply font-light;
+  @apply leading-8;
+  @apply underline;
+}
+
+.border-box strong {
   @apply font-medium;
 }
 
