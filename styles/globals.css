@@ -80,6 +80,8 @@ h1{
 
 .sanity-block img {
   @apply py-5;
+  @apply mx-auto;
+  @apply block;
 }
 
 .sanity-block h1 {
