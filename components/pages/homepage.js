@@ -145,17 +145,17 @@ export default function Homepage() {
                 </div>
             </div>
 
-            <div className="roadmap py-24 rounded-xl ">
-                <div className="rounded-xl max-w-7xl block py-16 mx-5 lg:m-auto innerRoadmap">
-                    <h3 className="text-white text-center md:pt-28 roboto font-bold text-4xl uppercase pb-20">Credmark Roadmap</h3>
+            <div className="roadmap">
+                <div className="py-16 mx-5 lg:m-auto innerRoadmap">
+                    <h3 className="text-white text-center md:pt-28 roboto font-bold text-4xl pb-20">Credmark Roadmap</h3>
                     <img alt="Credmark product roadmap" className="hidden md:block m-auto max-w-2xl pb-28" src="/assets/credmark-roadmap.png" />
                     <img alt="Credmark product roadmap" className="block md:hidden m-auto pb-14 px-2" src="/assets/mobile-roadmap.png" />
                 </div>
             </div>
             <div>
-                <div className="px-5 py-10 md:pt-20 md:pb-10">
+                <div className="px-5 py-10 md:pt-28">
                     <strong>
-                        <h2 className="roboto max-w-7xl block m-auto font-extrabold text-center text-5xl md:text-4xl">
+                        <h2 className="pb-10 roboto max-w-7xl block m-auto font-extrabold text-center text-5xl md:text-4xl">
                             PARTNERS
                         </h2>
                     </strong>

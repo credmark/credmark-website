@@ -42,8 +42,7 @@ const navigation = {
             href: 'https://t.me/credmark',
             icon: (props) => (
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
-                    <title>Telegram icon</title
-                    ><path d="M23.91 3.79L20.3 20.84c-.25 1.21-.98 1.5-2 .94l-5.5-4.07-2.66 2.57c-.3.3-.55.56-1.1.56-.72 0-.6-.27-.84-.95L6.3 13.7l-5.45-1.7c-1.18-.35-1.19-1.16.26-1.75l21.26-8.2c.97-.43 1.9.24 1.53 1.73z"></path>
+                    <title>Telegram icon</title><path d="M23.91 3.79L20.3 20.84c-.25 1.21-.98 1.5-2 .94l-5.5-4.07-2.66 2.57c-.3.3-.55.56-1.1.56-.72 0-.6-.27-.84-.95L6.3 13.7l-5.45-1.7c-1.18-.35-1.19-1.16.26-1.75l21.26-8.2c.97-.43 1.9.24 1.53 1.73z"></path>
                 </svg>
             ),
         },
@@ -96,7 +95,7 @@ const navigation = {
 
 export default function Footer() {
     return (
-        <footer className="footerBg" aria-labelledby="footer-heading">
+        <footer className="bg-credmarkpurple" aria-labelledby="footer-heading">
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
@@ -110,11 +109,11 @@ export default function Footer() {
                                 src="../assets/credmark-logo.png"
                                 alt="Credmark logo"
                             />
-                            <p className="uppercase credmark text-credmarkpurple text-md">Credmark</p>
+                            <p className="uppercase credmark text-white text-md">Credmark</p>
                         </div>
                         <div className="flex space-x-6">
                             {navigation.social.map((item) => (
-                                <a key={item.name} href={item.href} className="text-black" target="_blank" rel="noreferrer">
+                                <a key={item.name} href={item.href} className="text-white" target="_blank" rel="noreferrer">
                                     <span className="sr-only">{item.name}</span>
                                     <item.icon className="h-6 w-6" aria-hidden="true" />
                                 </a>
@@ -126,11 +125,11 @@ export default function Footer() {
                             <div>
                             </div>
                             <div>
-                                <h3 className="roboto text-sm font-semibold text-gray-400 tracking-wider uppercase text-lightpurple">Projects</h3>
+                                <h3 className="roboto text-sm font-semibold text-white tracking-wider uppercase">Projects</h3>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.projects.map((item) => (
                                         <li className="list-none" key={item.name}>
-                                            <a href={item.href} className="text-base text-purple font-medium">
+                                            <a href={item.href} className="text-base text-white">
                                                 {item.name}
                                             </a>
                                         </li>
@@ -140,11 +139,11 @@ export default function Footer() {
                         </div>
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
-                                <h3 className="roboto text-sm font-semibold text-gray-400 tracking-wider uppercase text-lightpurple">Learn</h3>
+                                <h3 className="roboto text-sm font-semibold text-white tracking-wider uppercase">Learn</h3>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.learn.map((item) => (
                                         <li className="list-none" key={item.name}>
-                                            <a href={item.href} className="text-base text-purple font-medium">
+                                            <a href={item.href} className="text-base text-white">
                                                 {item.name}
                                             </a>
                                         </li>
@@ -152,11 +151,11 @@ export default function Footer() {
                                 </ul>
                             </div>
                             <div className="mt-12 md:mt-0">
-                                <h3 className="roboto text-sm font-semibold text-gray-400 tracking-wider uppercase text-lightpurple">Community</h3>
+                                <h3 className="roboto text-sm font-semibold text-white tracking-wider uppercase">Community</h3>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.community.map((item) => (
                                         <li className="list-none" key={item.name}>
-                                            <a href={item.href} className="text-base text-purple font-medium">
+                                            <a href={item.href} className="text-base text-white">
                                                 {item.name}
                                             </a>
                                         </li>
@@ -167,7 +166,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="mt-12 border-t border-gray-200 pt-8">
-                    <p className="text-base text-purple text-center">&copy; 2021 Credmark, Inc. All rights reserved.</p>
+                    <p className="text-base text-white text-center">&copy; 2022 Credmark, Inc. All rights reserved.</p>
                 </div>
             </div>
         </footer>

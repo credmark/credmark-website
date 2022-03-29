@@ -56,7 +56,8 @@ module.exports = {
       pinkextralight: "#FDFAFC",
       lightgray: "#FCFAFB",
       lightpurple: "#7E5594",
-      mediumblue: "#005488"
+      mediumblue: "#005488",
+      green: "#00C389",
     },
     extend: {
       screens: {

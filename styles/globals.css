@@ -267,10 +267,6 @@ h1{
 
 }
 
-.footerBg {
-  background: linear-gradient(180deg, rgba(255, 193, 219, 0.5) 0%, rgba(248, 186, 209, 0.25) 50.52%, rgba(255, 255, 255, 0.5) 100%);
-}
-
 .riskLibrary {
   background: radial-gradient(100% 360% at 100% 100%, #FFFFFF 0%, #005488 44.79%, #001725 100%);
   border-radius: 20px;
@@ -286,8 +282,7 @@ h1{
 }
 
 .innerRoadmap {
-  background: linear-gradient(180deg, #3F0561 0%, #005488 0.01%, #3F0561 100%);
-  border-radius: 20px;
+  background: linear-gradient(180deg, #00C389 0.01%, #3B0065 100%);
 }
 
 .faqBackground{

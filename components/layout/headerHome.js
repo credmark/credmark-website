@@ -15,10 +15,6 @@ const HeaderHome = (props) => {
                             Learn more
                         </button>
                     </a>
-
-                </div>
-                <div className="swirls">
-                    <img className="absolute" src="/assets/swirls-transparent.png" alt="colored swirls" />
                 </div>
             </div>
         </>
