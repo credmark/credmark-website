@@ -136,7 +136,7 @@ export default function Homepage() {
                                     type="button"
                                     className="border-2 border-white uppercase my-5 inline-flex items-center px-7 py-2 mb-10 shadow-sm text-sm font-medium rounded-md text-white hover:bg-white hover:text-credmarkpurple"
                                 >
-                                    Open library
+                                    Open Wiki
                                 </button>
                             </a>
                         </div>
