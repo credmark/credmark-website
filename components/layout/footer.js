@@ -4,9 +4,9 @@ import Link from 'next/link';
 const navigation = {
     projects: [
         { name: 'Whitepaper', href: 'https://credmarkhq.gitbook.io/credmark/' },
-        { name: 'Risk Library', href: 'https://docs.credmark.com/credmark-risk-library/' },
+        { name: 'Credmark Wiki', href: 'https://docs.credmark.com/credmark-risk-library/' },
         { name: 'Reports', href: '/reports' },
-        { name: 'Risk Terminal', href: 'https://app.credmark.com/' },
+        { name: 'Credmark Terminal', href: 'https://app.credmark.com/' },
     ],
     learn: [
         { name: 'Blog', href: '/blog' },
@@ -167,7 +167,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="mt-12 border-t border-gray-200 pt-8">
-                    <p className="text-base text-purple text-center">&copy; 2021 Credmark, Inc. All rights reserved.</p>
+                    <p className="text-base text-purple text-center">&copy; 2022 Credmark, Inc. All rights reserved.</p>
                 </div>
             </div>
         </footer>
