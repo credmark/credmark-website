@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Homepage from '../components/pages/homepage'
 import Nav from '../components/layout/nav'
+import Script from '../styles/script'
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
         <meta name="description" content="Credmark aims to provide high integrity data and risk metrics through a transparent, community-driven platform." />
         <meta property="og:image" content="https://credmark.com/assets/credmark-og-image.png" />
         <link rel="icon" href="/favicon.ico" />
-          {/* Global Site Tag (gtag.js) - Google Analytics */}
+        {/* Global Site Tag (gtag.js) - Google Analytics */}
         <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=UA-201404361-1`}
@@ -29,6 +30,11 @@ export default function Home() {
           gtag('config', 'UA-201404361-1');`
           }}
         ></script>
+        <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script async type="text/javascript" src="../public/script.js"></script>
+        <script async type="text/javascript" src="figma.js"></script>
+
       </Head>
 
       <div className="nav">

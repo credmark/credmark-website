@@ -25,10 +25,8 @@ export default function Homepage() {
     return (
         <>
             <div>
-                <HeaderHome
-                    title="MANAGE DEFI RISK"
-                    description="A risk ecosystem powered by reliable data, original research, and an engaged community reducing risk for everyone."
-                    url="#what-is-credmark" />
+                <div class="canvasContainer"><canvas class="dots">Your browser does not support canvas.</canvas></div>
+                <h1 class="text"><span id="changeText">Reliable Data</span><br />From a Transparent,<br />Decentralized Community</h1>
             </div>
             <div>
             </div>
