@@ -44,7 +44,7 @@ export default function Media({ posts }) {
                   alt={post.mainImageAlt}
                   title={post.title}
                   description={post.subtitle}
-                  date={moment(post.publishedAt).format('MM/DD/YYYY')}
+                  date={moment(post.publishedAt).format('DD/MM/YYYY')}
                 />
               ))}
         </div>
