@@ -9,7 +9,7 @@ const BlogCard = (props) => {
                         <img
                             alt={props.alt}
                             src={props.img}
-                            className='object-cover	rounded-md w-auto h-52 flex justify-center cursor-pointer mb-5'
+                            className='mx-auto block object-cover rounded-md w-auto h-52 flex justify-center cursor-pointer mb-5'
                             id="blogPage"
                         />
                     </Link>
