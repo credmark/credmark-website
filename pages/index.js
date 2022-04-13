@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>CREDMARK</title>
         <meta content="Credmark | High Integrity Data | Risk Modeling" property="og:title" key="og:title" />
-        <meta key="og:description" name="description" content="Credmark is a financial modeling platform powered by reliable on-chain data. Validated models are readily composable making rapid app development simple." />
+        <meta key="og:description" key="og:description" content="Credmark is a financial modeling platform powered by reliable on-chain data. Validated models are readily composable making rapid app development simple." />
         <meta property="og:image" content="https://credmark.com/assets/credmark-og-image.png" />
         <link rel="icon" href="/favicon.ico" />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
