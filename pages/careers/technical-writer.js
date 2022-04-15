@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Nav from '../../components/layout/nav'
 import CareerDescription from '../../components/pages/technical-writer'
 
-export default function TechnicalWritePage() {
+export default function TechnicalWriterPage() {
   return (
     <>
       <Head>
