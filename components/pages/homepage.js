@@ -6,6 +6,7 @@ import Footer from '../layout/footer'
 import React, { useState } from "react";
 import items from "../../styles/homeReportsData"
 import WhatWeDo from '../homepage/whatWeDo'
+import Community from '../homepage/community'
 
 const allCategories = ['All', ...items.map(item => item.category)];
 
@@ -31,6 +32,7 @@ export default function Homepage() {
                 <h1 class="text"><span id="changeText">Reliable Data</span><br />From a Transparent,<br />Decentralized Community</h1>
             </div>
             <WhatWeDo />
+            <Community />
             <Tools />
             <div className="roadmap">
                 <div className="py-16 mx-5 lg:m-auto innerRoadmap">
