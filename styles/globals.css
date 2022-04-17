@@ -231,6 +231,10 @@ margin-left: -150px;
   background-color: #E5E5E5;
 }
 
+.advisorBg {
+  background-color: #F4F4F6;
+}
+
 .credmark {
   font-family: 'Credmark';
 }
@@ -346,13 +350,20 @@ mono
 .bio-photo {
   border-radius:50%;
   display: block;
+  margin: auto;
   width: 100% !important;
   height: auto;
+  max-width: 240px;
+  max-height: 240px;
 }
 
 .img-hover {
   position: relative;
   width: 100%;
+  max-width: 240px;
+  max-height: 240px;
+  margin: auto;
+  display: block;
 }
 
 .overlay {
@@ -368,8 +379,26 @@ mono
   border-radius:50%;
 }
 
+.overlayAdvisors {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: #25A67F;
+  border-radius:50%;
+}
+
+
 .img-hover:hover .overlay {
   opacity: 0.2;
+}
+
+.img-hover:hover .overlayAdvisors {
+  opacity: 0.7;
 }
 
 .socialButtons {
@@ -568,4 +597,8 @@ li {
   background: url(../public/assets/world-map.png), radial-gradient(50% 107.39% at 50% 50%, rgba(0, 214, 150, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #3B0065;
   background-size: cover;
   background-blend-mode: color-dodge, normal, normal;
+}
+
+.footerBg {
+  background: radial-gradient(100% 267.48% at 0% 0%, rgba(0, 214, 150, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #3B0065;
 }
