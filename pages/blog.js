@@ -144,18 +144,20 @@ function BlogPageContent({ posts }) {
     return (
         <div>
             <div className="header-bg py-20">
-                <div className="max-w-6xl px-5 block m-auto">
-                    <h1 className="uppercase text-5xl py-5">Credmark Blog</h1>
-                    <h2 className="roboto uppercase font-bold text-pink text-lg">For the latest technical analysis, partnerships, and community updates</h2>
+                <div className="max-w-7xl px-5 block m-auto">
+                    <h1 className="text-white font-bold text-5xl md:text-7xl py-5">Credmark Blog</h1>
+                    <h2 className="text-white roboto text-3xl font-light max-w-3xl pb-20 md:pb-32">For the latest technical analysis, partnerships, and community updates</h2>
                 </div>
             </div>
+
+            <div className="homepage-bg">
             {<div className="px-5 max-w-5xl md:m-auto">
                 <div className="pt-20 border-b-1 border-gray-700 block m-auto md:m-auto space-x-5 md:space-x-20">
-                    <button className="border-b-2 border-transparent hover:border-purple pb-5 pl-5" onClick={() => { setSelectedCategory("all") }}>All</button>
-                    <button className="border-b-2 border-transparent hover:border-purple pb-5" onClick={() => { setSelectedCategory("Technical Analysis") }}>Technical Analysis</button>
-                    <button className="border-b-2 border-transparent hover:border-purple pb-5" onClick={() => { setSelectedCategory("Community Updates") }}>Community Updates</button>
-                    <button className="border-b-2 border-transparent hover:border-purple pb-5" onClick={() => { setSelectedCategory("Partnerships") }}>Partnerships</button>
-                    <button className="border-b-2 border-transparent hover:border-purple pb-5" onClick={() => { setSelectedCategory("Credmark 101") }}>Credmark 101</button>
+                    <button className="hover:text-green pb-5 pl-5" onClick={() => { setSelectedCategory("all") }}>All</button>
+                    <button className="hover:text-green pb-5" onClick={() => { setSelectedCategory("Technical Analysis") }}>Technical Analysis</button>
+                    <button className="hover:text-green pb-5" onClick={() => { setSelectedCategory("Community Updates") }}>Community Updates</button>
+                    <button className="hover:text-green pb-5" onClick={() => { setSelectedCategory("Partnerships") }}>Partnerships</button>
+                    <button className="hover:text-green pb-5" onClick={() => { setSelectedCategory("Credmark 101") }}>Credmark 101</button>
                 </div>
             </div>}
             <div className="max-w-5xl block m-auto px-4 pt-10 pb-24">
@@ -189,6 +191,7 @@ function BlogPageContent({ posts }) {
                     )
                     }
                 </div>
+            </div>
             </div>
             <footer className="footerBg" aria-labelledby="footer-heading">
                 <h2 id="footer-heading" className="sr-only">
@@ -258,7 +261,7 @@ function BlogPageContent({ posts }) {
                         </div>
                     </div>
                     <div className="mt-12 border-t border-gray-200 pt-8">
-                        <p className="text-base text-purple text-center">&copy; 2021 Credmark, Inc. All rights reserved.</p>
+                        <p className="text-base text-purple text-center">&copy; 2022 Credmark, Inc. All rights reserved.</p>
                     </div>
                 </div>
             </footer>
