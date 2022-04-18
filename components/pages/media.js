@@ -49,7 +49,6 @@ export default function Media({ posts }) {
               ))}
         </div>
         </div>
-
       </div>
       <Subscribe />
       <Footer />

@@ -65,7 +65,7 @@ function classNames(...classes) {
 export default function QuestionsToken() {
   return (
     <div>
-      <div className="max-w-7xl mx-auto py-12 sm:py-16 sm:px-6 lg:px-0">
+      <div className="max-w-7xl mx-auto pt-3 sm:px-6 lg:px-0">
           <dl className="space-y-6 divide-y divide-gray-200">
             {faqs.map((faq) => (
               <Disclosure as="div" key={faq.question} className="border-2 border-gray text-black rounded-lg bg-gray-50 p-5">
@@ -73,7 +73,7 @@ export default function QuestionsToken() {
                   <>
                     <dt className="text-lg">
                       <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                        <span className="font-medium text-black">{faq.question}</span>
+                        <span className="font-light text-black">{faq.question}</span>
                         <span className="ml-6 h-7 flex items-center">
                           <ChevronDownIcon
                             className={classNames(open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform')}
@@ -83,12 +83,12 @@ export default function QuestionsToken() {
                       </Disclosure.Button>
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base text-black">{faq.answer}</p>
+                      <p className="text-base leading-7">{faq.answer}</p>
                       <ul>
-                      <li className="text-base text-black">{faq.answerOne}</li>
-                      <li className="text-base text-black">{faq.answerTwo}</li>
-                      <li className="text-base text-black">{faq.answerThree}</li>
-                      <li className="text-base text-black">{faq.answerFour}</li>
+                      <li className="text-base leading-7">{faq.answerOne}</li>
+                      <li className="text-base leading-7">{faq.answerTwo}</li>
+                      <li className="text-base leading-7">{faq.answerThree}</li>
+                      <li className="text-base leading-7">{faq.answerFour}</li>
                       </ul>
                     </Disclosure.Panel>
                   </>
@@ -103,7 +103,7 @@ export default function QuestionsToken() {
                   <>
                     <dt className="text-lg">
                       <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                        <span className="font-medium text-black">{faqList.question}</span>
+                        <span className="font-light text-black">{faqList.question}</span>
                         <span className="ml-6 h-7 flex items-center">
                           <ChevronDownIcon
                             className={classNames(open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform')}
@@ -114,9 +114,9 @@ export default function QuestionsToken() {
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
                       <ul>
-                      <li className="text-base text-black">{faqList.answerOne}</li>
-                      <li className="text-base text-black">{faqList.answerTwo}</li>
-                      <li className="text-base text-black">{faqList.answerThree}</li>
+                      <li className="text-base leading-7">{faqList.answerOne}</li>
+                      <li className="text-base leading-7">{faqList.answerTwo}</li>
+                      <li className="text-base leading-7">{faqList.answerThree}</li>
                       </ul>
                     </Disclosure.Panel>
                   </>
@@ -131,7 +131,7 @@ export default function QuestionsToken() {
                   <>
                     <dt className="text-lg">
                       <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                        <span className="font-medium text-black">{faqPurchaseList.question}</span>
+                        <span className="font-light text-black">{faqPurchaseList.question}</span>
                         <span className="ml-6 h-7 flex items-center">
                           <ChevronDownIcon
                             className={classNames(open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform')}
@@ -141,7 +141,7 @@ export default function QuestionsToken() {
                       </Disclosure.Button>
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base text-black">{faqPurchaseList.answer}</p>
+                      <p className="text-base leading-7">{faqPurchaseList.answer}</p>
                       <ul>
                       <p className="text-base text-black italic">{faqPurchaseList.answerOne}</p>
                       <a href={faqPurchaseList.answerOneLink} target="_blank" rel="noreferrer"><p className="text-base">{faqPurchaseList.answerOneLink}</p></a>

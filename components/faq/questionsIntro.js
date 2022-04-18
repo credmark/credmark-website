@@ -16,7 +16,7 @@ function classNames(...classes) {
 export default function Questions() {
   return (
     <div>
-      <div className="max-w-7xl mx-auto py-12 sm:py-16">
+      <div className="max-w-7xl mx-auto pt-3">
           <dl className="space-y-6 divide-y divide-gray-200">
             {faqs.map((faq) => (
               <Disclosure as="div" key={faq.question} className="text-black border-2 border-gray rounded-lg bg-gray-50 p-5">
@@ -24,7 +24,7 @@ export default function Questions() {
                   <>
                     <dt className="text-lg">
                       <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                        <span className="font-medium text-black">{faq.question}</span>
+                        <span className="font-light text-black">{faq.question}</span>
                         <span className="ml-6 h-7 flex items-center">
                           <ChevronDownIcon
                             className={classNames(open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform')}
@@ -34,7 +34,7 @@ export default function Questions() {
                       </Disclosure.Button>
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base text-gray-500">{faq.answer}</p>
+                      <p className="text-base leading-7">{faq.answer}</p>
                     </Disclosure.Panel>
                   </>
                 )}

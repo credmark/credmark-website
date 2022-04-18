@@ -304,12 +304,6 @@ margin-left: -150px;
   background: linear-gradient(180deg, #00C389 0.01%, #3B0065 100%);
 }
 
-.faqBackground{
-  background: url("/assets/purple-swirl.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .app-image {
   margin-top: -100px;
   margin-bottom: -90px;
