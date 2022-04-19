@@ -38,8 +38,7 @@ export default function Home() {
       </Head>
 
       <div className="nav">
-        <Nav
-          page={<Homepage />} />
+      <Homepage />
       </div>
     </>
   )

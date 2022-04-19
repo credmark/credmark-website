@@ -6,6 +6,7 @@ import moment from 'moment'
 import React from "react";
 import { useState } from "react"
 import Head from 'next/head'
+import NavWihtoutCta from "../components/layout/NavTest";
 
 const navigation = {
     projects: [
@@ -118,7 +119,7 @@ export default function BlogPage({ posts }) {
                 />
             </Head>
             <div className="nav">
-                <Nav page={<BlogPageContent posts={posts} />} />
+                <BlogPageContent posts={posts} />
             </div>
         </>
     )
@@ -143,9 +144,10 @@ function BlogPageContent({ posts }) {
 
     return (
         <div>
-            <div className="header-bg py-20">
+            <div className="header-bg">
+                <NavWihtoutCta />
                 <div className="max-w-7xl px-5 block m-auto">
-                    <h1 className="text-white font-bold text-5xl md:text-7xl py-5">Credmark Blog</h1>
+                    <h1 className="text-white font-bold text-5xl md:text-7xl py-5 pt-36">Credmark Blog</h1>
                     <h2 className="text-white roboto text-3xl font-light max-w-3xl pb-20 md:pb-32">For the latest technical analysis, partnerships, and community updates</h2>
                 </div>
             </div>

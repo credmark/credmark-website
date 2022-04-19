@@ -31,8 +31,7 @@ export default function CareersPage() {
       </Head>
 
       <div className="nav">
-        <Nav
-          page={<Careers />} />
+        <Careers />
       </div>
     </>
   )

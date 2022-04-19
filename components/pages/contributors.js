@@ -7,6 +7,7 @@ import { useState } from 'react'
 import Menu from '../filters/Menu'
 import Button from '../filters/Button'
 import Link from 'next/link'
+import Nav from '../layout/nav'
 
 const allCategories = ['All', ...items.map(item => item.category)];
 
@@ -27,7 +28,7 @@ export default function Team() {
 
     return (
         <>
-            <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none rounded-md bg-white">
+            <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none bg-white">
                 <div className="blogGradient rounded-md">
                     <CenteredHeader
                         title="Contributors"

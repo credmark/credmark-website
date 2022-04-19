@@ -1,6 +1,6 @@
 import { Fragment, useState } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import Footer from '../layout/footer'
+import Footer from './footer'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
 
@@ -8,15 +8,9 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-export default function Nav(props) {
+export default function NavWihtoutCta(props) {
     return (
         <>
-        <div className="py-2 cta-bg text-center">
-            <div>
-            <a href="https://github.com/credmark/credmark-models-py/blob/main/README.md" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">The Credmark Model Framework is now in Open Beta! | Start building DeFi models in python with reliable crypto data</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" width={24} alt="Right arrow" /></p></a>
-            </div>
-        </div>
-        <div>
                 <main>
                     <Disclosure as="nav">
                         {({ open }) => (
@@ -162,7 +156,7 @@ export default function Nav(props) {
                     </Disclosure>
                     {props.page}
                 </main>
-            </div></>
+            </>
     )
 }
 

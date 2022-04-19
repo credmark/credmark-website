@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Nav from '../components/layout/nav'
 import Contributors from '../components/pages/contributors'
 
 export default function ContributorsPage() {
@@ -31,9 +30,8 @@ export default function ContributorsPage() {
       </Head>
 
       <div className="nav">
-        <Nav
-          page={<Contributors />} />
-      </div>
+        <Contributors />
+        </div>
     </>
   )
 }
