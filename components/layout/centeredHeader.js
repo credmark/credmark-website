@@ -4,7 +4,7 @@ import NavWihtoutCta from './NavTest';
 const CenteredHeader = (props) => {
     return (
         <>
-            <div className="communityBg">
+            <div className="header-bg">
                 <NavWihtoutCta />
                 <div className="max-w-7xl px-5 block m-auto">
                     <strong><h1 className="text-white font-bold text-5xl md:text-7xl pt-36 pb-5">{props.title}</h1></strong>
