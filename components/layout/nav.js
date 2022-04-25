@@ -11,9 +11,9 @@ function classNames(...classes) {
 export default function Nav(props) {
     return (
         <>
-        <div className="py-2 cta-bg text-center">
+        <div className="py-2 bg-black text-center">
             <div>
-            <a href="https://github.com/credmark/credmark-models-py/blob/main/README.md" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">The Credmark Model Framework is now in Open Beta! | Start building DeFi models in python with reliable crypto data</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" width={24} alt="Right arrow" /></p></a>
+            <a href="https://github.com/credmark/credmark-models-py/blob/main/README.md" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap courier"><span className="float-left pr-3">The Credmark Model Framework is now in Open Beta! | Start building DeFi models in python with reliable crypto data</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>
             </div>
         </div>
         <div>
@@ -107,47 +107,54 @@ export default function Nav(props) {
                                     </div>
                                 </div>
 
-                                <Disclosure.Panel className="sm:hidden">
-                                    <div className="pt-2 pb-3 space-y-1 text-white">
+                                <Disclosure.Panel className="sm:hidden bg-green">
+                                    <div className="pt-2 pb-3 space-y-1 text-white px-7">
+                                    <a
+                                            href="https://app.credmark.com/"
+                                            target="_blank"
+                                            rel="noreferrer">
+                                            <button
+                                                type="button"
+                                                className="pb-3 block mx-auto w-full items-center px-4 py-2 shadow-sm text-sm font-medium rounded-md text-white bg-credmarkpurple"
+                                            >
+                                                Check out our App
+                                            </button>
+                                        </a>
                                         <Disclosure.Button
                                             as="a"
                                             href="/contributors"                                            
-                                            className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                                            className="pl-7 border-transparent block pr-4 py-2 border-l-4 text-base font-medium"
+                                        >
+                                            Home
+                                        </Disclosure.Button>
+                                        <Disclosure.Button
+                                            as="a"
+                                            href="/contributors"                                            
+                                            className="border-transparent block pr-4 py-2 border-l-4 text-base font-medium"
                                         >
                                             Contributors
                                         </Disclosure.Button>
                                         <Disclosure.Button
                                             as="a"
                                             href="/blog"
-                                            className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                                            className="border-transparent block pr-4 py-2 border-l-4 text-base font-medium"
                                         >
                                             Blog
                                         </Disclosure.Button>
                                         <Disclosure.Button
                                             as="a"
                                             href="/media"
-                                            className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                                            className="border-transparent block pr-4 py-2 border-l-4 text-base font-medium"
                                         >
                                             Media
                                         </Disclosure.Button>
                                         <Disclosure.Button
                                             as="a"
                                             href="https://discord.com/invite/3dSfMqP3d4"
-                                            className="border-transparent block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+                                            className="border-transparent block pr-4 py-2 border-l-4 text-base font-medium"
                                         >
                                             Discord
                                         </Disclosure.Button>
-                                        <a
-                                            href="https://app.credmark.com/"
-                                            target="_blank"
-                                            rel="noreferrer">
-                                            <button
-                                                type="button"
-                                                className="ml-3 px-5 uppercase mt-5 inline-flex items-center px-4 py-2 shadow-sm text-sm font-medium rounded-md text-white bg-credmarkpurple focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                                            >
-                                                APP
-                                            </button>
-                                        </a>
                                     </div>
                                     <div className="pt-4 pb-3 border-t border-gray-200">
                                         <div className="flex items-center px-4">

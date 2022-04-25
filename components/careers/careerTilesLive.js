@@ -7,25 +7,34 @@ export default function CareerTilesLive() {
         <>
             <div className="pt-20 pb-20 md:py-28 homepage-bg">
                 <div className="px-5 md:px-0 max-w-6xl block m-auto">
-                    <h3 className="text-center md:text-left text-black py-5 text-3xl text-4xl md:text-5xl pb-10">
+                    <h3 className="text-left text-black py-5 text-3xl text-4xl md:text-5xl pb-10">
                        Our Culture
                     </h3>
                     <div className="max-w-7xl block mx-auto">
-                        <div className="grid grid-cols-1 md:grid-cols-3 space-x-6">
+                        <div className="grid grid-cols-1 md:grid-cols-3 md:space-x-6">
                             <CareerTiles
-                                title="Reliable Data"
-                                text="Our community of Data Curators collect validated state and ledger data, indexed to allow rapid, seamless access for $CMK token holders"
-                                cta="Learn more"
+                                alt="decentralised ideas"
+                                img="../../assets/decentralised-ideas.svg"
+                                width="53"
+                                height="53"
+                                title="Decentralized Ideas"
+                                text="We understand everyone has their own expertise and unique experiences. All voices are heard so every person can develop ownership as long as they can back up what they say."
                             />
                             <CareerTiles
-                                title="Original Research"
-                                text="Our Risk Contributors produce research for various protocols and DeFi modeling best practices, giving you the insights you need to build reliable DeFi models."
-                                cta="Credmark Wiki"
+                                alt="global community"
+                                img="../../assets/global-community.svg"
+                                width="50"
+                                height="50"
+                                title="Global Community"
+                                text="We’re aiming to become a DAO. Naturally that means our team is very distributed.  We’re situated across various time zones and our differences bring together fresh new ideas."
                             />
                             <CareerTiles
-                                title="Battle-Tested Models"
-                                text="Our community of Model Contributors leverage on-chain state and ledger data to build analysis tools designed for risk-adjusted-returns"
-                                cta="Get Started"
+                                alt="lightning bolt"
+                                img="../../assets/lightning-bolt.svg"
+                                width="25"
+                                height="45"
+                                title="Turbo-charged Learning"
+                                text="DeFi moves at lightning fast speed, but so does being at Credmark.  We’re paving the path for data integrity and reducing risk, so we can increase DeFi adoption."
                             />
                         </div>
                     </div>

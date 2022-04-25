@@ -54,7 +54,7 @@ const Subscribe = () => {
                                 className="text-white font-semibold mt-5 inline-flex items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-green"
                             >
                                 Sign-up
-                                <img width={40} className="float-right pt-0.5 pl-5" alt="arrow right" src="../assets/arrow.svg" />
+                                <img className="float-right pt-0.5 pl-2" alt="arrow right" src="../assets/arrow.svg" />
                             </button>
                             </Link>
                         </div>

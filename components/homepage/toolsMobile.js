@@ -3,15 +3,15 @@ import Link from 'next/link';
 import List from '../homepage/list'
 
 
-export default function Tools() {
+export default function ToolsMobile() {
     return (
         <>
-            <div className="pt-20 pb-20 md:py-40 homepage-bg">
-                <div className="max-w-6xl block mx-auto">
-                    <h3 className="flex justify-center text-4xl pb-20 text-black">Our Ground-Breaking Tools</h3>
-                    <div className="flex flex-wrap justify-center">
-                        <img alt="Credmark terminal" src="../assets/credmark-tool.gif" />
-                        <div className="box-shadow bg-white rounded-md p-7 max-w-md max-h-96 my-14">
+            <div className="pt-20 pb-20 homepage-bg">
+                <div>
+                    <h3 className="text-center mx-4 flex justify-center text-4xl pb-20 text-black">Our Ground-Breaking Tools</h3>
+                    <div className="flex flex-wrap justify-center mx-4">
+                        <img className="rounded-t-md" alt="Credmark terminal" src="../assets/credmark-tool.gif" />
+                        <div className="bg-white shadow-md rounded-b-md p-7 mb-14">
                             <p className="font-bold text-2xl">API Gateway</p>
                             <p className="font-light text-xl pb-7">High Integrity Risk and Data Models</p>
                             <List
@@ -37,8 +37,9 @@ export default function Tools() {
                     </div>
                 </div>
                 <div className="max-w-4xl block mx-auto pt-28">
-                    <div className="flex flex-wrap justify-center">
-                        <div className="bg-white rounded-md p-7 max-w-md max-h-96 my-14 absolute boxMargin">
+                    <div className="flex flex-wrap justify-center mx-4">
+                    <img className="rounded-t-md" alt="Credmark terminal" src="../assets/credmark-terminal.png" />
+                        <div className="shadow-md rounded-b-md bg-white p-7 mb-14">
                             <p className="font-bold text-2xl">API Gateway</p>
                             <p className="font-light text-xl pb-7">High Integrity Risk and Data Models</p>
                             <List
@@ -62,7 +63,6 @@ export default function Tools() {
                             </Link>
                         </div>
                     </div>
-                    <img className="max-w-2xl riskTerminalToolTwo" alt="Credmark terminal" src="../assets/credmark-terminal.png" />
                 </div>
             </div>
         </>

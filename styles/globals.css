@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
 /* ./styles/globals.css */
 @tailwind base;
@@ -21,6 +22,10 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto';
+}
+
+.courier {
+  font-family: 'Courier New';
 }
 
 a {
@@ -224,8 +229,16 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 margin-left: -150px;
 }
 
+.statBorder {
+  border-right: 2px white solid;
+}
+
 .riskTerminalTool {
-  margin-left: 150px;
+  margin-right: auto; 
+}
+
+.riskTerminalToolTwo {
+  margin-left: auto; 
 }
 
 .homepage-bg {
@@ -270,9 +283,6 @@ margin-left: -150px;
 
 /* Gradient backgrounds */ 
 
-.cta-bg {
-  background: linear-gradient(90deg, #E93173 0%, #238DCE 100%);
-}
 
 .header-bg {
   background: radial-gradient(100% 150.03% at 0% 0%, rgba(0, 214, 150, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #3B0065;;
@@ -579,15 +589,6 @@ li {
   }
 }
 
-@media only screen and (max-width: 340px) {
-
-  .text {
-    left: 20px;
-    top: 80px;
-    font-size: 40px;
-  }
-}
-
 .communityBg {
   background: url(../public/assets/world-map.png), radial-gradient(50% 107.39% at 50% 50%, rgba(0, 214, 150, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #3B0065;
   background-size: cover;
@@ -598,6 +599,10 @@ li {
   background: radial-gradient(100% 267.48% at 0% 0%, rgba(0, 214, 150, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #3B0065;
 }
 
-.navMargin {
-  margin-top: -70px;
+.boxMargin {
+  margin-left: -500px;
+}
+
+.buttonTextHover button:hover {
+    color: white !important;
 }
