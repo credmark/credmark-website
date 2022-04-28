@@ -45,10 +45,10 @@ function classNames(...classes) {
 export default function QuestionsPlatforms() {
   return (
     <div>
-      <div className="max-w-7xl mx-auto pt-3 sm:px-6 lg:px-0">
+      <div className="max-w-7xl mx-auto pt-3">
           <dl className="space-y-6 divide-y divide-gray-200">
             {faqs.map((faq) => (
-              <Disclosure as="div" key={faq.question} className="text-black border-2 border-gray rounded-lg bg-gray-50 p-5">
+              <Disclosure as="div" key={faq.question} className="text-black rounded-lg bg-white px-6 py-4">
                 {({ open }) => (
                   <>
                     <dt className="text-lg">
@@ -72,7 +72,7 @@ export default function QuestionsPlatforms() {
           </dl>
           <dl className="space-y-6 divide-y divide-gray-200 mt-8">
             {faqsList.map((faqList) => (
-              <Disclosure as="div" key={faqList.question} className="border-2 border-gray rounded-lg bg-gray-50 p-5">
+              <Disclosure as="div" key={faqList.question} className="text-black rounded-lg bg-white px-6 py-4">
                 {({ open }) => (
                   <>
                     <dt className="text-lg">

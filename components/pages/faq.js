@@ -15,51 +15,51 @@ export default function faq() {
                         title="FAQ"
                     />
                 </div>
-                <div className="md:m-auto pb-10 px-5 md:px-0">
+                <div className="md:m-auto md:pb-20 pb-0 px-5">
                     <div className="max-w-5xl md:m-auto">
                         <div className="max-w-5xl md:m-auto">
-                            <h3 className="roboto text-white font-extrabold text-left text-3xl pt-10">
+                            <h3 className="roboto text-white font-bold text-left text-3xl pt-5">
                                 Introduction
                             </h3>
                             <QuestionsIntro />
-                            <div className="mb-12">
+                            <div className="mb-20">
                                 <a href="https://docs.credmark.com/credmark-faq/" target="_blank" rel="noreferrer">
                                     <button
                                         type="button"
-                                        className="mt-5 inline-flex items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-green"
+                                        className="mt-5 inline-flex items-center px-8 py-3 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-green"
                                     >
-                                        <p className="flex text-credmarkpurple">Learn More<img width={30} className="float-right pl-3" alt="arrow right" src="../assets/arrow.svg" /></p>
+                                        <p className="flex text-credmarkpurple text-sm py-0 leading-4">Learn More<img width={16} className="float-right ml-1" alt="arrow right" src="../assets/arrow_purple.svg" /></p>
                                     </button>
                                 </a>
                             </div>
                         </div>
-                        <h3 className="roboto text-white font-extrabold text-left text-3xl md:text-4xl pt-10">
+                        <h3 className="roboto text-white font-bold text-left text-3xl md:text-4xl">
                             Token
                         </h3>
                         <QuestionsToken />
-                        <div className="mb-12">
+                        <div className="mb-20">
                             <a href="https://docs.credmark.com/credmark-faq/" target="_blank" rel="noreferrer">
                                 <button
                                     type="button"
-                                    className="mt-5 inline-flex items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-green"
+                                    className="mt-5 inline-flex items-center px-8 py-3 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-green"
                                 >
-                                    <p className="flex text-credmarkpurple">Learn More<img width={30} className="float-right pl-3" alt="arrow right" src="../assets/arrow.svg" /></p>
+                                    <p className="flex text-credmarkpurple text-sm py-0 leading-4">Learn More<img width={16} className="float-right ml-1" alt="arrow right" src="../assets/arrow_purple.svg" /></p>
                                 </button>
                             </a>
                         </div>
                     </div>
                     <div className="max-w-5xl md:m-auto">
-                        <h3 className="roboto text-white font-extrabold text-left text-3xl md:text-4xl pt-12">
+                        <h3 className="roboto text-white font-bold text-left text-3xl md:text-4xl">
                             Platform
                         </h3>
                         <QuestionsPlatform />
-                        <div className="mb-12">
+                        <div className="mb-20">
                             <a href="https://docs.credmark.com/credmark-faq/" target="_blank" rel="noreferrer">
                                 <button
                                     type="button"
-                                    className="mt-5 inline-flex items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-green"
+                                    className="mt-5 inline-flex items-center px-8 py-3 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-green"
                                 >
-                                    <p className="flex text-credmarkpurple">Learn More<img width={30} className="float-right pl-3" alt="arrow right" src="../assets/arrow.svg" /></p>
+                                    <p className="flex text-credmarkpurple text-sm py-0 leading-4">Learn More<img width={16} className="float-right ml-1" alt="arrow right" src="../assets/arrow_purple.svg" /></p>
                                 </button>
                             </a>
                         </div>

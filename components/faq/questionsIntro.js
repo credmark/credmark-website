@@ -19,7 +19,7 @@ export default function Questions() {
       <div className="max-w-7xl mx-auto pt-3">
           <dl className="space-y-6 divide-y divide-gray-200">
             {faqs.map((faq) => (
-              <Disclosure as="div" key={faq.question} className="text-black border-2 border-gray rounded-lg bg-gray-50 p-5">
+              <Disclosure as="div" key={faq.question} className="text-black rounded-lg bg-white px-6 py-4">
                 {({ open }) => (
                   <>
                     <dt className="text-lg">
