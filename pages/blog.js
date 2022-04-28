@@ -152,7 +152,7 @@ function BlogPageContent({ posts }) {
                 </div>
             </div>
 
-            <div className="homepage-bg">
+            <div className="advisorBg">
             {<div className="px-5 max-w-6xl md:m-auto">
                 <div className="pt-10 md:pt-20 border-b-1 border-gray-700 block m-auto md:m-auto space-x-5 md:space-x-20">
                     <button className="hover:text-green pb-3 pl-5" onClick={() => { setSelectedCategory("all") }}>All</button>
