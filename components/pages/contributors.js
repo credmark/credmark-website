@@ -34,7 +34,7 @@ export default function Team() {
                         title="Contributors"
                         description="Our team speaks numerous languages and are distributed across multiple regions around the world" />
                     <div className="px-5 py-10 md:px-10 max-w-5xl block m-auto">
-                        <h3 className="text-center md:text-left text-black py-5 text-3xl text-4xl md:text-5xl pb-10 md:pt-10">
+                        <h3 className="text-center md:text-left text-black py-5 text-3xl text-4xl md:text-5xl pb-0 md:pt-10">
                             Core Team
                         </h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 pb-10 gap-12 px-10 md:px-0">
@@ -101,22 +101,15 @@ export default function Team() {
                                 twitter="https://twitter.com/JoeCollierGray"
                                 linkedin="https://www.linkedin.com/in/joseph-collier-gray-7a323054/"
                             />
-                            <div className="box col-xs">
-                                <div id="team" className="md:py-10">
-                                    <div>
-                                        <div className="rounded-full img-hover">
-                                            <img className="text-center bio-photo" src="../assets/mark-valentine.jpg" alt="Mark Valentine" />
-                                            <div className="overlay relative">
-
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <p className="text-credmarkpurple pt-2.5 pb-1.5 text-center text-base">Mark Valentine</p>
-                                            <p className="text-credmarkpurple pb-1.5 text-center text-base">Design</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <Menu
+                                category='Team'
+                                img="../assets/mark-valentine.jpg"
+                                alt="Mark Valentine"
+                                name="Mark Valentine"
+                                title="Design"
+                                twitter="https://twitter.com/mkvalux"
+                                linkedin="https://www.linkedin.com/in/mkvalentine/"
+                            />
                             <Menu
                                 category='Team'
                                 img="../assets/punit-kumar.jpg"
@@ -152,8 +145,8 @@ export default function Team() {
                                             </div>
                                         </div>
                                         <div>
-                                            <p className="text-credmarkpurple pt-2.5 pb-1.5 text-center text-base">0xPeterSatoshi</p>
-                                            <p className="text-credmarkpurple pb-1.5 text-center text-base">Data</p>
+                                            <p className="text-black font-bold pt-2.5 pb-0 text-center text-base">0xPeterSatoshi</p>
+                                            <p className="text-black pb-5 pt-0 text-center text-base">Data</p>
                                         </div>
                                     </div>
                                 </div>
@@ -168,8 +161,8 @@ export default function Team() {
                                             </div>
                                         </div>
                                         <div>
-                                            <p className="text-credmarkpurple pt-2.5 pb-1.5 text-center text-base">Kunlun Yang</p>
-                                            <p className="text-credmarkpurple pb-1.5 text-center text-base">Analysis</p>
+                                            <p className="text-black font-bold pt-2.5 pb-0 text-center text-base">Kunlun Yang</p>
+                                            <p className="text-black pb-5 pt-0 text-center text-base">Analysis</p>
                                         </div>
                                     </div>
                                 </div>
@@ -207,10 +200,12 @@ export default function Team() {
                     </div>
                     <div className="advisorBg">
                         <div className="px-5 py-10 md:px-10 max-w-5xl block m-auto">
-                            <h3 className="text-center md:text-left text-black py-5 text-3xl text-4xl md:text-5xl pb-10 md:pt-10">
+                            <h3 className="text-center md:text-left text-black py-5 text-3xl text-4xl md:text-5xl pb-0 md:pt-10">
                                 Advisors
                             </h3>
-                            <div className="grid grid-cols-1 md:grid-cols-2 block m-auto max-w-4xl">
+
+                            <div className="grid grid-cols-1 md:grid-cols-3 pb-10 gap-12 px-10 md:px-0">
+                            {/* <div className="grid grid-cols-1 md:grid-cols-2 block m-auto max-w-4xl"> */}
                                 <div className="box col-xs">
                                     <div id="team" className="md:py-10">
                                         <div>
@@ -227,8 +222,8 @@ export default function Team() {
                                                 </div>
                                             </div>
                                             <div>
-                                                <p className="text-credmarkpurple pt-2.5 pb-1.5 text-center text-base">Renan Feldman</p>
-                                                <p className="text-credmarkpurple pb-5 text-center text-base">Security</p>
+                                                <p className="text-black font-bold pt-2.5 pb-0 text-center text-base">Renan Feldman</p>
+                                                <p className="text-black pb-5 pt-0 text-center text-base">Security</p>
                                             </div>
                                         </div>
                                     </div>
@@ -242,8 +237,8 @@ export default function Team() {
                                     linkedin="https://www.linkedin.com/in/jonathanlauhk/"
                                     twitter="https://twitter.com/thejonahlau"
                                 />
-                            </div>
-                            <div className="grid grid-cols-1 md:grid-cols-3 block m-auto">
+                            {/* </div>
+                            <div className="grid grid-cols-1 md:grid-cols-3 block m-auto"> */}
 
                                 <AdvisorCard
                                     img="../assets/heiki.png"
@@ -279,8 +274,8 @@ export default function Team() {
                                                 </div>
                                             </div>
                                             <div>
-                                                <p className="text-credmarkpurple pt-2.5 pb-1.5 text-center text-base">Serge Ugarte</p>
-                                                <p className="text-credmarkpurple pb-5 text-center text-base">Strategy</p>
+                                                <p className="text-black font-bold pt-2.5 pb-0 text-center text-base">Serge Ugarte</p>
+                                                <p className="text-black pb-5 text-center text-base pt-0">Strategy</p>
                                             </div>
                                         </div>
                                     </div>
@@ -294,7 +289,7 @@ export default function Team() {
                             <Link href="/careers">
                                 <button
                                     type="button"
-                                    className="font-medium inline-flex items-center md:mb-32 px-7 py-2 shadow-sm text-sm rounded-md text-credmarkpurple bg-green"
+                                    className="font-medium inline-flex items-center md:mb-32 px-7 py-3 shadow-sm text-sm leading-1 rounded-md text-credmarkpurple bg-green"
                                 >
                                     See open positions
                                 </button>
