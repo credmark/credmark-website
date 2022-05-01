@@ -61,7 +61,7 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-export default function NavTest() {
+export default function Nav() {
     return (
         <>
             <Popover className="relative">
@@ -72,7 +72,7 @@ export default function NavTest() {
                                 <span className="sr-only">Workflow</span>
                                 <img
                                     className="h-8 w-auto sm:h-10"
-                                    src="../assets/credmark-logo.svg"
+                                    src="../assets/credmarkpurple.svg"
                                     alt="Credmark Logo"
                                 />
                             </a>
@@ -80,7 +80,7 @@ export default function NavTest() {
                         <div className="-mr-2 -my-2 md:hidden">
                             <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                                 <span className="sr-only">Open menu</span>
-                                <MenuIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                                <MenuIcon className="h-6 w-6 text-credmarkpurple" aria-hidden="true" />
                             </Popover.Button>
                         </div>
                         <Popover.Group as="nav" className="hidden md:flex space-x-10">
@@ -93,12 +93,10 @@ export default function NavTest() {
                                                 'group text-white rounded-md inline-flex items-center text-base'
                                             )}
                                         >
-                                            <span>Community</span>
+                                            <span className="text-credmarkpurple">Community</span>
                                             <ChevronDownIcon
-                                                className={classNames(
-                                                    open ? 'text-white' : 'text-white',
-                                                    'ml-2 h-5 w-5'
-                                                )}
+                                                className=
+                                                'ml-2 h-5 w-5 text-credmarkpurple'
                                                 aria-hidden="true"
                                             />
                                         </Popover.Button>
@@ -122,7 +120,7 @@ export default function NavTest() {
                                                                 className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                                                             >
                                                                 <div className="ml-4">
-                                                                    <p className="text-base font-medium text-gray-900">{item.name}</p>
+                                                                    <p className="text-base font-medium text-credmark-purple">{item.name}</p>
                                                                 </div>
                                                             </a>
                                                         ))}
@@ -140,15 +138,13 @@ export default function NavTest() {
                                         <Popover.Button
                                             className={classNames(
                                                 open ? 'text-white' : 'text-white',
-                                                'group rounded-md inline-flex items-center text-base font-medium'
+                                                'group rounded-md inline-flex items-center text-base'
                                             )}
                                         >
-                                            <span>Learn</span>
+                                            <span className="text-credmarkpurple">Learn</span>
                                             <ChevronDownIcon
-                                                className={classNames(
-                                                    open ? 'text-white' : 'text-white',
-                                                    'ml-2 h-5 w-5'
-                                                )}
+                                                className=
+                                                'ml-2 h-5 w-5 text-credmarkpurple'
                                                 aria-hidden="true"
                                             />
                                         </Popover.Button>
@@ -193,12 +189,10 @@ export default function NavTest() {
                                                 'group rounded-md inline-flex items-center text-base'
                                             )}
                                         >
-                                            <span>Projects</span>
+                                            <span className="text-credmarkpurple">Projects</span>
                                             <ChevronDownIcon
-                                                className={classNames(
-                                                    open ? 'text-white' : 'text-white',
-                                                    'ml-2 h-5 w-5'
-                                                )}
+                                                className=
+                                                'ml-2 h-5 w-5 text-credmarkpurple'
                                                 aria-hidden="true"
                                             />
                                         </Popover.Button>

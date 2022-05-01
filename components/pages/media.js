@@ -32,6 +32,7 @@ export default function Media({ posts }) {
               <button className="hover:text-green pb-5" onClick={()=>{setSelectedCategory("press")}}>Press</button>
               <button className="hover:text-green pb-5" onClick={()=>{setSelectedCategory("announcements")}}>Announcements</button>
               <button className="hover:text-green pb-5" onClick={()=>{setSelectedCategory("videos")}}>Videos</button>
+              <button className="hover:text-green pb-5" onClick={()=>{setSelectedCategory("newsletter")}}>Newsletter</button>
           </div>
           </div>}
       <div className="block m-auto max-w-6xl">

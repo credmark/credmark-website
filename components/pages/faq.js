@@ -4,12 +4,14 @@ import Subscribe from "../subscribe/subscribe"
 import QuestionsIntro from "../faq/questionsIntro";
 import QuestionsPlatform from "../faq/questionsPlatform";
 import QuestionsToken from "../faq/questionsToken";
+import NavTest from "../layout/NavTest";
 
 
 export default function faq() {
     return (
         <>
-            <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none header-bg mt-6">
+            <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none header-bg">
+                <NavTest />
                 <div>
                     <CenteredHeader
                         title="FAQ"

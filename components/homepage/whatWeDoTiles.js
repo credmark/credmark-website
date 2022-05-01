@@ -1,6 +1,6 @@
 const WhatWeDoTiles = (props) => {
     return (
-        <div className="bg-white p-8 my-5 md:my-0 mx-5 rounded-md shadow-sm hover:bg-green cursor-pointer">
+        <div className="bg-white p-8 my-5 md:my-0 mx-5 rounded-md shadow-sm cursor-pointer">
             <h3 className="font-bold text-black text-3xl">
                 {props.title}
             </h3>

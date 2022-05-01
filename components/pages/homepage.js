@@ -18,7 +18,7 @@ export default function Homepage() {
             <div>
                 <div className="bg-credmarkpurple w-screen" >
                     <Nav />
-                    <h1 className="px-4 md:px-0 text-white text-5xl lg:text-7xl pt-56 max-w-7xl block mx-auto leading-snug">
+                    <h1 className="px-4 md:px-0 text-white text-5xl lg:text-7xl pt-40 md:pt-56 max-w-7xl block mx-auto leading-snug">
                         <TypeAnimation
                             cursor={true}
                             className="text-green text-5xl lg:text-7xl leading-snug"

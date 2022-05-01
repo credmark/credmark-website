@@ -81,7 +81,7 @@ h1{
 
 .sanity-block p {
   @apply text-lg;
-  @apply font-light;
+  @apply font-normal;
   @apply leading-8;
   padding-top: 13px;
 }
@@ -93,37 +93,33 @@ h1{
 }
 
 .sanity-block h1 {
-  font-family: 'Credmark';
-  @apply text-credmarkpurple;
-  @apply text-2xl;
-  @apply font-light;
+  @apply text-3xl;
+  @apply font-bold;
+  @apply text-black;
   @apply pt-10;
   @apply pb-2;
 }
 
 .sanity-block h2 {
-  font-family: 'Credmark';
-  @apply text-credmarkpurple;
-  @apply text-2xl;
-  @apply font-light;
+  @apply text-3xl;
+  @apply font-bold;
+  @apply text-black;
   @apply pt-10;
   @apply pb-2;
 }
 
 .sanity-block h3 {
-  font-family: 'Credmark';
-  @apply text-credmarkpurple;
-  @apply text-2xl;
-  @apply font-light;
+  @apply text-3xl;
+  @apply text-black;
+  @apply font-bold;
   @apply pt-10;
   @apply pb-2;
 }
 
 .sanity-block h4 {
-  font-family: 'Credmark';
-  @apply text-credmarkpurple;
-  @apply text-2xl;
-  @apply font-light;
+  @apply text-3xl;
+  @apply text-black;
+  @apply font-bold;
   @apply pt-10;
   @apply pb-2;
 }
@@ -330,10 +326,6 @@ margin-left: -150px;
 
 .riskLibrary {
   background: radial-gradient(100% 360% at 100% 100%, #FFFFFF 0%, #005488 44.79%, #001725 100%);
-}
-
-#blogPage{
-  border-radius: 15px;
 }
 
 svg.twitter:hover{
