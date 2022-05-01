@@ -13,7 +13,7 @@ const BlogCard = (props) => {
                             
                         />
                     </Link>
-                    <div className="pl-5 font-light pb-10 bg-white shadow-md rounded-b-md">
+                    <div className="px-5 font-light pb-3 bg-white shadow-md rounded-b-md">
                         <p className="text-xs text-black font-bold pt-6">{props.date}</p>
                         <Link href={`/blog/${props.slug}`}>
                         <p className="cursor-pointer text-black text-3xl font-medium pb-2">{props.title}</p>

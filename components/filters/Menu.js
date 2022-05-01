@@ -26,9 +26,9 @@ const Menu = (props) => {
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <p className="text-credmarkpurple pt-2.5 pb-1.5 text-center text-base">{props.name}</p>
-                                    <p className="text-credmarkpurple pb-5 text-center text-base"> {props.title}</p>
+                                <div>     
+                                    <p className="text-black font-bold pt-2.5 pb-0 text-center text-base">{props.name}</p>
+                                    <p className="text-black pb-5 pt-0 text-center text-base"> {props.title}</p>
                                 </div>
                             </div>
                         </div>
