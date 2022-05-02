@@ -3,20 +3,48 @@ import Link from 'next/link';
 
 const navigation = {
     projects: [
-        { name: 'Whitepaper', href: 'https://credmarkhq.gitbook.io/credmark/' },
-        { name: 'Credmark Wiki', href: 'https://docs.credmark.com/credmark-wiki/' },
-        { name: 'Reports', href: '/reports' },
-        { name: 'Credmark Terminal', href: 'https://app.credmark.com/' },
+        {
+            name: 'Credmark Terminal',
+            href: 'https://app.credmark.com/',
+        },
+        {
+            name: 'Credmark Wiki',
+            href: 'https://docs.credmark.com/credmark-wiki/',
+        },
+        {   name: 'Reports', 
+            href: '/reports',  
+            },
     ],
     learn: [
-        { name: 'Blog', href: '/blog' },
-        { name: 'Media', href: '/media' },
-        { name: 'FAQ', href: '/faq' },
+        {
+            name: 'Blog',
+            href: '/blog',
+        },
+        {
+            name: 'Media',
+            href: '/media',
+        },
+        {   name: 'FAQ', 
+            href: '/faq', 
+        },
+        {
+            name: 'White Paper',
+            href: 'https://docs.credmark.com/credmark/',
+        },
     ],
     community: [
-        { name: 'Contributors', href: '/contributors' },
-        { name: 'Work with us', href: '/careers' },
-        { name: 'Our Discord', href: 'https://discord.gg/credmark' },
+        {
+            name: 'Careers',
+            href: '/careers',
+        },
+        {
+            name: 'About us',
+            href: '/contributors',
+        },
+        {
+            name: 'Community',
+            href: 'https://discord.com/invite/3dSfMqP3d4',
+        },
     ],
     social: [
         {
@@ -150,7 +178,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                             <div className="mt-12 md:mt-0">
-                                <h3 className="roboto text-2xl font-light text-white tracking-wider">Community</h3>
+                                <h3 className="roboto text-2xl font-light text-white tracking-wider">About</h3>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.community.map((item) => (
                                         <li className="list-none" key={item.name}>

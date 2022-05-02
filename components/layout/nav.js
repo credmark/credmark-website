@@ -20,10 +20,6 @@ const projects = [
     {   name: 'Reports', 
         href: '/reports',  
         },
-    {
-        name: 'White Paper',
-        href: 'https://docs.credmark.com/credmark/',
-    },
 ]
 
 const learn = [
@@ -38,20 +34,24 @@ const learn = [
     {   name: 'FAQ', 
         href: '/faq', 
     },
+    {
+        name: 'White Paper',
+        href: 'https://docs.credmark.com/credmark/',
+    },
 ]
 
 const community = [
     {
-        name: 'Work With Us',
+        name: 'Careers',
         href: '/careers',
     },
     {
-        name: 'Contributors',
+        name: 'About us',
         href: '/contributors',
     },
     {
-        name: 'Our Discord',
-        href: 'https://app.credmark.com/',
+        name: 'Community',
+        href: 'https://discord.com/invite/3dSfMqP3d4',
     },
 ]
 
@@ -98,7 +98,7 @@ export default function Nav() {
                                                 'group text-white rounded-md inline-flex items-center text-base'
                                             )}
                                         >
-                                            <span>Community</span>
+                                            <span>About</span>
                                             <ChevronDownIcon
                                                 className={classNames(
                                                     open ? 'text-white' : 'text-white',

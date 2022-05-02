@@ -13,17 +13,17 @@ export default function Tools() {
                         <img alt="Credmark terminal" src="../assets/credmark-tool.gif" />
                         <div className="box-shadow bg-white rounded-md p-7 max-w-md max-h-96 my-14">
                             <p className="font-bold text-2xl">API Gateway</p>
-                            <p className="font-light text-xl pb-7">High Integrity Risk and Data Models</p>
+                            <p className="font-light text-xl pb-7">Rapid Prototyping and Deployment</p>
                             <List
                                 img="/assets/data-aggregation.svg"
-                                title="Fine-tuned data aggregation and normalization for 1st, 2nd and 3rd order Data" />
+                                title="Abstracts away the complexity of web3 coding" />
                             <List
                                 img="/assets/historical-data.svg"
-                                title="Complete historical data" />
+                                title="Complete real-time and historical data" />
                             <List
                                 img="/assets/risk-models.svg"
-                                title="Direct query of output from risk models" />
-                            <Link href="/blog" rel="noreferrer">
+                                title="Model search engine with example scripts to start immediately" />
+                            <Link href="https://github.com/credmark/credmark-models-py/blob/main/README.md" rel="noreferrer">
                                 <button
                                     type="button"
                                     className="mt-7 text-credmarkpurple font-semibold mt-5 inline-flex items-center px-10 py-2 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-green"
@@ -39,24 +39,27 @@ export default function Tools() {
                 <div className="max-w-4xl block mx-auto pt-28">
                     <div className="flex flex-wrap justify-center">
                         <div className="bg-white rounded-md p-7 max-w-md max-h-96 my-14 absolute boxMargin">
-                            <p className="font-bold text-2xl">API Gateway</p>
-                            <p className="font-light text-xl pb-7">High Integrity Risk and Data Models</p>
+                            <p className="font-bold text-2xl">Credmark Terminal</p>
+                            <p className="font-light text-xl pb-7">Visualize DeFi analytics with intuitive graphs</p>
                             <List
-                                img="/assets/data-aggregation.svg"
-                                title="Fine-tuned data aggregation and normalization for 1st, 2nd and 3rd order Data" />
+                                img="/assets/crypto-data.svg"
+                                title="Visualized crypto analytics" />
                             <List
-                                img="/assets/historical-data.svg"
-                                title="Complete historical data" />
+                                img="/assets/risk-metrics.svg"
+                                title="Market data & risk metrics for various protocols" />
                             <List
-                                img="/assets/risk-models.svg"
-                                title="Direct query of output from risk models" />
-                            <Link href="/blog" rel="noreferrer">
+                                img="/assets/historic-data.svg"
+                                title="Historic data up to 90 days" />
+                             <List
+                                img="/assets/export-csv.svg"
+                                title="Export data to CSV" />
+                            <Link href="https://app.credmark.com/" rel="noreferrer">
                                 <button
                                     type="button"
                                     className="mt-7 text-credmarkpurple font-semibold mt-5 inline-flex items-center px-10 py-2 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-green"
                                 >
                                     <p className="font-light text-base">
-                                        <span><img className="float-left pr-3.5" src="/assets/lock.svg" alt="lock" width={30} />Get Access</span>
+                                        <span>Get Access</span>
                                     </p>
                                 </button>
                             </Link>

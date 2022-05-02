@@ -23,19 +23,19 @@ export default function Homepage() {
                             cursor={true}
                             className="text-green text-5xl lg:text-7xl leading-snug"
                             sequence={[
-                                'Reliable Data', 2000, 'Original Research', 2000, 'Battle-Tested Models', 2000,
+                                'Reliable Data', 2000, 'Crowdsourced Insights', 2000, 'Battle-Tested Models', 2000,
                             ]}
                             wrapper="h2"
                             repeat={Infinity}
                         />
-                        From a Transparent,<br />Decentralized Community</h1>
+                        By the Community,<br />For Everyone</h1>
                     <div className="max-w-7xl block mx-auto">
                         <div className="flex flex-wrap pb-52 pt-6">
                             <button
                                 type="button"
                                 className="w-36 mx-2 mt-7 text-white bg-green mt-5 px-2 py-2 shadow-sm text-sm font-medium rounded-md"
                             >
-                                <Link href="/careers">
+                                <Link href="https://app.credmark.com/">
                                     <p>Get Started</p>
                                 </Link>
                             </button>
@@ -43,7 +43,7 @@ export default function Homepage() {
                                 type="button"
                                 className="w-36 mx-2 mt-7 text-white mt-5 px-2 py-2 shadow-sm text-sm font-medium rounded-md border-2 border-solid border-white hover:text-white hover:bg-credmarkpurple"
                             >
-                                <Link href="/contributors">
+                                <Link href="https://docs.credmark.com/credmark/">
                                     <p className="text-white">How it Works</p>
                                 </Link>
                             </button>
