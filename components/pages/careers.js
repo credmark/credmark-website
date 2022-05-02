@@ -25,40 +25,54 @@ export default function Careers() {
                             Open Roles
                         </h3>
                         <OpenRoles
-                            jobtitle="Senior Backend Python Developer"
-                            link="/careers/senior-python-developer"
-                            role="Engineering"
-                            location="Anywhere"
-                            time="Full-Time"
-                        />
-                        <OpenRoles
-                            jobtitle="Senior Backend Engineer"
-                            link="/careers/senior-backend-engineer"
-                            role="Engineering"
-                            location="Anywhere"
-                            time="Full-Time"
-                        />
-                        <OpenRoles
-                            jobtitle="Senior Cloud Architect"
-                            link="/careers/senior-cloud-architect"
-                            role="Engineering"
-                            location="Anywhere"
-                            time="Full-Time"
-                        />
-                        <OpenRoles
-                            jobtitle="Senior Frontend Engineer"
-                            link="/careers/senior-frontend-engineer"
-                            role="Engineering"
-                            location="Anywhere"
-                            time="Full-Time"
-                        />
-                        <OpenRoles
-                            jobtitle="Senior Solidity Engineer"
-                            link="/careers/senior-solidity-engineer"
-                            role="Engineering"
-                            location="Anywhere"
-                            time="Full-Time"
-                        />
+                                jobtitle="Senior Python Developer - Framework Owner"
+                                link="/careers/senior-python-developer-framework-owner"
+                                role="Engineering"
+                                location="Anywhere"
+                                time="Full-Time"
+                            />
+                            <OpenRoles
+                                jobtitle="Technical Writer"
+                                link="/careers/technical-writer"
+                                role="Marketing"
+                                location="Anywhere"
+                                time="Full-Time"
+                            />
+                            <OpenRoles
+                                jobtitle="Senior Backend Python Developer"
+                                link="/careers/senior-python-developer"
+                                role="Engineering"
+                                location="Anywhere"
+                                time="Full-Time"
+                            />
+                            <OpenRoles
+                                jobtitle="Senior Backend Engineer"
+                                link="/careers/senior-backend-engineer"
+                                role="Engineering"
+                                location="Anywhere"
+                                time="Full-Time"
+                            />
+                            <OpenRoles
+                                jobtitle="Senior Cloud Architect"
+                                link="/careers/senior-cloud-architect"
+                                role="Engineering"
+                                location="Anywhere"
+                                time="Full-Time"
+                            />
+                            <OpenRoles
+                                jobtitle="Senior Frontend Engineer"
+                                link="/careers/senior-frontend-engineer"
+                                role="Engineering"
+                                location="Anywhere"
+                                time="Full-Time"
+                            />
+                            <OpenRoles
+                                jobtitle="Senior Solidity Engineer"
+                                link="/careers/senior-solidity-engineer"
+                                role="Engineering"
+                                location="Anywhere"
+                                time="Full-Time"
+                            />
                     </div>
                     <div className="footerBg">
                         <div className="px-5 py-10 max-w-6xl block m-auto">
