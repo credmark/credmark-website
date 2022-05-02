@@ -1,6 +1,4 @@
 import * as React from 'react';
-import WhatWeDoTiles from './WhatWeDoTiles';
-
 
 export default function WhatWeDo() {
     return (
