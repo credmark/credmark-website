@@ -20,15 +20,11 @@ const projects = [
         },
     {
         name: 'White Paper',
-        href: '/white-paper',
+        href: 'https://docs.credmark.com/credmark/',
     },
 ]
 
 const learn = [
-    {
-        name: 'Our Data',
-        href: '#',
-    },
     {
         name: 'Blog',
         href: '/blog',

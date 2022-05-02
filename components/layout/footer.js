@@ -4,9 +4,9 @@ import Link from 'next/link';
 const navigation = {
     projects: [
         { name: 'Whitepaper', href: 'https://credmarkhq.gitbook.io/credmark/' },
-        { name: 'Risk Library', href: 'https://docs.credmark.com/credmark-risk-library/' },
+        { name: 'Credmark Wiki', href: 'https://docs.credmark.com/credmark-wiki/' },
         { name: 'Reports', href: '/reports' },
-        { name: 'Risk Terminal', href: 'https://app.credmark.com/' },
+        { name: 'Credmark Terminal', href: 'https://app.credmark.com/' },
     ],
     learn: [
         { name: 'Blog', href: '/blog' },
