@@ -164,6 +164,9 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
+                <div className="mt-12 border-t border-gray-200 pt-8">
+                    <p className="text-base text-purple text-center">&copy; 2022 Credmark, Inc. All rights reserved.</p>
+                </div>
             </div>
         </footer>
     )
