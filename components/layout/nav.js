@@ -72,12 +72,14 @@ export default function Nav() {
                     <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
                         <div className="flex justify-start lg:w-0 lg:flex-1">
                             <Link href="/">
+                                <a>
                                 <span className="sr-only">Workflow</span>
                                 <img
                                     className="h-8 w-auto sm:h-10"
                                     src="../assets/credmark-logo.svg"
                                     alt="Credmark Logo"
                                 />
+                                </a>
                             </Link>
                         </div>
                         <div className="-mr-2 -my-2 md:hidden">

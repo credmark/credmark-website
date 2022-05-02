@@ -9,11 +9,22 @@ export default function WhatWeDo() {
                 <div className="max-w-7xl block mx-auto">
                     <h4 className="px-4 md:px-0 max-w-4xl block mx-auto text-3xl pb-10 md:pb-20 text-center text-black font-light leading-10">Credmark is a financial modeling platform powered by reliable on-chain data.  Validated models are readily composable making rapid app development simple.</h4>
                     <div className="grid grid-cols-1 md:grid-cols-3">
-                        <WhatWeDoTiles
-                            title="Reliable Data"
-                            text="Our community of Data Curators collect validated state and ledger data, indexed to allow rapid, seamless access for $CMK token holders"
-                            cta="Learn more"
-                        />
+                        <div className="bg-white p-8 my-5 md:my-0 mx-5 rounded-md shadow-sm cursor-pointer">
+                            <h3 className="font-bold text-black text-3xl">
+                                Reliable Data
+                            </h3>
+                            <p className="text-base font-normal leading-7 pt-3 hover:text-credmarkpurple">
+                            Our community of Data Curators collect validated state and ledger data, indexed to allow rapid, seamless access for $CMK token holders
+                            </p>
+                            <button
+                                type="button"
+                                className="mt-7 text-credmarkpurple mt-5 inline-flex items-center px-10 py-2 shadow-sm text-sm font-medium rounded-md border-2 border-solid border-credmarkpurple hover:text-white hover:bg-credmarkpurple"
+                            >
+                                <a href="">
+                                    <p className="hover:text-white">Learn more</p>
+                                </a>
+                            </button>
+                        </div>
                         <div className="bg-white p-8 my-5 md:my-0 mx-5 rounded-md shadow-sm cursor-pointer">
                             <h3 className="font-bold text-black text-3xl">
                                 Original Research
