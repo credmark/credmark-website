@@ -1,6 +1,7 @@
 import Subscribe from "../subscribe/subscribe"
 import Footer from "../layout/footer"
 import Description from "../careers/description"
+import Nav from "../layout/NavTest"
 
 
 export default function SeniorCloudArchitect() {
@@ -8,7 +9,8 @@ export default function SeniorCloudArchitect() {
     return (
         <>
             <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none rounded-md bg-white">
-                <div className="blogGradient rounded-md">
+                <div className="header-bg">
+                    <Nav />
                     <Description
                         title="Senior Cloud Architect"
                         description="Our mission is to de-risk the DeFi industry to enable users to make better informed investment decisions."

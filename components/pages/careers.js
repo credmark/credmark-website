@@ -31,13 +31,6 @@ export default function Careers() {
                             time="Full-Time"
                         />
                         <OpenRoles
-                            jobtitle="Technical Writer"
-                            link="/careers/technical-writer"
-                            role="Marketing"
-                            location="Anywhere"
-                            time="Full-Time"
-                        />
-                        <OpenRoles
                             jobtitle="Senior Backend Python Developer"
                             link="/careers/senior-python-developer"
                             role="Engineering"
@@ -54,20 +47,6 @@ export default function Careers() {
                         <OpenRoles
                             jobtitle="Senior Cloud Architect"
                             link="/careers/senior-cloud-architect"
-                            role="Engineering"
-                            location="Anywhere"
-                            time="Full-Time"
-                        />
-                        <OpenRoles
-                            jobtitle="Senior Frontend Engineer"
-                            link="/careers/senior-frontend-engineer"
-                            role="Engineering"
-                            location="Anywhere"
-                            time="Full-Time"
-                        />
-                        <OpenRoles
-                            jobtitle="Senior Solidity Engineer"
-                            link="/careers/senior-solidity-engineer"
                             role="Engineering"
                             location="Anywhere"
                             time="Full-Time"

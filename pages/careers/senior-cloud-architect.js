@@ -31,8 +31,7 @@ export default function SeniorCloudArchitectPage() {
       </Head>
 
       <div className="nav">
-        <Nav
-          page={<CareerDescription />} />
+        <CareerDescription />
       </div>
     </>
   )
