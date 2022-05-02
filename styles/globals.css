@@ -582,7 +582,7 @@ li {
 }
 
 .communityBg {
-  background: url(../public/assets/world-map.png), radial-gradient(50% 107.39% at 50% 50%, rgba(0, 214, 150, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #3B0065;
+  background: url("/assets/world-map.png"), radial-gradient(50% 107.39% at 50% 50%, rgba(0, 214, 150, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #3B0065;
   background-size: cover;
   background-blend-mode: color-dodge, normal, normal;
 }
