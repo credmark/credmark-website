@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Link from 'next/link'
 
 
 export default function Community() {
@@ -13,17 +14,17 @@ export default function Community() {
                         type="button"
                         className="mx-2 mt-7 text-white bg-green mt-5 px-10 py-2 shadow-sm text-sm font-medium rounded-md"
                     >
-                        <a href="/careers">
+                        <Link href="/careers">
                             <p>Join us</p>
-                        </a>
+                        </Link>
                     </button>
                     <button
                         type="button"
                         className="mx-2 mt-7 text-white mt-5 px-10 py-2 shadow-sm text-sm font-medium rounded-md border-2 border-solid border-white hover:text-white hover:bg-credmarkpurple"
                     >
-                        <a href="/contributors">
+                        <Link href="/contributors">
                             <p className="text-white">Our Contributors</p>
-                        </a>
+                        </Link>
                     </button>
                     </div>
                 </div>
