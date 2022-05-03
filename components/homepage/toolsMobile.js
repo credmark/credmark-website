@@ -11,7 +11,7 @@ export default function ToolsMobile() {
                     <h3 className="text-center mx-4 flex justify-center text-4xl pb-20 text-black">Our Ground-Breaking Tools</h3>
                     <div className="flex flex-wrap justify-center mx-4">
                         <img className="rounded-t-md" alt="Credmark terminal" src="../assets/credmark-tool.gif" />
-                        <div className="bg-white shadow-md rounded-b-md p-7 mb-14">
+                        <div className="bg-white shadow-md rounded-b-md w-full p-7 mb-14">
                             <p className="font-bold text-2xl">Credmark Model Framework</p>
                             <p className="font-light text-xl pb-7">Rapid Prototyping and Deployment</p>
                             <List
@@ -39,7 +39,7 @@ export default function ToolsMobile() {
                 <div className="max-w-4xl block mx-auto pt-28">
                     <div className="flex flex-wrap justify-center mx-4">
                     <img className="rounded-t-md" alt="Credmark terminal" src="../assets/credmark-terminal.png" />
-                        <div className="shadow-md rounded-b-md bg-white p-7 mb-14">
+                        <div className="shadow-md rounded-b-md bg-white w-full p-7 mb-14">
                             <p className="font-bold text-2xl">Credmark Terminal</p>
                             <p className="font-light text-xl pb-7">Visualize DeFi analytics with intuitive graphs</p>
                             <List

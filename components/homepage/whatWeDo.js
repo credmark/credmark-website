@@ -6,8 +6,8 @@ export default function WhatWeDo() {
             <div className="pt-20 pb-20 md:py-28 homepage-bg">
                 <div className="max-w-7xl block mx-auto">
                     <h4 className="px-4 md:px-0 max-w-4xl block mx-auto text-3xl pb-10 md:pb-20 text-center text-black font-light leading-10">Credmark is a financial modeling platform powered by reliable on-chain data. Validated models are readily composable making rapid prototyping simple.</h4>
-                    <div className="grid grid-cols-1 md:grid-cols-3">
-                        <div className="bg-white p-8 my-5 md:my-0 mx-5 rounded-md shadow-sm cursor-pointer">
+                    <div className="grid grid-cols-1 lg:grid-cols-3">
+                        <div className="bg-white p-8 my-5 lg:my-0 mx-5 rounded-md shadow-sm cursor-pointer">
                             <h3 className="font-bold text-black text-3xl">
                                 Reliable Data
                             </h3>
@@ -15,7 +15,7 @@ export default function WhatWeDo() {
                             Complete on-chain data coverage with verifiable state and ledger data used to power financial models, DeFi analytics, and dApps
                             </p>
                         </div>
-                        <div className="bg-white p-8 my-5 md:my-0 mx-5 rounded-md shadow-sm cursor-pointer">
+                        <div className="bg-white p-8 my-5 lg:my-0 mx-5 rounded-md shadow-sm cursor-pointer">
                             <h3 className="font-bold text-black text-3xl">
                                 Crowdsourced Insights
                             </h3>
@@ -34,7 +34,7 @@ export default function WhatWeDo() {
                                 </button>
                             </div>
                         </div>
-                        <div className="bg-white p-8 my-5 md:my-0 mx-5 rounded-md shadow-sm bg-green cursor-pointer">
+                        <div className="bg-white p-8 my-5 lg:my-0 mx-5 rounded-md shadow-sm bg-green cursor-pointer">
                             <h3 className="font-bold text-credmarkpurple text-3xl">
                                 Battle-Tested Models
                             </h3>

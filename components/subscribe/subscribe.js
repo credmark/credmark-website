@@ -28,14 +28,6 @@ const Subscribe = () => {
                                 type="button"
                                 className="flex justify-center w-full border-2 border-white text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md"
                             >
-                                Our Data
-                            </button>
-                            </Link>
-                            <Link href="/blog" rel="noreferrer">
-                            <button
-                                type="button"
-                                className="flex justify-center w-full border-2 border-white text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md"
-                            >
                                 Blog
                             </button>
                             </Link>
@@ -47,7 +39,7 @@ const Subscribe = () => {
                                 Media
                             </button>
                             </Link>
-                            <Link href="/media" rel="noreferrer">
+                            <Link href="/faq" rel="noreferrer">
                             <button
                                 type="button"
                                 className="flex justify-center w-full text-center border-2 border-white text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md"
@@ -84,14 +76,6 @@ const Subscribe = () => {
                                 type="button"
                                 className="flex justify-center border-2 border-white text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md"
                             >
-                                Our Data
-                            </button>
-                            </Link>
-                            <Link href="/blog" rel="noreferrer">
-                            <button
-                                type="button"
-                                className="flex justify-center border-2 border-white text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md"
-                            >
                                 Blog
                             </button>
                             </Link>
@@ -103,7 +87,7 @@ const Subscribe = () => {
                                 Media
                             </button>
                             </Link>
-                            <Link href="/media" rel="noreferrer">
+                            <Link href="/faq" rel="noreferrer">
                             <button
                                 type="button"
                                 className="flex justify-center text-center border-2 border-white text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md"

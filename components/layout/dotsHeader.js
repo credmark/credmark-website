@@ -815,7 +815,7 @@ function DotAnimation() {
               </button>
             </a>
             <a
-              href="/contributors"
+              href="https://docs.credmark.com/credmark/"
               target="_blank"
               rel="noreferrer"
             >
@@ -824,7 +824,7 @@ function DotAnimation() {
                 className="mt-5 inline-flex items-center mx-2 px-8 py-2.5 shadow-sm text-d font-medium rounded-md text-white hover:text-green border-2 border-solid border-white hover:border-green"
               >
                 <p className="flex text-sm py-0 leading-4">
-                  How it Works
+                  White Paper 
                 </p>
               </button>
             </a>
