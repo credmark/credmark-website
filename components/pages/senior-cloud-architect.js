@@ -8,7 +8,7 @@ export default function SeniorCloudArchitect() {
 
     return (
         <>
-            <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none rounded-md bg-white">
+            <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none bg-white">
                 <div className="header-bg">
                     <Nav />
                     <Description
