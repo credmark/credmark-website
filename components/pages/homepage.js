@@ -9,7 +9,6 @@ import WhatWeDo from '../homepage/whatWeDo'
 import Community from '../homepage/community'
 import TypeAnimation from 'react-type-animation';
 import Nav from '../layout/nav'
-import Stats from '../homepage/stats'
 import ToolsMobile from '../homepage/toolsMobile'
 
 import DotAnimation from "../layout/dotsHeader"
@@ -59,7 +58,6 @@ export default function Homepage() {
                 </div>
             </div>
             <DotAnimation />
-            <Stats />
             <WhatWeDo />
             <Community />
             <div className="hidden lg:block">
