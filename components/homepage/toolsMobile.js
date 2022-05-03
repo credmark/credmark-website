@@ -12,7 +12,7 @@ export default function ToolsMobile() {
                     <div className="flex flex-wrap justify-center mx-4">
                         <img className="rounded-t-md" alt="Credmark terminal" src="../assets/credmark-tool.gif" />
                         <div className="bg-white shadow-md rounded-b-md p-7 mb-14">
-                            <p className="font-bold text-2xl">API Gateway</p>
+                            <p className="font-bold text-2xl">Credmark Model Framework</p>
                             <p className="font-light text-xl pb-7">Rapid Prototyping and Deployment</p>
                             <List
                                 img="/assets/data-aggregation.svg"

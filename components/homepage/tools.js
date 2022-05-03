@@ -12,7 +12,7 @@ export default function Tools() {
                     <div className="flex flex-wrap justify-center">
                         <img alt="Credmark terminal" src="../assets/credmark-tool.gif" />
                         <div className="box-shadow bg-white rounded-md p-7 max-w-md max-h-96 my-14">
-                            <p className="font-bold text-2xl">API Gateway</p>
+                            <p className="font-bold text-2xl">Credmark Model Framework</p>
                             <p className="font-light text-xl pb-7">Rapid Prototyping and Deployment</p>
                             <List
                                 img="/assets/data-aggregation.svg"
