@@ -599,3 +599,7 @@ li {
 .buttonTextHover button:hover {
     color: white !important;
 }
+
+.width2x {
+  width: 200%;
+}

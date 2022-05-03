@@ -29,7 +29,7 @@ export default function Tools() {
                                     className="mt-7 text-credmarkpurple font-semibold mt-5 inline-flex items-center px-10 py-2 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-green"
                                 >
                                     <p className="font-light text-base">
-                                        <span><img className="float-left pr-3.5" src="/assets/lock.svg" alt="lock" width={30} />Get Access</span>
+                                        Get Access
                                     </p>
                                 </button>
                             </Link>
@@ -53,7 +53,7 @@ export default function Tools() {
                              <List
                                 img="/assets/export-csv.svg"
                                 title="Export data to CSV" />
-                            <Link href="https://app.credmark.com/" rel="noreferrer">
+                            <Link href="https://app.credmark.com/terminal" rel="noreferrer">
                                 <button
                                     type="button"
                                     className="mt-7 text-credmarkpurple font-semibold mt-5 inline-flex items-center px-10 py-2 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-green"

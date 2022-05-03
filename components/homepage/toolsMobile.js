@@ -10,7 +10,7 @@ export default function ToolsMobile() {
                 <div>
                     <h3 className="text-center mx-4 flex justify-center text-4xl pb-20 text-black">Our Ground-Breaking Tools</h3>
                     <div className="flex flex-wrap justify-center mx-4">
-                        <img className="rounded-t-md" alt="Credmark terminal" src="../assets/credmark-tool.gif" />
+                        <img className="rounded-t-md width2x" alt="Credmark terminal" src="../assets/credmark-tool.gif" />
                         <div className="bg-white shadow-md rounded-b-md w-full p-7 mb-14">
                             <p className="font-bold text-2xl">Credmark Model Framework</p>
                             <p className="font-light text-xl pb-7">Rapid Prototyping and Deployment</p>
@@ -29,16 +29,16 @@ export default function ToolsMobile() {
                                     className="mt-7 text-credmarkpurple font-semibold mt-5 inline-flex items-center px-10 py-2 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-green"
                                 >
                                     <p className="font-light text-base">
-                                        <span><img className="float-left pr-3.5" src="/assets/lock.svg" alt="lock" width={30} />Get Access</span>
+                                      Get Access
                                     </p>
                                 </button>
                             </Link>
                         </div>
                     </div>
                 </div>
-                <div className="max-w-4xl block mx-auto pt-28">
+                <div className="pt-28">
                     <div className="flex flex-wrap justify-center mx-4">
-                    <img className="rounded-t-md" alt="Credmark terminal" src="../assets/credmark-terminal.png" />
+                    <img className="rounded-t-md width2x" alt="Credmark terminal" src="../assets/credmark-terminal.png" />
                         <div className="shadow-md rounded-b-md bg-white w-full p-7 mb-14">
                             <p className="font-bold text-2xl">Credmark Terminal</p>
                             <p className="font-light text-xl pb-7">Visualize DeFi analytics with intuitive graphs</p>
@@ -54,7 +54,7 @@ export default function ToolsMobile() {
                              <List
                                 img="/assets/export-csv.svg"
                                 title="Export data to CSV" />
-                            <Link href="https://app.credmark.com/" rel="noreferrer">
+                            <Link href="https://app.credmark.com/terminal" rel="noreferrer">
                                 <button
                                     type="button"
                                     className="mt-7 text-credmarkpurple font-semibold mt-5 inline-flex items-center px-10 py-2 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-green"
