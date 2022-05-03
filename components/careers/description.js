@@ -4,11 +4,11 @@ import * as React from 'react';
 const Description = (props) => {
     return (
         <>
-            <div className="py-20">
+            <div className="py-20 header-bg">
             <div className="max-w-6xl px-5 block m-auto">
                     <h1 className="text-white font-base text-5xl md:text-7xl py-5">{props.title}</h1>
                     <div className="flex">
-                        <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-6">
+                        <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-6">
                             <div className="flex">
                                 <img src="../assets/stars.svg" alt="Curate crypto data" />
                                 <p className="text-base font-bold text-white ml-2">Experience</p>
@@ -17,7 +17,7 @@ const Description = (props) => {
                             <p className="text-3xl font-light text-white">5+ Years</p>
                             </div>
                         </div>
-                        <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-6">
+                        <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-6">
                             <div className="flex">
                                 <img src="../assets/world.svg" alt="Curate crypto data" />
                                 <p className="text-base font-bold text-white ml-2">Location</p>
@@ -26,7 +26,7 @@ const Description = (props) => {
                             <p className="text-3xl font-light text-white">Anywhere</p>
                             </div>
                         </div>
-                        <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-6">
+                        <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-6">
                             <div className="flex flex-wrap">
                                 <img src="../assets/rocket.svg" alt="Curate crypto data" />
                                 <p className="text-base font-bold text-white ml-2">Job Type</p>
@@ -40,9 +40,9 @@ const Description = (props) => {
             </div>
                 <div className="bg-white">
                 <div className="max-w-3xl block m-auto px-5 lg:px-0">
-                <h3 className="uppercase font-extrabold text-3xl pt-10 md:pt-28">Job Summary</h3>
+                <h3 className="text-black font-bold text-3xl pt-10 md:pt-28">Job Summary</h3>
                 <p className="text-black">{props.summary}</p>
-                    <h3 className="uppercase font-extrabold text-3xl pt-16">Responsibilities</h3>
+                    <h3 className="text-black font-bold text-3xl pt-16">Responsibilities</h3>
                     <ul>
                         <li className="text-black">{props.responsibilities}</li>
                         <li className="text-black">{props.responsibilitiesOne}</li>
@@ -56,7 +56,7 @@ const Description = (props) => {
                         <li className="text-black">{props.responsibilitiesNine}</li>
 
                     </ul>
-                    <h3 className="uppercase font-extrabold text-3xl pt-16">The Ideal Candidate</h3>
+                    <h3 className="text-black font-bold text-3xl pt-16">The Ideal Candidate</h3>
                     <ul>
                     <li className="text-black">{props.skills}</li>
                         <li className="text-black">{props.skillsOne}</li>
@@ -69,7 +69,7 @@ const Description = (props) => {
                         <li className="text-black">{props.skillsEight}</li>
                         <li className="text-black">{props.skillsNine}</li>
                     </ul>
-                    <h3 className="uppercase font-extrabold text-3xl pt-16">About the team</h3>
+                    <h3 className="text-black font-bold text-3xl pt-16">About the team</h3>
                     <p className="text-black">
                         Credmark aims to provide high integrity data and risk metrics through a transparent, community-driven platform. By leveraging our community, we provide transparent models and data that can be used to make better investment decisions. Our goal is to be both a credible resource in the crypto community and a creator of useful tools & products inside and outside of crypto.
                         <br />
@@ -83,7 +83,7 @@ const Description = (props) => {
                             rel="noreferrer">
                             <button
                                 type="button"
-                                className="mt-5 inline-flex items-center px-7 py-2 shadow-sm text-sm font-medium rounded-md text-white bg-green"
+                                className="mt-5 inline-flex items-center px-7 py-2 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-green"
                             >
                                 Apply Now
                             </button>

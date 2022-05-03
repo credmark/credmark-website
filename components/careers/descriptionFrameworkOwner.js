@@ -6,9 +6,9 @@ const DescriptionFrameworkDev = (props) => {
         <>
             <div className="header-bg py-20">
                 <div className="max-w-6xl px-5 block m-auto">
-                    <h1 className="text-white font-base text-5xl md:text-7xl py-5">{props.title}</h1>
+                    <h1 className="text-white font-base text-5xl font-bold md:text-7xl py-5">{props.title}</h1>
                     <div className="flex">
-                        <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-6 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
+                        <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-6 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
                             <div className="flex">
                                 <img src="../assets/stars.svg" alt="Curate crypto data" />
                                 <p className="text-base font-bold text-white ml-2">Experience</p>
@@ -17,7 +17,7 @@ const DescriptionFrameworkDev = (props) => {
                             <p className="text-3xl font-light text-white">5+ Years</p>
                             </div>
                         </div>
-                        <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-6 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
+                        <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-6 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
                             <div className="flex">
                                 <img src="../assets/world.svg" alt="Curate crypto data" />
                                 <p className="text-base font-bold text-white ml-2">Location</p>
@@ -26,7 +26,7 @@ const DescriptionFrameworkDev = (props) => {
                             <p className="text-3xl font-light text-white">Anywhere</p>
                             </div>
                         </div>
-                        <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-6 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
+                        <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-6 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
                             <div className="flex flex-wrap">
                                 <img src="../assets/rocket.svg" alt="Curate crypto data" />
                                 <p className="text-base font-bold text-white ml-2">Job Type</p>
@@ -40,14 +40,14 @@ const DescriptionFrameworkDev = (props) => {
             </div>
 
             <div className="max-w-3xl block m-auto px-5">
-                <h3 className="credmark text-3xl pt-10 md:pt-28">Job Summary</h3>
+                <h3 className="text-black font-bold text-3xl pt-10 md:pt-28">Job Summary</h3>
                 <p className="text-black pt-5">{props.summary}</p>
                 <p className="text-black pt-5">{props.summaryTwo}</p>
                 <ul>
                     <a href={props.url} target="_blank" rel="noreferrer" className="underline"><li>{props.list}</li></a>
                     <a href={props.urlTwo} target="_blank" rel="noreferrer" className="underline"><li>{props.listTwo}</li></a>
                 </ul>
-                <h3 className="credmark text-3xl pt-16">Responsibilities</h3>
+                <h3 className="text-black font-bold text-3xl pt-16">Responsibilities</h3>
                 <ul>
                     <li className="text-black">{props.responsibilities}</li>
                     <li className="text-black">{props.responsibilitiesOne}</li>
@@ -60,7 +60,7 @@ const DescriptionFrameworkDev = (props) => {
                     <li className="text-black">{props.responsibilitiesEight}</li>
 
                 </ul>
-                <h3 className="credmark text-3xl pt-16">The ideal candidate</h3>
+                <h3 className="text-black font-bold text-3xl pt-16">The ideal candidate</h3>
                 <ul>
                     <li className="text-black">{props.candidate}</li>
                     <li className="text-black">{props.candidateOne}</li>
@@ -79,7 +79,7 @@ const DescriptionFrameworkDev = (props) => {
                     <li className="text-black">{props.candidateFourteen}</li>
 
                 </ul>
-                <h3 className="credmark text-3xl pt-10">About the team</h3>
+                <h3 className="text-black font-bold text-3xl pt-10">About the team</h3>
                 <p className="text-black">
                     Credmark aims to provide high integrity data and risk metrics through a transparent, community-driven platform. By leveraging our community, we provide transparent models and data that can be used to make better investment decisions. Our goal is to be both a credible resource in the crypto community and a creator of useful tools & products inside and outside of crypto.
                     <br />

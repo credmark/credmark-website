@@ -41,14 +41,14 @@ const DescriptionBusiness = (props) => {
                     </div>
                 </div>
                 <div className="max-w-3xl block m-auto px-5">
-                <h3 className="credmark text-3xl pt-10">Job Summary</h3>
+                <h3 className="text-black font-bold text-3xl pt-10">Job Summary</h3>
                 <p className="text-black pt-5">{props.summary}</p>
                 <p className="text-black pt-5">{props.summaryTwo}</p>
                 <p className="text-black pt-5">{props.summaryThree}</p>
                 <p className="text-black pt-5">{props.summaryFour}</p>
                 <p className="text-black pt-5">{props.summaryFive}</p>
                 <p className="text-black pt-5">{props.summarySix}</p>
-                    <h3 className="credmark text-3xl pt-16">Responsibilities</h3>
+                    <h3 className="text-black font-bold text-3xl pt-16">Responsibilities</h3>
                     <ul>
                         <li className="text-black">{props.responsibilities}</li>
                         <li className="text-black">{props.responsibilitiesOne}</li>
@@ -60,7 +60,7 @@ const DescriptionBusiness = (props) => {
                         <li className="text-black">{props.responsibilitiesSeven}</li>
 
                     </ul>
-                    <h3 className="credmark text-3xl pt-10">About the team</h3>
+                    <h3 className="text-black font-bold text-3xl pt-10">About the team</h3>
                     <p className="text-black">
                         Credmark aims to provide high integrity data and risk metrics through a transparent, community-driven platform. By leveraging our community, we provide transparent models and data that can be used to make better investment decisions. Our goal is to be both a credible resource in the crypto community and a creator of useful tools & products inside and outside of crypto.
                         <br />
@@ -74,7 +74,7 @@ const DescriptionBusiness = (props) => {
                             rel="noreferrer">
                             <button
                                 type="button"
-                                className="uppercase mt-5 inline-flex items-center px-7 py-2 shadow-sm text-sm font-medium rounded-md text-white bg-credmarkpurple"
+                                className="uppercase mt-5 inline-flex items-center px-7 py-2 shadow-sm text-sm font-medium rounded-md text-credmarkpurple bg-credmarkpurple"
                             >
                                 Apply Now
                             </button>

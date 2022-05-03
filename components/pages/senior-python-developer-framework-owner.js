@@ -8,10 +8,10 @@ export default function SeniorPythonDeveloperFrameworkOwner() {
 
     return (
         <>
-            <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none rounded-md">
+            <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none">
                 <div className="header-bg">
                     <NavTest />
-                    <div className="advisorBg">
+                    <div className="bg-white">
                         <Description
                             title="Senior Python Developer - Framework Owner"
                             description="Our mission is to de-risk the DeFi industry to enable users to make better informed investment decisions."

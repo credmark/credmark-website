@@ -10,7 +10,7 @@ export default function Careers() {
     return (
         <>
             <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none">
-                <div className="blogGradient rounded-md">
+                <div className="blogGradient">
                     <CareerHeader
                         title="Build the Future of DeFi With us"
                         description="Our mission is to de-risk the  DeFi industry to enable users to make better informed investment decisions."
@@ -19,7 +19,7 @@ export default function Careers() {
                     />
                     <CareerTilesLive />
 
-                    <div className="py-10 max-w-4xl mx-auto block">
+                    <div className="px-5 py-20 md:py-28 max-w-4xl mx-auto block">
                         <h3 className="px-4 md:px-0 text-left text-black py-5 text-3xl text-4xl md:text-5xl pb-10">
                             Open Roles
                         </h3>
@@ -53,13 +53,13 @@ export default function Careers() {
                         />
                     </div>
                     <div className="footerBg">
-                        <div className="px-5 py-10 max-w-6xl block m-auto">
-                            <h3 className="text-left text-white py-5 text-3xl text-4xl md:text-5xl pb-10">
+                        <div className="px-5 py-20 md:py-28 max-w-6xl block m-auto">
+                            <h3 className="text-left text-white py-5 text-3xl text-4xl md:text-5xl pb-0">
                                 Our mission
                             </h3>
                             <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
                                 <div
-                                    className="relative rounded-lg border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                                    className="relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                                 >
                                     <div className="flex-shrink-0">
                                         <img src="../assets/curate-crypto-data.svg" alt="Curate crypto data" />
@@ -70,7 +70,7 @@ export default function Careers() {
                                     </div>
                                 </div>
                                 <div
-                                    className="relative rounded-lg border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                                    className="relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                                 >
                                     <div className="flex-shrink-0">
                                         <img src="../assets/research.svg" alt="Publish industry leading research" />
@@ -81,7 +81,7 @@ export default function Careers() {
                                     </div>
                                 </div>
                                 <div
-                                    className="relative rounded-lg border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                                    className="relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                                 >
                                     <div className="flex-shrink-0">
                                         <img src="../assets/risk-management.svg" alt="Develop risk management tools" />

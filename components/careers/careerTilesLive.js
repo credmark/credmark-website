@@ -5,9 +5,9 @@ import CareerTiles from './careerTiles';
 export default function CareerTilesLive() {
     return (
         <>
-            <div className="pt-20 pb-20 md:py-28 homepage-bg">
-                <div className="px-5 md:px-0 max-w-6xl block m-auto">
-                    <h3 className="text-left text-black py-5 text-3xl text-4xl md:text-5xl pb-10">
+            <div className="py-20 md:py-28 homepage-bg">
+                <div className="px-5 max-w-6xl block m-auto">
+                    <h3 className="text-left text-black md:pb-5 py:0 text-3xl text-4xl md:text-5xl">
                        Our Culture
                     </h3>
                     <div className="max-w-7xl block mx-auto">
