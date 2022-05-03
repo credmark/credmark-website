@@ -258,7 +258,7 @@ export default function NavTest() {
                     leaveFrom="opacity-100 scale-100"
                     leaveTo="opacity-0 scale-95"
                 >
-                    <Popover.Panel focus className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+                     <Popover.Panel focus className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
                         <div className="rounded-lg bg-green shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                             <div className="pt-5 pb-6 px-5">
                                 <div className="flex items-center justify-between">
@@ -282,41 +282,146 @@ export default function NavTest() {
                                         Check out our App
                                     </button>
                                 </a>
-                                <div className="mt-6">
-                                    <nav className="grid gap-y-8 px-6">
-                                        {projects.map((item) => (
-                                            <a
-                                                key={item.name}
-                                                href={item.href}
-                                                className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
-                                            >
-                                                <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
-                                            </a>
-                                        ))}
-                                    </nav>
-                                    <nav className="grid gap-y-8 pt-5 px-6">
-                                        {learn.map((item) => (
-                                            <a
-                                                key={item.name}
-                                                href={item.href}
-                                                className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
-                                            >
-                                                <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
-                                            </a>
-                                        ))}
-                                    </nav>
-                                    <nav className="grid gap-y-8 pt-5 px-6">
-                                        {community.map((item) => (
-                                            <a
-                                                key={item.name}
-                                                href={item.href}
-                                                className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
-                                            >
-                                                <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
-                                            </a>
-                                        ))}
-                                    </nav>
+                                <div className="mt-5 pb-2 ml-8">
+                                <Link
+                                    href="/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    >
+                                       <span className="text-credmarkpurple"> Home </span>
+                                </Link>
                                 </div>
+                            <Popover className="relative pt-1">
+                                {({ open }) => (
+                                    <>
+                                        <Popover.Button
+                                            className=
+                                                'group text-credmarkpurple rounded-md inline-flex items-center text-base pt-5'
+                                            
+                                        >
+                                            <span>About</span>
+                                            <ChevronDownIcon
+                                                className={classNames(
+                                                    open ? 'text-credmarkpurple' : 'text-credmarkpurple',
+                                                    'ml-2 h-5 w-5'
+                                                )}
+                                                aria-hidden="true"
+                                            />
+                                        </Popover.Button>
+
+                                        <Transition
+                                            as={Fragment}
+                              
+                                        >
+                                            <Popover.Panel>
+                                                <div className="overflow-hidden">
+                                                    <div className="relative grid gap-6 px-5 py-6 sm:gap-8 sm:p-8">
+                                                        {community.map((item) => (
+                                                            <a
+                                                                key={item.name}
+                                                                href={item.href}
+                                                                className="-m-3 p-3 flex items-start rounded-lg text-credmarkpurple"
+                                                            >
+                                                                <div className="ml-4">
+                                                                    <p className="text-base font-medium text-credmarkpurple">{item.name}</p>
+                                                                </div>
+                                                            </a>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            </Popover.Panel>
+                                        </Transition>
+                                    </>
+                                )}
+                            </Popover>
+
+                            <Popover className="relative pt-1">
+                                {({ open }) => (
+                                    <>
+                                        <Popover.Button
+                                            className=
+                                                'group text-credmarkpurple rounded-md inline-flex items-center text-base pt-5'
+                                            
+                                        >
+                                            <span>Learn</span>
+                                            <ChevronDownIcon
+                                                className={classNames(
+                                                    open ? 'text-credmarkpurple' : 'text-credmarkpurple',
+                                                    'ml-2 h-5 w-5'
+                                                )}
+                                                aria-hidden="true"
+                                            />
+                                        </Popover.Button>
+
+                                        <Transition
+                                            as={Fragment}
+                              
+                                        >
+                                            <Popover.Panel>
+                                                <div className="overflow-hidden">
+                                                    <div className="relative grid gap-6 px-5 py-6 sm:gap-8 sm:p-8">
+                                                        {learn.map((item) => (
+                                                            <a
+                                                                key={item.name}
+                                                                href={item.href}
+                                                                className="-m-3 p-3 flex items-start rounded-lg text-credmarkpurple"
+                                                            >
+                                                                <div className="ml-4">
+                                                                    <p className="text-base font-medium text-credmarkpurple">{item.name}</p>
+                                                                </div>
+                                                            </a>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            </Popover.Panel>
+                                        </Transition>
+                                    </>
+                                )}
+                            </Popover>
+
+                            <Popover className="relative pt-1">
+                                {({ open }) => (
+                                    <>
+                                        <Popover.Button
+                                            className=
+                                                'group text-credmarkpurple rounded-md inline-flex items-center text-base pt-5'
+                                            
+                                        >
+                                            <span>Projects</span>
+                                            <ChevronDownIcon
+                                                className={classNames(
+                                                    open ? 'text-credmarkpurple' : 'text-credmarkpurple',
+                                                    'ml-2 h-5 w-5'
+                                                )}
+                                                aria-hidden="true"
+                                            />
+                                        </Popover.Button>
+
+                                        <Transition
+                                            as={Fragment}
+                              
+                                        >
+                                            <Popover.Panel>
+                                                <div className="overflow-hidden">
+                                                    <div className="relative grid gap-6 px-5 py-6 sm:gap-8 sm:p-8">
+                                                        {projects.map((item) => (
+                                                            <a
+                                                                key={item.name}
+                                                                href={item.href}
+                                                                className="-m-3 p-3 flex items-start rounded-lg text-credmarkpurple"
+                                                            >
+                                                                <div className="ml-4">
+                                                                    <p className="text-base font-medium text-credmarkpurple">{item.name}</p>
+                                                                </div>
+                                                            </a>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            </Popover.Panel>
+                                        </Transition>
+                                    </>
+                                )}
+                            </Popover>
                             </div>
                         </div>
                     </Popover.Panel>

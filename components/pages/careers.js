@@ -12,9 +12,8 @@ export default function Careers() {
             <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none">
                 <div className="blogGradient">
                     <CareerHeader
-                        title="Build the Future of DeFi With us"
-                        description="Our mission is to de-risk the  DeFi industry to enable users to make better informed investment decisions."
-                        descriptionTwo="We believe the key to mainstream adoption lies in reducing risk for users"
+                        title="Build the Future of Finance Together"
+                        description="Our mission is to bring credibility and accountability to DeFi"
                         button="Join us"
                     />
                     <CareerTilesLive />
@@ -66,29 +65,29 @@ export default function Careers() {
                                     </div>
                                     <div className="flex-1 min-w-0">
                                         <span className="absolute inset-0" aria-hidden="true" />
-                                        <p className="text-2xl font-light text-white ml-2">Curate crypto data</p>
+                                        <p className="text-2xl font-light text-white ml-2">Make reliable data accessible</p>
                                     </div>
                                 </div>
                                 <div
                                     className="relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                                 >
                                     <div className="flex-shrink-0">
-                                        <img src="../assets/research.svg" alt="Publish industry leading research" />
+                                        <img src="../assets/research.svg" alt="Provide data-driven insights" />
                                     </div>
                                     <div className="flex-1 min-w-0">
                                         <span className="absolute inset-0" aria-hidden="true" />
-                                        <p className="text-2xl font-light text-white ml-2">Publish industry leading research</p>
+                                        <p className="text-2xl font-light text-white ml-2">Provide data-driven insights</p>
                                     </div>
                                 </div>
                                 <div
                                     className="relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                                 >
                                     <div className="flex-shrink-0">
-                                        <img src="../assets/risk-management.svg" alt="Develop risk management tools" />
+                                        <img src="../assets/risk-management.svg" alt="Develop battle-tested models" />
                                     </div>
                                     <div className="flex-1 min-w-0">
                                         <span className="absolute inset-0" aria-hidden="true" />
-                                        <p className="text-2xl font-light text-white ml-2">Develop risk management tools</p>
+                                        <p className="text-2xl font-light text-white ml-2">Develop battle-tested models</p>
                                     </div>
                                 </div>
                             </div>
