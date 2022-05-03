@@ -545,14 +545,15 @@ li {
 }
 
 .text {
-  position: absolute;
-  top: 160px;
-  left: 84px;
-  font-family: 'Roboto', sans-serif;
+  position: relative;
+  line-height: 1.15 !important;
+  /* top: 160px;
+  left: 84px; */
+  /* font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 72px;
   color: white;
-  text-shadow: 0px 0px 8px rgba(59, 0, 101, 0.5);
+  text-shadow: 0px 0px 8px rgba(59, 0, 101, 0.5); */
 }
 
 .borderstuff {
@@ -575,9 +576,9 @@ li {
   }
 
   .text {
-    left: 40px;
+    /* left: 40px;
     top: 80px;
-    font-size: 48px;
+    font-size: 48px; */
   }
 }
 

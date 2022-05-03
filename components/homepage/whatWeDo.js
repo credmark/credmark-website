@@ -9,7 +9,7 @@ export default function WhatWeDo() {
                     <div className="grid grid-cols-1 md:grid-cols-3">
                         <div className="bg-white p-8 my-5 md:my-0 mx-5 rounded-md shadow-sm cursor-pointer">
                             <h3 className="font-bold text-black text-3xl">
-                                Crowdsourced Insights
+                                Reliable Data
                             </h3>
                             <p className="text-base font-normal leading-7 pt-3 hover:text-credmarkpurple">
                             Complete on-chain data coverage with verifiable state and ledger data used to power financial models, DeFi analytics, and dApps
@@ -17,7 +17,7 @@ export default function WhatWeDo() {
                         </div>
                         <div className="bg-white p-8 my-5 md:my-0 mx-5 rounded-md shadow-sm cursor-pointer">
                             <h3 className="font-bold text-black text-3xl">
-                                Original Research
+                                Crowdsourced Insights
                             </h3>
                             <p className="text-base font-normal leading-7 pt-3 pb-7">
                             Collective research and insights designed to help modelers understand DeFi protocols and build models with best practices

@@ -12,10 +12,12 @@ import Nav from '../layout/nav'
 import Stats from '../homepage/stats'
 import ToolsMobile from '../homepage/toolsMobile'
 
+import DotAnimation from "../layout/dotsHeader"
+
 export default function Homepage() {
     return (
         <>
-            <div>
+            {/* <div>
                 <div className="bg-credmarkpurple w-screen" >
                     <Nav />
                     <h1 className="px-4 md:px-0 text-white text-5xl lg:text-7xl pt-40 md:pt-56 max-w-7xl block mx-auto leading-snug">
@@ -50,7 +52,13 @@ export default function Homepage() {
                         </div>
                     </div>
                 </div>
+            </div> */}
+            <div className="py-2 bg-black text-center relative">
+                <div>
+                    <a href="https://github.com/credmark/credmark-models-py/blob/main/README.md" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap courier"><span className="float-left pr-3">The Credmark Model Framework is now in Open Beta! | Start building DeFi models in python with reliable crypto data</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>
+                </div>
             </div>
+            <DotAnimation />
             <Stats />
             <WhatWeDo />
             <Community />

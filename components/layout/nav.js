@@ -62,14 +62,9 @@ function classNames(...classes) {
 export default function Nav() {
     return (
         <>
-            <div className="py-2 bg-black text-center">
-                <div>
-                    <a href="https://github.com/credmark/credmark-models-py/blob/main/README.md" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap courier"><span className="float-left pr-3">The Credmark Model Framework is now in Open Beta! | Start building DeFi models in python with reliable crypto data</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>
-                </div>
-            </div>
             <Popover className="relative">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6">
-                    <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
+                <div className="max-w-full mx-auto px-4 sm:px-6">
+                    <div className="flex justify-between items-center py-2.5 md:justify-start md:space-x-10">
                         <div className="flex justify-start lg:w-0 lg:flex-1">
                             <Link href="/">
                                 <a>
