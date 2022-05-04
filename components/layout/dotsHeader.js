@@ -147,6 +147,7 @@ function DotAnimation() {
   // number of frames between letters removed when string is animating
   const STRING_ADD_RATE = 4;
   const STRING_REMOVE_RATE = 3;
+  const FLASHING_CURSOR_FRAMES = 30;
 
   // ALPHA changes the intensity of the easing animation function
   const ALPHA = 1;
@@ -630,7 +631,7 @@ function DotAnimation() {
         displayLen = currentFrame / STRING_ADD_RATE;
       }
 
-      textRef.current.innerHTML = currentString.slice(0, displayLen) + ((currentFrame%60 < 30)  || (displayLen < currentString.length) ? '|' : '');
+      textRef.current.innerHTML = currentString.slice(0, displayLen) + ((currentFrame%(FLASHING_CURSOR_FRAMES*2) < FLASHING_CURSOR_FRAMES)  || (displayLen < currentString.length) ? '|' : '');
 
       //next frame
       //   window.requestAnimationFrame(moveDot);
