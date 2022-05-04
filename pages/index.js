@@ -24,6 +24,7 @@ export default function Home({data}) {
                 </div>
             </div>
             <DotAnimation />
+            {/*
             <div className="py-5 bg-black">
                 <div className="bg-black">
                     <dl className="rounded-lg bg-black shadow-lg sm:grid sm:grid-cols-3">
@@ -42,6 +43,7 @@ export default function Home({data}) {
                     </dl>
                 </div>
             </div>
+            */}
             <WhatWeDo />
             <Community />
             <div className="hidden lg:block">
