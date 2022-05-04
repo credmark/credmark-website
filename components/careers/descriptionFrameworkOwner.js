@@ -7,7 +7,7 @@ const DescriptionFrameworkDev = (props) => {
             <div className="header-bg py-20">
                 <div className="max-w-6xl px-5 block m-auto">
                     <h1 className="text-white font-base text-5xl font-bold md:text-7xl py-5">{props.title}</h1>
-                    <div className="flex">
+                    <div className="flex flex-wrap">
                         <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-6 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
                             <div className="flex">
                                 <img src="../assets/stars.svg" alt="Curate crypto data" />
@@ -18,7 +18,7 @@ const DescriptionFrameworkDev = (props) => {
                             </div>
                         </div>
                         <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-6 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
-                            <div className="flex">
+                            <div className="flex flex">
                                 <img src="../assets/world.svg" alt="Curate crypto data" />
                                 <p className="text-base font-bold text-white ml-2">Location</p>
                             </div>

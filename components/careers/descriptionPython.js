@@ -7,7 +7,7 @@ const DescriptionPython = (props) => {
            <div className="header-bg py-20">
                 <div className="max-w-6xl px-5 block m-auto">
                     <h1 className="text-white font-base text-5xl md:text-7xl py-5">{props.title}</h1>
-                    <div className="flex">
+                    <div className="flex flex-wrap">
                         <div className="grid relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-6">
                             <div className="flex">
                                 <img src="../assets/stars.svg" alt="Curate crypto data" />

@@ -29,11 +29,11 @@ export default function Home({data}) {
                     <dl className="rounded-lg bg-black shadow-lg sm:grid sm:grid-cols-3">
                         <div className="flex flex-col text-center statBorder">
                             <dt className="mt-2 text-xs leading-6 text-white courier">Token Price</dt>
-                            <dd className="text-2xl text-white py-2">{data["data"][0]["usdc_price"]}</dd>
+                            <dd className="text-2xl text-white py-2">${data["data"][0]["usdc_price"]}</dd>
                         </div>
                         <div className="flex flex-col text-center statBorder">
                             <dt className="mt-2 text-xs leading-6 text-white courier">Market Cap</dt>
-                            <dd className="text-2xl text-white py-2">{data["data"][0]["market_cap_usdc"]}</dd>
+                            <dd className="text-2xl text-white py-2">${data["data"][0]["market_cap_usdc"]}</dd>
                         </div>
                         <div className="flex flex-col text-center">
                             <dt className="mt-2 text-xs leading-6 text-white courier">Circulating Supply</dt>

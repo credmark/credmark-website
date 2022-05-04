@@ -229,6 +229,12 @@ margin-left: -150px;
   border-right: 2px white solid;
 }
 
+@media only screen and (max-width: 600px) {
+  .statBorder {
+    border-right: 0px transparent solid;
+  }
+}
+
 .riskTerminalTool {
   margin-right: auto; 
 }
