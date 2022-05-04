@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Nav from '../../components/layout/nav'
 import CareerDescription from '../../components/pages/senior-cloud-architect'
 
 export default function SeniorCloudArchitectPage() {
@@ -31,8 +30,7 @@ export default function SeniorCloudArchitectPage() {
       </Head>
 
       <div className="nav">
-        <Nav
-          page={<CareerDescription />} />
+        <CareerDescription />
       </div>
     </>
   )

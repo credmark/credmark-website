@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Reports from '../components/pages/reports'
-import Nav from '../components/layout/nav'
 
 
 export default function ReportsPage() {
@@ -32,8 +31,7 @@ export default function ReportsPage() {
       </Head>
 
       <div className="nav">
-        <Nav
-          page={<Reports/>} />
+        <Reports/>
       </div>
     </>
   )

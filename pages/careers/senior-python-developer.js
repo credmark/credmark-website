@@ -31,8 +31,7 @@ export default function SeniorPythonDeveloperPage() {
       </Head>
 
       <div className="nav">
-        <Nav
-          page={<CareerDescription />} />
+        <CareerDescription />
       </div>
     </>
   )

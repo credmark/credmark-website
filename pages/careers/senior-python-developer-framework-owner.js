@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Nav from '../../components/layout/nav'
 import CareerDescription from '../../components/pages/senior-python-developer-framework-owner'
 
 export default function SeniorPythonDeveloperFrameworkOwnerPage() {
@@ -31,8 +30,7 @@ export default function SeniorPythonDeveloperFrameworkOwnerPage() {
       </Head>
 
       <div className="nav">
-        <Nav
-          page={<CareerDescription />} />
+        <CareerDescription />
       </div>
     </>
   )

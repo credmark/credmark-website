@@ -41,10 +41,10 @@ const DescriptionFrontend = (props) => {
                     </div>
                 </div>
                 <div className="max-w-3xl block m-auto px-5">
-                <h3 className="credmark text-3xl pt-16">Job Summary</h3>
+                <h3 className="text-black font-bold text-3xl pt-16">Job Summary</h3>
                 <p className="text-black">{props.summary}</p>
                 <p className="text-black">{props.summaryTwo}</p>
-                    <h3 className="credmark text-3xl pt-16">The Ideal Candidate</h3>
+                    <h3 className="text-black font-bold text-3xl pt-16">The Ideal Candidate</h3>
                     <ul>
                     <li className="text-black">{props.skills}</li>
                         <li className="text-black">{props.skillsOne}</li>
@@ -57,7 +57,7 @@ const DescriptionFrontend = (props) => {
                         <li className="text-black">{props.skillsEight}</li>
                         <li className="text-black">{props.skillsNine}</li>
                     </ul>
-                    <h3 className="credmark text-3xl pt-16">About the team</h3>
+                    <h3 className="text-black font-bold text-3xl pt-16">About the team</h3>
                     <p className="text-black">
                         Credmark aims to provide high integrity data and risk metrics through a transparent, community-driven platform. By leveraging our community, we provide transparent models and data that can be used to make better investment decisions. Our goal is to be both a credible resource in the crypto community and a creator of useful tools & products inside and outside of crypto.
                         <br />

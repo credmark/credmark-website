@@ -38,8 +38,7 @@ export default function Home({posts: initialPosts}) {
       </Head>
 
       <div className="nav">
-      <Nav
-                page={<Media posts={posts} />} />
+        <Media posts={posts} />
       </div>
     </>
   )

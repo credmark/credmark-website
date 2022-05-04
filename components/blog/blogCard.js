@@ -9,16 +9,16 @@ const BlogCard = (props) => {
                         <img
                             alt={props.alt}
                             src={props.img}
-                            className='mx-auto block object-cover rounded-md w-auto h-52 flex justify-center cursor-pointer mb-5'
-                            id="blogPage"
+                            className='object-cover	w-full h-52 flex justify-center cursor-pointer rounded-t-md'
+                            
                         />
                     </Link>
-                    <div className="pl-5 font-light pb-10">
-                        <p className="text-credmarkpurple">{props.date}</p>
+                    <div className="px-5 font-light pb-3 bg-white shadow-md rounded-b-md">
+                        <p className="text-xs text-black font-bold pt-6">{props.date}</p>
                         <Link href={`/blog/${props.slug}`}>
-                        <p className="text-credmarkpurple credmark cursor-pointer text-xl">{props.title}</p>
+                        <p className="cursor-pointer text-black text-3xl font-medium pb-2">{props.title}</p>
                         </Link>
-                        <p className="text-credmarkpurple">by {props.author}</p>
+                        <p className="cursor-pointer text-black text-sm flex pb-6">{props.author}</p>
                     </div>
                 </div>
         </>

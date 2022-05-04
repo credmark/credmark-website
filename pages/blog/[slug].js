@@ -3,10 +3,12 @@ import { getBlogBySlug, getAllPosts } from '../../lib/api';
 import BlockContent from '@sanity/block-content-to-react';
 import sanity from '../../lib/sanity';
 
-import Nav from '../../components/layout/nav'
+import Nav from '../../components/layout/navBlog'
 import Link from 'next/link'
 import Head from 'next/head'
 import moment from 'moment'
+import Subscribe from '../../components/subscribe/subscribe';
+import Footer from '../../components/layout/footer'
 import React from 'react';
 
 
@@ -66,7 +68,7 @@ export default function BlogPostPage({ post }) {
                 />
             </Head>
             <div className="nav">
-                <Nav page={<BlogDetail post={post} />} />
+                <BlogDetail post={post} />
             </div>
         </>
     )
@@ -81,42 +83,40 @@ const BlogDetail = ({ post }) => {
         setTimeout(() => setShowCopyModal(false), 2000);
     }, []);
     return (
-        <div className="bg-white pb-10 max-w-3xl mx-auto">
+        <>
+        <Nav />
+        <div className="bg-white pb-10 max-w-3xl mx-auto px-5 md:px-0">
             <div>
-                <h1 className="leading-snug pt-20 text-5xl pb-5 px-5 text-center">{post.title}</h1>
-                <h3 className="leading-snug text-3xl pb-5 px-5 md:px-20 text-center">{post.subtitle}</h3>
-                <div className="flex justify-center px-5 md:px-20">
+                <h1 className="leading-snug text-black pt-10 md:pt-20 text-5xl pb-5">{post.title}</h1>
+                <h3 className="leading-snug text-black font-light text-3xl pb-5">{post.subtitle}</h3>
+                <div className="flex">
                     <div>
-                        <p className="text-pink credmark text-base float-left pb-5">{post.author}</p>
-                        <svg className="mx-4 float-left" width="2" height="30" viewBox="0 0 2 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="2" height="30" fill="#DE1A60" />
+                        <p className="text-credmarkpurple text-base float-left pb-5">{post.author}</p>
+                        <svg className="mx-4 float-left mt-2" width="2" height="15" viewBox="0 0 2 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="2" height="15" fill="#3B0065" />
                         </svg>
-                        <p className="text-pink credmark text-base float-left">{moment(post.date).format('MM.DD.YYYY')}</p>
+                        <p className="text-credmarkpurple text-base float-left">{moment(post.date).format('MM.DD.YYYY')}</p>
                     </div>
                 </div>
-                <img className="px-5 mb-10" id="blogPage" src={post.mainImage} />
+                <img className="mb-10" id="blogPage" src={post.mainImage} />
                 <BlockContent
-                    className="border-box px-5 mx-5 border-2 rounded-md border-gray-300"
+                    className="border-box border-2 rounded-md border-gray-300"
                     serializers={serializers}
                     blocks={post.border}
-                    {...sanity.config()} 
-                />
+                    {...sanity.config()} />
                 <BlockContent
-                    className="blog sanity-block text-left leading-loose px-5"
+                    className="blog sanity-block text-left leading-loose"
                     serializers={serializers}
                     blocks={post.content}
-                    {...sanity.config()}
-                />
+                    {...sanity.config()} />
                 <span onClick={doCopy}>
-                    <img className="px-5 flex m-5 cursor-pointer" id="blogPage" src="../assets/link.svg" alt="copy to clipboard" />
+                    <img className="pt-5 flex cursor-pointer" id="blogPage" src="../assets/link.svg" alt="copy to clipboard" />
                 </span>
-                <div className="flex">
-                    <Link href="/blog" rel="noreferrer">
-                        <p className="cursor-pointer font-bold pt-10 pb-5 px-5 text-credmarkpurple">Back to blog<img width={40} className="float-right pt-2 pl-5" src="../assets/arrow-right-2.svg" /></p>
-                    </Link>
-                </div>
             </div>
         </div>
+        <Subscribe />
+        <Footer />
+        </>
     )
 }
 

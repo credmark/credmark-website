@@ -45,15 +45,15 @@ function classNames(...classes) {
 export default function QuestionsPlatforms() {
   return (
     <div>
-      <div className="max-w-7xl mx-auto py-12 sm:py-16 sm:px-6 lg:px-0">
+      <div className="max-w-7xl mx-auto pt-3">
           <dl className="space-y-6 divide-y divide-gray-200">
             {faqs.map((faq) => (
-              <Disclosure as="div" key={faq.question} className="text-black border-2 border-gray rounded-lg bg-gray-50 p-5">
+              <Disclosure as="div" key={faq.question} className="text-black rounded-lg bg-white px-6 py-4">
                 {({ open }) => (
                   <>
                     <dt className="text-lg">
                       <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                        <span className="font-medium text-black">{faq.question}</span>
+                        <span className="font-light text-black">{faq.question}</span>
                         <span className="ml-6 h-7 flex items-center">
                           <ChevronDownIcon
                             className={classNames(open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform')}
@@ -63,7 +63,7 @@ export default function QuestionsPlatforms() {
                       </Disclosure.Button>
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base text-black">{faq.answer}</p>
+                      <p className="text-base leading-7">{faq.answer}</p>
                     </Disclosure.Panel>
                   </>
                 )}
@@ -72,12 +72,12 @@ export default function QuestionsPlatforms() {
           </dl>
           <dl className="space-y-6 divide-y divide-gray-200 mt-8">
             {faqsList.map((faqList) => (
-              <Disclosure as="div" key={faqList.question} className="border-2 border-gray rounded-lg bg-gray-50 p-5">
+              <Disclosure as="div" key={faqList.question} className="text-black rounded-lg bg-white px-6 py-4">
                 {({ open }) => (
                   <>
                     <dt className="text-lg">
                       <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                        <span className="font-medium text-gray-900">{faqList.question}</span>
+                        <span className="font-light text-black">{faqList.question}</span>
                         <span className="ml-6 h-7 flex items-center">
                           <ChevronDownIcon
                             className={classNames(open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform')}
@@ -87,11 +87,11 @@ export default function QuestionsPlatforms() {
                       </Disclosure.Button>
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base text-black">{faqList.answer}</p>
+                      <p className="text-base leading-7">{faqList.answer}</p>
                       <ul>
-                      <li className="text-base text-black">{faqList.answerOne}</li>
-                      <li className="text-base text-black">{faqList.answerTwo}</li>
-                      <li className="text-base text-black">{faqList.answerThree}</li>
+                      <li className="text-base leading-7">{faqList.answerOne}</li>
+                      <li className="text-base leading-7">{faqList.answerTwo}</li>
+                      <li className="text-base leading-7">{faqList.answerThree}</li>
                       </ul>
                     </Disclosure.Panel>
                   </>

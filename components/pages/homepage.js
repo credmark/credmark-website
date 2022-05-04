@@ -1,163 +1,82 @@
 import Link from 'next/link'
 import HeaderHome from "../layout/headerHome"
+import Tools from "../homepage/tools"
 import Subscribe from '../subscribe/subscribe'
 import Footer from '../layout/footer'
 import React, { useState } from "react";
 import items from "../../styles/homeReportsData"
+import WhatWeDo from '../homepage/whatWeDo'
+import Community from '../homepage/community'
+import TypeAnimation from 'react-type-animation';
+import Nav from '../layout/nav'
+import ToolsMobile from '../homepage/toolsMobile'
 
-const allCategories = ['All', ...items.map(item => item.category)];
+import DotAnimation from "../layout/dotsHeader"
 
 export default function Homepage() {
-    const [menuItem, setMenuItem] = useState(items);
-    const [buttons, setButtons] = useState([allCategories]);
-
-    const filter = (button) => {
-
-        if (button === 'All') {
-            setMenuItem(items);
-            return;
-        }
-
-        const filteredData = items.filter(item => item.category === button);
-        setMenuItem(filteredData)
-    }
-
     return (
         <>
-            <div>
-                <HeaderHome
-                    title="Where DeFi Builds Financial Models"
-                    description="Credmark is a financial modeling platform powered by reliable on-chain data. 
-                    Validated models are readily composable making rapid app development simple."
-                    url="#what-is-credmark" />
-            </div>
-            <div>
-            </div>
-            <div className="whatIsBg">
-                <div className="max-w-7xl block m-auto">
-                    <div className="px-5">
-                        <div className="text-center">
-                            <h3 id="what-is-credmark" className="roboto font-extrabold text-5xl md:text-4xl pt-32 md:pt-40 xl:pt-60 2xl:pt-96">
-                                WHAT IS CREDMARK?
-                            </h3>
-
-                        </div>
-                        <div className="max-w-4xl pb-7 block m-auto">
-                            <p className="text-credmarkpurple pt-5 text-center text-base">Credmark is a decentralized project that connects model creators,
-                                validators, data consumers and protocol govenors.</p>
-                            <p className="text-credmarkpurple text-center text-base">Our community participates in governance, provides research, and develops models.</p>
-                        </div>
-                        <div className="max-w-4xl block m-auto pb-16">
-                            <img alt="What is Credmark graph" className="hidden md:flex block m-auto" src="/assets/what-is-credmark.png" />
-                            <img alt="What is Credmark graph" className="flex md:hidden block m-auto" src="/assets/what-is-credmark-mobile.png" />
+            {/* <div>
+                <div className="bg-credmarkpurple w-screen" >
+                    <Nav />
+                    <h1 className="px-4 md:px-0 text-white text-5xl lg:text-7xl pt-40 md:pt-56 max-w-7xl block mx-auto leading-snug">
+                        <TypeAnimation
+                            cursor={true}
+                            className="text-green text-5xl lg:text-7xl leading-snug"
+                            sequence={[
+                                'Reliable Data', 2000, 'Crowdsourced Insights', 2000, 'Battle-Tested Models', 2000,
+                            ]}
+                            wrapper="h2"
+                            repeat={Infinity}
+                        />
+                        By the Community,<br />For Everyone</h1>
+                    <div className="max-w-7xl block mx-auto">
+                        <div className="flex flex-wrap pb-52 pt-6">
+                            <button
+                                type="button"
+                                className="w-36 mx-2 mt-7 text-white bg-green mt-5 px-2 py-2 shadow-sm text-sm font-medium rounded-md"
+                            >
+                                <Link href="https://app.credmark.com/">
+                                    <p>Get Started</p>
+                                </Link>
+                            </button>
+                            <button
+                                type="button"
+                                className="w-36 mx-2 mt-7 text-white mt-5 px-2 py-2 shadow-sm text-sm font-medium rounded-md border-2 border-solid border-white hover:text-white hover:bg-credmarkpurple"
+                            >
+                                <Link href="https://docs.credmark.com/credmark/">
+                                    <p className="text-white">How it Works</p>
+                                </Link>
+                            </button>
                         </div>
                     </div>
                 </div>
+            </div> */}
+            <div className="py-2 bg-black text-center relative">
                 <div>
-                    <div className="max-w-7xl block m-auto">
-                        <div className="px-5">
-                            <div className="grid grid-cols-1 lg:grid-cols-3 pt-16 px-5 md:px-20">
-                                <div className="col-span-1 md:px-10 md:pt-2">
-                                    <h3 className="roboto text-center font-semibold text-3xl pb-5">Driving credibility with transparent methodologies and reliable data</h3>
-                                    <div className="border-b-1 border-lightpurple block m-auto md:m-auto space-x-5 md:space-x-20 w-16" />
-                                    <p className="text-center text-lightpurple pt-5 font-semibold pb-10">Access data, gain insights and iterate models with the help of a community of quants, developers, and data scientists.</p>
-                                </div>
-                                <div className="col-span-2 pl-10">
-                                    <img alt="How Credmark Works" className="hidden md:flex" src="/assets/how-credmark-works.png" />
-                                </div>
-                                <div className="max-w-4xl block m-auto pb-16">
-                                    <img alt="How Credmark Works" className="flex md:hidden block m-auto" src="/assets/how-credmark-works-mobile.png" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <a href="https://github.com/credmark/credmark-models-py/blob/main/README.md" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap courier"><span className="float-left pr-3">The Credmark Model Framework is now in Open Beta! | Start building DeFi models in python with reliable crypto data</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>
                 </div>
             </div>
-            <div className="riskPlatform">
-                <div className="riskEncyclopedia rounded-xl max-w-7xl block py-16 mx-5 lg:m-auto">
-                    <h3 id="what-is-credmark" className="roboto uppercase text-center text-white font-extrabold text-4xl px-5">
-                        Credmark Platform
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-2 pt-14 px-10 md:px-20 block m-auto max-w-6xl">
-                        <div className="lg:pt-10">
-                            <p className="credmark text-2xl py-5 text-base text-white">Credmark Terminal</p>
-                            <p className="text-base text-white lg:pr-20">Visualize risk levels across different protocols with intuitive graphs to stay informed on solvency and liquidity risks.</p>
-                            <a href="https://app.credmark.com/" target="_blank" rel="noreferrer">
-                                <button
-                                    type="button"
-                                    className="transform hover:scale-110 px-5 uppercase mt-5 inline-flex items-center px-4 py-2 shadow-sm text-sm font-medium rounded-md text-white border-2 border-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                                >
-                                    APP
-                                </button>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://app.credmark.com/" target="_blank" rel="noreferrer"><img alt="Credmark Risk Terminal" className="mt-10 lg:my-0 md:h-96 block mx-auto" src="/assets/risk-terminal-two.png" /></a>
-                        </div>
-                    </div>
-                </div>
-                <div className="py-24 lg:py-48">
-                    <div className="grid grid-cols-1 md:grid-cols-2 px-5 md:px-20 block m-auto max-w-6xl">
-                        <div className="order-2 lg:order-1">
-                            <img alt="Staking CMK token" className="pt-10" src="/assets/cmktoken.svg" />
-                        </div>
-                        <div className="pl-5 md:pl-10 order-1 lg:order-2">
-                            <a href="https://coinmarketcap.com/currencies/credmark/" target="_blank" rel="noreferrer"><img alt="Staking CMK token" className="float-left mr-5" src="/assets/cmklogo.svg" /><p className="text-credmarkpurple credmark text-2xl text-base">$CMK Token</p></a>
-                            <p className="text-credmarkpurple text-base pt-5">Use your $CMK to access the Credmark Risk Terminal. How? Easy. Stake your $CMK to get $xCMK. Your $xCMK is your key to the Terminal. And, by the way, while your $CMK is staked, you’ll be earning interest. Win, win.</p>
-                            <div className="flex">
-                                <a href="https://app.sushi.com/swap" target="_blank" rel="noreferrer">
-                                    <button
-                                        type="button"
-                                        className="uppercase mr-5 transform hover:scale-110 mt-5 inline-flex items-center px-4 py-2 shadow-sm text-sm font-medium rounded-md text-white bg-credmarkpurple"
-                                    >
-                                        Buy CMK
-                                    </button>
-                                </a>
-                                <a href="https://app.credmark.com/?stake=true" target="_blank" rel="noreferrer">
-                                    <button
-                                        type="button"
-                                        className="uppercase mr-5 transform hover:scale-110 mt-5 inline-flex items-center px-4 py-2 shadow-sm text-sm font-medium rounded-md text-white bg-credmarkpurple"
-                                    >
-                                        Stake CMK
-                                    </button>
-                                </a>
-                            </div>
-                            <a href="https://docs.credmark.com/credmark-faq/staking" target="blank" rel="noreferrer"><p className="text-center md:text-left text-sm float-left pt-5">How to stake $CMK<img width={35} className="float-right pt-1 pl-4" alt="arrow right" src="../assets/arrow-right-2.svg" /></p></a>
-                        </div>
-                    </div>
-                </div>
-                <div className="riskLibrary rounded-xl max-w-7xl block py-16 mx-5 lg:m-auto">
-                    <div className="grid grid-cols-1 md:grid-cols-2 md:py-10 px-5 md:px-20 block m-auto max-w-6xl">
-                        <div>
-                            <p className="credmark text-2xl text-white py-5 text-base md:pt-10">Credmark Wiki</p>
-                            <p className="text-white pt-5 text-base">Discover protocol research methodologies and DeFi modeling best practices.</p>
-                            <a href="https://docs.credmark.com/credmark-risk-library/" target="_blank" rel="noreferrer">
-                                <button
-                                    type="button"
-                                    className="border-2 border-white uppercase my-5 inline-flex items-center px-7 py-2 mb-10 shadow-sm text-sm font-medium rounded-md text-white hover:bg-white hover:text-credmarkpurple"
-                                >
-                                    Open Wiki
-                                </button>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://docs.credmark.com/credmark-risk-library/" target="_blank" rel="noreferrer"><img alt="Credmark Credmark Wiki" className="block mx-auto" src="/assets/risk-library.svg" /></a>
-                        </div>
-                    </div>
-                </div>
+            <DotAnimation />
+            <WhatWeDo />
+            <Community />
+            <div className="hidden lg:block">
+                <Tools />
             </div>
-
-            <div className="roadmap py-24 rounded-xl ">
-                <div className="rounded-xl max-w-7xl block py-16 mx-5 lg:m-auto innerRoadmap">
-                    <h3 className="text-white text-center md:pt-28 roboto font-bold text-4xl uppercase pb-20">Credmark Roadmap</h3>
+            <div className="block lg:hidden">
+                <ToolsMobile />
+            </div>
+            <div>
+                <div className="py-16 lg:m-auto innerRoadmap">
+                    <h3 className="mx-5 text-white text-center md:pt-28 roboto font-bold text-4xl pb-20">Credmark Roadmap</h3>
                     <img alt="Credmark product roadmap" className="hidden md:block m-auto max-w-2xl pb-28" src="/assets/credmark-roadmap.png" />
-                    <img alt="Credmark product roadmap" className="block md:hidden m-auto pb-14 px-2" src="/assets/mobile-roadmap.png" />
+                    <img alt="Credmark product roadmap" className="block md:hidden px-4" src="/assets/mobile-roadmap.png" />
                 </div>
             </div>
             <div>
-                <div className="px-5 py-10 md:pt-20 md:pb-10">
+                <div className="px-5 py-10 md:pt-28">
                     <strong>
-                        <h2 className="roboto max-w-7xl block m-auto font-extrabold text-center text-5xl md:text-4xl">
+                        <h2 className="pb-10 roboto max-w-7xl block m-auto font-extrabold text-center text-5xl md:text-4xl">
                             PARTNERS
                         </h2>
                     </strong>
@@ -165,14 +84,14 @@ export default function Homepage() {
                 <div className="max-w-4xl block m-auto">
                     <div className="grid grid-cols-1 m-auto block md:grid-cols-3 px-5 pb-0 md:pb-10">
                         <a href="https://dlab.vc/" target="_blank" rel="noreferrer"><img className="py-5 block mx-auto" width={150} src="../assets/dlab-logo.svg" alt="DLAB logo" /></a>
-                        <a href="https://www.longhash.com/en" target="_blank" rel="noreferrer"><img className="py-5 md:py-10 block mx-auto" width={150} src="../assets/longhash-logo.svg" alt="Long Hash Ventures logo" /></a>
-                        <a href="https://api3.org/" target="_blank" rel="noreferrer"><img className="py-5 md:py-10 block mx-auto" width={150} src="../assets/API3-logo.svg" alt="API3 logo" /></a>
+                        <a href="https://www.longhash.com/en" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-10" width={150} src="../assets/longhash-logo.svg" alt="Long Hash Ventures logo" /></a>
+                        <a href="https://api3.org/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-10" width={150} src="../assets/API3-logo.svg" alt="API3 logo" /></a>
                     </div>
                     <div className="grid grid-cols-1 m-auto block md:grid-cols-4 px-5 pb-10 md:pb-20 md:px-0">
-                        <a href="https://steadystate.finance/" target="_blank" rel="noreferrer"><img className="py-5 block mx-auto" width={200} src="../assets/steady-state-logo.svg" alt="Steady State logo" /></a>
-                        <a href="https://coinshift.xyz/" target="_blank" rel="noreferrer"><img className="py-5 block mx-auto" width={150} src="../assets/Coinshift.svg" alt="Coinshift logo" /></a>
-                        <a href="https://www.yield.app/" target="_blank" rel="noreferrer"><img className="py-5 block mx-auto" width={150} src="../assets/yieldapp-logo.svg" alt="Yield App logo" /></a>
-                        <a href="https://www.alchemist.wtf/" target="_blank" rel="noreferrer"><img className="py-5 block mx-auto" width={180} src="../assets/alchemist.svg" alt="Alchemist logo" /></a>
+                        <a href="https://steadystate.finance/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={200} src="../assets/steady-state-logo.svg" alt="Steady State logo" /></a>
+                        <a href="https://coinshift.xyz/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={150} src="../assets/Coinshift.svg" alt="Coinshift logo" /></a>
+                        <a href="https://www.yield.app/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={150} src="../assets/yieldapp-logo.svg" alt="Yield App logo" /></a>
+                        <a href="https://www.alchemist.wtf/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={180} src="../assets/alchemist.svg" alt="Alchemist logo" /></a>
                     </div>
                 </div>
             </div>

@@ -27,13 +27,13 @@ export default function Reports() {
 
     return (
         <>
-            <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none rounded-md bg-white">
+            <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none rounded-md advisorBg">
                 <div className="blogGradient rounded-md">
                     <Header
                         title="Reports"
                         description="Check out the latest and historical reports regarding risk in the DeFi industry" />
                          <ReportsButton button={buttons} filter={filter} /> 
-                    <div className="px-5 md:px-0 py-10 max-w-5xl block m-auto">
+                    <div className="px-5 md:px-0 py-10 pb-20 md:pb-40 max-w-5xl block m-auto">
                         <ReportsMenu menuItem={menuItem} />
                     </div>
                     <Subscribe />

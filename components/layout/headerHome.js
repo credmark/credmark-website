@@ -1,9 +1,11 @@
 import * as React from 'react';
+import Nav from './nav';
 
 const HeaderHome = (props) => {
     return (
         <>
             <div className="header-bg pt-20 pb-20 md:pb-40">
+                <Nav />
                 <div className="max-w-6xl px-5 block m-auto">
                     <strong><h1 className="text-5xl py-5">{props.title}</h1></strong>
                     <h2 className="roboto text-black text-lg font-normal max-w-2xl">{props.description}</h2>
@@ -15,10 +17,6 @@ const HeaderHome = (props) => {
                             Learn more
                         </button>
                     </a>
-
-                </div>
-                <div className="swirls">
-                    <img className="absolute" src="/assets/swirls-transparent.png" alt="colored swirls" />
                 </div>
             </div>
         </>

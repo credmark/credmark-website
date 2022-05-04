@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
 /* ./styles/globals.css */
 @tailwind base;
@@ -13,11 +16,16 @@
 }
 
 
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto';
+}
+
+.courier {
+  font-family: 'Courier New';
 }
 
 a {
@@ -73,7 +81,7 @@ h1{
 
 .sanity-block p {
   @apply text-lg;
-  @apply font-light;
+  @apply font-normal;
   @apply leading-8;
   padding-top: 13px;
 }
@@ -85,37 +93,33 @@ h1{
 }
 
 .sanity-block h1 {
-  font-family: 'Credmark';
-  @apply text-credmarkpurple;
-  @apply text-2xl;
-  @apply font-light;
+  @apply text-3xl;
+  @apply font-bold;
+  @apply text-black;
   @apply pt-10;
   @apply pb-2;
 }
 
 .sanity-block h2 {
-  font-family: 'Credmark';
-  @apply text-credmarkpurple;
-  @apply text-2xl;
-  @apply font-light;
+  @apply text-3xl;
+  @apply font-bold;
+  @apply text-black;
   @apply pt-10;
   @apply pb-2;
 }
 
 .sanity-block h3 {
-  font-family: 'Credmark';
-  @apply text-credmarkpurple;
-  @apply text-2xl;
-  @apply font-light;
+  @apply text-3xl;
+  @apply text-black;
+  @apply font-bold;
   @apply pt-10;
   @apply pb-2;
 }
 
 .sanity-block h4 {
-  font-family: 'Credmark';
-  @apply text-credmarkpurple;
-  @apply text-2xl;
-  @apply font-light;
+  @apply text-3xl;
+  @apply text-black;
+  @apply font-bold;
   @apply pt-10;
   @apply pb-2;
 }
@@ -216,6 +220,37 @@ h1{
   @apply font-medium;
 }
 
+.box-shadow {
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+margin-left: -150px;
+}
+
+.statBorder {
+  border-right: 2px white solid;
+}
+
+@media only screen and (max-width: 600px) {
+  .statBorder {
+    border-right: 0px transparent solid;
+  }
+}
+
+.riskTerminalTool {
+  margin-right: auto; 
+}
+
+.riskTerminalToolTwo {
+  margin-left: auto; 
+}
+
+.homepage-bg {
+  background-color: #E5E5E5;
+}
+
+.advisorBg {
+  background-color: #F4F4F6;
+}
+
 .credmark {
   font-family: 'Credmark';
 }
@@ -250,12 +285,9 @@ h1{
 
 /* Gradient backgrounds */ 
 
-.cta-bg {
-  background: linear-gradient(90deg, #E93173 0%, #238DCE 100%);
-}
 
 .header-bg {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 193, 219, 0.5));
+  background: radial-gradient(100% 150.03% at 0% 0%, rgba(0, 214, 150, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #3B0065;;
 }
 
 .whatIsBg {
@@ -265,10 +297,6 @@ h1{
 .riskPlatform {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(218, 193, 232, 0.5) 10.94%, rgba(255, 255, 255, 0.5) 24.48%, rgba(243, 222, 255, 0.5) 31.77%, rgba(248, 186, 209, 0.5) 45.31%, rgba(255, 193, 219, 0.125) 62.5%, rgba(255, 227, 239, 0.330645) 70.83%, rgba(255, 255, 255, 0.5) 79.69%);
 
-}
-
-.footerBg {
-  background: linear-gradient(180deg, rgba(255, 193, 219, 0.5) 0%, rgba(248, 186, 209, 0.25) 50.52%, rgba(255, 255, 255, 0.5) 100%);
 }
 
 .riskLibrary {
@@ -282,18 +310,11 @@ h1{
 }
 
 .roadmap {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(218, 193, 232, 0.5) 10.94%, rgba(255, 255, 255, 0.5) 24.48%, rgba(243, 222, 255, 0.5) 31.77%, rgba(248, 186, 209, 0.5) 45.31%, rgba(255, 193, 219, 0.125) 62.5%, rgba(255, 227, 239, 0.330645) 70.83%, rgba(255, 255, 255, 0.5) 79.69%);
+  background: radial-gradient(160.49% 96.31% at 50% 0%, rgba(0, 195, 137, 0.8) 0%, rgba(255, 255, 255, 0) 100%), #3B0065;
 }
 
 .innerRoadmap {
-  background: linear-gradient(180deg, #3F0561 0%, #005488 0.01%, #3F0561 100%);
-  border-radius: 20px;
-}
-
-.faqBackground{
-  background: url("/assets/purple-swirl.png");
-  background-repeat: no-repeat;
-  background-size: contain;
+  background: linear-gradient(180deg, #00C389 0.01%, #3B0065 100%);
 }
 
 .app-image {
@@ -311,10 +332,6 @@ h1{
 
 .riskLibrary {
   background: radial-gradient(100% 360% at 100% 100%, #FFFFFF 0%, #005488 44.79%, #001725 100%);
-}
-
-#blogPage{
-  border-radius: 15px;
 }
 
 svg.twitter:hover{
@@ -336,13 +353,20 @@ mono
 .bio-photo {
   border-radius:50%;
   display: block;
+  margin: auto;
   width: 100% !important;
   height: auto;
+  max-width: 240px;
+  max-height: 240px;
 }
 
 .img-hover {
   position: relative;
   width: 100%;
+  max-width: 240px;
+  max-height: 240px;
+  margin: auto;
+  display: block;
 }
 
 .overlay {
@@ -358,8 +382,26 @@ mono
   border-radius:50%;
 }
 
+.overlayAdvisors {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: #25A67F;
+  border-radius:50%;
+}
+
+
 .img-hover:hover .overlay {
   opacity: 0.2;
+}
+
+.img-hover:hover .overlayAdvisors {
+  opacity: 0.7;
 }
 
 .socialButtons {
@@ -373,13 +415,6 @@ mono
 
 
 /* Blog */
-
-h4{
-  font-family: 'Credmark';
-  font-size: 28px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
 
 p {
   padding-top: 5px;
@@ -486,3 +521,91 @@ li {
   }
 }
 
+
+.canvasContainer {
+  height: 100vh;
+  width: 100%;
+  max-height: 800px;
+  min-height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.dots {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+  max-height: 800px;
+  min-height: 600px;
+  min-width: 1000px;
+  background-color: #3b0065;
+}
+
+#changeText {
+  color: #00C389;
+}
+
+.text {
+  position: relative;
+  line-height: 1.15 !important;
+  /* top: 160px;
+  left: 84px; */
+  /* font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 72px;
+  color: white;
+  text-shadow: 0px 0px 8px rgba(59, 0, 101, 0.5); */
+}
+
+.borderstuff {
+  width: 400px;
+  height: 400px;
+  margin: 80px;
+  padding: 80px;
+  border: 1px solid black;
+  border-width: 0 1px 1px 0;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .canvasContainer {
+    max-height: 600px;
+  }
+
+  .dots {
+    max-height: 600px;
+  }
+
+  .text {
+    /* left: 40px;
+    top: 80px;
+    font-size: 48px; */
+  }
+}
+
+.communityBg {
+  background: url("/assets/world-map.png"), radial-gradient(50% 107.39% at 50% 50%, rgba(0, 214, 150, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #3B0065;
+  background-size: cover;
+  background-blend-mode: color-dodge, normal, normal;
+}
+
+.footerBg {
+  background: radial-gradient(100% 267.48% at 0% 0%, rgba(0, 214, 150, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #3B0065;
+}
+
+.boxMargin {
+  margin-left: -500px;
+}
+
+.buttonTextHover button:hover {
+    color: white !important;
+}
+
+.width2x {
+  width: 200%;
+}

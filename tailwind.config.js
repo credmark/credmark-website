@@ -42,9 +42,9 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      black: colors.black,
+      black: '#1A1A1A',
       white: colors.white,
-      gray: colors.coolGray,
+      gray: colors.gray,
       red: colors.red,
       yellow: colors.amber,
       blue: colors.blue,
@@ -56,7 +56,8 @@ module.exports = {
       pinkextralight: "#FDFAFC",
       lightgray: "#FCFAFB",
       lightpurple: "#7E5594",
-      mediumblue: "#005488"
+      mediumblue: "#005488",
+      green: "#00C389",
     },
     extend: {
       screens: {

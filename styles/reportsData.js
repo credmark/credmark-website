@@ -2,9 +2,9 @@ export default [
     {
         id: 1,
         category: 'New',
-        title:"Aeve Compound Report",
+        title:"Aave Compound Report",
         url:"/pdf/AAVE-Compound-AnalyticsReport.pdf",
-        type:"Aeve Compound Report"
+        type:"Aave Compound Report"
     },
     {
         id: 2,
