@@ -18,6 +18,30 @@ import DotAnimation from "../components/layout/dotsHeader"
 export default function Home({data}) {
     return (
       <>
+         <Head>
+        <title>CREDMARK</title>
+        <meta content="Credmark" property="og:title" key="og:title" />
+        <meta property="og:image" content="https://credmark.com/assets/credmark-og-image.png"/>
+        <link rel="icon" href="/favicon.ico" />
+          {/* Global Site Tag (gtag.js) - Google Analytics */}
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
+      </Head>
+
         <div className="py-2 bg-black text-center relative">
                 <div>
                     <a href="https://github.com/credmark/credmark-models-py/blob/main/README.md" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap courier"><span className="float-left pr-3">The Credmark Model Framework is now in Open Beta! | Start building DeFi models in python with reliable crypto data</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>
