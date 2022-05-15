@@ -8,7 +8,7 @@ export default function Community() {
             <div className="py-20 md:py-28 communityBg">
                 <div className="max-w-4xl block mx-auto px-4 md:p-0">
                     <h4 className="text-white max-w-5xl block mx-auto text-5xl pb-2 text-center font-medium leading-normal md:leading-10 pt-44">A Global, Decentralized Community</h4>
-                    <p className="text-white text-center text-2xl font-light">Credmark is a decentralized project that connects model creators, validators, data consumers and protocol govenors. </p>
+                    <p className="text-white text-center text-2xl font-light">Credmark is a decentralized project that connects model creators, validators, data consumers and protocol governors. </p>
                     <div className="grid grid-cols-1 md:grid-cols-2 block mx-auto max-w-xl pb-44">
                     <button
                         type="button"
