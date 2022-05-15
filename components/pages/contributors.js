@@ -223,7 +223,6 @@ export default function Team() {
                                             </div>
                                             <div>
                                                 <p className="text-black font-bold pt-2.5 pb-0 text-center text-base">Renan Feldman</p>
-                                                <p className="text-black pb-5 pt-0 text-center text-base">Security</p>
                                             </div>
                                         </div>
                                     </div>
@@ -232,8 +231,6 @@ export default function Team() {
                                     img="../assets/jonah.png"
                                     alt="Jonah Lau"
                                     name="Jonah Lau"
-                                    role="Product"
-                                    company="Crypto.com"
                                     linkedin="https://www.linkedin.com/in/jonathanlauhk/"
                                     twitter="https://twitter.com/thejonahlau"
                                 />
@@ -244,8 +241,6 @@ export default function Team() {
                                     img="../assets/heiki.png"
                                     alt="Heikki Vanttinen"
                                     name="Heikki Vanttinen"
-                                    role="Vision"
-                                    company="API3"
                                     linkedin="https://www.linkedin.com/in/heikki-v%C3%A4nttinen-83a86380/"
                                     twitter="https://twitter.com/API3DAO"
                                 />
@@ -253,10 +248,15 @@ export default function Team() {
                                     img="../assets/alberto.png"
                                     alt="Alberto Ornaghi"
                                     name="Alberto Ornaghi"
-                                    role="Engineering"
-                                    company="Coinbase"
                                     linkedin="https://www.linkedin.com/in/albertoornaghi/"
                                     twitter="https://twitter.com/AlbertoOrnaghi"
+                                />
+                                   <AdvisorCard
+                                    img="../assets/jacob-franek.jpg"
+                                    alt="Jacob Franek"
+                                    name="Jacob Franek"
+                                    linkedin="https://www.linkedin.com/in/jacob-franek-b9865039/"
+                                    twitter="https://twitter.com/panekkkk"
                                 />
                                 <div className="box col-xs">
                                     <div id="team" className="md:py-10">
@@ -275,7 +275,6 @@ export default function Team() {
                                             </div>
                                             <div>
                                                 <p className="text-black font-bold pt-2.5 pb-0 text-center text-base">Serge Ugarte</p>
-                                                <p className="text-black pb-5 text-center text-base pt-0">Strategy</p>
                                             </div>
                                         </div>
                                     </div>
