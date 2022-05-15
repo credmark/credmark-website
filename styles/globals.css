@@ -127,7 +127,6 @@ h1{
 .sanity-block a {
   @apply text-black;
   @apply text-lg;
-  @apply font-light;
   @apply leading-8;
   @apply underline;
 }
@@ -211,7 +210,6 @@ h1{
 .border-box a {
   @apply text-black;
   @apply text-lg;
-  @apply font-light;
   @apply leading-8;
   @apply underline;
 }

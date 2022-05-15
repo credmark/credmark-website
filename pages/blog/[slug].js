@@ -100,7 +100,7 @@ const BlogDetail = ({ post }) => {
                 </div>
                 <img className="mb-10" id="blogPage" src={post.mainImage} />
                 <BlockContent
-                    className="border-box border-2 rounded-md border-gray-300"
+                    className="border-box border-2 rounded-md border-gray-300 p-4"
                     serializers={serializers}
                     blocks={post.border}
                     {...sanity.config()} />
