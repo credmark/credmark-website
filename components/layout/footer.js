@@ -31,6 +31,10 @@ const navigation = {
             name: 'White Paper',
             href: 'https://docs.credmark.com/credmark/',
         },
+        {
+            name: 'Privacy Policy',
+            href: '/legal/privacy-policy',
+        },
     ],
     community: [
         {
