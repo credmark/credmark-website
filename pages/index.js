@@ -48,26 +48,24 @@ export default function Home({data}) {
                 </div>
             </div>
             <DotAnimation />
-            {/*
             <div className="py-5 bg-black">
                 <div className="bg-black">
                     <dl className="rounded-lg bg-black shadow-lg sm:grid sm:grid-cols-3">
                         <div className="flex flex-col text-center statBorder">
-                            <dt className="mt-2 text-xs leading-6 text-white courier">Token Price</dt>
-                            <dd className="text-2xl text-white py-2">${data["data"][0]["usdc_price"]}</dd>
+                            <dt className="mt-2 text-xs leading-6 text-white courier">Model contributors</dt>
+                            <dd className="text-2xl text-white py-2">17</dd>
                         </div>
                         <div className="flex flex-col text-center statBorder">
-                            <dt className="mt-2 text-xs leading-6 text-white courier">Market Cap</dt>
-                            <dd className="text-2xl text-white py-2">${data["data"][0]["market_cap_usdc"]}</dd>
+                            <dt className="mt-2 text-xs leading-6 text-white courier">Number of models</dt>
+                            <dd className="text-2xl text-white py-2">114</dd>
                         </div>
                         <div className="flex flex-col text-center">
-                            <dt className="mt-2 text-xs leading-6 text-white courier">Circulating Supply</dt>
-                            <dd className="text-2xl text-white py-2">{data["data"][0]["circulating_supply"]}</dd>
+                            <dt className="mt-2 text-xs leading-6 text-white courier">Total commits</dt>
+                            <dd className="text-2xl text-white py-2">657</dd>
                         </div>
                     </dl>
                 </div>
             </div>
-            */}
             <WhatWeDo />
             <Community />
             <div className="hidden lg:block">
