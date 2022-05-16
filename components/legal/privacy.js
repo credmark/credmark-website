@@ -471,27 +471,27 @@ export default function PrivacyPolicy() {
                             <li>
                                 Tracking Technologies and Advertising. You can set your browser to refuse all or some
                                 browser cookies, or to alert you when cookies are being sent. To learn how you can
-                                manage your Flash cookie settings, visit the Flash player settings page on Adobe's
+                                manage your Flash cookie settings, visit the Flash player settings page on Adobe&apos;s
                                 website. If you disable or refuse cookies, please note that some parts of Credmark, the
                                 Site or the other Credmark Services, may then be inaccessible or not function
                                 properly.
                             </li>
                             <li>
                                 Promotional Offers from Credmark. If you do not wish to have your e-mail
-                                address/contact information used by Credmark to promote our own or third parties'
+                                address/contact information used by Credmark to promote our own or third parties&apos;
                                 products or services, you can opt-out through your profile page or by emailing us at
                                 paul@credmark.com. Subject to the terms of the GDPR, this opt out does not apply to
                                 information provided to Credmark as a result of a service or product purchase,
                                 product service experience or other transactions.
                             </li>
                         </ul>
-                        We do not control third parties' collection or use of your information to serve
+                        We do not control third parties&apos; collection or use of your information to serve
                         interest-based advertising. You may be able to opt out of receiving personalized
                         advertisements from companies who are members of the Network Advertising Initiative or who
-                        subscribe to the Digital Advertising Alliance's Self-Regulatory Principles for Online
+                        subscribe to the Digital Advertising Alliance&apos;s Self-Regulatory Principles for Online
                         Behavioral Advertising. For more information about this practice and to understand your
                         options, please visit: http://www.aboutads.info and
-                        http://www.networkadvertising.org/choices/. You may also use TRUSTe's Preference Manager
+                        http://www.networkadvertising.org/choices/. You may also use TRUSTe&apos;s Preference Manager
                         at http://preferences-mgr.truste.com.
                         <br />
                         <br />
@@ -670,7 +670,7 @@ export default function PrivacyPolicy() {
                         <br />
                         It is our policy to post any changes we make to our privacy policy on this page with a
                         notice that the privacy policy has been updated on the home pages of the Site for at least
-                        30 days. If we make material changes to how we treat our users' personal data that are
+                        30 days. If we make material changes to how we treat our users&apos; personal data that are
                         materially less protective than provided in this policy, we will use reasonable efforts to
                         notify you by e-mail to the e-mail address specified in your account and/or through a
                         notice on the home pages of the Site and to attempt to get your consent to the changes.
