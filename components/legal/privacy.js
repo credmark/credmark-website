@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
                     <div className="terms">
                         <h2 className="font-semibold">Credmark</h2>
                         <h1 className="font-semibold">Privacy Policy</h1>
-                        <h2 className="font-semibold">Updated as of 2022.05.16 </h2>
+                        <h2 className="font-semibold">Updated as of 2022.06.05 </h2>
                         <br />
                         <br />
                         Credmark DA Organization Ltd. (“Credmark” “we” “our” or “us”) respects your privacy and is
