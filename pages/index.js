@@ -61,7 +61,7 @@ export default function Home({data}) {
                         </div>
                         <div className="flex flex-col text-center">
                             <dt className="mt-2 text-xs leading-6 text-white courier">Total commits</dt>
-                            <dd className="text-2xl text-white py-2">657</dd>
+                            <dd className="text-2xl text-white py-2">819</dd>
                         </div>
                     </dl>
                 </div>
