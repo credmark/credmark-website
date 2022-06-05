@@ -21,7 +21,7 @@ export default function PrivacyPolicy() {
                         Credmark DA Organization Ltd. (“Credmark” “we” “our” or “us”) respects your privacy and is
                         committed to protecting it through our compliance with this privacy policy. Credmark
                         provides a financial modeling platform, an associated API, and various supporting resources, 
-                        collectively known as the “Credmark Platform".
+                        collectively known as the “Credmark Platform“.
                         This privacy policy explains our policies and practices regarding the information we
                         collect from and about you. It is through this privacy policy that we intend to provide
                         you with a level of comfort and confidence in how we collect, use, and safeguard personal
