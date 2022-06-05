@@ -18,9 +18,10 @@ export default function PrivacyPolicy() {
                         <h2 className="font-semibold">Updated as of 2022.05.16 </h2>
                         <br />
                         <br />
-                        Credmark, Inc. (“Credmark” “we” “our” or “us”) respects your privacy and is
+                        Credmark DA Organization Ltd. (“Credmark” “we” “our” or “us”) respects your privacy and is
                         committed to protecting it through our compliance with this privacy policy. Credmark
-                        provides an event platform known as “Credmark” (as modified from time to time, “Credmark”).
+                        provides a financial modeling platform, an associated API, and various supporting resources, 
+                        collectively known as the “Credmark Platform".
                         This privacy policy explains our policies and practices regarding the information we
                         collect from and about you. It is through this privacy policy that we intend to provide
                         you with a level of comfort and confidence in how we collect, use, and safeguard personal
@@ -29,27 +30,26 @@ export default function PrivacyPolicy() {
                         practices we will develop a trusting and long-lasting relationship with you. For the
                         purposes of the EU General Data Protection Regulation 2016/679 (the “GDPR”), Credmark
                         is the data controller. This means that we are responsible for deciding how we use the
-                        information that we hold. We are a Delaware corporation located in New York, NY. As used
+                        information that we hold. We are a British Virgin Islands limited corporation. As used
                         in this privacy policy, “personal data” refers to information about an identified or
                         identifiable individual, such as their name or email address. The GDPR applies to you if
                         you are located in the European Economic Area (an “EEA Individual”). Please note that by
-                        visiting or using https://credmark.com (collectively, the
-                        “Site”), Credmark, and our various other related services (together with Credmark and the
-                        Site, collectively the “Credmark Services”), you are accepting the practices
+                        visiting or using https://credmark.com or any related sub-site (collectively, the
+                        “Site”), the Credmark Platform, and our various other related services, collectively 
+                        the “Credmark Services”), you are accepting the practices
                         described in this privacy policy, subject to any rights or restrictions that might apply
                         if you are an EEA Individual, including the rights described in the European Privacy
                         Rights for EEA Individuals provisions below. This privacy policy is incorporated by
-                        reference into the Terms of Service that govern your use of Credmark, the Site and the other
+                        reference into the Terms of Service that govern your use of the
                         Credmark Services (the “Terms”). This policy describes the types of information we
-                        may collect from you or that you may provide when you access or use Credmark, the Site and
-                        the other Credmark Services and our practices for collecting, using, maintaining,
-                        protecting and disclosing that information.
+                        may collect from you or that you may provide when you access or use the Credmark Services 
+                        and our practices for collecting, using, maintaining, protecting and disclosing that information.
                         <br />
                         <br />
                         This policy applies to information we collect or may collect:
                         <ul>
                             <br />
-                            <li>In accessing and using Credmark, the Site and the other Credmark Services.</li>
+                            <li>In accessing and using the Credmark Services.</li>
                             <li>
                                 In e-mail, text and other electronic messages sent through or use of Credmark, the Site
                                 and the other Credmark Services.{" "}
@@ -69,45 +69,40 @@ export default function PrivacyPolicy() {
                             </li>
                             <li>
                                 Any third party, including through any application or content (including advertising)
-                                that may be accessible from or on Credmark, the Site or any of the other Credmark
-                                Services.{" "}
+                                that may be accessible from the Credmark Services.{" "}
                             </li>
                         </ul>
                         Please read this policy carefully to understand our policies and practices regarding your
                         information and how we will treat it. If you do not agree with our policies and practices,
-                        your only choice is not to use Credmark, the Site or any of the other Credmark
+                        your only choice is not to use the Credmark
                         Services. By accessing or using any of the Credmark Services, you agree to this
-                        privacy policy. This policy may change from time to time. Your continued use of Credmark,
-                        the Site and/or any of the other Credmark Services after we make changes is deemed to
-                        be acceptance of those changes, so please check the policy periodically for updates.
+                        privacy policy. This policy may change from time to time. Your continued use of the Credmark 
+                        Services after we make changes is deemed to be acceptance of those changes, so please check 
+                        the policy periodically for updates.
                         <br />
                         <br />
                         <strong>Minors under the Age of 13</strong>
                         <br />
                         <br />
                         None of the Credmark Services are intended for minors under 13 years of age. No one
-                        under age 13 may provide any information on or through Credmark, the Site or the other
+                        under age 13 may provide any information on or through the
                         Credmark Services. We do not knowingly collect personal data from children under 13.
                         If you are under 13, do not use or provide any information on or through any of the Credmark
-                        Events Services or any of its features or register on Credmark or the Site use any of the
-                        interactive or public comment features of any of the Credmark Services or provide any
-                        information about yourself to us, including your name, address, telephone number, e-mail
-                        address or any screen name or user name you may use. If we learn we have collected or
-                        received personal data from a child under 13 without verification of parental consent, we
+                        Services. If we learn we have collected or received personal data from a child under 13, we
                         will delete that information. If you believe that we might have any information from or
-                        about a child under 13, please contact us at paul@credmark.com.
+                        about a child under 13, please contact us at privacy@credmark.com.
                         <br />
                         <br />
                         <strong>Information We Collect About You and How We Collect It</strong>
                         <br />
                         <br />
                         We collect or may collect several types of information from and about you and other users
-                        of Credmark, the Site and the other Credmark Services, including:
+                        of the Credmark Services, including:
                         <br />
                         <ul>
                             <li>
                                 Information by which you may be personally identified, such as your full name,
-                                birthdate, phone number and e-mail address;{" "}
+                                and e-mail address;{" "}
                             </li>
                             Financial and billing information, including credit card information; Analytics
                             information;
@@ -121,7 +116,7 @@ export default function PrivacyPolicy() {
                             </li>
                             <li>
                                 Information contained in the comments and postings on or through any of the Credmark
-                                Events Services;{" "}
+                                Services;{" "}
                             </li>
                             <li>
                                 Device, internet and mobile information such as the hardware model, operating system
@@ -129,24 +124,21 @@ export default function PrivacyPolicy() {
                                 mobile network information (including the mobile phone number);{" "}
                             </li>
                             <li>
-                                Geo-location information when you use Credmark, the Site and the other Credmark
-                                Services;{" "}
+                                Geo-location information when you use the Credmark Services;{" "}
                             </li>
                             <li>
-                                When you report a problem with Credmark, the Site or any of the other Credmark
-                                Services;{" "}
+                                When you report a problem with the Credmark Services;{" "}
                             </li>
                             <li>
                                 Records and copies of your correspondence (including e-mail addresses), if you contact
                                 us;
                             </li>
                             <li>
-                                Details of transactions you carry out through Credmark, the Site or any of the other
-                                Credmark Services; and/or{" "}
+                                Details of transactions you carry out through the Credmark Services; and/or{" "}
                             </li>
                             <li>
                                 Your search queries and search and navigation history on or through any of Credmark
-                                Events Services.{" "}
+                                Services.{" "}
                             </li>
                         </ul>
                         We collect this information:
@@ -155,8 +147,7 @@ export default function PrivacyPolicy() {
                         <ul>
                             <li>Directly from you when you provide it to us.</li>
                             <li>
-                                Automatically as you navigate through or use Credmark, the Site and the other Credmark
-                                Events Services.{" "}
+                                Automatically as you navigate through or use the Credmark Services.{" "}
                             </li>
                             <li>
                                 From third parties, such as our members, affinity and business partners and other
@@ -167,10 +158,10 @@ export default function PrivacyPolicy() {
                         aware that we may monitor and, in some cases, record such calls for staff training or
                         quality assurance purposes.
                         <br />
-                        You may now or in the future provide post information onto Credmark, the Site or the other
+                        You may now or in the future provide post information onto the 
                         Credmark Services (collectively, “User Content”). Your User Content may be viewable
-                        through Credmark, the Site or the other Credmark Services by others. We cannot control
-                        the actions of other users of Credmark Services, with whom your User Content is
+                        through the Credmark Services by others. We cannot control
+                        the actions of other users of the Credmark Services, with whom your User Content is
                         viewable. Therefore, we cannot and do not guarantee that your User Content will not be
                         viewed, downloaded or shared by unauthorized persons.
                         <br />
@@ -188,7 +179,7 @@ export default function PrivacyPolicy() {
                         We do not use automated decision-making without human intervention, including profiling,
                         in a way that produces legal effects concerning you or otherwise significantly affects
                         you. Consequences of Not Providing Personal Data You are not required to provide all
-                        personal data identified in this policy to use Credmark or our Site, or to interact with us
+                        personal data identified in this policy to use the Credmark Services, or to interact with us
                         offline, but certain functionality will not be available if you do not provide personal
                         data. In addition, if you do not provide the personal data, we may not be able to respond
                         to your requests, provide the Credmark Services, or provide you with marketing that
@@ -259,13 +250,13 @@ export default function PrivacyPolicy() {
                         review the policies of these Service Providers to make sure that you are comfortable with
                         the ways in which they collect, use, maintain, protect and disclose your information. We
                         do not list our current Service Providers because they change from time to time. If you
-                        would like the names of any of Service Providers, please email us at paul@credmark.com.
+                        would like the names of any of Service Providers, please email us at privacy@credmark.com.
                         <br />
                         <br />
                         Service Providers that have access to your personally identifiable information in
                         connection with providing services are required to keep your personal data confidential
                         and are not permitted to use this personal data for any purpose other than to fulfill the
-                        services they are performing for Credmark or the Site.
+                        services they are performing for Credmark.
                         <br />
                         <br />
                         The Service Providers may also transmit cookies to your computer or device, when you click
@@ -282,7 +273,7 @@ export default function PrivacyPolicy() {
                         <br />
                         <br />
                         <strong>
-                            Use of Remarketing with Google Analytics and other Remarketing and Analytic Services
+                        Use of Remarketing with Google Analytics and other Remarketing and Analytic Services
                         </strong>
                         <br />
                         <br />
@@ -290,8 +281,8 @@ export default function PrivacyPolicy() {
                         <br />
                         <br />
                         <strong>Google Analytics</strong>
-                        We may use a tool called “Google Analytics” to collect information about use of the Site.
-                        Google Analytics collects information such as how often users visit the Site, what pages
+                        We may use a tool called “Google Analytics” to collect information about use of the Credmark Services.
+                        Google Analytics collects information such as how often users visit the Credmark Services, what pages
                         they visit when they do so, and what other sites they used prior to coming to this site.
                         We use the information we get from Google Analytics only to improve the Site. Google
                         Analytics collects only the IP address assigned to you on the date you visit the Site,
@@ -319,7 +310,7 @@ export default function PrivacyPolicy() {
                         <br />
                         <ul>
                             <li>
-                                To provide you Credmark and the other Credmark Services that you request from us.
+                                To provide you the Credmark Services that you request from us.
                             </li>
                             <li>To provide the Site and its contents to you. </li>
                             <li>
@@ -340,12 +331,12 @@ export default function PrivacyPolicy() {
                             <li>To provide you with notices about your account.</li>
                             <li>
                                 To carry out our obligations and enforce our rights arising from the use of the Credmark
-                                Events Services, including for billing and collection.
+                                Services, including for billing and collection.
                             </li>
                             <li>
-                                To notify you about changes to Credmark, the Site and the other Credmark Services.{" "}
+                                To notify you about changes to the Credmark Services.{" "}
                             </li>
-                            <li>To enhance the safety and security of all of the Credmark Services. </li>
+                            <li>To enhance the safety and security of the Credmark Services. </li>
                             <li>
                                 To verify your identity and prevent fraud or other unauthorized or illegal activity.
                             </li>
@@ -364,7 +355,7 @@ export default function PrivacyPolicy() {
                         Some of the information that we collect automatically is statistical data and does not
                         include personal data, but we may maintain it or associate it with personal data we
                         collect in other ways or receive from third parties or you provide to us. It helps us to
-                        improve Credmark, the Site and the other Credmark Services, and to deliver a better and
+                        improve the Credmark Services, and to deliver a better and
                         more personalized service, including enabling us to:
                         <br />
                         <br />
@@ -375,7 +366,7 @@ export default function PrivacyPolicy() {
                                 according to your individual interests.
                             </li>
                             <li>Speed up your searches.</li>
-                            <li>Recognize you when you return to Credmark and the Site.</li>
+                            <li>Recognize you when you return to the Credmark Services.</li>
                         </ul>
                         <br />
                         <br />
@@ -387,7 +378,7 @@ export default function PrivacyPolicy() {
                         or Service Providers.
                         <br />
                         <br />
-                        If you access or use Credmark, the Site or any of the other Credmark Services outside
+                        If you access or use the Credmark Services outside
                         of the United States, information that we collect about you may be transferred to servers
                         inside the United States and maintained indefinitely, which may involve the transfer of
                         information out of countries located in the European Economic Area and other parts of the
@@ -395,11 +386,11 @@ export default function PrivacyPolicy() {
                         allowing Credmark to collect information about you, you consent to such transfer and
                         processing of such information without restriction. We may also store some information
                         locally on your computer or other devices. For example, we may store information as local
-                        cache so that you can open Credmark and the Site and view content faster.
+                        cache so that you can open the Credmark Services content faster.
                         <br />
                         <br />
-                        Although users from all over the world may access and use Credmark, the Site or any of the
-                        other Credmark Services, keep in mind that no matter where you live or where you
+                        Although users from all over the world may access and use the Credmark Services, 
+                        keep in mind that no matter where you live or where you
                         happen to use our services, you consent to us processing and transferring information in
                         and to the United States and other countries whose data-protection and privacy laws may
                         offer fewer protections than those in your home country.
@@ -426,7 +417,7 @@ export default function PrivacyPolicy() {
                             advisors and agents) in the event of a divestiture, restructuring, reorganization,
                             dissolution or other sale or transfer of some or all of Credmark’ assets, whether
                             as a going concern or as part of bankruptcy, liquidation or similar proceeding, in which
-                            personal data held by Credmark about members and users of Credmark and the Site is
+                            personal data held by Credmark about members and users of the Credmark Services is
                             among the assets that may be or are actually transferred.
                         </li>
                         <li>To fulfill the purpose for which you provide it.</li>
@@ -472,15 +463,14 @@ export default function PrivacyPolicy() {
                                 Tracking Technologies and Advertising. You can set your browser to refuse all or some
                                 browser cookies, or to alert you when cookies are being sent. To learn how you can
                                 manage your Flash cookie settings, visit the Flash player settings page on Adobe&apos;s
-                                website. If you disable or refuse cookies, please note that some parts of Credmark, the
-                                Site or the other Credmark Services, may then be inaccessible or not function
-                                properly.
+                                website. If you disable or refuse cookies, please note that some parts of the Credmark 
+                                Services, may then be inaccessible or not function properly.
                             </li>
                             <li>
                                 Promotional Offers from Credmark. If you do not wish to have your e-mail
                                 address/contact information used by Credmark to promote our own or third parties&apos;
                                 products or services, you can opt-out through your profile page or by emailing us at
-                                paul@credmark.com. Subject to the terms of the GDPR, this opt out does not apply to
+                                privacy@credmark.com. Subject to the terms of the GDPR, this opt out does not apply to
                                 information provided to Credmark as a result of a service or product purchase,
                                 product service experience or other transactions.
                             </li>
@@ -505,7 +495,7 @@ export default function PrivacyPolicy() {
                             <li>
                                 Performance of a contract: In most cases, we collect and use your personal data and
                                 other information to meet our obligations under a contract to which you are a party or
-                                pursuant to which we are providing services to you. For example, when you use our
+                                pursuant to which we are providing services to you. For example, when you use the
                                 Credmark Services, we will use your personal data to respond to your requests and
                                 to provide you with these services.
                             </li>
@@ -533,7 +523,7 @@ export default function PrivacyPolicy() {
                         <br />
                         <br />
                         You may change, correct or delete any personal data that you have provided to us through
-                        Credmark and the Site by writing to paul@credmark.com. We may not accommodate a request to
+                        the Credmark Services by writing to privacy@credmark.com. We may not accommodate a request to
                         change personal data or other information if we believe the change would violate any law
                         or legal requirement or cause the information to be incorrect.
                         <br />
@@ -542,7 +532,7 @@ export default function PrivacyPolicy() {
                         Content stored in the cloud), copies of your User Content may remain viewable in cached
                         and archived pages, or might have been copied or stored by other users of the Servers or
                         the Site. Proper access and use of information provided on or through any of the Credmark
-                        Events Services, including User Content, are governed by the Terms.
+                        Services, including User Content, are governed by the Terms.
                         <br />
                         <br />
                         <strong>Your California Privacy Rights</strong>
@@ -551,7 +541,7 @@ export default function PrivacyPolicy() {
                         California Civil Code Section §1798.83 permits users of the Site that are California
                         residents to request certain information regarding our disclosure of personal data to
                         third parties for their direct marketing purposes. To make such a request, please send an
-                        e-mail to paul@credmark.com.
+                        e-mail to privacy@credmark.com.
                         <br />
                         <br />
                         <strong>European Privacy Rights for EEA Residents. </strong>
@@ -620,18 +610,17 @@ export default function PrivacyPolicy() {
                         <br />
                         <br />
                         If you reside in a jurisdiction other than the European Economic Area, you may also have
-                        similar rights to the above. Please contact us at paul@credmark.com if you would like to
+                        similar rights to the above. Please contact us at privacy@credmark.com if you would like to
                         exercise one of these rights, and we will comply with any request to the extent required
                         under applicable law.
                         <br />
                         <br />
                         In addition, where you believe that we have not complied with its obligation under this
                         Privacy Policy or European law, you have the right to make a complaint to an EU Data
-                        Protection Authority, such as the UK Information Commissioner’s Office. Office. Here is a
-                        list of local data protection authorities in EEA countries.
+                        Protection Authority, such as the UK Information Commissioner’s Office. 
                         <br />
                         <br />
-                        You can exercise any of these rights by contacting us at paul@credmark.com
+                        You can exercise any of these rights by contacting us at privacy@credmark.com
                         <br />
                         <br />
                         <strong>How Long We Store Your Personal Data </strong>
@@ -653,16 +642,16 @@ export default function PrivacyPolicy() {
                         However, despite our efforts, no security controls are 100% effective and Credmark
                         cannot ensure or warrant the security of your personal data. Any transmission of personal
                         data is at your own risk. We are not responsible for circumvention of any privacy settings
-                        or security measures contained on Credmark or the Site.
+                        or security measures contained in the Credmark Services.
                         <br />
                         <br />
                         The safety and security of your data also depends on you. Where we have given you (or
-                        where you have chosen) a password for access to and use of certain parts of Credmark, the
-                        Site and/or the other Credmark Services, you are responsible for keeping this
+                        where you have chosen) a password for access to and use of certain parts of the Credmark Services, 
+                        you are responsible for keeping this
                         password confidential. We ask you not to share your password with anyone. We urge you to
                         be careful about giving out information in public areas of any of the Credmark
-                        Services. The information you share in public areas may be viewed by any user of Credmark or
-                        the Site.
+                        Services. The information you share in public areas may be viewed by any user of the Credmark 
+                        Services.
                         <br />
                         <br />
                         <strong>Changes to Our Privacy Policy </strong>
@@ -678,25 +667,23 @@ export default function PrivacyPolicy() {
                         ensuring that we have an up-to-date active and deliverable e-mail address for you, and for
                         periodically visiting the Site and this privacy policy to check for any changes. Like our
                         Terms, of which this privacy policy is a part, your use, and/or continued use after our
-                        efforts to contact you, of Credmark, the Site or any of the other Credmark Services,
-                        means that you agree to be bound by such changes.
+                        efforts to contact you, of the Credmark Services, means that you agree to be bound by such changes.
                         <br />
                         <br />
                         <strong>Survival</strong>
                         <br />
                         <br />
                         The policies indicated in this privacy policy will remain effective, even if the Terms and
-                        the other agreements between us are terminated and you are no longer using Credmark, the
-                        Site or any of the other Credmark Services.
+                        the other agreements between us are terminated and you are no longer using the Credmark Services.
                         <br />
                         <br />
                         <strong>Contact Information</strong>
                         <br />
                         <br />
                         To ask questions or comment about this privacy policy and our privacy practices or need to
-                        reach us for any other reason, you may contact us by e-mail at paul@credmark.com.
+                        reach us for any other reason, you may contact us by e-mail at privacy@credmark.com.
                         <br />
-                        <br />© Copyright 2022 Credmark, Inc.
+                        <br />© Copyright 2022 Credmark DA Organization Ltd.
                     </div>
                 </div>
                 <Subscribe />
