@@ -281,7 +281,7 @@ export default function TermsOfService() {
                     </div>  
                 </div>
                 <Subscribe />
-                <Footer />
+                <FooterLegal />
             </main>
         </>
 

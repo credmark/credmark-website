@@ -125,7 +125,7 @@ const navigation = {
     ],
 }
 
-export default function Footer() {
+export default function FooterLegal() {
     return (
         <footer className="footerBg" aria-labelledby="footer-heading">
             <h2 id="footer-heading" className="sr-only">
@@ -137,7 +137,7 @@ export default function Footer() {
                         <div>
                             <img
                                 className="h-auto flex justify-start mr-2 pt-1"
-                                src="../assets/credmark-logo.svg"
+                                src="/../../assets/credmark-logo.svg"
                                 alt="Credmark logo"
                             />
                         </div>
