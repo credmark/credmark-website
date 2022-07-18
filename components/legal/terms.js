@@ -1,6 +1,6 @@
 import Subscribe from "../subscribe/subscribe"
-import Footer from "../layout/footer"
 import NavLegal from '../layout/navLegal';
+import FooterLegal from "../layout/footerLegal";
 
 
 
