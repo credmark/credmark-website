@@ -272,7 +272,6 @@ export default function TermsOfService() {
                         <br />
                         <br />
                         The Services are offered by Credmark Inc. reachable via email at legal@credmark.com. California users are also entitled to the following specific consumer rights notice: The Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs may be contacted in writing at 1625 North Market Blvd., Sacramento, CA 95834, or by telephone at (916) 445-1254 or (800) 952-5210.
-
                     </div>  
                 </div>
                 <Subscribe />
