@@ -1,6 +1,7 @@
 import Subscribe from "../subscribe/subscribe"
 import Footer from "../layout/footer"
-import CareerHeader from "../layout/careerHeader"
+import NavLegal from '../layout/navLegal';
+
 
 
 export default function TermsOfService() {
@@ -8,9 +9,14 @@ export default function TermsOfService() {
     return (
         <>
             <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none">
-                <CareerHeader
-                    title="Terms of Service"
-                />
+            <div className="header-bg">
+                <NavLegal />
+                <div className="max-w-6xl px-5 block m-auto">
+                    <strong><h1 className="leading-normal text-white font-bold text-5xl md:text-7xl pt-20 md:pt-36 pb-5">Terms of Service</h1></strong>
+                    <h2 className="text-white roboto text-3xl font-light max-w-3xl leading-10"></h2>
+                    <h2 className="text-white roboto text-3xl font-light max-w-3xl pb-20 md:pb-32 leading-10"></h2>
+                </div>
+            </div>
                 <div className="max-w-6xl m-8 md:m-auto lg:m-auto xl:m-auto pt-12 pb-12">
                     <div className="terms">
                         <h2 className="font-semibold">Credmark</h2>

@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Terms from '../../components/legal/terms'
+import Terms from '../../../components/legal/terms'
+
 
 export default function TOSPage() {
   return (
