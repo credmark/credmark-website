@@ -35,6 +35,10 @@ const navigation = {
             name: 'Privacy Policy',
             href: '/legal/privacy-policy',
         },
+        {
+            name: 'Terms of Service',
+            href: '/legal/terms-of-service',
+        },
     ],
     community: [
         {
