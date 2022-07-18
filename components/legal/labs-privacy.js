@@ -1,4 +1,3 @@
-import Subscribe from "../subscribe/subscribe"
 import FooterLegal from "../layout/footerLegal"
 import NavLegal from '../layout/navLegal';
 
@@ -20,7 +19,7 @@ export default function LabsPrivacyPolicy() {
                     <div className="terms">
                         <h2 className="font-semibold">Credmark</h2>
                         <h1 className="font-semibold">Privacy Policy</h1>
-                        <h2 className="font-semibold">Updated as of 2022.06.05 </h2>
+                        <h2 className="font-semibold">Updated as of 2022.07.13 </h2>
                         <br />
                         <br />
                         Credmark Labs, Inc. (“Credmark” “we” “our” or “us”) respects your privacy and is committed to protecting it through our compliance with this privacy policy. Credmark provides a financial modeling platform, an associated API, and various supporting resources, collectively known as the “Credmark Platform“. This privacy policy explains our policies and practices regarding the information we collect from and about you. It is through this privacy policy that we intend to provide you with a level of comfort and confidence in how we collect, use, and safeguard personal and other information we collect and obtain, and how you can contact us if you have any questions or concerns. It is our sincere hope that by explaining our data handling practices we will develop a trusting and long-lasting relationship with you. For the purposes of the EU General Data Protection Regulation 2016/679 (the “GDPR”), Credmark is the data controller. This means that we are responsible for deciding how we use the information that we hold. We are a British Virgin Islands limited corporation. As used in this privacy policy, “personal data” refers to information about an identified or identifiable individual, such as their name or email address. The GDPR applies to you if you are located in the European Economic Area (an “EEA Individual”). Please note that by visiting or using https://credmark.com or any related sub-site (collectively, the “Site”), the Credmark Platform, and our various other related services, collectively the “Credmark Services”), you are accepting the practices described in this privacy policy, subject to any rights or restrictions that might apply if you are an EEA Individual, including the rights described in the European Privacy Rights for EEA Individuals provisions below. This privacy policy is incorporated by reference into the Terms of Service that govern your use of the Credmark Services (the “Terms”). This policy describes the types of information we may collect from you or that you may provide when you access or use the Credmark Services and our practices for collecting, using, maintaining, protecting and disclosing that information.
@@ -423,7 +422,6 @@ export default function LabsPrivacyPolicy() {
                         <br />© Copyright 2022 Credmark DA Organization Ltd.
                     </div>
                 </div>
-                <Subscribe />
                 <FooterLegal />
             </main>
         </>

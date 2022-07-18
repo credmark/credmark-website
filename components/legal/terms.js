@@ -1,4 +1,3 @@
-import Subscribe from "../subscribe/subscribe"
 import NavLegal from '../layout/navLegal';
 import FooterLegal from "../layout/footerLegal";
 
@@ -21,7 +20,7 @@ export default function TermsOfService() {
                     <div className="terms">
                         <h2 className="font-semibold">Credmark</h2>
                         <h1 className="font-semibold">Terms of Service</h1>
-                        <h2 className="font-semibold">Updated as of 2022.06.05 </h2>
+                        <h2 className="font-semibold">Updated as of 2022.07.13 </h2>
                         <br />
                         <br />
                         Credmark Labs, Inc. (“Credmark” “we” “our” or “us”) provides a financial modeling platform, an associated API, and various supporting resources, collectively known as the “Credmark Platform“. Credmark also provides, via the Snowflake Marketplace (https://www.snowflake.com/marketplace/), a database of curated DeFi data (the “Credmark Data”). Together, the Credmark Platform and the Credmark Data are referred to as the “Credmark Services” or, simply, the “Services”). The Services are being provided to you by Credmark. All defined terms used herein shall have the meanings prescribed to these terms in these Terms of Service (“Terms”).
@@ -280,7 +279,6 @@ export default function TermsOfService() {
                         The Services are offered by Credmark Inc. reachable via email at legal@credmark.com. California users are also entitled to the following specific consumer rights notice: The Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs may be contacted in writing at 1625 North Market Blvd., Sacramento, CA 95834, or by telephone at (916) 445-1254 or (800) 952-5210.
                     </div>  
                 </div>
-                <Subscribe />
                 <FooterLegal />
             </main>
         </>
