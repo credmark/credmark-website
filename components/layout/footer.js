@@ -11,9 +11,6 @@ const navigation = {
             name: 'Credmark Wiki',
             href: 'https://docs.credmark.com/credmark-wiki/',
         },
-        {   name: 'Reports', 
-            href: '/reports',  
-            },
     ],
     learn: [
         {
@@ -26,6 +23,9 @@ const navigation = {
         },
         {   name: 'FAQ', 
             href: '/faq', 
+        },
+        {   name: 'Reports', 
+        href: '/reports',  
         },
         {
             name: 'White Paper',

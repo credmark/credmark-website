@@ -16,9 +16,6 @@ const projects = [
         name: 'Credmark Wiki',
         href: 'https://docs.credmark.com/credmark-wiki/',
     },
-    {   name: 'Reports', 
-        href: '/reports',  
-        },
 ]
 
 const learn = [
@@ -36,6 +33,9 @@ const learn = [
     {
         name: 'White Paper',
         href: 'https://docs.credmark.com/credmark/',
+    },
+    {   name: 'Reports', 
+    href: '/reports',  
     },
 ]
 

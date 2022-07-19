@@ -18,9 +18,6 @@ const navigation = {
             name: 'Credmark Wiki',
             href: 'https://docs.credmark.com/credmark-wiki/',
         },
-        {   name: 'Reports', 
-            href: '/reports',  
-            },
     ],
     learn: [
         {
@@ -37,6 +34,9 @@ const navigation = {
         {
             name: 'White Paper',
             href: 'https://docs.credmark.com/credmark/',
+        },
+        {   name: 'Reports', 
+        href: '/reports',  
         },
     ],
     community: [
@@ -198,6 +198,7 @@ function BlogPageContent({ posts }) {
                     <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("Community Updates") }}>Community Updates</button>
                     <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("Partnerships") }}>Partnerships</button>
                     <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("Credmark 101") }}>Credmark 101</button>
+                    <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("Risk Insights") }}>Risk Insights</button>
                 </div>
             </div>}
             <div className="max-w-6xl block m-auto px-4 pt-10 pb-20 md:pb-40">
