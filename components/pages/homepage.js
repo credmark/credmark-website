@@ -1,34 +1,20 @@
 import Link from 'next/link'
-import HeaderHome from "../layout/headerHome"
 import Tools from "../homepage/tools"
 import Subscribe from '../subscribe/subscribe'
 import Footer from '../layout/footer'
 import React, { useState } from "react";
-import items from "../../styles/homeReportsData"
 import WhatWeDo from '../homepage/whatWeDo'
 import Community from '../homepage/community'
-import TypeAnimation from 'react-type-animation';
-import Nav from '../layout/nav'
 import ToolsMobile from '../homepage/toolsMobile'
-
-import DotAnimation from "../layout/dotsHeader"
 
 export default function Homepage() {
     return (
         <>
-            {/* <div>
+            <div>
                 <div className="bg-credmarkpurple w-screen" >
                     <Nav />
                     <h1 className="px-4 md:px-0 text-white text-5xl lg:text-7xl pt-40 md:pt-56 max-w-7xl block mx-auto leading-snug">
-                        <TypeAnimation
-                            cursor={true}
-                            className="text-green text-5xl lg:text-7xl leading-snug"
-                            sequence={[
-                                'Reliable Data', 2000, 'Crowdsourced Insights', 2000, 'Battle-Tested Models', 2000,
-                            ]}
-                            wrapper="h2"
-                            repeat={Infinity}
-                        />
+                        ON-CHAIN DATA WITH VERIFIABLE TRANSPARENCY
                         By the Community,<br />For Everyone</h1>
                     <div className="max-w-7xl block mx-auto">
                         <div className="flex flex-wrap pb-52 pt-6">
@@ -51,13 +37,12 @@ export default function Homepage() {
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div> 
             <div className="py-2 bg-black text-center relative">
                 <div>
                     <a href="https://github.com/credmark/credmark-models-py/blob/main/README.md" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap courier"><span className="float-left pr-3">The Credmark Model Framework is now in Open Beta! | Start building DeFi models in python with reliable crypto data</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>
                 </div>
             </div>
-            <DotAnimation />
             <WhatWeDo />
             <Community />
             <div className="hidden lg:block">
@@ -65,13 +50,6 @@ export default function Homepage() {
             </div>
             <div className="block lg:hidden">
                 <ToolsMobile />
-            </div>
-            <div>
-                <div className="py-16 lg:m-auto innerRoadmap">
-                    <h3 className="mx-5 text-white text-center md:pt-28 roboto font-bold text-4xl pb-20">Credmark Roadmap</h3>
-                    <img alt="Credmark product roadmap" className="hidden md:block m-auto max-w-2xl pb-28" src="/assets/credmark-roadmap.png" />
-                    <img alt="Credmark product roadmap" className="block md:hidden px-4" src="/assets/mobile-roadmap.png" />
-                </div>
             </div>
             <div>
                 <div className="px-5 py-10 md:pt-28">
