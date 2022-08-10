@@ -6,6 +6,7 @@ import React, { useState } from "react";
 import WhatWeDo from '../homepage/whatWeDo'
 import Community from '../homepage/community'
 import ToolsMobile from '../homepage/toolsMobile'
+import Nav from '../layout/nav'
 
 export default function Homepage() {
     return (
