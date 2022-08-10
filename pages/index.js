@@ -74,15 +74,15 @@ export default function Home({ data }) {
           <dl className="rounded-lg bg-black shadow-lg sm:grid sm:grid-cols-3">
             <div className="flex flex-col text-center statBorder">
               <dt className="mt-2 text-xs leading-6 text-white courier">Model contributors</dt>
-              <dd className="text-2xl text-white py-2">17</dd>
+              <dd className="text-4xl text-green py-2 bungee">17</dd>
             </div>
             <div className="flex flex-col text-center statBorder">
               <dt className="mt-2 text-xs leading-6 text-white courier">Number of models</dt>
-              <dd className="text-2xl text-white py-2">114</dd>
+              <dd className="text-4xl text-green py-2 bungee">114</dd>
             </div>
             <div className="flex flex-col text-center">
               <dt className="mt-2 text-xs leading-6 text-white courier">Total commits</dt>
-              <dd className="text-2xl text-white py-2">819</dd>
+              <dd className="text-4xl text-green py-2 bungee">819</dd>
             </div>
           </dl>
         </div>
