@@ -26,7 +26,7 @@ export default function DataTrust() {
                         <div className="flex justify-center lg:pt-16">
                             <img className="pt-2 h-80 w-80" alt="Credmark API call output" src="../assets/credmark-data.png" />
                             </div>
-                            <p className="uppercase text-white text-center text-2xl openSansMedium">Credmark's data</p>
+                            <p className="uppercase text-white text-center text-2xl openSansMedium">Credmark&apos;s data</p>
                             <ul className="text-white">
                                 <li>Data is cached for rapid queries</li>
                                 <li>Data is cached for rapid queries</li>
