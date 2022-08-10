@@ -16,6 +16,9 @@ const projects = [
         name: 'Credmark Wiki',
         href: 'https://docs.credmark.com/credmark-wiki/',
     },
+    {   name: 'Reports', 
+    href: '/reports',  
+    },
 ]
 
 const learn = [
@@ -33,9 +36,6 @@ const learn = [
     {
         name: 'White Paper',
         href: 'https://docs.credmark.com/credmark/',
-    },
-    {   name: 'Reports', 
-    href: '/reports',  
     },
 ]
 
@@ -192,7 +192,7 @@ export default function NavLegal() {
                                                 'group rounded-md inline-flex items-center text-base'
                                             )}
                                         >
-                                            <span>Projects</span>
+                                            <span>Products</span>
                                             <ChevronDownIcon
                                                 className={classNames(
                                                     open ? 'text-white' : 'text-white',
@@ -387,7 +387,7 @@ export default function NavLegal() {
                                                 'group text-credmarkpurple rounded-md inline-flex items-center text-base pt-5'
                                             
                                         >
-                                            <span>Projects</span>
+                                            <span>Products</span>
                                             <ChevronDownIcon
                                                 className={classNames(
                                                     open ? 'text-credmarkpurple' : 'text-credmarkpurple',

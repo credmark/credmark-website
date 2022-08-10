@@ -8,7 +8,7 @@ const HeaderHome = (props) => {
                 <Nav />
                 <div className="max-w-6xl px-5 block m-auto">
                     <strong><h1 className="text-5xl py-5">{props.title}</h1></strong>
-                    <h2 className="roboto text-black text-lg font-normal max-w-2xl">{props.description}</h2>
+                    <p className="text-black text-lg font-normal max-w-2xl">{props.description}</p>
                     <a href={props.url}>
                         <button
                             type="button"

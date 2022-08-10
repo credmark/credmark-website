@@ -5,7 +5,7 @@ const FaqHeader = (props) => {
         <>
             <div className="pt-20 px-5">
                 <div className="max-w-5xl block m-auto">
-                    <strong><h1 className="text-white font-bold text-5xl md:text-7xl py-5">{props.title}</h1></strong>
+                    <strong><h1 className="text-white font-bold py-5">{props.title}</h1></strong>
                 </div>
             </div>
         </>

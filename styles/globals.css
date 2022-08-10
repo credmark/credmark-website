@@ -47,6 +47,14 @@ body {
   font-family: 'Courier New';
 }
 
+.openSansMedium {
+  font-family: 'Work Sans Medium';
+}
+
+.workSans {
+  font-family: 'Work Sans Light';
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -55,25 +63,72 @@ a {
 
 h1, h2, h3, h4, a {
   @apply text-credmarkpurple;
-  font-family: 'Roboto';
 }
 
 em {
   font-family: 'Roboto';
 }
 
-p {
+p, ul, li {
   font-size: 18px;
   font-family: 'Work Sans Light';
 }
 
 h1{
   font-family: 'Bungee';
+  font-size: 72px;
+}
+
+@media screen and (max-width: 800px) {
+  h1{
+    font-family: 'Bungee';
+    font-size: 42px;
+  }
+}
+
+h2{
+  font-family: 'Bungee';
+  font-size: 48px;
+}
+
+h3 {
+  font-family: 'Bungee';
+  font-size: 24px;
+}
+
+h4 {
+  font-family: 'Work Sans Medium';
 }
 
 .bungee {
   font-family: 'Bungee';
 }
+
+.modelsBg {
+  background: url("/assets/models-bg.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.modelsBgColour {
+  background: radial-gradient(86.9% 100% at 50% 100%, rgba(149, 0, 255, 0.3) 0%, rgba(149, 0, 255, 0) 100%), #1A1A1A;
+}
+
+.stickyCta {
+  background: linear-gradient(90.04deg, #9500FF 0%, #00FFB3 100%);
+}
+
+.stateDataBg {
+  background: rgba(33, 33, 33, 0.8);
+  border-radius: 8px;
+}
+
+.bgData {
+  background: linear-gradient(180deg, rgba(149, 0, 255, 0.3) 0%, rgba(149, 0, 255, 0) 72.95%), #1A1A1A;
+}
+
+
 /** Sanity **/ 
 
 .sanity-block ul li{
@@ -435,7 +490,7 @@ mono
 
 .heroBg {
   background: url("/assets/bg-swirl.png"), linear-gradient(180deg, rgba(149, 0, 255, 0.3) 0%, rgba(149, 0, 255, 0) 72.95%), #1A1A1A;
-  background-blend-mode: lighten, normal, normal;  background-position: center; 
+  background-blend-mode: lighten, normal, normal; 
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -625,8 +680,7 @@ li {
 }
 
 .footerBg {
-  background: radial-gradient(100% 267.48% at 0% 0%, rgba(0, 214, 150, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #3B0065;
-}
+  background: radial-gradient(100% 477.86% at 100% 50.11%, rgba(149, 0, 255, 0) 0%, rgba(149, 0, 255, 0.4) 100%), #1A1A1A;}
 
 .boxMargin {
   margin-left: -500px;

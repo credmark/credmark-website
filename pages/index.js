@@ -12,6 +12,8 @@ import Community from '../components/homepage/community'
 import TypeAnimation from 'react-type-animation';
 import Nav from '../components/layout/nav'
 import ToolsMobile from '../components/homepage/toolsMobile'
+import TryApi from '../components/homepage/tryApi'
+import BuildModels from '../components/homepage/buildModels'
 
 import DotAnimation from "../components/layout/dotsHeader"
 
@@ -42,21 +44,21 @@ export default function Home({ data }) {
         />
       </Head>
 
-      <div className="py-2 bg-black text-center relative">
+      <div className="py-2 stickyCta text-center relative">
         <div>
-          <a href="https://github.com/credmark/credmark-models-py/blob/main/README.md" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap courier"><span className="float-left pr-3">The Credmark Model Framework is now in Open Beta! | Start building DeFi models in python with reliable crypto data</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>
+          <a href="https://github.com/credmark/credmark-models-py/blob/main/README.md" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">The Credmark Model Framework is now in Open Beta! | Start building DeFi models in python with reliable crypto data</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>
         </div>
       </div>
       <div className="bg-credmarkpurple heroBg w-screen" >
         <Nav />
-        <h1 className="px-4 md:px-0 text-green text-5xl lg:text-7xl pt-10 md:pt-24 max-w-7xl block mx-auto leading-snug pb-3">
+        <div className="max-w-7xl block mx-auto">
+        <h1 className="px-4 md:px-0 text-green pt-10 md:pt-24 leading-snug pb-3">
           ON-CHAIN DATA WITH 
           <br/>
           VERIFIABLE TRANSPARENCY</h1>
-          <p className="px-4 md:px-0 text-white text-xl max-w-7xl block mx-auto leading-snug">
+          <p className="px-4 md:px-0 text-white block mx-auto leading-snug">
             The only source of blockchain data that provides visible traceability and <br/> granular context so you can develop Apps and build models with confidence.
           </p>
-        <div className="max-w-7xl block mx-auto">
           <div className="flex flex-wrap pb-52 pt-6">
             <button
               type="button"
@@ -87,21 +89,13 @@ export default function Home({ data }) {
           </dl>
         </div>
       </div>
-      <WhatWeDo />
-      <Community />
-      <div className="hidden lg:block">
-        <Tools />
-      </div>
-      <div className="block lg:hidden">
-        <ToolsMobile />
-      </div>
+      <TryApi />
+      <BuildModels />
       <div>
         <div className="px-5 py-10 md:pt-28">
-          <strong>
-            <h2 className="pb-10 roboto max-w-7xl block m-auto font-extrabold text-center text-5xl md:text-4xl">
-              PARTNERS
+            <h2 className="text-black max-w-7xl block m-auto font-extrabold text-center">
+              TRUSTED BY
             </h2>
-          </strong>
         </div>
         <div className="max-w-4xl block m-auto">
           <div className="grid grid-cols-1 m-auto block md:grid-cols-3 px-5 pb-0 md:pb-10">

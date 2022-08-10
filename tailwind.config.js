@@ -58,6 +58,7 @@ module.exports = {
       lightpurple: "#7E5594",
       mediumblue: "#005488",
       green: "#00C389",
+      gradient: "background: radial-gradient(100% 5367.15% at 0% 50%, #9500FF 0%, #00DC9A 77.6%);",
     },
     extend: {
       screens: {

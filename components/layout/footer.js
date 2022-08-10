@@ -11,21 +11,17 @@ const navigation = {
             name: 'Credmark Wiki',
             href: 'https://docs.credmark.com/credmark-wiki/',
         },
+        {   name: 'Reports', 
+        href: '/reports',  
+        },
     ],
     learn: [
         {
-            name: 'Blog',
-            href: '/blog',
-        },
-        {
-            name: 'Media',
-            href: '/media',
+            name: 'Our Data',
+            href: '/credmark-data',
         },
         {   name: 'FAQ', 
             href: '/faq', 
-        },
-        {   name: 'Reports', 
-        href: '/reports',  
         },
         {
             name: 'White Paper',
@@ -38,16 +34,25 @@ const navigation = {
     ],
     community: [
         {
+            name: 'Contributors',
+            href: '/contributors',
+        },
+        {
             name: 'Careers',
             href: '/careers',
         },
         {
-            name: 'About us',
-            href: '/contributors',
+            name: 'Blog',
+            href: '/blog',
         },
         {
-            name: 'Community',
-            href: 'https://discord.com/invite/3dSfMqP3d4',
+            name: 'Media',
+            href: '/media',
+        },
+
+        {
+            name: 'Privacy Policy',
+            href: '/privacy-policy',
         },
     ],
     social: [
@@ -156,7 +161,7 @@ export default function Footer() {
                             <div>
                             </div>
                             <div>
-                                <h3 className="roboto text-2xl font-light text-white tracking-wider">Projects</h3>
+                                <h4 className="text-2xl font-light text-white tracking-wider">Products</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.projects.map((item) => (
                                         <li className="list-none" key={item.name}>
@@ -170,7 +175,7 @@ export default function Footer() {
                         </div>
                         <div className="md:grid md:grid-cols-2">
                             <div>
-                                <h3 className="roboto text-2xl font-light text-white tracking-wider">Learn</h3>
+                                <h4 className="text-2xl font-light text-white tracking-wider">Learn</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.learn.map((item) => (
                                         <li className="list-none" key={item.name}>
@@ -182,7 +187,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                             <div className="mt-12 md:mt-0">
-                                <h3 className="roboto text-2xl font-light text-white tracking-wider">About</h3>
+                                <h4 className="text-2xl font-light text-white tracking-wider">About</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.community.map((item) => (
                                         <li className="list-none" key={item.name}>
