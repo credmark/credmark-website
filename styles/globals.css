@@ -79,6 +79,18 @@ h1{
   font-size: 72px;
 }
 
+.gradientFont {
+  background: radial-gradient(100% 5367.15% at 0% 50%, #9500FF 0%, #00DC9A 77.6%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.applicationsBg {
+  background: linear-gradient(180deg, #9500FF 0%, rgba(0, 220, 154, 0) 100%);
+  border-radius: 26px;
+}
+
 @media screen and (max-width: 800px) {
   h1{
     font-family: 'Bungee';
@@ -492,6 +504,22 @@ mono
   background: url("/assets/bg-swirl.png"), linear-gradient(180deg, rgba(149, 0, 255, 0.3) 0%, rgba(149, 0, 255, 0) 72.95%), #1A1A1A;
   background-blend-mode: lighten, normal, normal; 
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.productBg {
+  background: linear-gradient(180deg, rgba(149, 0, 255, 0.3) 0%, rgba(149, 0, 255, 0) 72.95%), #1A1A1A;
+  background-blend-mode: lighten, normal, normal;
+  background-size: auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.productHeroBg {
+  background: url("/assets/productBg.png");
+  background-blend-mode: lighten, normal, normal; 
+  background-size: auto;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 

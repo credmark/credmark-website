@@ -55,9 +55,9 @@ module.exports = {
       lightpink:"#FCECF3",
       pinkextralight: "#FDFAFC",
       lightgray: "#FCFAFB",
-      lightpurple: "#7E5594",
+      lightpurple: "#8966A3",
       mediumblue: "#005488",
-      green: "#00C389",
+      green: "#00FFB3",
       gradient: "background: radial-gradient(100% 5367.15% at 0% 50%, #9500FF 0%, #00DC9A 77.6%);",
     },
     extend: {

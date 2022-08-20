@@ -7,7 +7,7 @@ export default function TryApi() {
         <>
             <div className="mx-5 pt-20 pb-20 max-w-7xl block lg:mx-auto">
                 <div>
-                    <h1 className="font-gradient">Try our API</h1>
+                    <h1 className="gradientFont">Try our API</h1>
                     <p>Our API is your gateway to the highest quality financial data, designed with verifiable integrity and transparency.</p>
                     <button
                         type="button"
