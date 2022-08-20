@@ -8,7 +8,7 @@ export default function BuildModels() {
             <div className="modelsBgColour">
                 <div className="modelsBg">
                 <div className="pb-20 max-w-7xl block mx-auto">
-                    <h1 className="mx-5 lg:mx-0 font-gradient text-white text-center pt-20 md:pt-72 pb-10">Full Blockchain Coverage</h1>
+                    <h1 className="mx-5 lg:mx-0 font-gradient text-white text-center pt-20 md:pt-72 pb-10">Build your own models</h1>
                     <div className="grid grid-cols-1 md:grid-cols-3">
                         <div className="mx-4">
                             <h3 className="text-green">Flexible Data</h3>

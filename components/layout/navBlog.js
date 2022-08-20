@@ -16,8 +16,9 @@ const projects = [
         name: 'Credmark Wiki',
         href: 'https://docs.credmark.com/credmark-wiki/',
     },
-    {   name: 'Reports', 
-    href: '/reports',  
+    {
+        name: 'Reports',
+        href: '/reports',
     },
 ]
 
@@ -30,8 +31,9 @@ const learn = [
         name: 'Media',
         href: '/media',
     },
-    {   name: 'FAQ', 
-        href: '/faq', 
+    {
+        name: 'FAQ',
+        href: '/faq',
     },
     {
         name: 'White Paper',
@@ -67,13 +69,13 @@ export default function Nav() {
                         <div className="flex justify-start lg:w-0 lg:flex-1">
                             <Link href="/">
                                 <a>
-                                <span className="sr-only">Workflow</span>
-                                <img
-                                    className="h-8 w-auto sm:h-10"
-                                    src="../assets/credmarkpurple.svg"
-                                    alt="Credmark Logo"
-                                />
-                                 </a>
+                                    <span className="sr-only">Workflow</span>
+                                    <img
+                                        className="h-8 w-auto sm:h-10"
+                                        src="../assets/credmarkpurple.svg"
+                                        alt="Credmark Logo"
+                                    />
+                                </a>
                             </Link>
                         </div>
                         <div className="-mr-2 -my-2 md:hidden">
@@ -220,9 +222,9 @@ export default function Nav() {
                                                             </a>
                                                         ))}
                                                     </div>
-                                    
-                
-                                                    </div>
+
+
+                                                </div>
                                             </Popover.Panel>
                                         </Transition>
                                     </>
@@ -252,7 +254,7 @@ export default function Nav() {
                     leaveFrom="opacity-100 scale-100"
                     leaveTo="opacity-0 scale-95"
                 >
-                     <Popover.Panel focus className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+                    <Popover.Panel focus className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
                         <div className="rounded-lg bg-green shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                             <div className="pt-5 pb-6 px-5">
                                 <div className="flex items-center justify-between">
@@ -277,145 +279,145 @@ export default function Nav() {
                                     </button>
                                 </a>
                                 <div className="mt-5 pb-2 ml-8">
-                                <Link
-                                    href="/"
-                                    target="_blank"
-                                    rel="noreferrer"
+                                    <Link
+                                        href="/"
+                                        target="_blank"
+                                        rel="noreferrer"
                                     >
-                                       <span className="text-credmarkpurple"> Home </span>
-                                </Link>
+                                        <span className="text-credmarkpurple"> Home </span>
+                                    </Link>
                                 </div>
-                            <Popover className="relative pt-1">
-                                {({ open }) => (
-                                    <>
-                                        <Popover.Button
-                                            className=
+                                <Popover className="relative pt-1">
+                                    {({ open }) => (
+                                        <>
+                                            <Popover.Button
+                                                className=
                                                 'group text-credmarkpurple rounded-md inline-flex items-center text-base pt-5'
-                                            
-                                        >
-                                            <span>About</span>
-                                            <ChevronDownIcon
-                                                className={classNames(
-                                                    open ? 'text-credmarkpurple' : 'text-credmarkpurple',
-                                                    'ml-2 h-5 w-5'
-                                                )}
-                                                aria-hidden="true"
-                                            />
-                                        </Popover.Button>
 
-                                        <Transition
-                                            as={Fragment}
-                              
-                                        >
-                                            <Popover.Panel>
-                                                <div className="overflow-hidden">
-                                                    <div className="relative grid gap-6 px-5 py-6 sm:gap-8 sm:p-8">
-                                                        {community.map((item) => (
-                                                            <a
-                                                                key={item.name}
-                                                                href={item.href}
-                                                                className="-m-3 p-3 flex items-start rounded-lg text-credmarkpurple"
-                                                            >
-                                                                <div className="ml-4">
-                                                                    <p className="text-base font-medium text-credmarkpurple">{item.name}</p>
-                                                                </div>
-                                                            </a>
-                                                        ))}
+                                            >
+                                                <span>About</span>
+                                                <ChevronDownIcon
+                                                    className={classNames(
+                                                        open ? 'text-credmarkpurple' : 'text-credmarkpurple',
+                                                        'ml-2 h-5 w-5'
+                                                    )}
+                                                    aria-hidden="true"
+                                                />
+                                            </Popover.Button>
+
+                                            <Transition
+                                                as={Fragment}
+
+                                            >
+                                                <Popover.Panel>
+                                                    <div className="overflow-hidden">
+                                                        <div className="relative grid gap-6 px-5 py-6 sm:gap-8 sm:p-8">
+                                                            {community.map((item) => (
+                                                                <a
+                                                                    key={item.name}
+                                                                    href={item.href}
+                                                                    className="-m-3 p-3 flex items-start rounded-lg text-credmarkpurple"
+                                                                >
+                                                                    <div className="ml-4">
+                                                                        <p className="text-base font-medium text-credmarkpurple">{item.name}</p>
+                                                                    </div>
+                                                                </a>
+                                                            ))}
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </Popover.Panel>
-                                        </Transition>
-                                    </>
-                                )}
-                            </Popover>
+                                                </Popover.Panel>
+                                            </Transition>
+                                        </>
+                                    )}
+                                </Popover>
 
-                            <Popover className="relative pt-1">
-                                {({ open }) => (
-                                    <>
-                                        <Popover.Button
-                                            className=
+                                <Popover className="relative pt-1">
+                                    {({ open }) => (
+                                        <>
+                                            <Popover.Button
+                                                className=
                                                 'group text-credmarkpurple rounded-md inline-flex items-center text-base pt-5'
-                                            
-                                        >
-                                            <span>Learn</span>
-                                            <ChevronDownIcon
-                                                className={classNames(
-                                                    open ? 'text-credmarkpurple' : 'text-credmarkpurple',
-                                                    'ml-2 h-5 w-5'
-                                                )}
-                                                aria-hidden="true"
-                                            />
-                                        </Popover.Button>
 
-                                        <Transition
-                                            as={Fragment}
-                              
-                                        >
-                                            <Popover.Panel>
-                                                <div className="overflow-hidden">
-                                                    <div className="relative grid gap-6 px-5 py-6 sm:gap-8 sm:p-8">
-                                                        {learn.map((item) => (
-                                                            <a
-                                                                key={item.name}
-                                                                href={item.href}
-                                                                className="-m-3 p-3 flex items-start rounded-lg text-credmarkpurple"
-                                                            >
-                                                                <div className="ml-4">
-                                                                    <p className="text-base font-medium text-credmarkpurple">{item.name}</p>
-                                                                </div>
-                                                            </a>
-                                                        ))}
+                                            >
+                                                <span>Learn</span>
+                                                <ChevronDownIcon
+                                                    className={classNames(
+                                                        open ? 'text-credmarkpurple' : 'text-credmarkpurple',
+                                                        'ml-2 h-5 w-5'
+                                                    )}
+                                                    aria-hidden="true"
+                                                />
+                                            </Popover.Button>
+
+                                            <Transition
+                                                as={Fragment}
+
+                                            >
+                                                <Popover.Panel>
+                                                    <div className="overflow-hidden">
+                                                        <div className="relative grid gap-6 px-5 py-6 sm:gap-8 sm:p-8">
+                                                            {learn.map((item) => (
+                                                                <a
+                                                                    key={item.name}
+                                                                    href={item.href}
+                                                                    className="-m-3 p-3 flex items-start rounded-lg text-credmarkpurple"
+                                                                >
+                                                                    <div className="ml-4">
+                                                                        <p className="text-base font-medium text-credmarkpurple">{item.name}</p>
+                                                                    </div>
+                                                                </a>
+                                                            ))}
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </Popover.Panel>
-                                        </Transition>
-                                    </>
-                                )}
-                            </Popover>
+                                                </Popover.Panel>
+                                            </Transition>
+                                        </>
+                                    )}
+                                </Popover>
 
-                            <Popover className="relative pt-1">
-                                {({ open }) => (
-                                    <>
-                                        <Popover.Button
-                                            className=
+                                <Popover className="relative pt-1">
+                                    {({ open }) => (
+                                        <>
+                                            <Popover.Button
+                                                className=
                                                 'group text-credmarkpurple rounded-md inline-flex items-center text-base pt-5'
-                                            
-                                        >
-                                            <span>Products</span>
-                                            <ChevronDownIcon
-                                                className={classNames(
-                                                    open ? 'text-credmarkpurple' : 'text-credmarkpurple',
-                                                    'ml-2 h-5 w-5'
-                                                )}
-                                                aria-hidden="true"
-                                            />
-                                        </Popover.Button>
 
-                                        <Transition
-                                            as={Fragment}
-                              
-                                        >
-                                            <Popover.Panel>
-                                                <div className="overflow-hidden">
-                                                    <div className="relative grid gap-6 px-5 py-6 sm:gap-8 sm:p-8">
-                                                        {projects.map((item) => (
-                                                            <a
-                                                                key={item.name}
-                                                                href={item.href}
-                                                                className="-m-3 p-3 flex items-start rounded-lg text-credmarkpurple"
-                                                            >
-                                                                <div className="ml-4">
-                                                                    <p className="text-base font-medium text-credmarkpurple">{item.name}</p>
-                                                                </div>
-                                                            </a>
-                                                        ))}
+                                            >
+                                                <span>Products</span>
+                                                <ChevronDownIcon
+                                                    className={classNames(
+                                                        open ? 'text-credmarkpurple' : 'text-credmarkpurple',
+                                                        'ml-2 h-5 w-5'
+                                                    )}
+                                                    aria-hidden="true"
+                                                />
+                                            </Popover.Button>
+
+                                            <Transition
+                                                as={Fragment}
+
+                                            >
+                                                <Popover.Panel>
+                                                    <div className="overflow-hidden">
+                                                        <div className="relative grid gap-6 px-5 py-6 sm:gap-8 sm:p-8">
+                                                            {projects.map((item) => (
+                                                                <a
+                                                                    key={item.name}
+                                                                    href={item.href}
+                                                                    className="-m-3 p-3 flex items-start rounded-lg text-credmarkpurple"
+                                                                >
+                                                                    <div className="ml-4">
+                                                                        <p className="text-base font-medium text-credmarkpurple">{item.name}</p>
+                                                                    </div>
+                                                                </a>
+                                                            ))}
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </Popover.Panel>
-                                        </Transition>
-                                    </>
-                                )}
-                            </Popover>
+                                                </Popover.Panel>
+                                            </Transition>
+                                        </>
+                                    )}
+                                </Popover>
                             </div>
                         </div>
                     </Popover.Panel>

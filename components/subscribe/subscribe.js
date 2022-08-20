@@ -21,41 +21,6 @@ const Subscribe = () => {
                                 </button>
                             </Link>
                         </div>
-                        <h4 className="text-white text-3xl pb-2.5">Learn more about Credmark</h4>
-                        <div className="flex flex-wrap md:space-x-4">
-                        <Link href="/credmark-data" rel="noreferrer">
-                                    <button
-                                        type="button"
-                                        className="workSans flex justify-center w-full border-2 border-white text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md"
-                                    >
-                                        Our Data
-                                    </button>
-                                </Link>
-                            <Link href="/blog" rel="noreferrer">
-                                <button
-                                    type="button"
-                                    className="workSans flex justify-center w-full border-2 border-white text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md"
-                                >
-                                    Blog
-                                </button>
-                            </Link>
-                            <Link href="/media" rel="noreferrer">
-                                <button
-                                    type="button"
-                                    className="workSans flex justify-center w-full border-2 border-white text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md"
-                                >
-                                    Media
-                                </button>
-                            </Link>
-                            <Link href="/faq" rel="noreferrer">
-                                <button
-                                    type="button"
-                                    className="workSans flex justify-center w-full text-center border-2 border-white text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md"
-                                >
-                                    FAQ
-                                </button>
-                            </Link>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -74,41 +39,6 @@ const Subscribe = () => {
                                     >
                                         Sign-up
                                         <img className="pt-0.5 pl-2" alt="arrow right" src="../assets/arrow.svg" />
-                                    </button>
-                                </Link>
-                            </div>
-                            <h4 className="text-white text-3xl pb-2.5 pt-10 text-center">Learn more about Credmark</h4>
-                            <div className="flex justify-center flex-wrap md:space-x-4">
-                            <Link href="/credmark-data" rel="noreferrer">
-                                    <button
-                                        type="button"
-                                        className="workSans flex justify-center border-2 border-white text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md"
-                                    >
-                                        Our Data
-                                    </button>
-                                </Link>
-                                <Link href="/blog" rel="noreferrer">
-                                    <button
-                                        type="button"
-                                        className="workSans flex justify-center border-2 border-white text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md"
-                                    >
-                                        Blog
-                                    </button>
-                                </Link>
-                                <Link href="/media" rel="noreferrer">
-                                    <button
-                                        type="button"
-                                        className="workSans flex justify-center border-2 border-white text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md"
-                                    >
-                                        Media
-                                    </button>
-                                </Link>
-                                <Link href="/faq" rel="noreferrer">
-                                    <button
-                                        type="button"
-                                        className="workSans flex justify-center text-center border-2 border-white text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium rounded-md"
-                                    >
-                                        FAQ
                                     </button>
                                 </Link>
                             </div>
