@@ -7,40 +7,8 @@ const navigation = {
             name: 'Credmark Terminal',
             href: 'https://app.credmark.com/',
         },
-        {
-            name: 'Credmark Wiki',
-            href: 'https://docs.credmark.com/credmark-wiki/',
-        },
-        {   name: 'Reports', 
-        href: '/reports',  
-        },
     ],
     learn: [
-        {
-            name: 'Our Data',
-            href: '/credmark-data',
-        },
-        {   name: 'FAQ', 
-            href: '/faq', 
-        },
-        {
-            name: 'White Paper',
-            href: 'https://docs.credmark.com/credmark/',
-        },
-        {
-            name: 'Privacy Policy',
-            href: '/legal/privacy-policy',
-        },
-    ],
-    community: [
-        {
-            name: 'Contributors',
-            href: '/contributors',
-        },
-        {
-            name: 'Careers',
-            href: '/careers',
-        },
         {
             name: 'Blog',
             href: '/blog',
@@ -49,10 +17,39 @@ const navigation = {
             name: 'Media',
             href: '/media',
         },
-
         {
-            name: 'Privacy Policy',
-            href: '/privacy-policy',
+            name: 'Credmark Wiki',
+            href: 'https://docs.credmark.com/credmark-wiki/',
+        },
+        {
+            name: 'Technical Docs',
+            href: 'https://docs.credmark.com/technical-docs/',
+        },
+        {
+            name: 'FAQ',
+            href: '/faq',
+        },
+        {
+            name: 'Reports',
+            href: '/reports',
+        },
+        {
+            name: 'White Paper',
+            href: 'https://docs.credmark.com/credmark/',
+        },
+    ],
+    community: [
+        {
+            name: 'Careers',
+            href: '/careers',
+        },
+        {
+            name: 'About us',
+            href: '/contributors',
+        },
+        {
+            name: 'Community',
+            href: 'https://discord.com/invite/3dSfMqP3d4',
         },
     ],
     social: [
