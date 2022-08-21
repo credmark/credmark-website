@@ -54,15 +54,15 @@ export default function PortfolioApi() {
                                 <p className="text-base">
                                     Anyone who needs to display users’ portfolio information. Sometimes it’s a lot, like transaction details, and sometimes it’s a little, like the portfolio’s value in USD.
                                 </p>
-                                <p className="text-base">Some common use cases include:</p>
+                                <p className="text-base pt-3">Some common use cases include:</p>
                                 <div>
-                                    <p className="py-5 pr-3.5 text-base">
+                                    <p className="py-3 pr-3.5 text-base">
                                         <span><img className="float-left mr-4" src="/assets/checkedCircle.svg" alt="tick" width={26} />a lender needing to understand a borrower’s financial situation,</span></p>
-                                    <p className="py-5 pr-3.5 text-base">
+                                    <p className="py-3 pr-3.5 text-base">
                                         <span><img className="float-left mr-4" src="/assets/checkedCircle.svg" alt="tick" width={26} />a treasury manager needing to track positions over time,</span></p>
-                                    <p className="py-5 pr-3.5 text-base">
+                                    <p className="py-3 pr-3.5 text-base">
                                         <span><img className="float-left mr-4" src="/assets/checkedCircle.svg" alt="tick" width={26} />a wallet needing to show current and past state, and</span></p>
-                                    <p className="py-5 pr-3.5 text-base">
+                                    <p className="py-3 pr-3.5 text-base">
                                         <span><img className="float-left mr-4" src="/assets/checkedCircle.svg" alt="tick" width={26} />a portfolio aggregator needing to roll up data from multiple wallets.</span></p>
                                 </div>
                             </div>
