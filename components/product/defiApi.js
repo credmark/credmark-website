@@ -13,7 +13,7 @@ export default function DefiApi() {
 
     return (
         <>
-   <div>
+            <div id="defiApi">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="space-y-4 sm:space-y-0 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 py-16">
                         <div className="bg-white p-4 lg:p-24 border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200 shadow-lg">
@@ -83,7 +83,7 @@ export default function DefiApi() {
                             <div className="pt-5 lg:pt-16">
                                 <h4 className="uppercase text-credmarkpurple text-3xl pb-3 text-center">Build with the community</h4>
                                 <p className="text-center max-w-2xl mx-auto">
-                                We’re a global community of modelers. Join us and engage with other members building models using our API.
+                                    We’re a global community of modelers. Join us and engage with other members building models using our API.
                                 </p>
                                 <div className="flex justify-center mt-8 mb-8 lg:mb-0">
                                     <button
