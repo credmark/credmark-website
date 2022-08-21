@@ -11,7 +11,7 @@ export default function CareerTilesLive() {
                        Our Culture
                     </h3>
                     <div className="max-w-7xl block mx-auto">
-                        <div className="grid grid-cols-1 md:grid-cols-3 md:space-x-6">
+                        <div className="flex flex-wrap lg:flex-nowrap lg:space-x-6">
                             <CareerTiles
                                 alt="decentralised ideas"
                                 img="../../assets/decentralised-ideas.svg"

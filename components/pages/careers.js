@@ -13,7 +13,7 @@ export default function Careers() {
                 <div className="blogGradient">
                     <CareerHeader
                         title="Build the Future of Finance Together"
-                        description="Our mission is to bring credibility and accountability to DeFi"
+                        description="Our mission is to give developers easy access to blockchain data."
                         button="Join us"
                     />
                     <CareerTilesLive />
@@ -51,50 +51,7 @@ export default function Careers() {
                             time="Full-Time"
                         />
                     </div>
-                    <div className="footerBg">
-                        <div className="px-5 py-20 md:py-28 max-w-6xl block m-auto">
-                            <h3 className="text-left text-white py-5 text-3xl text-4xl md:text-5xl pb-0">
-                                Our mission
-                            </h3>
-                            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-                                <div
-                                    className="relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
-                                >
-                                    <div className="flex-shrink-0">
-                                        <img src="../assets/curate-crypto-data.svg" alt="Curate crypto data" />
-                                    </div>
-                                    <div className="flex-1 min-w-0">
-                                        <span className="absolute inset-0" aria-hidden="true" />
-                                        <p className="text-2xl font-light text-white ml-2">Make reliable data accessible</p>
-                                    </div>
-                                </div>
-                                <div
-                                    className="relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
-                                >
-                                    <div className="flex-shrink-0">
-                                        <img src="../assets/research.svg" alt="Provide data-driven insights" />
-                                    </div>
-                                    <div className="flex-1 min-w-0">
-                                        <span className="absolute inset-0" aria-hidden="true" />
-                                        <p className="text-2xl font-light text-white ml-2">Provide data-driven insights</p>
-                                    </div>
-                                </div>
-                                <div
-                                    className="relative rounded-lg border border-gray-300 px-6 py-5 flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
-                                >
-                                    <div className="flex-shrink-0">
-                                        <img src="../assets/risk-management.svg" alt="Develop battle-tested models" />
-                                    </div>
-                                    <div className="flex-1 min-w-0">
-                                        <span className="absolute inset-0" aria-hidden="true" />
-                                        <p className="text-2xl font-light text-white ml-2">Develop battle-tested models</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <Subscribe />
                 <Footer />
             </main>
         </>
