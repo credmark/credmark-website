@@ -148,6 +148,7 @@ export default function PricingPlan() {
               </ul>
               <a
                 href="https://www.snowflake.com/datasets/credmark-labs-ethereum-core/"
+                target="_blank"
                 className="absolute inset-x-0 bottom-0 my-5 mx-4 block bg-green border border-gray-800 py-2 text-sm font-semibold text-black shadow-lg text-center"
               >
                 Learn more

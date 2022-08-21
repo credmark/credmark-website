@@ -56,7 +56,7 @@ const Applications = () => {
                     onClick={handleTab3}
                 >
                     <div className={activeTab === "defiApi" ? "cursor-pointer py-4 px-6 border-b-2 border-green min-h-full" : "cursor-pointer py-4 px-6 border-b-2 border-white  min-h-full"}>
-                        <h2 className={activeTab === "defiApi" ? "openSansMedium text-xl font-bold text-green text-center" : "openSansMedium text-xl font-bold text-white text-center"}>Token API</h2>
+                        <h2 className={activeTab === "defiApi" ? "openSansMedium text-xl font-bold text-green text-center" : "openSansMedium text-xl font-bold text-white text-center"}>DeFi API</h2>
                     </div>
                 </div>
                 <div
