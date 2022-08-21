@@ -53,18 +53,23 @@ export default function Home({ data }) {
         <Nav />
         <div className="max-w-7xl block mx-auto">
         <h1 className="px-4 md:px-0 text-green pt-10 md:pt-24 leading-snug pb-3">
-          ON-CHAIN DATA WITH 
-          <br/>
-          VERIFIABLE TRANSPARENCY</h1>
+          Simple. Powerful. 
+          <br />
+          Accessible Blockchain Data</h1>
           <p className="px-4 md:px-0 text-white block mx-auto leading-snug">
-            The only source of blockchain data that provides visible traceability and <br/> granular context so you can develop Apps and build models with confidence.
+          We curate blockchain data for developers. We keep it simple. We give you power.
           </p>
+          <ul>
+            <li className="text-white">Raw data for explorers.</li>
+            <li className="text-white">Simple APIs for developers.</li>
+            <li className="text-white">A modeling platform for quants.</li>
+          </ul>
           <div className="flex flex-wrap pb-52 pt-6">
             <button
               type="button"
-              className="w-36 mx-2 lg:mx-0 text-white heroButton mt-5 px-2 py-2 shadow-sm text-sm font-medium"
+              className="w-36 mx-2 lg:mx-0 text-white heroButton px-2 py-2 shadow-sm text-sm font-medium"
             >
-              <Link href="https://app.credmark.com/">
+              <Link href="/product">
                 <p>Start building</p>
               </Link>
             </button>
@@ -75,16 +80,16 @@ export default function Home({ data }) {
         <div className="bg-black">
           <dl className="rounded-lg bg-black shadow-lg sm:grid sm:grid-cols-3">
             <div className="flex flex-col text-center statBorder">
-              <dt className="mt-2 text-xs leading-6 text-white courier">Model contributors</dt>
-              <dd className="text-4xl text-green py-2 bungee">17</dd>
+              <dt className="mt-2 text-xs leading-6 text-white courier">Raw data</dt>
+              <dd className="text-4xl text-green py-2 bungee">10.5TB</dd>
             </div>
             <div className="flex flex-col text-center statBorder">
               <dt className="mt-2 text-xs leading-6 text-white courier">Number of models</dt>
               <dd className="text-4xl text-green py-2 bungee">114</dd>
             </div>
             <div className="flex flex-col text-center">
-              <dt className="mt-2 text-xs leading-6 text-white courier">Total commits</dt>
-              <dd className="text-4xl text-green py-2 bungee">819</dd>
+              <dt className="mt-2 text-xs leading-6 text-white courier">API calls</dt>
+              <dd className="text-4xl text-green py-2 bungee">2million</dd>
             </div>
           </dl>
         </div>

@@ -236,17 +236,6 @@ export default function NavTest() {
                                     </>
                                 )}
                             </Popover>
-                            <a
-                                href="https://app.credmark.com/"
-                                target="_blank"
-                                rel="noreferrer">
-                                <button
-                                    type="button"
-                                    className="transform hover:scale-110 ml-5 px-5 uppercase inline-flex items-center px-4 py-2 shadow-sm text-sm font-medium rounded-md text-white bg-green focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                                >
-                                    APP
-                                </button>
-                            </a>
                         </Popover.Group>
                     </div>
                 </div>
@@ -273,17 +262,6 @@ export default function NavTest() {
                                         </Popover.Button>
                                     </div>
                                 </div>
-                                <a
-                                    href="https://app.credmark.com/"
-                                    target="_blank"
-                                    rel="noreferrer">
-                                    <button
-                                        type="button"
-                                        className="px-5 mt-5 px-4 py-2 shadow-sm text-sm font-medium rounded-md text-white bg-credmarkpurple w-full text-center"
-                                    >
-                                        Check out our App
-                                    </button>
-                                </a>
                                 <div className="mt-5 pb-2 ml-8">
                                     <Link
                                         href="/"
