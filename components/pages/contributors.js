@@ -32,12 +32,21 @@ export default function Team() {
                 <div className="blogGradient rounded-md">
                     <CenteredHeader
                         title="Contributors"
-                        description="Our team speaks numerous languages and are distributed across multiple regions around the world" />
+                        description="Our team is distributed across the globe" />
                     <div className="px-5 py-10 md:px-10 max-w-5xl block m-auto">
                         <h3 className="text-center md:text-left text-black py-5 text-3xl text-4xl md:text-5xl pb-0 md:pt-10">
                             Core Team
                         </h3>
                         <div className="grid grid-cols-1 md:grid-cols-3 pb-10 gap-12 px-10 md:px-0">
+                            <Menu
+                                category='Team'
+                                img="../assets/paul.png"
+                                alt="Paul Murphy"
+                                name="Paul Murphy"
+                                title="Operations"
+                                twitter="https://twitter.com/prmurphy"
+                                linkedin="https://www.linkedin.com/in/prmurphy/"
+                            />
                             <Menu
                                 category='Team'
                                 img="../assets/neil-resized.png"
@@ -52,18 +61,9 @@ export default function Team() {
                                 img="../assets/momin.jpg"
                                 alt="Momin Ahmad "
                                 name="Momin Ahmad"
-                                title="Growth"
+                                title="Partnerships"
                                 twitter="https://twitter.com/mostarz93"
                                 linkedin="https://www.linkedin.com/in/momin-ahmad/"
-                            />
-                            <Menu
-                                category='Team'
-                                img="../assets/paul.png"
-                                alt="Paul Murphy"
-                                name="Paul Murphy"
-                                title="Operations"
-                                twitter="https://twitter.com/prmurphy"
-                                linkedin="https://www.linkedin.com/in/prmurphy/"
                             />
                             <Menu
                                 category='Team'
@@ -83,24 +83,7 @@ export default function Team() {
                                 twitter="https://twitter.com/atulemis1"
                                 linkedin="https://www.linkedin.com/in/atulemis/"
                             />
-                            <Menu
-                                category='Team'
-                                img="../assets/nisch.jpg"
-                                alt="Nishchal Gaba"
-                                name="Nishchal Gaba"
-                                title="Data Science"
-                                twitter="https://twitter.com/gaba_nishchal"
-                                linkedin="https://www.linkedin.com/in/nishchal-gaba-295701a5/"
-                            />
-                            <Menu
-                                category='Team'
-                                img="../assets/collier.jpg"
-                                alt="Collier Gray"
-                                name="Collier Gray"
-                                title="Partnerships"
-                                twitter="https://twitter.com/JoeCollierGray"
-                                linkedin="https://www.linkedin.com/in/joseph-collier-gray-7a323054/"
-                            />
+
                             <Menu
                                 category='Team'
                                 img="../assets/mark-valentine.jpg"
@@ -112,19 +95,10 @@ export default function Team() {
                             />
                             <Menu
                                 category='Team'
-                                img="../assets/punit-kumar.jpg"
-                                alt="Punit Kumar"
-                                name="Punit Kumar"
-                                title="Data"
-                                twitter="https://twitter.com/tweet_wid_punit"
-                                linkedin="https://www.linkedin.com/in/punit-kumar01/"
-                            />
-                            <Menu
-                                category='Team'
                                 img="../assets/when.png"
                                 alt="Wen-Chiao"
                                 name="Wen-Chiao"
-                                title="Community"
+                                title="Marketing"
                                 description="Originally from Taiwan,  Wen-Chiao grew up in the US, went back to Taiwan for high school, and then moved to Japan for university. He’s worked in both Taipei and Tokyo in tech and innovation. In his spare time, he likes reading and asking questions."
                                 twitter="https://twitter.com/wc_su95"
                                 linkedin="https://www.linkedin.com/in/wen-chiao-su/"
@@ -162,7 +136,7 @@ export default function Team() {
                                         </div>
                                         <div>
                                             <p className="text-black font-bold pt-2.5 pb-0 text-center text-base">Kunlun Yang</p>
-                                            <p className="text-black pb-5 pt-0 text-center text-base">Analysis</p>
+                                            <p className="text-black pb-5 pt-0 text-center text-base">Modeling</p>
                                         </div>
                                     </div>
                                 </div>
@@ -172,7 +146,7 @@ export default function Team() {
                                 img="../assets/vineet-kumar.jpeg"
                                 alt="Vineet Kumar"
                                 name="Vineet Kumar"
-                                title="Tech"
+                                title="Technology"
                                 twitter="https://twitter.com/v1nvn"
                                 linkedin="https://www.linkedin.com/in/v1nvn/"
                             />
@@ -185,17 +159,6 @@ export default function Team() {
                                 twitter="https://twitter.com/iorothschild"
                                 linkedin="https://www.linkedin.com/in/ivo-rothschild/"
                             />
-                            <Menu
-                                category='Team'
-                                img="../assets/joey.jpg"
-                                alt="Joseph Hirsh"
-                                name="Joseph Hirsh"
-                                title="Data"
-                                description="After receiving a PhD in algebraic topology and postdoctoral fellowships at MIT and MSRI, Joe worked in blockchain/AI consulting and served as a mentor for dLab."
-                                descriptiontwo="Outside of work, Joe is either cooking, bodybuilding, or watching YouTube videos about non-duality."
-                                twitter="https://twitter.com/corepresentable"
-                                linkedin="https://www.linkedin.com/in/joseph-hirsh/"
-                            />
                         </div>
                     </div>
                     <div className="advisorBg">
@@ -205,7 +168,7 @@ export default function Team() {
                             </h3>
 
                             <div className="grid grid-cols-1 md:grid-cols-3 pb-10 gap-12 px-10 md:px-0">
-                            {/* <div className="grid grid-cols-1 md:grid-cols-2 block m-auto max-w-4xl"> */}
+                                {/* <div className="grid grid-cols-1 md:grid-cols-2 block m-auto max-w-4xl"> */}
                                 <div className="box col-xs">
                                     <div id="team" className="md:py-10">
                                         <div>
@@ -234,7 +197,7 @@ export default function Team() {
                                     linkedin="https://www.linkedin.com/in/jonathanlauhk/"
                                     twitter="https://twitter.com/thejonahlau"
                                 />
-                            {/* </div>
+                                {/* </div>
                             <div className="grid grid-cols-1 md:grid-cols-3 block m-auto"> */}
 
                                 <AdvisorCard
@@ -251,7 +214,7 @@ export default function Team() {
                                     linkedin="https://www.linkedin.com/in/albertoornaghi/"
                                     twitter="https://twitter.com/AlbertoOrnaghi"
                                 />
-                                   <AdvisorCard
+                                <AdvisorCard
                                     img="../assets/jacob-franek.jpg"
                                     alt="Jacob Franek"
                                     name="Jacob Franek"
@@ -262,7 +225,7 @@ export default function Team() {
                                     <div id="team" className="md:py-10">
                                         <div>
                                             <div className="rounded-full img-hover">
-                                                <img className="text-center bio-photo" height={240} width={240} src="../assets/serge.png" alt="Serge Ugarte"  />
+                                                <img className="text-center bio-photo" height={240} width={240} src="../assets/serge.png" alt="Serge Ugarte" />
                                                 <div className="overlayAdvisors relative">
                                                     <div className="socialButtons flex justify-center">
                                                         <a href="https://www.linkedin.com/in/serge-ugarte/" target="_blank" rel="noreferrer">
@@ -295,7 +258,6 @@ export default function Team() {
                             </Link>
                         </div>
                     </div>
-                    <Subscribe />
                     <Footer />
                 </div>
             </main>
