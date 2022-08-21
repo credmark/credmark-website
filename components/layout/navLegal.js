@@ -12,14 +12,6 @@ const projects = [
         name: 'Credmark Terminal',
         href: 'https://app.credmark.com/',
     },
-    {
-        name: 'Credmark Wiki',
-        href: 'https://docs.credmark.com/credmark-wiki/',
-    },
-    {
-        name: 'Reports',
-        href: '/reports',
-    },
 ]
 
 const learn = [
@@ -32,8 +24,20 @@ const learn = [
         href: '/media',
     },
     {
+        name: 'Credmark Wiki',
+        href: 'https://docs.credmark.com/credmark-wiki/',
+    },
+    {
+        name: 'Technical Docs',
+        href: 'https://docs.credmark.com/technical-docs/',
+    },
+    {
         name: 'FAQ',
         href: '/faq',
+    },
+    {
+        name: 'Reports',
+        href: '/reports',
     },
     {
         name: 'White Paper',
