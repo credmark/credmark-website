@@ -71,8 +71,8 @@ export default function PricingPlan() {
                 </p>
               </div>
               <div className="pt-6 pb-8 px-6">
-                <h3 className="text-sm font-medium text-gray-900">What's included</h3>
-                <ul role="list" className="mt-6 space-y-4">
+                <h3 className="text-base font-medium text-credmarkpurple text-center openSansMedium">What's included</h3>
+                <ul role="list" className="mt-6 space-y-4 p-0">
                   {tier.includedFeatures.map((feature) => (
                     <li key={feature} className="flex space-x-3">
                       <CheckIcon className="flex-shrink-0 h-5 w-5 text-green-500" aria-hidden="true" />
@@ -82,9 +82,9 @@ export default function PricingPlan() {
                 </ul>
                 <a
                   href={tier.href}
-                  className="mt-8 block w-full bg-gray-800 border border-gray-800 rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-gray-900"
+                  className="mt-8 block bg-green border border-gray-800 py-2 text-sm font-semibold text-black shadow-lg text-center"
                 >
-                  Buy {tier.name}
+                    Sign up
                 </a>
               </div>
             </div>

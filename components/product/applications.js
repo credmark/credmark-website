@@ -33,14 +33,14 @@ const Applications = () => {
     return (
         <div id="learnMore" className="bg-purple-500">
             <p className="uppercase text-green text-center font-bold">Don't know what to get?</p>
-            <h1 className="tracking-tight font-bold gradientFont text-center pb-5 lg:pb-0">Discover the applications</h1>
+            <h1 className="tracking-tight font-bold gradientFont text-center pb-5 lg:pb-11">Discover the applications</h1>
             <div className="grid grid-cols-2 lg:grid-cols-4 max-w-6xl block mx-auto">
                 <div
                     className={activeTab === "tokenApi" ? "active" : ""}
                     onClick={handleTab1}
                 >
                     <div className={activeTab === "tokenApi" ? "cursor-pointer py-4 px-6 border-b-2 border-green min-h-full" : "cursor-pointer py-4 px-6 border-b-2 border-white min-h-full"}>
-                        <h2 className="montserrat text-xl font-bold text-white text-center">Token API</h2>
+                        <h2 className={activeTab === "tokenApi" ? "openSansMedium text-xl font-bold text-green text-center" : "openSansMedium text-xl font-bold text-white text-center"}>Token API</h2>
                     </div>
                 </div>
                 <div
@@ -48,7 +48,7 @@ const Applications = () => {
                     onClick={handleTab2}
                 >
                     <div className={activeTab === "portfolioApi" ? "cursor-pointer py-4 px-6 border-b-2 border-green min-h-full" : "cursor-pointer py-4 px-6 border-b-2 border-white min-h-full"}>
-                        <h2 className="montserrat text-xl font-bold text-white text-center">Portfolio API</h2>
+                        <h2 className={activeTab === "portfolioApi" ? "openSansMedium text-xl font-bold text-green text-center" : "openSansMedium text-xl font-bold text-white text-center"}>Portfolio API</h2>
                     </div>
                 </div>
                 <div
@@ -56,7 +56,7 @@ const Applications = () => {
                     onClick={handleTab3}
                 >
                     <div className={activeTab === "defiApi" ? "cursor-pointer py-4 px-6 border-b-2 border-green min-h-full" : "cursor-pointer py-4 px-6 border-b-2 border-white  min-h-full"}>
-                        <h2 className="montserrat text-xl font-bold text-white text-center">Token API</h2>
+                        <h2 className={activeTab === "defiApi" ? "openSansMedium text-xl font-bold text-green text-center" : "openSansMedium text-xl font-bold text-white text-center"}>Token API</h2>
                     </div>
                 </div>
                 <div
@@ -64,7 +64,7 @@ const Applications = () => {
                     onClick={handleTab4}
                 >
                     <div className={activeTab === "rawData" ? "cursor-pointer py-4 px-6 border-b-2 border-green min-h-full" : "cursor-pointer py-4 px-6 border-b-2 border-white min-h-full"}>
-                        <h2 className="montserrat text-xl font-bold text-white text-center">Raw Data</h2>
+                        <h2 className={activeTab === "rawData" ? "openSansMedium text-xl font-bold text-green text-center" : "openSansMedium text-xl font-bold text-white text-center"}>Raw Data</h2>
                     </div>
                 </div>
             </div>
@@ -74,6 +74,24 @@ const Applications = () => {
                 {activeTab === "rawData" ? <RawData /> : ""}
                 {activeTab === "defiApi" ? <DefiApi /> : ""}
                 {activeTab === "portfolioApi" ? <PortfolioApi /> : ""}
+            </div>
+            <div className="px-4 lg:px-0">
+            <h1 className="tracking-tight font-bold gradientFont text-center pb-5 lg:pb-0">What we support</h1>
+            <div className="flex flex-wrap justify-between max-w-xl mx-auto pb-20">
+                <div>
+                    <img className="block mx-auto h-24" src="/assets/etheruem.svg" alt="etheruem logo" />
+                    <p className="text-green text-center bungee">Ethereum</p>
+                </div>
+                <div>
+                    <img className="block mx-auto h-24 w-20" src="/assets/polygon-logo.svg" alt="polygon logo" />
+                    <p className="text-green text-center bungee">Polygon</p>
+                </div>
+                <div>
+                    <img className="block mx-auto h-24 w-20" src="/assets/avalanche.svg" alt="avalanche logo" />
+                    <p className="text-green text-center bungee">Avalanche</p>
+                </div>
+
+            </div>
             </div>
             <div className="bg-white py-10 md:py-28">
                 <div className="px-5">

@@ -3,7 +3,6 @@ import { useState } from 'react'
 import { Switch } from '@headlessui/react'
 import Link from 'next/link'
 
-
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
@@ -19,7 +18,7 @@ export default function DefiApi() {
                     <div className="space-y-4 sm:space-y-0 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 py-16">
                         <div className="bg-white p-4 lg:p-24 border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200 shadow-lg">
                             <div>
-                                <h2 className="openSansMedium leading-6 text-credmarkpurple text-2xl lg:text-5xl pb-3 pt-10 lg:pt-0">Raw Data</h2>
+                                <h2 className="openSansMedium leading-6 text-credmarkpurple text-2xl lg:text-5xl pb-3 pt-10 lg:pt-0">Defi API</h2>
                                 <p className="texl-lg font-bold">The Token API is what you need to access everything token related</p>
                             </div>
                             <div className="grid lg:grid-cols-4 lg:space-x-4 pb-20">
