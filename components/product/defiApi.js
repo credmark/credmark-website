@@ -54,7 +54,7 @@ export default function DefiApi() {
                                 </p>
 
                                 <p className="text-base">
-                                    You’ll find all the documentation you need to get started building models<a className="openSansMedium" href="https://developer-docs.credmark.com/en/latest/usage.html" target="_blank" rel="noreferrer"> here</a>. To learn about the models that have already been deployed, go <a href="https://gateway.credmark.com/model-docs" target="_blank" className="openSansMedium"> here.</a>
+                                    You’ll find all the documentation you need to get started building models<a className="openSansMedium" href="https://developer-docs.credmark.com/en/latest/usage.html" target="_blank" rel="noreferrer"> here</a>. To learn about the models that have already been deployed, go <a href="https://gateway.credmark.com/model-docs" target="_blank" rel="noreferrer" className="openSansMedium"> here.</a>
                                 </p>
                                 <p className="text-base">If you need to find someone, get in touch with us.</p>
 
@@ -63,7 +63,7 @@ export default function DefiApi() {
                                     People are doing some pretty incredible things with our models. To showcase what’s possible we’ve built and deployed the<a href="https://app.credmark.com/" target="_blank" className="openSansMedium" rel="noreferrer"> Credmark Terminal.</a> Every chart is powered by a production model you can use. 🤯
                                 </p>
                                 <p className="text-base">
-                                    We’ve even embedded some Power BI dashboards (e.g., <a href="https://app.credmark.com/terminal/stablecoin/frax-stats" target="_blank" className="openSansMedium">https://app.credmark.com/terminal/stablecoin/frax-stats</a>) to show how BI tools can be used to build interactive dashboards using the API.
+                                    We’ve even embedded some Power BI dashboards (e.g., <a href="https://app.credmark.com/terminal/stablecoin/frax-stats" target="_blank" className="openSansMedium" rel="noreferrer">https://app.credmark.com/terminal/stablecoin/frax-stats</a>) to show how BI tools can be used to build interactive dashboards using the API.
                                 </p>
 
                                 <p className="openSansMedium pt-5">Documentation</p>
