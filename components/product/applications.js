@@ -32,7 +32,7 @@ const Applications = () => {
     };
     return (
         <div id="learnMore" className="bg-purple-500">
-            <p className="uppercase text-green text-center font-bold">Don't know what to get?</p>
+            <p className="uppercase text-green text-center font-bold">Don&apos;t know what to get?</p>
             <h1 className="tracking-tight font-bold gradientFont text-center pb-5 lg:pb-11">Discover the applications</h1>
             <div className="grid grid-cols-2 lg:grid-cols-4 max-w-6xl block mx-auto">
                 <div

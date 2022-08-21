@@ -62,7 +62,7 @@ export default function PricingPlan() {
                 </p>
               </div>
               <div className="pb-4 px-6">
-                <h3 className="text-base font-medium text-credmarkpurple text-center openSansMedium">What's included</h3>
+                <h3 className="text-base font-medium text-credmarkpurple text-center openSansMedium">What&apos;s included</h3>
                 <p className="text-center text-2xl pt-4">{tier.rateLimits}</p>
                 <p className="text-center text-2xl text-gray-400">Rate limits</p>
                 <ul role="list" className="mt-6 mb-14 space-y-4 p-0">
@@ -119,7 +119,7 @@ export default function PricingPlan() {
               </p>
             </div>
             <div className="pb-10 px-6">
-              <h3 className="text-base font-medium text-credmarkpurple text-center openSansMedium">What's included</h3>
+              <h3 className="text-base font-medium text-credmarkpurple text-center openSansMedium">What&apos;s included</h3>
               <ul role="list" className="mt-6 space-y-4 p-0">
                 <li className="flex space-x-3">
                   <CheckIcon className="flex-shrink-0 h-5 w-5 text-green-500" aria-hidden="true" />
@@ -149,6 +149,7 @@ export default function PricingPlan() {
               <a
                 href="https://www.snowflake.com/datasets/credmark-labs-ethereum-core/"
                 target="_blank"
+                rel="noreferrer"
                 className="absolute inset-x-0 bottom-0 my-5 mx-4 block bg-green border border-gray-800 py-2 text-sm font-semibold text-black shadow-lg text-center"
               >
                 Learn more

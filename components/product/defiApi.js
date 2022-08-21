@@ -45,7 +45,7 @@ export default function DefiApi() {
                                     The API includes functions to retrieve metadata about deployed models. More importantly, it includes the run_model endpoint which runs any model deployed on the platform.
                                 </p>
                                 <p className="text-base">
-                                    API documentation can be found <a className="openSansMedium" href="https://gateway.credmark.com/api/" target="_blank">here</a>
+                                    API documentation can be found <a className="openSansMedium" href="https://gateway.credmark.com/api/" target="_blank" rel="noreferrer">here</a>
                                 </p>
 
                                 <p className="openSansMedium pt-5">Bespoke Models</p>
@@ -54,13 +54,13 @@ export default function DefiApi() {
                                 </p>
 
                                 <p className="text-base">
-                                    You’ll find all the documentation you need to get started building models<a className="openSansMedium" href="https://developer-docs.credmark.com/en/latest/usage.html" target="_blank"> here</a>. To learn about the models that have already been deployed, go <a href="https://gateway.credmark.com/model-docs" target="_blank" className="openSansMedium"> here.</a>
+                                    You’ll find all the documentation you need to get started building models<a className="openSansMedium" href="https://developer-docs.credmark.com/en/latest/usage.html" target="_blank" rel="noreferrer"> here</a>. To learn about the models that have already been deployed, go <a href="https://gateway.credmark.com/model-docs" target="_blank" className="openSansMedium"> here.</a>
                                 </p>
                                 <p className="text-base">If you need to find someone, get in touch with us.</p>
 
                                 <p className="openSansMedium pt-5">Examples</p>
                                 <p className="text-base">
-                                    People are doing some pretty incredible things with our models. To showcase what’s possible we’ve built and deployed the<a href="https://app.credmark.com/" target="_blank" className="openSansMedium"> Credmark Terminal.</a> Every chart is powered by a production model you can use. 🤯
+                                    People are doing some pretty incredible things with our models. To showcase what’s possible we’ve built and deployed the<a href="https://app.credmark.com/" target="_blank" className="openSansMedium" rel="noreferrer"> Credmark Terminal.</a> Every chart is powered by a production model you can use. 🤯
                                 </p>
                                 <p className="text-base">
                                     We’ve even embedded some Power BI dashboards (e.g., <a href="https://app.credmark.com/terminal/stablecoin/frax-stats" target="_blank" className="openSansMedium">https://app.credmark.com/terminal/stablecoin/frax-stats</a>) to show how BI tools can be used to build interactive dashboards using the API.
@@ -73,12 +73,12 @@ export default function DefiApi() {
                                            
                                             <tbody className="divide-y divide-gray-200 bg-white">
                                                 {people.map((person) => (
-                                                    <tr>
+                                                    <tr key={person}>
                                                         <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
                                                             {person.documentation}
                                                         </td>
                                                         <td className="hidden whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:table-cell">
-                                                            <a href={person.documentationLink} target="_blank">{person.documentationLink} </a>
+                                                            <a href={person.documentationLink} target="_blank" rel="noreferrer">{person.documentationLink} </a>
                                                         </td>
                                                         
                                                     </tr>
@@ -119,7 +119,7 @@ export default function DefiApi() {
                                         type="button"
                                         className="mx-2 lg:mx-0 text-black bg-green px-5 py-2 mb-10 shadow-sm text-sm font-bold"
                                     >
-                                        <Link href="https://developer-docs.credmark.com/en/latest/usage.html">
+                                        <Link href="https://developer-docs.credmark.com/en/latest/usage.html" target="_blank" rel="noreferrer">
                                             <p>Sign up</p>
                                         </Link>
                                     </button>
@@ -135,14 +135,13 @@ export default function DefiApi() {
                                         type="button"
                                         className="mx-2 lg:mx-0 text-black border-2 border-green px-5 py-2 shadow-sm text-sm font-bold"
                                     >
-                                        <Link href="https://developer-docs.credmark.com/en/latest/usage.html">
+                                        <Link href="https://developer-docs.credmark.com/en/latest/usage.html" target="_blank" rel="noreferrer">
                                             <p>Join Now</p>
                                         </Link>
                                     </button>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

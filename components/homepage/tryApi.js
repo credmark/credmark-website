@@ -60,12 +60,12 @@ export default function TryApi() {
                                         <li className="text-white text-sm py-2">DEX liquidity.</li>
                                         <li className="text-white text-sm py-2">Token metadata.</li>
                                     </ul>
-                                    <a
+                                    <Link
                                         href="/product"
                                         className="absolute inset-x-0 bottom-0 mb-5 mx-4 block bg-green border border-gray-800 py-2 text-sm font-semibold text-black shadow-lg text-center"
                                     >
                                         Learn more
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             {tiers.map((tier) => (

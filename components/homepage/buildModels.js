@@ -43,7 +43,7 @@ export default function BuildModels() {
                             type="button"
                             className="mx-2 lg:mx-0 text-black bg-green mt-5 px-5 py-2 mb-10 shadow-sm text-sm font-bold"
                         >
-                                <a href="https://app.credmark.com/terminal/dex/uniswap-v2" target="_blank">
+                                <a href="https://app.credmark.com/terminal/dex/uniswap-v2" target="_blank" rel="noreferrer">
                                     <p>View the Terminal</p>
                                 </a>
                         </button>
