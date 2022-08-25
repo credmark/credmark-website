@@ -67,7 +67,7 @@ export default function Home({ data }) {
           <div className="flex flex-wrap pb-52 pt-6">
             <button
               type="button"
-              className="w-36 mx-2 lg:mx-0 text-white heroButton px-2 py-2 shadow-sm text-sm font-medium"
+              className="w-36 mx-4 lg:mx-0 text-white heroButton px-2 py-2 shadow-sm text-sm font-medium"
             >
               <Link href="/product">
                 <p>Start building</p>

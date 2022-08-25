@@ -632,6 +632,9 @@ li {
   .job-image{
     margin-top: auto;
   }
+  .hApi {
+    height: 100% !important;
+  }
 }
 
 
@@ -720,4 +723,8 @@ li {
 
 .width2x {
   width: 200%;
+}
+
+.hApi {
+  height: 500px;
 }

@@ -5,10 +5,10 @@ const Subscribe = () => {
     return (
         <>
             <div className="bg-black py-10 md:py-20 block md:hidden">
-                <div className="max-w-7xl block m-auto">
+                <div className="max-w-7xl">
                     <div className="px-5 pb-15">
                         <div className="pb-10">
-                            <p className="text-white font-bold text-3xl">Sign up for our Newsletter for the latest partnership, community updates and more</p>
+                            <p className="text-white font-bold text-3xl">Sign up for our newsletter for the latest product updates, partnerships, and more.</p>
                             <div className="flex justify-center md:text-left md:block">
                             </div>
                             <Link href="https://credmark.us19.list-manage.com/subscribe?u=b6dfe393113892a064b435044&id=c295a3edd2" rel="noreferrer">
@@ -28,10 +28,10 @@ const Subscribe = () => {
             <div className="bg-black py-10 md:py-20 hidden md:block">
                 <div className="max-w-7xl block m-auto">
                     <div className="px-5 pb-15">
-                        <div className="pb-10 max-w-4xl mx-auto block">
-                            <h1 className="text-green text-center">Get the latest news</h1>
-                            <p className="text-white font-bold text-xl text-center">Sign up for our Newsletter for the latest partnership, community updates and more</p>
-                            <div className="flex justify-center">
+                        <div className="pb-10 max-w-4xl">
+                            <h1 className="text-green">Get the latest news</h1>
+                            <p className="text-white font-bold text-xl">Sign up for our newsletter for the latest product updates, partnerships, and more.</p>
+                            <div>
                                 <Link href="https://credmark.us19.list-manage.com/subscribe?u=b6dfe393113892a064b435044&id=c295a3edd2" rel="noreferrer">
                                     <button
                                         type="button"
