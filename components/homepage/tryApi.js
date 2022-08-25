@@ -106,7 +106,7 @@ export default function TryApi() {
 
                                             ))}
                                         </ul>
-                                        <p><a href="https://app.credmark.com/" target="_blank" className="text-white text-sm mb-20 pb-5">{tier.ctaLink}</a></p>
+                                        <p><a href="https://app.credmark.com/" target="_blank" rel="noreferrer" className="text-white text-sm mb-20 pb-5">{tier.ctaLink}</a></p>
                                         <a
                                             href={tier.href}
                                             className="lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border border-gray-800 py-2 text-sm font-semibold text-black shadow-lg text-center"
