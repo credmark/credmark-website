@@ -4,8 +4,20 @@ import Link from 'next/link';
 const navigation = {
     projects: [
         {
-            name: 'Credmark Terminal',
-            href: 'https://app.credmark.com/',
+            name: 'Token API',
+            href: '/product#learnMore',
+        },
+        {
+            name: 'Portfolio API',
+            href: '/product#learnMore',
+        },
+        {
+            name: 'DeFi API',
+            href: '/product#learnMore',
+        },
+        {
+            name: 'Raw Data',
+            href: '/product#learnMore',
         },
     ],
     learn: [
@@ -157,10 +169,10 @@ export default function Footer() {
                         <div className="md:grid md:grid-cols-2">
                             <div>
                             </div>
-                            <div>
-                                <h4 className="text-2xl font-light text-white tracking-wider">Products</h4>
+                            <div className="mt-12 md:mt-0">
+                                <h4 className="text-2xl font-light text-white tracking-wider">About</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
-                                    {navigation.projects.map((item) => (
+                                    {navigation.community.map((item) => (
                                         <li className="list-none" key={item.name}>
                                             <a href={item.href} className="text-base text-white">
                                                 {item.name}
@@ -169,6 +181,7 @@ export default function Footer() {
                                     ))}
                                 </ul>
                             </div>
+                        
                         </div>
                         <div className="md:grid md:grid-cols-2">
                             <div>
@@ -183,10 +196,10 @@ export default function Footer() {
                                     ))}
                                 </ul>
                             </div>
-                            <div className="mt-12 md:mt-0">
-                                <h4 className="text-2xl font-light text-white tracking-wider">About</h4>
+                            <div>
+                                <h4 className="text-2xl font-light text-white tracking-wider">Products</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
-                                    {navigation.community.map((item) => (
+                                    {navigation.projects.map((item) => (
                                         <li className="list-none" key={item.name}>
                                             <a href={item.href} className="text-base text-white">
                                                 {item.name}
@@ -195,6 +208,7 @@ export default function Footer() {
                                     ))}
                                 </ul>
                             </div>
+                           
                         </div>
                     </div>
                 </div>

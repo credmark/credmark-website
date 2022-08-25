@@ -28,15 +28,17 @@ const navigation = {
             name: 'Media',
             href: '/media',
         },
-        {   name: 'FAQ', 
-            href: '/faq', 
+        {
+            name: 'FAQ',
+            href: '/faq',
         },
         {
             name: 'White Paper',
             href: 'https://docs.credmark.com/credmark/',
         },
-        {   name: 'Reports', 
-        href: '/reports',  
+        {
+            name: 'Reports',
+            href: '/reports',
         },
     ],
     community: [
@@ -182,6 +184,12 @@ function BlogPageContent({ posts }) {
 
     return (
         <div>
+            <div className="py-2 stickyCta text-center relative">
+                <div>
+                    <a href="https://www.snowflake.com/datasets/credmark-labs-ethereum-core/" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">We have made an always-up-to-date indexed copy of the Ethereum blockchain freely available on the Snowflake Marketplace.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>
+                </div>
+            </div>
+            <div className="bg-credmarkpurple heroBg w-screen" ></div>
             <div className="header-bg">
                 <NavWihtoutCta />
                 <div className="max-w-6xl px-5 block m-auto">
@@ -191,122 +199,122 @@ function BlogPageContent({ posts }) {
             </div>
 
             <div className="advisorBg">
-            {<div className="px-5 max-w-6xl md:m-auto">
-                <div className="pt-10 md:pt-20 border-b-1 border-gray-700 block m-auto md:m-auto space-x-5 md:space-x-20">
-                    <button className="hover:text-green pb-3 pl-5" onClick={() => { setSelectedCategory("all") }}>All</button>
-                    <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("Technical Analysis") }}>Technical Analysis</button>
-                    <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("Community Updates") }}>Community Updates</button>
-                    <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("Partnerships") }}>Partnerships</button>
-                    <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("Credmark 101") }}>Credmark 101</button>
-                    <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("Risk Insights") }}>Risk Insights</button>
-                </div>
-            </div>}
-            <div className="max-w-6xl block m-auto px-4 pt-10 pb-20 md:pb-40">
-                <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
-                    {filteredPosts?.map(post =>
-                        filter.view.list ?
-                            <div key={`${post.slug}-list`}>
+                {<div className="px-5 max-w-6xl md:m-auto">
+                    <div className="pt-10 md:pt-20 border-b-1 border-gray-700 block m-auto md:m-auto space-x-5 md:space-x-20">
+                        <button className="hover:text-green pb-3 pl-5" onClick={() => { setSelectedCategory("all") }}>All</button>
+                        <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("Technical Analysis") }}>Technical Analysis</button>
+                        <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("Community Updates") }}>Community Updates</button>
+                        <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("Partnerships") }}>Partnerships</button>
+                        <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("Credmark 101") }}>Credmark 101</button>
+                        <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("Risk Insights") }}>Risk Insights</button>
+                    </div>
+                </div>}
+                <div className="max-w-6xl block m-auto px-4 pt-10 pb-20 md:pb-40">
+                    <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
+                        {filteredPosts?.map(post =>
+                            filter.view.list ?
+                                <div key={`${post.slug}-list`}>
+                                    <BlogCard
+                                        title={post.title}
+                                        subtitle={post.subtitle}
+                                        date={moment(post.date).format('DD/MM/YYYY')}
+                                        author={post.author}
+                                        category={post.category}
+                                        slug={post.slug}
+                                        link={{
+                                            href: `/blog/${post.slug}`
+                                        }} />
+                                </div>
+                                :
                                 <BlogCard
+                                    key={`${post.slug}-list`}
                                     title={post.title}
                                     subtitle={post.subtitle}
                                     date={moment(post.date).format('DD/MM/YYYY')}
+                                    img={post.mainImage}
                                     author={post.author}
                                     category={post.category}
                                     slug={post.slug}
                                     link={{
                                         href: `/blog/${post.slug}`
-                                    }} />
-                            </div>
-                            :
-                            <BlogCard
-                                key={`${post.slug}-list`}
-                                title={post.title}
-                                subtitle={post.subtitle}
-                                date={moment(post.date).format('DD/MM/YYYY')}
-                                img={post.mainImage}
-                                author={post.author}
-                                category={post.category}
-                                slug={post.slug}
-                                link={{
-                                    href: `/blog/${post.slug}`
-                                }}
-                            />
-                    )
-                    }
+                                    }}
+                                />
+                        )
+                        }
+                    </div>
                 </div>
-            </div>
             </div>
             <footer className="footerBg" aria-labelledby="footer-heading">
-            <h2 id="footer-heading" className="sr-only">
-                Footer
-            </h2>
-            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-32 lg:px-8">
-                <div className="xl:grid xl:grid-cols-3">
-                    <div className="space-y-4 xl:col-span-1">
-                        <div>
-                            <img
-                                className="h-auto flex justify-start mr-2 pt-1"
-                                src="../assets/credmark-logo.svg"
-                                alt="Credmark logo"
-                            />
-                        </div>
-                        <div className="flex space-x-6">
-                            {navigation.social.map((item) => (
-                                <a key={item.name} href={item.href} className="text-white" target="_blank" rel="noreferrer">
-                                    <span className="sr-only">{item.name}</span>
-                                    <item.icon className="h-6 w-6" aria-hidden="true" />
-                                </a>
-                            ))}
-                        </div>
-                        <p className="text-base text-white">&copy; 2022 Credmark, Inc. All rights reserved.</p>
-                    </div>
-                    <div className="mt-12 grid grid-cols-2 xl:mt-0 xl:col-span-2">
-                        <div className="md:grid md:grid-cols-2">
+                <h2 id="footer-heading" className="sr-only">
+                    Footer
+                </h2>
+                <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-32 lg:px-8">
+                    <div className="xl:grid xl:grid-cols-3">
+                        <div className="space-y-4 xl:col-span-1">
                             <div>
+                                <img
+                                    className="h-auto flex justify-start mr-2 pt-1"
+                                    src="../assets/credmark-logo.svg"
+                                    alt="Credmark logo"
+                                />
                             </div>
-                            <div>
-                                <h3 className="roboto text-2xl font-light text-white tracking-wider">Projects</h3>
-                                <ul role="list" className="mt-4 space-y-4 pl-0">
-                                    {navigation.projects.map((item) => (
-                                        <li className="list-none" key={item.name}>
-                                            <a href={item.href} className="text-base text-white">
-                                                {item.name}
-                                            </a>
-                                        </li>
-                                    ))}
-                                </ul>
+                            <div className="flex space-x-6">
+                                {navigation.social.map((item) => (
+                                    <a key={item.name} href={item.href} className="text-white" target="_blank" rel="noreferrer">
+                                        <span className="sr-only">{item.name}</span>
+                                        <item.icon className="h-6 w-6" aria-hidden="true" />
+                                    </a>
+                                ))}
                             </div>
+                            <p className="text-base text-white">&copy; 2022 Credmark, Inc. All rights reserved.</p>
                         </div>
-                        <div className="md:grid md:grid-cols-2">
-                            <div>
-                                <h3 className="roboto text-2xl font-light text-white tracking-wider">Learn</h3>
-                                <ul role="list" className="mt-4 space-y-4 pl-0">
-                                    {navigation.learn.map((item) => (
-                                        <li className="list-none" key={item.name}>
-                                            <a href={item.href} className="text-base text-white">
-                                                {item.name}
-                                            </a>
-                                        </li>
-                                    ))}
-                                </ul>
+                        <div className="mt-12 grid grid-cols-2 xl:mt-0 xl:col-span-2">
+                            <div className="md:grid md:grid-cols-2">
+                                <div>
+                                </div>
+                                <div>
+                                    <h3 className="roboto text-2xl font-light text-white tracking-wider">Projects</h3>
+                                    <ul role="list" className="mt-4 space-y-4 pl-0">
+                                        {navigation.projects.map((item) => (
+                                            <li className="list-none" key={item.name}>
+                                                <a href={item.href} className="text-base text-white">
+                                                    {item.name}
+                                                </a>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
                             </div>
-                            <div className="mt-12 md:mt-0">
-                                <h3 className="roboto text-2xl font-light text-white tracking-wider">About</h3>
-                                <ul role="list" className="mt-4 space-y-4 pl-0">
-                                    {navigation.community.map((item) => (
-                                        <li className="list-none" key={item.name}>
-                                            <a href={item.href} className="text-base text-white">
-                                                {item.name}
-                                            </a>
-                                        </li>
-                                    ))}
-                                </ul>
+                            <div className="md:grid md:grid-cols-2">
+                                <div>
+                                    <h3 className="roboto text-2xl font-light text-white tracking-wider">Learn</h3>
+                                    <ul role="list" className="mt-4 space-y-4 pl-0">
+                                        {navigation.learn.map((item) => (
+                                            <li className="list-none" key={item.name}>
+                                                <a href={item.href} className="text-base text-white">
+                                                    {item.name}
+                                                </a>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                                <div className="mt-12 md:mt-0">
+                                    <h3 className="roboto text-2xl font-light text-white tracking-wider">About</h3>
+                                    <ul role="list" className="mt-4 space-y-4 pl-0">
+                                        {navigation.community.map((item) => (
+                                            <li className="list-none" key={item.name}>
+                                                <a href={item.href} className="text-base text-white">
+                                                    {item.name}
+                                                </a>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
         </div>
 
     );

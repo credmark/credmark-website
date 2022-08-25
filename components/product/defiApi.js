@@ -112,8 +112,8 @@ export default function DefiApi() {
                             </div>
 
                             <div className="rounded-md applicationsBg mt-16 py-5 lg:py-20 p-5">
-                                <p className="openSansMedium uppercase text-white text-center font-bold text-3xl pb-2 lg:pb-8">Interact with the DeFi API</p>
-                                <p className="text-center pb-8">We have a 30 day trial if you’re unsure or start building immediately!</p>
+                                <p className="openSansMedium uppercase text-white text-center font-bold text-3xl pb-2 lg:pb-8">Start using the DeFi API</p>
+                                <p className="text-center pb-8">30 day free trial if you’re unsure or start building immediately!</p>
                                 <div className="flex justify-center">
                                     <button
                                         type="button"
@@ -128,14 +128,14 @@ export default function DefiApi() {
                             <div className="pt-5 lg:pt-16">
                                 <h4 className="uppercase text-credmarkpurple text-3xl pb-3 text-center">Build with the community</h4>
                                 <p className="text-center max-w-2xl mx-auto">
-                                    We’re a global community of modelers. Join us and engage with other members building models using our API.
+                                    Join our vibrant community of developers and modelers. Build faster together.
                                 </p>
                                 <div className="flex justify-center mt-8 mb-8 lg:mb-0">
                                     <button
                                         type="button"
                                         className="mx-2 lg:mx-0 text-black border-2 border-green px-5 py-2 shadow-sm text-sm font-bold"
                                     >
-                                        <Link href="https://developer-docs.credmark.com/en/latest/usage.html" target="_blank" rel="noreferrer">
+                                        <Link href="https://discord.com/invite/3dSfMqP3d4" target="_blank" rel="noreferrer">
                                             <p>Join Now</p>
                                         </Link>
                                     </button>

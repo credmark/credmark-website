@@ -5,14 +5,23 @@ import Link from 'next/link'
 export default function ProductHero() {
 
     return (
+
         <div className="bg-credmarkpurple productHeroBg w-screen" >
+            <div className="py-2 stickyCta text-center relative">
+                <div>
+                    <a href="https://www.snowflake.com/datasets/credmark-labs-ethereum-core/" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">We have made an always-up-to-date indexed copy of the Ethereum blockchain freely available on the Snowflake Marketplace.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>
+                </div>
+            </div>
+            <div className="bg-credmarkpurple heroBg w-screen" ></div>
             <Nav />
             <div className="max-w-6xl block mx-auto">
-                <h1 className="px-4 md:px-0 text-green pt-10 md:pt-56 leading-snug pb-3 text-center">
-                    Powerful Blockchain Data At  Your Fingertips
+                <h1 className="px-4 md:px-0 text-green pt-10 md:pt-32 leading-snug pb-3 text-center">
+                    Access
+                    <br />
+                    Simple. Powerful. Blockchain Data
                 </h1>
                 <p className="px-4 md:px-0 text-white block mx-auto leading-snug text-center">
-                    We do all the heavy lifting so you can keep building and shipping 
+                    We do the heavy lifting so you can build and ship
                 </p>
                 <div className="flex justify-center flex-wrap pb-14 lg:pb-96 pt-6">
                     <button

@@ -9,7 +9,7 @@ export default function BuildModels() {
                 <div className="modelsBg">
                     <div className="pb-20 max-w-7xl block mx-auto">
                         <h1 className="mx-5 lg:mx-0 gradientFont pt-20 md:pt-72">Build your own models</h1>
-                        <p className="text-white pb-16 mx-5 lg:mx-0 ">You can run your own archive node and access the chain data directly. Or you can use our decoded, indexed data. Or you use the most powerful modeling platform in DeFi which gives you access to our data from a friendly Python environment. Our suggestion? Work smart, not hard.</p>
+                        <p className="text-white pb-16 mx-5 lg:mx-0">You can run your own archive node and access the chain data directly. Or you can use our decoded, indexed data. Or you use the most powerful modeling platform in DeFi which gives you access to our data from a friendly Python environment. Our suggestion? Work smart, not hard.</p>
                         <div className="grid grid-cols-1 md:grid-cols-3">
                             <div className="mx-4">
                                 <h3 className="text-green">Powerful Data</h3>

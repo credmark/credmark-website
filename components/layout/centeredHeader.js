@@ -4,6 +4,12 @@ import NavWihtoutCta from './NavTest';
 const CenteredHeader = (props) => {
     return (
         <>
+            <div className="py-2 stickyCta text-center relative">
+                <div>
+                    <a href="https://www.snowflake.com/datasets/credmark-labs-ethereum-core/" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">We have made an always-up-to-date indexed copy of the Ethereum blockchain freely available on the Snowflake Marketplace.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>
+                </div>
+            </div>
+            <div className="bg-credmarkpurple heroBg w-screen" ></div>
             <div className="communityBg">
                 <NavWihtoutCta />
                 <div className="max-w-6xl px-5 block m-auto">

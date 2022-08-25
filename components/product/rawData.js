@@ -5,11 +5,11 @@ import Link from 'next/link'
 
 const rawData = [
     { documentation: 'Etheruem Core', documentationLink: 'https://www.snowflake.com/datasets/credmark-labs-ethereum-core/', price: 'Free', },
-    { documentation: 'Ethereum Smart Contract', documentationLink: 'https://www.snowflake.com/datasets/credmark-labs-ethereum-core/', price: '$500', },
-    { documentation: 'Polygon Core', documentationLink: 'Coming soon', price: 'Free', },
-    { documentation: 'Polygon Smart Contract', documentationLink: 'https://www.snowflake.com/datasets/credmark-labs-ethereum-core/', price: 'TBD', },
-    { documentation: 'Arbitrum Core', documentationLink: 'https://www.snowflake.com/datasets/credmark-labs-ethereum-core/', price: 'Free', },
-    { documentation: 'Arbitrum Smart Contract', documentationLink: 'Coming soon', price: 'TBD', },
+    { documentation: 'Ethereum Smart Contract (coming soon)', documentationLink: 'https://www.snowflake.com/datasets/credmark-labs-ethereum-core/', price: '$500', },
+    { documentation: 'Polygon Core (coming soon)', documentationLink: 'Coming soon', price: 'Free', },
+    { documentation: 'Polygon Smart Contract (coming soon)', documentationLink: 'https://www.snowflake.com/datasets/credmark-labs-ethereum-core/', price: 'TBD', },
+    { documentation: 'Arbitrum Core (coming soon)', documentationLink: 'https://www.snowflake.com/datasets/credmark-labs-ethereum-core/', price: 'Free', },
+    { documentation: 'Arbitrum Smart Contract (coming soon)', documentationLink: 'Coming soon', price: 'TBD', },
 ]
 
 
@@ -80,13 +80,10 @@ export default function RawData() {
                             </div>
                             <div>
                                 <p className="uppercase text-credmarkpurple text-3xl pt-10 pb-3 openSansMedium">What you get</p>
-                                <p className="openSansMedium">An API to the Credmark Platform</p>
                                 <p className="text-base">
                                     Data sets that auto-update every block. Really. That’s what’s so cool about the Snowflake setup. Every time we update our dataset, yours is updated as well. It’s magic.</p>
                                 <p className="openSansMedium">Ethereum Core</p>
-                                <p>TBC</p>
                                 <p className="openSansMedium">Ethereum Smart Contract</p>
-                                <p>TBC</p>
 
                                 <p className="uppercase text-credmarkpurple text-3xl pt-10 pb-3 openSansMedium">Who needs it?</p>
                                     <p className="text-base">We do, of course, since we’ve built the company on this data. We know there are a lot of other use cases that will emerge in the future. We can’t imagine what they’ll all be, but so many people have been asking us for direct access to our database (a lot from the BI community) that we came to the conclusion that it was important to make the data available.
@@ -96,8 +93,8 @@ export default function RawData() {
                                     <p className="text-base">If you’re a data analyst, quant, or data scientist working in crypto and find yourself needing to dig into DeFi, start here. Besides getting curated, reliable data (Have we mentioned that Credmark depends on it?), you’ll be getting an incredible deal. In exchange we’d like to ask you to talk to us about what you’re doing so that we can improve things, and maybe even get a bit of marketing juice from a testimonial. 
                                     </p>
                                 <div className="rounded-md applicationsBg mt-16 py-5 lg:py-20 p-5">
-                                    <p className="openSansMedium uppercase text-white text-center font-bold text-3xl pb-2 lg:pb-8">Sign up for a Snowflake free trial</p>
-                                    <p className="text-center pb-8">We have a 30 day trial if you’re unsure or start building immediately!</p>
+                                    <p className="openSansMedium uppercase text-white text-center font-bold text-3xl pb-2 lg:pb-8">Start using the Snowflake free trial</p>
+                                    <p className="text-center pb-8">30 day free trial if you’re unsure or start building immediately!</p>
                                     <div className="flex justify-center">
                                         <button
                                             type="button"
@@ -112,14 +109,14 @@ export default function RawData() {
                                 <div className="pt-5 lg:pt-16">
                                     <h4 className="uppercase text-credmarkpurple text-3xl pb-3 text-center">Build with the community</h4>
                                     <p className="text-center max-w-2xl mx-auto">
-                                        We’re a global community of modelers. Join us and engage with other members building models using our API.
+                                        Join our vibrant community of developers and modelers. Build faster together.
                                     </p>
                                     <div className="flex justify-center mt-8 mb-8 lg:mb-0">
                                         <button
                                             type="button"
                                             className="mx-2 lg:mx-0 text-black border-2 border-green px-5 py-2 shadow-sm text-sm font-bold"
                                         >
-                                            <Link href="https://developer-docs.credmark.com/en/latest/usage.html">
+                                            <Link href="https://discord.com/invite/3dSfMqP3d4">
                                                 <p>Join Now</p>
                                             </Link>
                                         </button>

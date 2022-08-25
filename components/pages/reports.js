@@ -28,11 +28,16 @@ export default function Reports() {
     return (
         <>
             <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none rounded-md advisorBg">
+                <div className="py-2 stickyCta text-center relative">
+                    <div>
+                        <a href="https://www.snowflake.com/datasets/credmark-labs-ethereum-core/" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">We have made an always-up-to-date indexed copy of the Ethereum blockchain freely available on the Snowflake Marketplace.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>
+                    </div>
+                </div>
                 <div className="blogGradient rounded-md">
                     <Header
                         title="Reports"
                         description="Check out the latest and historical reports regarding risk in the DeFi industry" />
-                         <ReportsButton button={buttons} filter={filter} /> 
+                    <ReportsButton button={buttons} filter={filter} />
                     <div className="px-5 md:px-0 py-10 pb-20 md:pb-40 max-w-5xl block m-auto">
                         <ReportsMenu menuItem={menuItem} />
                     </div>
