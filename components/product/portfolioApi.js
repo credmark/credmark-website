@@ -75,7 +75,7 @@ export default function PortfolioApi() {
                                         type="button"
                                         className="mx-2 lg:mx-0 text-black bg-green px-5 py-2 mb-10 shadow-sm text-sm font-bold"
                                     >
-                                        <Link href="https://developer-docs.credmark.com/en/latest/usage.html">
+                                        <Link href="https://access.credmark.com/" target="_blank" rel="noreferrer">
                                             <p>Sign up</p>
                                         </Link>
                                     </button>
