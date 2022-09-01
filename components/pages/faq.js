@@ -4,8 +4,7 @@ import Subscribe from "../subscribe/subscribe"
 import QuestionsIntro from "../faq/questionsIntro";
 import QuestionsPlatform from "../faq/questionsPlatform";
 import QuestionsToken from "../faq/questionsToken";
-import Nav from '../layout/nav'
-
+import Nav from "../layout/nav";
 
 export default function faq() {
     return (
