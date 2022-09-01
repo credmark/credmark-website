@@ -29,9 +29,13 @@ export default function BuildModels() {
                                 type="button"
                                 className="mx-2 lg:mx-0 text-black bg-green mt-5 px-5 py-2 mb-10 shadow-sm text-sm font-bold"
                             >
-                                <Link href="https://developer-docs.credmark.com/en/latest/usage.html">
+                                <a 
+                                href="https://developer-docs.credmark.com/en/latest/usage.html"
+                                target="_blank"
+                                rel="noreferrer"
+                                >
                                     <p>Start building</p>
-                                </Link>
+                                </a>
                             </button>
                         </div>
                     </div>

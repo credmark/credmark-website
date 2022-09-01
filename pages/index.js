@@ -70,7 +70,7 @@ export default function Home({ data }) {
               className="w-36 mx-4 lg:mx-0 text-white heroButton px-2 py-2 shadow-sm text-sm font-medium"
             >
               <Link href="/product">
-                <p>Start building</p>
+                <p>Learn More</p>
               </Link>
             </button>
           </div>

@@ -20,36 +20,69 @@ const navigation = {
             href: '/product#learnMore',
         },
     ],
-    learn: [
+    
+    documentation: [
         {
-            name: 'Blog',
-            href: '/blog',
+            name: 'All',
+            href: 'https://docs.credmark.com/technical-docs/',
         },
         {
-            name: 'Media',
-            href: '/media',
+            name: 'API Basics',
+            href: 'https://docs.credmark.com/api-how-to-guide/account-setup/initial-sign-up',
+        },
+        {
+            name: 'Token API Concepts',
+            href: 'https://docs.credmark.com/token-api-concepts/basics/introduction',
+        },
+        {
+            name: 'Token API Reference',
+            href: 'https://gateway.credmark.com/api/#/Token%20API',
+        },
+        {
+            name: 'DeFi API Reference',
+            href: 'https://gateway.credmark.com/api/#/DeFi%20API',
+        },
+        {
+            name: 'Model Development Concepts',
+            href: 'https://docs.credmark.com/cmf-model-guide/',
+        },
+        {
+            name: 'Model Reference',
+            href: 'https://gateway.credmark.com/model-docs',
+        },
+        {
+            name: 'Framework Reference',
+            href: 'https://developer-docs.credmark.com/en/latest/',
+        },
+    ],
+    
+   learn: [
+        {
+            name: 'FAQ',
+            href: '/faq',
         },
         {
             name: 'Credmark Wiki',
             href: 'https://docs.credmark.com/credmark-wiki/',
         },
         {
-            name: 'Technical Docs',
-            href: 'https://docs.credmark.com/technical-docs/',
-        },
-        {
-            name: 'FAQ',
-            href: '/faq',
+            name: 'Blog',
+            href: '/blog',
         },
         {
             name: 'Reports',
             href: '/reports',
         },
         {
+            name: 'Media',
+            href: '/media',
+        },
+        {
             name: 'White Paper',
             href: 'https://docs.credmark.com/credmark/',
         },
     ],
+    
     community: [
         {
             name: 'Careers',
@@ -145,7 +178,7 @@ export default function Footer() {
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
-            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-32 lg:px-8">
+            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-32 lg:px-0">
                 <div className="xl:grid xl:grid-cols-3">
                     <div className="space-y-4 xl:col-span-1">
                         <div>
@@ -167,12 +200,22 @@ export default function Footer() {
                     </div>
                     <div className="mt-12 grid grid-cols-2 xl:mt-0 xl:col-span-2">
                         <div className="md:grid md:grid-cols-2">
-                            <div>
+                        <div>
+                                <h4 className="text-xl font-light text-white tracking-wider">Products</h4>
+                                <ul role="list" className="mt-4 space-y-4 pl-0">
+                                    {navigation.projects.map((item) => (
+                                        <li className="list-none" key={item.name}>
+                                            <a href={item.href} className="text-base text-white">
+                                                {item.name}
+                                            </a>
+                                        </li>
+                                    ))}
+                                </ul>
                             </div>
                             <div className="mt-12 md:mt-0">
-                                <h4 className="text-2xl font-light text-white tracking-wider">About</h4>
+                                <h4 className="text-xl font-light text-white tracking-wider">Documentation</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
-                                    {navigation.community.map((item) => (
+                                    {navigation.documentation.map((item) => (
                                         <li className="list-none" key={item.name}>
                                             <a href={item.href} className="text-base text-white">
                                                 {item.name}
@@ -185,7 +228,7 @@ export default function Footer() {
                         </div>
                         <div className="md:grid md:grid-cols-2">
                             <div>
-                                <h4 className="text-2xl font-light text-white tracking-wider">Learn</h4>
+                                <h4 className="text-xl font-light text-white tracking-wider">Learn</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.learn.map((item) => (
                                         <li className="list-none" key={item.name}>
@@ -197,7 +240,7 @@ export default function Footer() {
                                 </ul>
                             </div>
                             <div>
-                                <h4 className="text-2xl font-light text-white tracking-wider">Products</h4>
+                                <h4 className="text-xl font-light text-white tracking-wider">About</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.projects.map((item) => (
                                         <li className="list-none" key={item.name}>
