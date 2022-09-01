@@ -4,7 +4,7 @@ import Subscribe from "../subscribe/subscribe"
 import QuestionsIntro from "../faq/questionsIntro";
 import QuestionsPlatform from "../faq/questionsPlatform";
 import QuestionsToken from "../faq/questionsToken";
-import NavTest from "../layout/NavTest";
+import Nav from "../layout/Nav";
 
 
 export default function faq() {
@@ -17,7 +17,7 @@ export default function faq() {
             </div>
             <div className="bg-credmarkpurple heroBg w-screen" ></div>
             <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none header-bg">
-                <NavTest />
+                <Nav />
                 <div>
                     <CenteredHeader
                         title="FAQ"

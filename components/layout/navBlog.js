@@ -28,28 +28,24 @@ const projects = [
 
 const learn = [
     {
-        name: 'Blog',
-        href: '/blog',
-    },
-    {
-        name: 'Media',
-        href: '/media',
+        name: 'FAQ',
+        href: '/faq',
     },
     {
         name: 'Credmark Wiki',
         href: 'https://docs.credmark.com/credmark-wiki/',
     },
     {
-        name: 'Technical Docs',
-        href: 'https://docs.credmark.com/technical-docs/',
-    },
-    {
-        name: 'FAQ',
-        href: '/faq',
+        name: 'Blog',
+        href: '/blog',
     },
     {
         name: 'Reports',
         href: '/reports',
+    },
+    {
+        name: 'Media',
+        href: '/media',
     },
     {
         name: 'White Paper',
@@ -110,7 +106,7 @@ export default function Nav() {
                                                 'group text-white rounded-md inline-flex items-center text-base'
                                             )}
                                         >
-                                            <span className="text-credmarkpurple">About</span>
+                                            <span className="text-credmarkpurple">Products</span>
                                             <ChevronDownIcon
                                                 className=
                                                 'ml-2 h-5 w-5 text-credmarkpurple'
@@ -130,7 +126,7 @@ export default function Nav() {
                                             <Popover.Panel className="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                                                 <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                                                     <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                                        {community.map((item) => (
+                                                        {projects.map((item) => (
                                                             <a
                                                                 key={item.name}
                                                                 href={item.href}
@@ -160,7 +156,7 @@ export default function Nav() {
                                                 'group rounded-md inline-flex items-center text-base'
                                             )}
                                         >
-                                            <span className="text-credmarkpurple">Products</span>
+                                            <span className="text-credmarkpurple">Learn</span>
                                             <ChevronDownIcon
                                                 className=
                                                 'ml-2 h-5 w-5 text-credmarkpurple'
@@ -180,7 +176,7 @@ export default function Nav() {
                                             <Popover.Panel className="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
                                                 <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                                                     <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                                        {projects.map((item) => (
+                                                        {learn.map((item) => (
                                                             <a
                                                                 key={item.name}
                                                                 href={item.href}
@@ -209,7 +205,7 @@ export default function Nav() {
                                                 'group rounded-md inline-flex items-center text-base'
                                             )}
                                         >
-                                            <span className="text-credmarkpurple">Learn</span>
+                                            <span className="text-credmarkpurple">About</span>
                                             <ChevronDownIcon
                                                 className=
                                                 'ml-2 h-5 w-5 text-credmarkpurple'
@@ -229,7 +225,7 @@ export default function Nav() {
                                             <Popover.Panel className="absolute z-10 -ml-4 mt-3 transform px-2 lg:w-56 max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                                                 <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                                                     <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                                                        {learn.map((item) => (
+                                                        {about.map((item) => (
                                                             <a
                                                                 key={item.name}
                                                                 href={item.href}

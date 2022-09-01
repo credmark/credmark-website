@@ -6,7 +6,6 @@ import moment from 'moment'
 import React from "react";
 import { useState } from "react"
 import Head from 'next/head'
-import NavWihtoutCta from "../components/layout/NavTest";
 
 const navigation = {
     projects: [
@@ -191,7 +190,7 @@ function BlogPageContent({ posts }) {
             </div>
             <div className="bg-credmarkpurple heroBg w-screen" ></div>
             <div className="header-bg">
-                <NavWihtoutCta />
+                <Nav />
                 <div className="max-w-6xl px-5 block m-auto">
                     <h1 className="text-white font-bold text-5xl md:text-7xl py-5 pt-16 md:pt-32">Credmark Blog</h1>
                     <h2 className="text-white roboto text-3xl font-light max-w-3xl pb-20 md:pb-32">For the latest technical analysis, partnerships, and community updates</h2>

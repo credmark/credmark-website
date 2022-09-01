@@ -1,5 +1,5 @@
 import * as React from 'react';
-import NavWihtoutCta from './NavTest';
+import Nav from './nav';
 
 const CenteredHeader = (props) => {
     return (
@@ -11,7 +11,7 @@ const CenteredHeader = (props) => {
             </div>
             <div className="bg-credmarkpurple heroBg w-screen" ></div>
             <div className="communityBg">
-                <NavWihtoutCta />
+                <Nav />
                 <div className="max-w-6xl px-5 block m-auto">
                     <strong><h1 className="text-white font-bold pt-36 pb-5">{props.title}</h1></strong>
                     <p className="text-white text-3xl font-light max-w-3xl pb-20 md:pb-32">{props.description}</p>

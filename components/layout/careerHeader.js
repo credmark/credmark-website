@@ -1,5 +1,5 @@
 import * as React from 'react';
-import NavWihtoutCta from './NavTest';
+import Nav from './nav';
 
 
 const CareerHeader = (props) => {
@@ -15,7 +15,7 @@ const CareerHeader = (props) => {
             </div>
             <div className="header-bg">
 
-                <NavWihtoutCta />
+                <Nav />
                 <div className="max-w-6xl px-5 block m-auto">
                     <strong><h1 className="leading-normal text-white font-bold pt-20 md:pt-36 pb-5">{props.title}</h1></strong>
                     <p className="text-white text-3xl font-light max-w-3xl leading-10">{props.description}</p>
