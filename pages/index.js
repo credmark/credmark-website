@@ -89,7 +89,7 @@ export default function Home({ data }) {
             </div>
             <div className="flex flex-col text-center">
               <dt className="mt-2 text-xs leading-6 text-white courier">API calls</dt>
-              <dd className="text-4xl text-green py-2 bungee">2million</dd>
+              <dd className="text-4xl text-green py-2 bungee">2billion</dd>
             </div>
           </dl>
         </div>
