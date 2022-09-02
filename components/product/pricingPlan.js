@@ -21,7 +21,7 @@ const tiers = [
     priceMonthly: 500,
     rateLimits: '300',
     includedFeatures: [
-      'Prices (coming soon)', 'Activity (coming soon)', 'Risk metrics (coming soon)',
+      'Prices', 'Activity', 'Risk metrics',
     ],
   },
   {
@@ -47,7 +47,7 @@ export default function PricingPlan() {
         <div className="sm:flex sm:flex-col sm:align-center">
           <h1 className="tracking-tight font-bold gradientFont text-center">Pricing</h1>
           <p className="mt-5 text-xl text-white text-center">
-            30 day free trial. Introductory prices†
+            30 day free trial
           </p>
         </div>
         <div className="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4">
@@ -150,9 +150,9 @@ export default function PricingPlan() {
             </div>
           </div>
         </div>
-        <p className="text-white text-sm pt-10">The first 100 customers will enjoy this price forever.</p>
+        <p className="text-white text-sm pt-10">Introductory pricing. The first 100 customers will enjoy this price forever.</p>
         <a href="mailto:support@credmark.com" target="_blank" rel="noreferrer">
-          <p className="text-white">Need higher rate limits? Academic? Non-profit? Contact us.</p>
+          <p className="text-white">Need higher rate limits? Academic? Non-profit? Contact us ✅</p>
         </a>
       </div>
     </div>

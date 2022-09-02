@@ -6,10 +6,7 @@ import Link from 'next/link'
 const rawData = [
     { documentation: 'Etheruem Core', documentationLink: 'https://www.snowflake.com/datasets/credmark-labs-ethereum-core/', price: 'Free', },
     { documentation: 'Ethereum Smart Contract (coming soon)', documentationLink: 'https://www.snowflake.com/datasets/credmark-labs-ethereum-core/', price: '$500', },
-    { documentation: 'Polygon Core (coming soon)', documentationLink: 'Coming soon', price: 'Free', },
     { documentation: 'Polygon Smart Contract (coming soon)', documentationLink: 'https://www.snowflake.com/datasets/credmark-labs-ethereum-core/', price: 'TBD', },
-    { documentation: 'Arbitrum Core (coming soon)', documentationLink: 'https://www.snowflake.com/datasets/credmark-labs-ethereum-core/', price: 'Free', },
-    { documentation: 'Arbitrum Smart Contract (coming soon)', documentationLink: 'Coming soon', price: 'TBD', },
 ]
 
 
@@ -66,7 +63,9 @@ export default function RawData() {
                                                         {rawData.documentation}
                                                     </td>
                                                     <td className="hidden whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:table-cell">
-                                                        {rawData.documentationLink}
+                                                        <a href={rawData.documentationLink} target="_blank" rel="noreferrer">
+                                                            {rawData.documentationLink} 
+                                                        </a>
                                                     </td>
                                                     <td className="hidden whitespace-nowrap px-3 py-4 text-sm text-gray-500 lg:table-cell">
                                                         {rawData.price}
@@ -74,6 +73,18 @@ export default function RawData() {
 
                                                 </tr>
                                             ))}
+                                                <tr>
+                                                    <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
+                                                        Polygon Core (coming soon)
+                                                    </td>
+                                                    <td className="hidden whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:table-cell">
+                                                            Coming Soon                                                
+                                                    </td>
+                                                    <td className="hidden whitespace-nowrap px-3 py-4 text-sm text-gray-500 lg:table-cell">
+                                                        Free
+                                                    </td>
+
+                                                </tr>
                                         </tbody>
                                     </table>
                                 </div>

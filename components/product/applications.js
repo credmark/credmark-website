@@ -75,19 +75,19 @@ const Applications = () => {
                 {activeTab === "portfolioApi" ? <PortfolioApi /> : ""}
             </div>
             <div className="px-4 lg:px-0">
-            <h1 className="tracking-tight font-bold gradientFont text-center pb-5 lg:pb-0">What we support</h1>
-            <div className="flex flex-wrap justify-between max-w-xl mx-auto pb-20">
+            <h1 className="tracking-tight font-bold gradientFont text-center pb-5 lg:pb-0">Chains we support</h1>
+            <div className="grid grid-cols-1 lg:flex flex-wrap justify-between max-w-2xl mx-auto pb-20">
                 <div>
                     <img className="block mx-auto h-24" src="/assets/etheruem.svg" alt="etheruem logo" />
                     <p className="text-green text-center bungee">Ethereum</p>
                 </div>
                 <div>
-                    <img className="block mx-auto h-24 w-20" src="/assets/polygon-logo.svg" alt="polygon logo" />
-                    <p className="text-green text-center bungee">Polygon</p>
+                    <img className="block mx-auto h-24 w-20 pt-10 lg:pt-0" src="/assets/polygon-logo.svg" alt="polygon logo" />
+                    <p className="text-green text-center bungee">Polygon <br /> (coming soon)</p>
                 </div>
                 <div>
-                    <img className="block mx-auto h-24 w-20" src="/assets/avalanche.svg" alt="avalanche logo" />
-                    <p className="text-green text-center bungee">Avalanche</p>
+                    <img className="block mx-auto w-48 pt-10 lg:pt-6" src="/assets/binance.png" alt="binance logo" />
+                    <p className="text-green text-center bungee">BSC</p>
                 </div>
 
             </div>
