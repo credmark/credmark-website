@@ -109,10 +109,10 @@ export default function Home({ data }) {
             <a href="https://api3.org/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-10" width={150} src="../assets/API3-logo.svg" alt="API3 logo" /></a>
           </div>
           <div className="grid grid-cols-1 m-auto block md:grid-cols-4 px-5 pb-10 md:pb-20 md:px-0">
-            <a href="https://steadystate.finance/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={200} src="../assets/steady-state-logo.svg" alt="Steady State logo" /></a>
+            <a href="https://exponent.cx/" target="_blank" rel="noreferrer"><img className="block mx-auto py-2" width={80} src="../assets/exponent.png" alt="Exponent logo" /></a>
             <a href="https://coinshift.xyz/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={150} src="../assets/Coinshift.svg" alt="Coinshift logo" /></a>
             <a href="https://www.yield.app/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={150} src="../assets/yieldapp-logo.svg" alt="Yield App logo" /></a>
-            <a href="https://www.alchemist.wtf/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={180} src="../assets/alchemist.svg" alt="Alchemist logo" /></a>
+            <a href="https://picante.io/" target="_blank" rel="noreferrer"><img className="block mx-auto py-6" width={180} src="../assets/picante-logo.svg" alt="Picante logo" /></a>
           </div>
         </div>
       </div>
