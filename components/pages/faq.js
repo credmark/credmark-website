@@ -5,6 +5,7 @@ import QuestionsIntro from "../faq/questionsIntro";
 import QuestionsPlatform from "../faq/questionsPlatform";
 import QuestionsToken from "../faq/questionsToken";
 import Nav from "../layout/nav";
+import Link from "next/link";
 
 export default function faq() {
     return (
