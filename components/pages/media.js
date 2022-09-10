@@ -4,6 +4,7 @@ import React from "react";
 import Header from "../layout/header"
 import Subscribe from "../subscribe/subscribe";
 import Footer from "../layout/footer";
+import Link from "next/link";
 
 export default function Media({ posts }) {
   const [filteredPosts, setFilteredPosts] = React.useState([]);
@@ -22,8 +23,9 @@ export default function Media({ posts }) {
     <main>
       <div className="py-2 stickyCta text-center relative">
         <div>
-        <a href="/product" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">
-The only source of DeFi prices: our Token API. Simple. Powerful. Try it.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>        </div>
+            <Link href="/product" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">
+            The only source of DeFi prices: our Token API. Simple. Powerful. Try it.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></Link>        
+        </div>
       </div>
       <div className="bg-credmarkpurple heroBg w-screen">
       </div>

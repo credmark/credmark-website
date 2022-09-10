@@ -37,18 +37,19 @@ export default function Home({ data }) {
 
       <div className="py-2 stickyCta text-center relative">
         <div>
-        <a href="/product" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">
-The only source of DeFi prices: our Token API. Simple. Powerful. Try it.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>        </div>
+          <Link href="/product" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">
+            The only source of DeFi prices: our Token API. Simple. Powerful. Try it.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></Link>        
+        </div>
       </div>
       <div className="bg-credmarkpurple heroBg w-screen" >
         <Nav />
         <div className="max-w-7xl block mx-auto">
-        <h1 className="px-4 md:px-0 text-green pt-10 md:pt-24 leading-snug pb-3">
-          Simple. Powerful. 
-          <br />
-          Accessible Blockchain Data</h1>
+          <h1 className="px-4 md:px-0 text-green pt-10 md:pt-24 leading-snug pb-3">
+            Simple. Powerful.
+            <br />
+            Accessible Blockchain Data</h1>
           <p className="px-4 md:px-0 text-white block mx-auto leading-snug">
-          We curate blockchain data for developers. We keep it simple. We give you power.
+            We curate blockchain data for developers. We keep it simple. We give you power.
           </p>
           <ul>
             <li className="text-white">Raw data for explorers.</li>
@@ -89,9 +90,9 @@ The only source of DeFi prices: our Token API. Simple. Powerful. Try it.</span><
       <BuildModels />
       <div>
         <div className="px-5 py-10 md:pt-28">
-            <h2 className="text-black max-w-7xl block m-auto font-extrabold text-center">
-              TRUSTED BY
-            </h2>
+          <h2 className="text-black max-w-7xl block m-auto font-extrabold text-center">
+            TRUSTED BY
+          </h2>
         </div>
         <div className="max-w-4xl block m-auto">
           <div className="grid grid-cols-1 m-auto block md:grid-cols-3 px-5 pb-0 md:pb-10">

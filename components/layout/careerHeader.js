@@ -1,5 +1,7 @@
 import * as React from 'react';
 import Nav from './nav';
+import Link from "next/link";
+
 
 
 const CareerHeader = (props) => {
@@ -7,8 +9,9 @@ const CareerHeader = (props) => {
         <>
             <div className="py-2 stickyCta text-center relative">
                 <div>
-                    <a href="/product" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">
-                        The only source of DeFi prices: our Token API. Simple. Powerful. Try it.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>                </div>
+                    <Link href="/product" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">
+                        The only source of DeFi prices: our Token API. Simple. Powerful. Try it.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></Link>                
+                </div>
             </div>
             <div className="bg-credmarkpurple heroBg w-screen">
 

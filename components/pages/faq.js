@@ -11,8 +11,9 @@ export default function faq() {
         <>
             <div className="py-2 stickyCta text-center relative">
                 <div>
-                <a href="/product" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">
-The only source of DeFi prices: our Token API. Simple. Powerful. Try it.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>                </div>
+                    <Link href="/product" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">
+                    The only source of DeFi prices: our Token API. Simple. Powerful. Try it.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></Link>                
+                </div>
             </div>
             <div className="bg-credmarkpurple heroBg w-screen" ></div>
             <main className="max-w-full flex-1 relative overflow-y-auto focus:outline-none header-bg">

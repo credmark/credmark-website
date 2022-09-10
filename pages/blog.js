@@ -2,6 +2,8 @@ import { getAllPosts } from "../lib/api"
 import BlogCard from '../components/blog/blogCard'
 import Nav from '../components/layout/nav'
 import moment from 'moment'
+import Link from "next/link";
+
 
 import React from "react";
 import { useState } from "react"
@@ -186,8 +188,9 @@ function BlogPageContent({ posts }) {
         <div>
             <div className="py-2 stickyCta text-center relative">
                 <div>
-                <a href="/product" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">
-The only source of DeFi prices: our Token API. Simple. Powerful. Try it.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>                </div>
+                    <Link href="#learnMore" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">
+                        The only source of DeFi prices: our Token API. Simple. Powerful. Try it.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></Link>                
+                </div>
             </div>
             <div className="bg-credmarkpurple heroBg w-screen" ></div>
             <div className="header-bg">
