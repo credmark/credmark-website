@@ -1,21 +1,12 @@
 import Head from 'next/head'
-import Homepage from '../components/pages/homepage'
 import Link from 'next/link'
-import HeaderHome from "../components/layout/headerHome"
-import Tools from "../components/homepage/tools"
 import Subscribe from '../components/subscribe/subscribe'
 import Footer from '../components/layout/footer'
 import React, { useState } from "react";
-import items from "../styles/homeReportsData"
-import WhatWeDo from '../components/homepage/whatWeDo'
-import Community from '../components/homepage/community'
-import TypeAnimation from 'react-type-animation';
 import Nav from '../components/layout/nav'
-import ToolsMobile from '../components/homepage/toolsMobile'
 import TryApi from '../components/homepage/tryApi'
 import BuildModels from '../components/homepage/buildModels'
 
-import DotAnimation from "../components/layout/dotsHeader"
 
 export default function Home({ data }) {
   return (
@@ -46,8 +37,8 @@ export default function Home({ data }) {
 
       <div className="py-2 stickyCta text-center relative">
         <div>
-          <a href="https://www.snowflake.com/datasets/credmark-labs-ethereum-core/" target="_blank" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">We have made an always-up-to-date indexed copy of the Ethereum blockchain freely available on the Snowflake Marketplace.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>
-        </div>
+        <a href="/product" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap"><span className="float-left pr-3">
+The only source of DeFi prices: our Token API. Simple. Powerful. Try it.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></a>        </div>
       </div>
       <div className="bg-credmarkpurple heroBg w-screen" >
         <Nav />
