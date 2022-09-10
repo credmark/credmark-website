@@ -228,7 +228,7 @@ export default function Footer() {
                         </div>
                         <div className="md:grid md:grid-cols-2">
                             <div>
-                                <h4 className="text-xl font-light text-white tracking-wider">Learn</h4>
+                                <h4 className="text-xl font-light text-white tracking-wider">Resources</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.learn.map((item) => (
                                         <li className="list-none" key={item.name}>
@@ -242,7 +242,7 @@ export default function Footer() {
                             <div>
                                 <h4 className="text-xl font-light text-white tracking-wider">About</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
-                                    {navigation.projects.map((item) => (
+                                    {navigation.community.map((item) => (
                                         <li className="list-none" key={item.name}>
                                             <a href={item.href} className="text-base text-white">
                                                 {item.name}

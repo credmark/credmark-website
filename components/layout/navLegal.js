@@ -158,7 +158,7 @@ export default function NavLegal() {
                                                 'group rounded-md inline-flex items-center text-base'
                                             )}
                                         >
-                                            <span>Learn</span>
+                                            <span>Resources</span>
                                             <ChevronDownIcon
                                                 className={classNames(
                                                     open ? 'text-white' : 'text-white',
@@ -337,7 +337,7 @@ export default function NavLegal() {
                                                 'group text-credmarkpurple rounded-md inline-flex items-center text-base pt-5'
 
                                             >
-                                                <span>Learn</span>
+                                                <span>Resources</span>
                                                 <ChevronDownIcon
                                                     className={classNames(
                                                         open ? 'text-credmarkpurple' : 'text-credmarkpurple',

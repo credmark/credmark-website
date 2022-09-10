@@ -86,8 +86,10 @@ const Applications = () => {
                     <p className="text-green text-center bungee">Polygon <br /> (coming soon)</p>
                 </div>
                 <div>
-                    <img className="block mx-auto w-48 pt-10 lg:pt-6" src="/assets/binance.png" alt="binance logo" />
-                    <p className="text-green text-center bungee">BSC</p>
+                <div className="w-16 block mx-auto">
+                    <img className="block mx-auto w-48 pt-10 lg:pt-6" width={150} src="/assets/binance.svg" alt="binance logo" />
+                    </div>
+                    <p className="text-green text-center bungee">BSC <br /> (coming soon)</p>
                 </div>
 
             </div>

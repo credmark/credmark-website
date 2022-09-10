@@ -151,9 +151,7 @@ export default function PricingPlan() {
           </div>
         </div>
         <p className="text-white text-sm pt-10">Introductory pricing. The first 100 customers will enjoy this price forever.</p>
-        <a href="mailto:support@credmark.com" target="_blank" rel="noreferrer">
-          <p className="text-white">Need higher rate limits? Academic? Non-profit? Contact us ✅</p>
-        </a>
+          <p className="text-white">Need higher rate limits? Academic? Non-profit?  <a className="text-white" href="mailto:support@credmark.com" target="_blank" rel="noreferrer">Contact us ✅</a></p>
       </div>
     </div>
   )

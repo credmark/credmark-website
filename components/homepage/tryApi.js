@@ -10,20 +10,6 @@ function classNames(...classes) {
 
 
 const tiers = [
-
-    {
-        name: 'DeFi API',
-        href: '/produc',
-        includedFeatures: [
-            'Experts only!',
-            'Run any model on our platform. Over 100 already available.',
-            'Can’t find what you want? Build it yourself, or commission an expert to do it for you. ',
-            'This API gives you access to the most powerful modeling platform in DeFi.',
-        ],
-        ctaLink: [
-            'Want to see what you could build? Check out our Terminal. It’s 100% powered by our DeFi API.',
-        ]
-    },
     {
         name: 'Raw Data',
         href: '/product',
@@ -51,21 +37,21 @@ export default function TryApi() {
                             <div className="hApi relative border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200 bg-black">
                                 <div className="px-6 pt-8">
                                     <h2 className="text-3xl leading-6 font-bold openSansMedium text-green text-center">Token API</h2>
-                                    <p className="text-white pt-10 text-sm">Everything you wanted to know about tokens but were afraid to ask.</p>
+                                    <p className="text-white pt-10 text-sm">Access granular token data made for deep analysis and dApps.</p>
                                 </div>
                                 <div className="pb-4 px-6">
-                                    <ul>
-                                        <li className="text-white text-sm py-1">Current and historical token prices</li>
-                                        <li className="text-white text-sm py-1">DEX liquidity</li>
-                                        <li className="text-white text-sm py-1">Holdings</li>
-                                        <li className="text-white text-sm py-1">Token metadata</li>
+                                    <ul className="tick">
+                                        <li className="text-white text-sm whiteTick py-2 pl-1">Current and historical token prices</li>
+                                        <li className="text-white text-sm whiteTick py-2 pl-1">DEX liquidity</li>
+                                        <li className="text-white text-sm whiteTick py-2 pl-1">Holdings</li>
+                                        <li className="text-white text-sm whiteTick py-2 pl-1">Token metadata</li>
                                     </ul>
                                     <div className="lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
-                                    <Link
-                                        href="/product"
-                                    >
-                                        Learn more
-                                    </Link>
+                                        <Link
+                                            href="/product"
+                                        >
+                                            Learn more
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -73,49 +59,65 @@ export default function TryApi() {
                             <div className="relative border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200 bg-black">
                                 <div className="px-6 pt-8">
                                     <h2 className="text-3xl leading-6 font-bold openSansMedium text-green text-center">Portfolio API</h2>
-                                    <p className="text-white pt-10 text-sm">Give us any number of wallet addresses and we’ll tell you what’s in them.</p>
+                                    <p className="text-white pt-10 text-sm">Trace all wallet activity and manage your portfolio with integrated risk models</p>
                                 </div>
                                 <div className="pb-4 px-6">
-                                    <ul>
-                                        <li className="text-white text-sm py-1">Prices</li>
-                                        <li className="text-white text-sm py-1">Activity</li>
-                                        <li className="text-white text-sm py-1">Risk metrics</li>
+                                    <ul className="tick">
+                                        <li className="text-white text-sm whiteTick py-2 pl-1">Token price and balance</li>
+                                        <li className="text-white text-sm whiteTick py-2 pl-1">Wallet activity</li>
+                                        <li className="text-white text-sm whiteTick py-2 pl-1">Risk metrics</li>
                                     </ul>
-                                    <p className="text-white pt-2 text-sm px-6 pb-5">Coming soon.</p>
                                     <div className="lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
-                                    <Link
-                                        href="/product"
-                                    >
-                                        Learn more
-                                    </Link>
+                                        <Link
+                                            href="/product"
+                                        >
+                                            Learn more
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
 
-                            {tiers.map((tier) => (
-                                <div key={tier.name} className="hApi relative border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200 bg-black">
-                                    <div className="px-6 pt-8 pb-3">
-                                        <h2 className="text-3xl leading-6 font-bold openSansMedium text-green text-center">{tier.name}</h2>
-                                    </div>
-                                    <div className="pb-4 px-6">
-                                        <ul role="list" className="mt-6 space-y-4 p-0">
-                                            {tier.includedFeatures.map((feature) => (
-                                                <li key={feature} className="flex space-x-3">
-                                                    <span className="text-sm text-white">{feature}</span>
-                                                </li>
-
-                                            ))}
-                                        </ul>
-                                        <p><a href="https://app.credmark.com/" target="_blank" rel="noreferrer" className="text-white text-sm mb-20 pb-5">{tier.ctaLink}</a></p>
-                                        <a
-                                            href={tier.href}
-                                            className="lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border border-gray-800 py-2 text-sm font-semibold text-black shadow-lg text-center"
+                            <div className="relative border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200 bg-black">
+                                <div className="px-6 pt-8">
+                                    <h2 className="text-3xl leading-6 font-bold openSansMedium text-green text-center">DeFi API</h2>
+                                    <p className="text-white pt-10 text-sm">The gateway to DeFi, purpose-built for quants, modelers and web3 builders.</p>
+                                </div>
+                                <div className="pb-4 px-6">
+                                    <ul className="tick">
+                                        <li className="text-white text-sm whiteTick py-2 pl-1">Access 150+ financial models with one endpoint</li>
+                                        <li className="text-white text-sm whiteTick py-2 pl-1">Create your own models with web3’s most robust modeling platform</li>
+                                        <li className="text-white text-sm whiteTick py-2 pl-1">Check out Credmark Terminal, powered by our DeFi API</li>
+                                    </ul>
+                                    <div className="lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
+                                        <Link
+                                            href="/product"
                                         >
                                             Learn more
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
-                            ))}
+                            </div>
+
+                            <div className="relative border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200 bg-black">
+                                <div className="px-6 pt-8">
+                                    <h2 className="text-3xl leading-6 font-bold openSansMedium text-green text-center">Raw data</h2>
+                                    <p className="text-white pt-10 text-sm">Fetch the latest block or access historical blockchain data to monitor or trace any activity from the genesis block. Our data is accessible via the Snowflake Marketplace. We currently support:</p>
+                                </div>
+                                <div className="pb-4 px-6">
+                                    <ul className="tick">
+                                        <li className="text-white text-sm whiteTick py-2 pl-1">Ethereum</li>
+                                        <li className="text-white text-sm whiteTick py-2 pl-1">Polygon</li>
+                                    </ul>
+                                    <div className="lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
+                                        <Link
+                                            href="/product"
+                                        >
+                                            Learn more
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

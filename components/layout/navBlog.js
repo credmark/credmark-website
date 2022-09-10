@@ -120,7 +120,7 @@ export default function Nav() {
                                     <span className="sr-only">Workflow</span>
                                     <img
                                         className="h-8 w-auto sm:h-10"
-                                        src="../assets/credmarkpurple.svg"
+                                        src="../assets/credmark-logo-purple.svg"
                                         alt="Credmark Logo"
                                     />
                                 </a>
@@ -248,7 +248,7 @@ export default function Nav() {
                                                 'workSans group rounded-md inline-flex items-center text-base'
                                             )}
                                         >
-                                            <span>Learn</span>
+                                            <span>Resources</span>
                                             <ChevronDownIcon
                                                 className={classNames(
                                                     open ? 'text-credmarkPurple' : 'text-credmarkPurple',
@@ -471,7 +471,7 @@ export default function Nav() {
                                                 'group text-credmarkpurple rounded-md inline-flex items-center text-base pt-5'
 
                                             >
-                                                <span>Learn</span>
+                                                <span>Resources</span>
                                                 <ChevronDownIcon
                                                     className={classNames(
                                                         open ? 'text-credmarkpurple' : 'text-credmarkpurple',
