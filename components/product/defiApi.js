@@ -66,7 +66,7 @@ export default function DefiApi() {
                                     We’ve even embedded some Power BI dashboards (e.g., <a href="https://app.credmark.com/terminal/stablecoin/frax-stats" target="_blank" className="openSansMedium" rel="noreferrer">https://app.credmark.com/terminal/stablecoin/frax-stats</a>) to show how BI tools can be used to build interactive dashboards using the API.
                                 </p>
 
-                                <p className="openSansMedium pt-5">Documentation</p>
+                                <span className="flex pt-9 pb-3"><img className="mr-4" src="/assets/documentation.svg" alt="tick" width={120} /><p className="text-2xl text-lightpurple font-bold pt-10"><span className="openSansMedium">Documentation</span></p></span>
                                 <div>
                                     <div className="-mx-4 mt-4 overflow-hidden shadow ring-1 ring-black ring-opacity-5 sm:-mx-6 md:mx-0 md:rounded-lg">
                                         <table className="min-w-full divide-y divide-gray-300">
