@@ -77,7 +77,7 @@ export default function PortfolioApi() {
                             <div>
                                 <span className="flex pt-9 pb-3"><img className="mr-4" src="/assets/documentation.svg" alt="tick" width={120} /><p className="text-2xl text-lightpurple font-bold pt-10"><span className="openSansMedium">Documentation</span></p></span>
                                 <div>
-                                    <div className="-mx-4 mt-4 overflow-hidden sm:-mx-6 md:mx-0">
+                                    <div className="-mx-4 mt-4 overflow-x-auto sm:-mx-6 md:mx-0">
                                         <table className="min-w-full">
                                             <tbody>
                                                 {people.map((person) => (
