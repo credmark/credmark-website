@@ -29,7 +29,7 @@ export default function DefiApi() {
                             </div>
                             <div>
                                 <p className="uppercase text-credmarkpurple text-3xl pt-10 pb-3 openSansMedium">What you'll get</p>
-                                <div className="grid lg:grid-cols-2 pb-20">
+                                <div className="grid grid-cols-1 lg:grid-cols-2 pb-20">
                                     <div className="lg:mr-10">
                                         <span className="flex pt-9 pb-3"><img className="mr-4" src="/assets/defi-api.svg" alt="tick" width={120} /><p className="text-2xl text-lightpurple font-bold pt-10 openSansMedium">An API to the Credmark Platform</p></span>
                                         <p className="text-base">
@@ -67,7 +67,7 @@ export default function DefiApi() {
 
                                     <div className="lg:mr-10">
                                         <span className="flex pt-9 pb-3"><img className="mr-4" src="/assets/documentation.svg" alt="tick" width={120} /><p className="text-2xl text-lightpurple font-bold pt-10"><span className="openSansMedium">Documentation</span></p></span>
-                                        <div>
+                                        <div className="px-4 lg:px-0">
                                             <div className="-mx-4 mt-4 overflow-x-auto sm:-mx-6 md:mx-0">
                                                 <table className="min-w-full">
                                                     <tbody>
@@ -90,7 +90,7 @@ export default function DefiApi() {
                                             People are doing some pretty incredible things with our models. To showcase what’s possible we’ve built and deployed the<a href="https://app.credmark.com/" target="_blank" className="openSansMedium" rel="noreferrer"> Credmark Terminal.</a> Every chart is powered by a production model you can use. 🤯
                                         </p>
                                         <p className="text-base">
-                                            We’ve even embedded some Power BI dashboards (e.g., <a href="https://app.credmark.com/terminal/stablecoin/frax-stats" target="_blank" className="openSansMedium" rel="noreferrer">https://app.credmark.com/terminal/stablecoin/frax-stats</a>) to show how BI tools can be used to build interactive dashboards using the API.
+                                            We’ve even embedded some Power BI dashboards (e.g., <a href="https://app.credmark.com/terminal/stablecoin/frax-stats" target="_blank" className="openSansMedium" rel="noreferrer">Credmark Stablecoin Stats</a>) to show how BI tools can be used to build interactive dashboards using the API.
                                         </p>
                                     </div>
                                 </div>
