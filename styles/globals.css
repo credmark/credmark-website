@@ -87,8 +87,15 @@ background-clip: text;
 }
 
 .applicationsBg {
-  background: linear-gradient(180deg, #9500FF 0%, rgba(0, 220, 154, 0) 100%);
+  background: linear-gradient(180deg, #9500FF 13.54%, rgba(248, 237, 255, 0.0689983) 76.83%, rgba(255, 255, 255, 0) 100%);  
   border-radius: 26px;
+  box-shadow: 0px 5px 14px rgba(8, 15, 52, 0.04);
+}
+
+.communityBoxBg {
+  background: linear-gradient(0deg, #9500FF 13.54%, rgba(248, 237, 255, 0.0689983) 76.83%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 26px;
+  box-shadow: 0px 5px 14px rgba(8, 15, 52, 0.04);
 }
 
 @media screen and (max-width: 800px) {
