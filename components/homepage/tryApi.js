@@ -46,13 +46,13 @@ export default function TryApi() {
                                         <li className="text-white text-sm whiteTick py-2 pl-1">Holdings</li>
                                         <li className="text-white text-sm whiteTick py-2 pl-1">Token metadata</li>
                                     </ul>
-                                    <div className="lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
-                                        <Link
-                                            href="/product"
-                                        >
+                                    <Link
+                                        href="/product"
+                                    >
+                                        <div className="cursor-pointer lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
                                             Learn more
-                                        </Link>
-                                    </div>
+                                        </div>
+                                    </Link>
                                 </div>
                             </div>
 
@@ -67,13 +67,13 @@ export default function TryApi() {
                                         <li className="text-white text-sm whiteTick py-2 pl-1">Wallet activity</li>
                                         <li className="text-white text-sm whiteTick py-2 pl-1">Risk metrics</li>
                                     </ul>
-                                    <div className="lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
-                                        <Link
-                                            href="/product"
-                                        >
+                                    <Link
+                                        href="/product"
+                                    >
+                                        <div className="cursor-pointer lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
                                             Learn more
-                                        </Link>
-                                    </div>
+                                        </div>
+                                    </Link>
                                 </div>
                             </div>
 
@@ -88,13 +88,13 @@ export default function TryApi() {
                                         <li className="text-white text-sm whiteTick py-2 pl-1">Create your own models with web3’s most robust modeling platform</li>
                                         <li className="text-white text-sm whiteTick py-2 pl-1">Check out Credmark Terminal, powered by our DeFi API</li>
                                     </ul>
-                                    <div className="lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
-                                        <Link
-                                            href="/product"
-                                        >
+                                    <Link
+                                        href="/product"
+                                    >
+                                        <div className="cursor-pointer lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
                                             Learn more
-                                        </Link>
-                                    </div>
+                                        </div>
+                                    </Link>
                                 </div>
                             </div>
 
@@ -108,13 +108,14 @@ export default function TryApi() {
                                         <li className="text-white text-sm whiteTick py-2 pl-1">Ethereum</li>
                                         <li className="text-white text-sm whiteTick py-2 pl-1">Polygon</li>
                                     </ul>
-                                    <div className="lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
-                                        <Link
-                                            href="/product"
-                                        >
+                                    <Link
+                                        href="/product"
+                                    >
+                                        <div className="cursor-pointer lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
+
                                             Learn more
-                                        </Link>
-                                    </div>
+                                        </div>
+                                    </Link>
                                 </div>
                             </div>
 
