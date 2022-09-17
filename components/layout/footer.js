@@ -43,6 +43,10 @@ const navigation = {
             href: 'https://gateway.credmark.com/api/#/Token%20API',
         },
         {
+            name: 'DeFi Concepts',
+            href: 'https://docs.credmark.com/defi-api-concepts',
+        },
+        {
             name: 'DeFi API Reference',
             href: 'https://gateway.credmark.com/api/#/DeFi%20API',
         },
