@@ -10,6 +10,10 @@ import Link from 'next/link'
 
 const projects = [
     {
+        name: 'All Products',
+        href: '/product',
+    },
+    {
         name: 'Token API',
         href: '/product#learnMore',
     },

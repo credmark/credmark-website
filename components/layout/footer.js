@@ -4,6 +4,10 @@ import Link from 'next/link';
 const navigation = {
     projects: [
         {
+            name: 'All Products',
+            href: '/product',
+        },
+        {
             name: 'Token API',
             href: '/product#learnMore',
         },
