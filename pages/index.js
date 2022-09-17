@@ -95,16 +95,16 @@ export default function Home({ data }) {
           </h2>
         </div>
         <div className="max-w-4xl block m-auto">
-          <div className="grid grid-cols-1 m-auto block md:grid-cols-3 px-5 pb-0 md:pb-10">
-            <a href="https://dlab.vc/" target="_blank" rel="noreferrer"><img className="py-5 block mx-auto" width={150} src="../assets/dlab-logo.svg" alt="DLAB logo" /></a>
-            <a href="https://www.longhash.com/en" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-10" width={150} src="../assets/longhash-logo.svg" alt="Long Hash Ventures logo" /></a>
-            <a href="https://api3.org/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-10" width={150} src="../assets/API3-logo.svg" alt="API3 logo" /></a>
+          <div className="grid grid-cols-1 m-auto block md:grid-cols-4 px-5 pb-0 md:pb-10">
+          <a href="https://coinshift.xyz/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={150} src="../assets/Coinshift.svg" alt="Coinshift logo" /></a>
+          <a href="https://www.yield.app/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={130} src="../assets/yieldapp-logo.svg" alt="Yield App logo" /></a>
+          <a href="https://picante.io/" target="_blank" rel="noreferrer"><img className="block mx-auto py-7" width={150} src="../assets/picante-logo.svg" alt="Picante logo" /></a>
+          <a href="https://exponent.cx/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={170} src="../assets/exponent.jpeg" alt="Exponent logo" /></a>
           </div>
-          <div className="grid grid-cols-1 m-auto block md:grid-cols-4 px-5 pb-10 md:pb-20 md:px-0">
-            <a href="https://exponent.cx/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={180} src="../assets/exponent.jpeg" alt="Exponent logo" /></a>
-            <a href="https://coinshift.xyz/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={150} src="../assets/Coinshift.svg" alt="Coinshift logo" /></a>
-            <a href="https://www.yield.app/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={150} src="../assets/yieldapp-logo.svg" alt="Yield App logo" /></a>
-            <a href="https://picante.io/" target="_blank" rel="noreferrer"><img className="block mx-auto py-6" width={180} src="../assets/picante-logo.svg" alt="Picante logo" /></a>
+          <div className="max-w-2xl block m-auto grid grid-cols-1 m-auto block md:grid-cols-3 px-5 pb-10 md:pb-20 md:px-0">
+          <a href="https://dlab.vc/" target="_blank" rel="noreferrer"><img className="py-5 block mx-auto" width={130} src="../assets/dlab-logo.svg" alt="DLAB logo" /></a>
+            <a href="https://www.longhash.com/en" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-10" width={150} src="../assets/longhash-logo.svg" alt="Long Hash Ventures logo" /></a>
+            <a href="https://api3.org/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-10" width={130} src="../assets/API3-logo.svg" alt="API3 logo" /></a>
           </div>
         </div>
       </div>
