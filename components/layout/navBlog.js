@@ -10,6 +10,10 @@ import Link from 'next/link'
 
 const projects = [
     {
+        name: 'All Products',
+        href: '/product',
+    },
+    {
         name: 'Token API',
         href: '/product#learnMore',
     },
@@ -43,6 +47,10 @@ const documentation = [
     {
         name: 'Token API Reference',
         href: 'https://gateway.credmark.com/api/#/Token%20API',
+    },
+    {
+        name: 'DeFi Concepts',
+        href: 'https://docs.credmark.com/defi-api-concepts',
     },
     {
         name: 'DeFi API Reference',
