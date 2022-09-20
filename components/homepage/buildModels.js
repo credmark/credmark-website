@@ -30,7 +30,7 @@ export default function BuildModels() {
                                 className="mx-2 lg:mx-0 text-black bg-green mt-5 px-5 py-2 mb-10 shadow-sm text-sm font-bold"
                             >
                                 <a 
-                                href="https://developer-docs.credmark.com/en/latest/usage.html"
+                                href="https://developer-docs.credmark.com/en/latest/"
                                 target="_blank"
                                 rel="noreferrer"
                                 >
