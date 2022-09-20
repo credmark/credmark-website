@@ -61,7 +61,7 @@ export default function Home({ data }) {
               type="button"
               className="w-36 mx-4 lg:mx-0 text-white heroButton px-2 py-2 shadow-sm text-sm font-medium"
             >
-              <Link href="/product">
+              <Link href="/product/?tokenApi=true">
                 <p>Learn More</p>
               </Link>
             </button>

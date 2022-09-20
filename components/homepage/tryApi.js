@@ -47,7 +47,7 @@ export default function TryApi() {
                                         <li className="text-white text-sm whiteTick py-2 pl-1">Token metadata</li>
                                     </ul>
                                     <Link
-                                        href="/product"
+                                        href="/product/?tokenApi=true#learnMore"
                                     >
                                         <div className="cursor-pointer lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
                                             Learn more
@@ -68,7 +68,7 @@ export default function TryApi() {
                                         <li className="text-white text-sm whiteTick py-2 pl-1">Risk metrics</li>
                                     </ul>
                                     <Link
-                                        href="/product"
+                                        href="/product/?portfolioApi=true#learnMore"
                                     >
                                         <div className="cursor-pointer lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
                                             Learn more
@@ -89,7 +89,7 @@ export default function TryApi() {
                                         <li className="text-white text-sm whiteTick py-2 pl-1">Check out Credmark Terminal, powered by our DeFi API</li>
                                     </ul>
                                     <Link
-                                        href="/product"
+                                        href="/product/?defiApi=true#learnMore"
                                     >
                                         <div className="cursor-pointer lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
                                             Learn more
@@ -109,7 +109,7 @@ export default function TryApi() {
                                         <li className="text-white text-sm whiteTick py-2 pl-1">Polygon</li>
                                     </ul>
                                     <Link
-                                        href="/product"
+                                        href="/product/?rawData=true#learnMore"
                                     >
                                         <div className="cursor-pointer lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
 

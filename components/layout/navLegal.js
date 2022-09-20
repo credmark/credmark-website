@@ -10,23 +10,23 @@ import Link from 'next/link'
 const projects = [
     {
         name: 'All Products',
-        href: '/product',
+        href: '/product/?tokenApi=true',
     },
     {
         name: 'Token API',
-        href: '/product#learnMore',
+        href: '/product/?tokenApi=true#learnMore',
     },
     {
         name: 'Portfolio API',
-        href: '/product#learnMore',
+        href: '/product/?portfolioApi=true#learnMore',
     },
     {
         name: 'DeFi API',
-        href: '/product#learnMore',
+        href: '/product/?defiApi=true#learnMore',
     },
     {
         name: 'Raw Data',
-        href: '/product#learnMore',
+        href: '/product/?rawData=true#learnMore',
     },
 ]
 

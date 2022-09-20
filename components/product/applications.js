@@ -5,76 +5,52 @@ import RawData from './rawData';
 import TokenApi from './tokenApi';
 import Subscribe from '../subscribe/subscribe';
 import Footer from '../layout/footer';
+import { useRouter } from "next/router";
+import Link from "next/link";
+
 
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
+
+const Tab = ({ href, isSelected, title }) => (
+    <Link href={href}>
+        <div className={isSelected ? "cursor-pointer py-4 px-6 border-b-2 border-green min-h-full" : "cursor-pointer py-4 px-6 border-b-2 border-white min-h-full"}>
+            <a className={isSelected ? "cursor-pointer openSansMedium text-xl font-bold text-green text-center" : "cursor-pointer openSansMedium text-xl font-bold text-white text-center"}>
+                {title}
+            </a>
+        </div>
+    </Link>
+)
+
 const Applications = () => {
-    const [activeTab, setActiveTab] = useState("tokenApi");
-    //  Functions to handle Tab Switching
-    const handleTab1 = () => {
-        // update the state to tab1
-        setActiveTab("tokenApi");
-    };
-    const handleTab2 = () => {
-        // update the state to tab2
-        setActiveTab("portfolioApi");
-    };
-    const handleTab3 = () => {
-        // update the state to tab2
-        setActiveTab("defiApi");
-    };
-    const handleTab4 = () => {
-        // update the state to tab2
-        setActiveTab("rawData");
-    };
+    const { query } = useRouter();
+
+    const isTabOneSelected = !!query.tokenApi;
+    const isTabTwoSelected = !!query.rawData;
+    const isTabThreeSelected = !!query.defiApi;
+    const isTabFourSelected = !!query.portfolioApi;
+
     return (
         <>
             <div id="learnMore" className="bg-purple-500">
                 <h1 className="tracking-tight font-bold gradientFont text-center pb-5 lg:pb-11">Product descriptions</h1>
                 <div className="grid grid-cols-2 lg:grid-cols-4 max-w-6xl block mx-auto">
-                    <div
-                        className={activeTab === "tokenApi" ? "active" : ""}
-                        onClick={handleTab1}
-                    >
-                        <div className={activeTab === "tokenApi" ? "cursor-pointer py-4 px-6 border-b-2 border-green min-h-full" : "cursor-pointer py-4 px-6 border-b-2 border-white min-h-full"}>
-                            <h2 className={activeTab === "tokenApi" ? "openSansMedium text-xl font-bold text-green text-center" : "openSansMedium text-xl font-bold text-white text-center"}>Token API</h2>
-                        </div>
-                    </div>
-                    <div
-                        className={activeTab === "portfolioApi" ? "active" : ""}
-                        onClick={handleTab2}
-                    >
-                        <div className={activeTab === "portfolioApi" ? "cursor-pointer py-4 px-6 border-b-2 border-green min-h-full" : "cursor-pointer py-4 px-6 border-b-2 border-white min-h-full"}>
-                            <h2 className={activeTab === "portfolioApi" ? "openSansMedium text-xl font-bold text-green text-center" : "openSansMedium text-xl font-bold text-white text-center"}>Portfolio API</h2>
-                        </div>
-                    </div>
-                    <div
-                        className={activeTab === "defiApi" ? "active" : ""}
-                        onClick={handleTab3}
-                    >
-                        <div className={activeTab === "defiApi" ? "cursor-pointer py-4 px-6 border-b-2 border-green min-h-full" : "cursor-pointer py-4 px-6 border-b-2 border-white  min-h-full"}>
-                            <h2 className={activeTab === "defiApi" ? "openSansMedium text-xl font-bold text-green text-center" : "openSansMedium text-xl font-bold text-white text-center"}>DeFi API</h2>
-                        </div>
-                    </div>
-                    <div
-                        className={activeTab === "rawData" ? "active" : ""}
-                        onClick={handleTab4}
-                    >
-                        <div className={activeTab === "rawData" ? "cursor-pointer py-4 px-6 border-b-2 border-green min-h-full" : "cursor-pointer py-4 px-6 border-b-2 border-white min-h-full"}>
-                            <h2 className={activeTab === "rawData" ? "openSansMedium text-xl font-bold text-green text-center" : "openSansMedium text-xl font-bold text-white text-center"}>Raw Data</h2>
-                        </div>
-                    </div>
+                    <Tab href="/product/?tokenApi=true#learnMore" title="Token API" isSelected={isTabOneSelected} />
+                    <Tab href="/product/?rawData=true#learnMore" title="Raw Data " isSelected={isTabTwoSelected} />
+                    <Tab href="/product/?defiApi=true#learnMore" title="DeFi API" isSelected={isTabThreeSelected} />
+                    <Tab href="/product/?portfolioApi=true#learnMore" title="Portfolio API" isSelected={isTabFourSelected} />
                 </div>
 
                 <div className="outlet">
-                    {activeTab === "tokenApi" ? <TokenApi /> : ""}
-                    {activeTab === "rawData" ? <RawData /> : ""}
-                    {activeTab === "defiApi" ? <DefiApi /> : ""}
-                    {activeTab === "portfolioApi" ? <PortfolioApi /> : ""}
+                    {!!query.tokenApi ? <TokenApi /> : ""}
+                    {!!query.rawData ? <RawData /> : ""}
+                    {!!query.defiApi ? <DefiApi /> : ""}
+                    {!!query.portfolioApi ? <PortfolioApi /> : ""}
                 </div>
+
                 <div className="px-4 lg:px-0">
                     <h1 className="tracking-tight font-bold gradientFont text-center pb-5 lg:pb-0">Chains we support</h1>
                     <div className="grid grid-cols-1 lg:flex flex-wrap justify-between max-w-2xl mx-auto pb-20">
