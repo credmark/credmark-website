@@ -31,7 +31,7 @@ export default function PortfolioApi() {
                                 <p className="text-base font-bold">This API is still under development. If this is something you’re going to need, get in touch so that we can make sure we include the data you want. Also, you might want to be part of our private beta.</p>
                             </div>
                             <div>
-                                <p className="uppercase text-credmarkpurple text-3xl pt-10 pb-3 openSansMedium">What you’ll get</p>
+                                <p className="uppercase text-credmarkpurple text-3xl pt-10 pb-3 openSansMedium">What you get</p>
                                 <p className="text-base">
                                     We’re still working on this. Our internal wish list is very long. When we first publish, you’ll be able to:
                                 </p>

@@ -28,7 +28,7 @@ export default function DefiApi() {
                                 <p className="text-base font-bold"><span className="openSansMedium">Warning: this is expert territory</span>. If you want access to all our data – i.e., <span className="openSansMedium">every bit that’s ever been written to the Ethereum chain</span> – as well as the output of <span className="openSansMedium">sophisticated financial models</span>, you’re in the right spot. It’s a steep hill to climb, but once you do you’ll be able to do things you can’t do with any other tool in DeFi.</p>
                             </div>
                             <div>
-                                <p className="uppercase text-credmarkpurple text-3xl pt-10 pb-3 openSansMedium">What you&apos;ll get</p>
+                                <p className="uppercase text-credmarkpurple text-3xl pt-10 pb-3 openSansMedium">What you get</p>
                                 <div className="grid grid-cols-1 lg:grid-cols-2 pb-20">
                                     <div className="lg:mr-10">
                                         <span className="flex pt-9 pb-3"><img className="mr-4" src="/assets/defi-api.svg" alt="tick" width={120} /><p className="text-2xl text-lightpurple font-bold pt-10 openSansMedium">An API to the Credmark Platform</p></span>
