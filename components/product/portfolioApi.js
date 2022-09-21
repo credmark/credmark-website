@@ -4,9 +4,8 @@ import { Switch } from '@headlessui/react'
 import Link from 'next/link'
 
 const people = [
-    { documentation: 'API', documentationLink: 'https://gateway.credmark.com/api', image: '/assets/documentation-api.svg' },
-    { documentation: 'Building Models - How to', documentationLink: 'https://developer-docs.credmark.com/en/latest/usage.html', image: '/assets/documentation-models.svg' },
-    { documentation: 'Deployed models', documentationLink: 'https://gateway.credmark.com/model-docs', image: '/assets/documentation-api.svg' },
+    { documentation: 'Concepts (Coming soon)', image: '/assets/documentation-api.svg' },
+    { documentation: 'Reference (Coming soon)', image: '/assets/documentation-api.svg' },
 ]
 
 function classNames(...classes) {
