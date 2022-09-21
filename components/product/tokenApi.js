@@ -52,26 +52,23 @@ export default function TokenApi() {
                                 </div>
 
                                 <div className="lg:pl-5">
-                                    <span className="flex pt-9 pb-3"><img className="mr-4" src="/assets/token-api-metadata.svg" alt="tick" width={120} /><p className="text-2xl text-lightpurple font-bold pt-10"><span className="openSansMedium">Metadata</span> (coming soon)</p></span>
+                                    <span className="flex pt-9 pb-3"><img className="mr-4" src="/assets/token-api-metadata.svg" alt="tick" width={120} /><p className="text-2xl text-lightpurple font-bold pt-10"><span className="openSansMedium">Metadata</span></p></span>
                                     <p className="text-base">
                                         <span className="openSansMedium">Price, liquidity, and concentration</span> are important enough to merit their own functions, but tokens have other attributes that could be of interest including:
                                     </p>
                                     <ul>
                                         <li className="text-base openSansMedium">
-                                            contract address,
+                                            token name, symbol, and logo
                                         </li>
                                         <li className="text-base openSansMedium">
-                                            number of decimals,
+                                            number of decimals, and
                                         </li>
                                         <li className="text-base openSansMedium">
-                                            current supply,
-                                        </li>
-                                        <li className="text-base openSansMedium">
-                                            etc,
+                                        creation block.
                                         </li>
                                     </ul>
                                     <p className="text-base">
-                                        This information can be accessed via a series of endpoints we’ve grouped under a <span className="openSansMedium">“metadata” umbrella.</span>
+                                    This information can be accessed via a series of endpoints we’ve grouped under a “metadata” umbrella.
                                     </p>
                                 </div>
                             </div>
