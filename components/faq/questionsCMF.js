@@ -4,7 +4,7 @@ import { ChevronDownIcon } from '@heroicons/react/outline'
 
 const whatIs = [
     {
-      question: "What is the DeFi CMF?",
+      question: "What is the CMF?",
     },
   ]
 

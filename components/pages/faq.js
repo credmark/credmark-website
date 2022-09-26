@@ -9,6 +9,7 @@ import Link from "next/link";
 import QuestionsPortfolio from "../faq/questionsPortfolioApi";
 import QuestionsDeFi from "../faq/questionsDeFi";
 import QuestionsCMF from "../faq/questionsCMF";
+import QuestionsData from "../faq/questionsData";
 
 export default function faq() {
     return (
@@ -74,6 +75,14 @@ export default function faq() {
                         </h3>
                         <div className="mb-20">
                             <QuestionsCMF />
+                        </div>
+                    </div>
+                    <div className="max-w-5xl md:m-auto">
+                        <h3 className="roboto text-white font-bold text-left text-3xl md:text-4xl">
+                            Credmark Data
+                        </h3>
+                        <div className="mb-20">
+                            <QuestionsData />
                         </div>
                     </div>
                 </div>
