@@ -8,6 +8,7 @@ import Nav from "../layout/nav";
 import Link from "next/link";
 import QuestionsPortfolio from "../faq/questionsPortfolioApi";
 import QuestionsDeFi from "../faq/questionsDeFi";
+import QuestionsCMF from "../faq/questionsCMF";
 
 export default function faq() {
     return (
@@ -65,6 +66,14 @@ export default function faq() {
                         </h3>
                         <div className="mb-20">
                             <QuestionsDeFi />
+                        </div>
+                    </div>
+                    <div className="max-w-5xl md:m-auto">
+                        <h3 className="roboto text-white font-bold text-left text-3xl md:text-4xl">
+                            Credmark Model Framework (CMF)
+                        </h3>
+                        <div className="mb-20">
+                            <QuestionsCMF />
                         </div>
                     </div>
                 </div>
