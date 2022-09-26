@@ -16,13 +16,13 @@ const whoShould = [
 
 const rate = [
     {
-        question: "What is Third Order Data?",
+        question: "What is Second Order Data?",
     },
 ]
 
 const cost = [
     {
-        question: "What is Second Order Data?",
+        question: "What is Third Order Data?",
     },
 ]
 
