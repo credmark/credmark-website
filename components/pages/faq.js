@@ -6,6 +6,7 @@ import QuestionsTokenApi from "../faq/questionsTokenApi";
 import QuestionsToken from "../faq/questionsToken";
 import Nav from "../layout/nav";
 import Link from "next/link";
+import QuestionsPortfolio from "../faq/questionsPortfolioApi";
 
 export default function faq() {
     return (
@@ -49,7 +50,13 @@ export default function faq() {
                             <QuestionsTokenApi />
                         </div>
                     </div>
-                    <div>
+                    <div className="max-w-5xl md:m-auto">
+                        <h3 className="roboto text-white font-bold text-left text-3xl md:text-4xl">
+                            Portfolio API
+                        </h3>
+                        <div className="mb-20">
+                            <QuestionsPortfolio />
+                        </div>
                     </div>
                 </div>
                 <Subscribe />
