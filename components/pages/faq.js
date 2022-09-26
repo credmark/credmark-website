@@ -35,7 +35,7 @@ export default function faq() {
                             </div>
                         </div>
                         <h3 className="roboto text-white font-bold text-left text-3xl md:text-4xl">
-                            Token
+                            CMK Token
                         </h3>
                         <div className="mb-20">
                             <QuestionsToken />
