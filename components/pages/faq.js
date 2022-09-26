@@ -2,7 +2,7 @@ import CenteredHeader from "../layout/faqHeader"
 import Footer from "../layout/footer";
 import Subscribe from "../subscribe/subscribe"
 import QuestionsIntro from "../faq/questionsIntro";
-import QuestionsPlatform from "../faq/questionsPlatform";
+import QuestionsTokenApi from "../faq/questionsTokenApi";
 import QuestionsToken from "../faq/questionsToken";
 import Nav from "../layout/nav";
 import Link from "next/link";
@@ -43,10 +43,10 @@ export default function faq() {
                     </div>
                     <div className="max-w-5xl md:m-auto">
                         <h3 className="roboto text-white font-bold text-left text-3xl md:text-4xl">
-                            Platform
+                            Token API
                         </h3>
                         <div className="mb-20">
-                            <QuestionsPlatform />
+                            <QuestionsTokenApi />
                         </div>
                     </div>
                     <div>

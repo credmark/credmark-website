@@ -39,8 +39,6 @@ export default function Questions() {
                     <p className="text-base leading-7">Our <span className="italic">Portfolio API</span> gives developers easy access aggregate prices, price series, portfolio activity (cashflow, transactions, and basic risk metrics)</p>
                     <p className="text-base leading-7">Our <span className="italic">DeFi API</span> allows DeFi expert developers to access the output of models built and deployed on the Credmark Model Framework.</p>
                     <p className="text-base leading-7">Our <span className="italic">Credmark Model Framework (CMF)</span> allows developers to build and deploy <span className="openSansMedium">financial models</span> in Python. These models have direct access to current and historical blockchain data. The CMF gives quants the ability to work seamlessly with raw blockchain data, existing models, all Python frameworks, familiar tools, and then publish their work for access via API.</p>
-
-
                   </Disclosure.Panel>
                 </>
               )}
