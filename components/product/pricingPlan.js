@@ -13,7 +13,7 @@ const tiers = [
     href: '#learnMore',
     priceMonthly: 100,
     rateLimits: '600',
-    includedFeatures: ['Prices', 'Liquidity (coming soon)', 'Holdings (coming soon)', 'Metadata (coming soon)'],
+    includedFeatures: ['Prices',  'Metadata', 'Liquidity (coming soon)', 'Holdings (coming soon)'],
   },
   {
     name: 'Portfolio API',
