@@ -37,7 +37,7 @@ export default function TokenApi() {
 
 
                                 <div className="lg:ml-5">
-                                    <span className="flex pt-9 pb-3"><img className="mr-4" src="/assets/token-api-liquidity.svg" alt="tick" width={120} /><p className="text-2xl text-lightpurple font-bold pt-10"><span className="openSansMedium">Liquidity</span> (coming soon)</p></span>
+                                    <span className="flex pt-9 pb-3"><img className="mr-4" src="/assets/token-api-liquidity.svg" alt="tick" width={120} /><p className="text-2xl text-lightpurple font-bold pt-10"><span className="openSansMedium">Liquidity</span></p></span>
                                     <p className="text-base">
                                         Sometimes you need to know <span className="openSansMedium">where a token is or was best traded.</span> Or maybe you just want to understand <span className="openSansMedium">liquidity patterns over time.</span></p>
                                     <p className="text-base">Our “liquidity” functions will <span className="openSansMedium">measure liquidity from many angles,</span> the slippage of an intended trade, the available amount of a particular token on a DEX at any point in time, and the liquidity distribution of a concentrated liquidity DEX pool.</p>
