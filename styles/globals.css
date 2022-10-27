@@ -183,6 +183,22 @@ h4 {
   word-wrap: break-word;
 }
 
+.sanity-block strong {
+  font-family: 'Work Sans Medium';
+}
+
+.sanity-block .border-box strong {
+  font-family: 'Work Sans Medium';
+}
+
+.sanity-block .border-box p strong {
+  font-family: 'Work Sans Medium' !important;
+}
+
+.strong {
+  font-family: 'Work Sans Medium' !important;
+}
+
 .sanity-block ul {
   padding-left: 15px;
 }
@@ -209,7 +225,7 @@ h4 {
 }
 
 .sanity-block h2 {
-  @apply text-3xl;
+  @apply text-2xl;
   @apply font-bold;
   @apply text-black;
   @apply pt-10;
@@ -217,7 +233,7 @@ h4 {
 }
 
 .sanity-block h3 {
-  @apply text-3xl;
+  @apply text-xl;
   @apply text-black;
   @apply font-bold;
   @apply pt-10;
