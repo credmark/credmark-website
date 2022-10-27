@@ -220,7 +220,7 @@ function BlogPageContent({ posts }) {
                                     <BlogCard
                                         title={post.title}
                                         subtitle={post.subtitle}
-                                        date={moment(post.date).format('DD/MM/YYYY')}
+                                        date={moment(post.date).format('YYYY/MM/DD')}
                                         author={post.author}
                                         category={post.category}
                                         slug={post.slug}
@@ -233,7 +233,7 @@ function BlogPageContent({ posts }) {
                                     key={`${post.slug}-list`}
                                     title={post.title}
                                     subtitle={post.subtitle}
-                                    date={moment(post.date).format('DD/MM/YYYY')}
+                                    date={moment(post.date).format('YYYY/MM/DD')}
                                     img={post.mainImage}
                                     author={post.author}
                                     category={post.category}

@@ -176,6 +176,11 @@ h4 {
 .sanity-block ol {
   padding-left: 15px;
   @apply py-5;
+  @apply text-lg;
+  @apply font-normal;
+  @apply leading-8;
+  padding-top: 13px;
+  word-wrap: break-word;
 }
 
 .sanity-block ul {

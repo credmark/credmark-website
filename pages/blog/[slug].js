@@ -95,7 +95,7 @@ const BlogDetail = ({ post }) => {
                         <svg className="mx-4 float-left mt-2" width="2" height="15" viewBox="0 0 2 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="2" height="15" fill="#3B0065" />
                         </svg>
-                        <p className="text-credmarkpurple text-base float-left">{moment(post.date).format('MM.DD.YYYY')}</p>
+                        <p className="text-credmarkpurple text-base float-left">{moment(post.date).format('YYYY/MM/DD')}</p>
                     </div>
                 </div>
                 <img className="mb-10" id="blogPage" src={post.mainImage} />
