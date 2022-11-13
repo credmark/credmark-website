@@ -49,7 +49,7 @@ const documentation = [
         href: 'https://gateway.credmark.com/api/#/Token%20API',
     },
     {
-        name: 'DeFi Concepts',
+        name: 'DeFi API Concepts',
         href: 'https://docs.credmark.com/defi-api-concepts',
     },
     {

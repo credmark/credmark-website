@@ -4,7 +4,7 @@ import { Switch } from '@headlessui/react'
 import Link from 'next/link'
 
 const people = [
-    { documentation: 'DeFi concepts', documentationLink: 'https://docs.credmark.com/defi-api-concepts/basics/introduction', image: '/assets/documentation-api.svg' },
+    { documentation: 'DeFi API Concepts', documentationLink: 'https://docs.credmark.com/defi-api-concepts/basics/introduction', image: '/assets/documentation-api.svg' },
     { documentation: 'DeFi API reference', documentationLink: 'https://gateway.credmark.com/api/#/DeFi%20API', image: '/assets/documentation-api.svg' },
 ]
 
