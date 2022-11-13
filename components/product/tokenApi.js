@@ -44,7 +44,7 @@ export default function TokenApi() {
                                 </div>
 
                                 <div className="lg:pr-5">
-                                    <span className="flex pt-9 pb-3"><img className="mr-4" src="/assets/token-api-holdings.svg" alt="tick" width={120} /><p className="text-2xl text-lightpurple font-bold pt-10"><span className="openSansMedium">Holdings</span> (coming soon)</p></span>
+                                    <span className="flex pt-9 pb-3"><img className="mr-4" src="/assets/token-api-holdings.svg" alt="tick" width={120} /><p className="text-2xl text-lightpurple font-bold pt-10"><span className="openSansMedium">Holdings</span></p></span>
                                     <p className="text-base">
                                         <span className="openSansMedium">How concentrated</span> are token holding? <span className="openSansMedium">How many wallets</span> hold them? What addresses hold the <span className="openSansMedium">most tokens</span>? How many of those holdings are in <span className="openSansMedium">liquidity pools</span>? We are asked these questions all the time. They are easily answered by calling the right models on our platform, but these endpoints answer the most common questions.
                                     </p>
