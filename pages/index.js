@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Subscribe from '../components/subscribe/subscribe'
 import Footer from '../components/layout/footer'
-import React, { useState } from "react";
+import React from "react";
 import Nav from '../components/layout/nav'
 import TryApi from '../components/homepage/tryApi'
 import BuildModels from '../components/homepage/buildModels'
@@ -106,7 +106,7 @@ export default function Home({ data }) {
             <a href="https://www.longhash.com/en" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-10" width={150} src="../assets/longhash-logo.svg" alt="Long Hash Ventures logo" /></a>
             <a href="https://api3.org/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-10" width={130} src="../assets/API3-logo.svg" alt="API3 logo" /></a>
             <a href="https://irulast.com/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-10" width={130} src="../assets/irulast-logo.svg" alt="Irulast logo" /></a>
-            <a href="https://docs.debtdao.finance/overview/what-is-debt-dao" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-8" width={140} src="../assets/debt-dao-logo.png" alt="Irulast logo" /></a>
+            <a href="https://docs.debtdao.finance/overview/what-is-debt-dao" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-8" width={80} src="../assets/debt-dao-logo.png" alt="Debt dao logo" /></a>
           </div>
         </div>
       </div>
