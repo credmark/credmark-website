@@ -4,7 +4,7 @@ import BlockContent from '@sanity/block-content-to-react';
 import sanity from '../../lib/sanity';
 
 import Nav from '../../components/layout/navBlog'
-import Link from 'next/link'
+import SyntaxHighlighter from 'react-syntax-highlighter';
 import Head from 'next/head'
 import moment from 'moment'
 import Subscribe from '../../components/subscribe/subscribe';
@@ -14,11 +14,20 @@ import React from 'react';
 
 const serializers = {
     types: {
-        code: (serializer) => {
-            return <h1>Code Block</h1>
-        }
-    }
+        code: (props) => {
+            return (
+                <div className="bg-black text-white p-7 rounded-md">
+                    <SyntaxHighlighter
+                        useInlineStyles={false}
+                        language={props.node.language}>
+                        {props.node.code}
+                    </SyntaxHighlighter>
+                </div>
+            )
+        },
+    },
 }
+
 
 export default function BlogPostPage({ post }) {
 
@@ -84,38 +93,38 @@ const BlogDetail = ({ post }) => {
     }, []);
     return (
         <>
-        <Nav />
-        <div className="bg-white pb-10 max-w-3xl mx-auto px-5 md:px-0">
-            <div>
-                <h1 className="leading-snug text-black pt-10 md:pt-20 text-5xl pb-5">{post.title}</h1>
-                <h3 className="leading-snug text-black font-light text-3xl pb-5">{post.subtitle}</h3>
-                <div className="flex">
-                    <div>
-                        <p className="text-credmarkpurple text-base float-left pb-5">{post.author}</p>
-                        <svg className="mx-4 float-left mt-2" width="2" height="15" viewBox="0 0 2 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="2" height="15" fill="#3B0065" />
-                        </svg>
-                        <p className="text-credmarkpurple text-base float-left">{moment(post.date).format('YYYY/MM/DD')}</p>
+            <Nav />
+            <div className="bg-white pb-10 max-w-3xl mx-auto px-5 md:px-0">
+                <div>
+                    <h1 className="leading-snug text-black pt-10 md:pt-20 text-5xl pb-5">{post.title}</h1>
+                    <h3 className="leading-snug text-black font-light text-3xl pb-5">{post.subtitle}</h3>
+                    <div className="flex">
+                        <div>
+                            <p className="text-credmarkpurple text-base float-left pb-5">{post.author}</p>
+                            <svg className="mx-4 float-left mt-2" width="2" height="15" viewBox="0 0 2 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="2" height="15" fill="#3B0065" />
+                            </svg>
+                            <p className="text-credmarkpurple text-base float-left">{moment(post.date).format('YYYY/MM/DD')}</p>
+                        </div>
                     </div>
+                    <img className="mb-10" id="blogPage" src={post.mainImage} />
+                    <BlockContent
+                        className="border-box border-2 rounded-md border-gray-300 p-4"
+                        serializers={serializers}
+                        blocks={post.border}
+                        {...sanity.config()} />
+                    <BlockContent
+                        className="blog sanity-block text-left leading-loose"
+                        serializers={serializers}
+                        blocks={post.content}
+                        {...sanity.config()} />
+                    <span onClick={doCopy}>
+                        <img className="pt-5 flex cursor-pointer" id="blogPage" src="../assets/link.svg" alt="copy to clipboard" />
+                    </span>
                 </div>
-                <img className="mb-10" id="blogPage" src={post.mainImage} />
-                <BlockContent
-                    className="border-box border-2 rounded-md border-gray-300 p-4"
-                    serializers={serializers}
-                    blocks={post.border}
-                    {...sanity.config()} />
-                <BlockContent
-                    className="blog sanity-block text-left leading-loose"
-                    serializers={serializers}
-                    blocks={post.content}
-                    {...sanity.config()} />
-                <span onClick={doCopy}>
-                    <img className="pt-5 flex cursor-pointer" id="blogPage" src="../assets/link.svg" alt="copy to clipboard" />
-                </span>
             </div>
-        </div>
-        <Subscribe />
-        <Footer />
+            <Subscribe />
+            <Footer />
         </>
     )
 }

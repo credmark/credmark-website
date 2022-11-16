@@ -18,6 +18,7 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-hotjar": "^4.0.0",
+    "react-syntax-highlighter": "^15.5.0",
     "react-type-animation": "^1.1.2",
     "swr": "^1.1.2"
   },
