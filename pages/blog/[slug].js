@@ -16,7 +16,7 @@ const serializers = {
     types: {
         code: (props) => {
             return (
-                <div className="bg-black text-white p-7 rounded-md">
+                <div className="bg-black text-white p-7 rounded-md code">
                     <SyntaxHighlighter
                         useInlineStyles={false}
                         language={props.node.language}>

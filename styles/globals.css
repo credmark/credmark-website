@@ -183,6 +183,11 @@ h4 {
   word-wrap: break-word;
 }
 
+.code {
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
 .sanity-block strong {
   font-family: 'Work Sans Medium';
 }
