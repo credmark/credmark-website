@@ -737,11 +737,6 @@ li {
     max-height: 600px;
   }
 
-  .text {
-    /* left: 40px;
-    top: 80px;
-    font-size: 48px; */
-  }
 }
 
 .communityBg {
@@ -767,4 +762,23 @@ li {
 
 .hApi {
   height: 500px;
+}
+
+/* Credmark Model Framework */
+
+.whatItIsBg {
+  background: #12061C;
+}
+
+.cmfBg {
+  background: linear-gradient(180deg, rgba(149, 0, 255, 0.3) 0%, rgba(149, 0, 255, 0) 72.95%), #1A1A1A;
+  background-blend-mode: lighten, normal, normal; 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cmfHeroBg {
+  background: url("/assets/hero-banner.gif");
+  background-size: contain;
+  background-position: right;
 }
