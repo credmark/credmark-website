@@ -236,8 +236,6 @@ export default function Nav() {
                                                             </a>
                                                         ))}
                                                     </div>
-
-
                                                 </div>
                                             </Popover.Panel>
                                         </Transition>
@@ -245,7 +243,6 @@ export default function Nav() {
                                 )}
                             </Popover>
 
-                           
 
                             <Popover className="relative pt-1">
                                 {({ open }) => (
@@ -290,14 +287,23 @@ export default function Nav() {
                                                             </a>
                                                         ))}
                                                     </div>
-
-
                                                 </div>
                                             </Popover.Panel>
                                         </Transition>
                                     </>
                                 )}
                             </Popover>
+
+                            <Link
+                                href="/credmark-model-framework"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div className='cursor-pointer text-white workSans group rounded-md inline-flex items-center text-base'>
+                                    <span>Credmark Model Framework</span>
+                                </div>
+                            </Link>
+
 
                             <Popover className="relative pt-1">
                                 {({ open }) => (
