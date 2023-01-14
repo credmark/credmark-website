@@ -3,7 +3,7 @@ import * as React from 'react';
 export default function WhatItIs() {
     return (
         <>
-            <div className="pt-20 pb-20 md:py-28">
+            <div className="py-10">
                 <div className="max-w-7xl block mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-3">
                         <div className="whatItIsBg p-8 my-5 lg:my-0 mx-5 rounded-md shadow-sm cursor-pointer">

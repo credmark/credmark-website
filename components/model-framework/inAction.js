@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function InAction() {
     return (
         <>
-            <div className="pt-20 pb-20 md:py-14 mx-5 md:mx-0">
+            <div className="py-10 mx-5 md:mx-0">
                 <div className="max-w-5xl block mx-auto">
                     <h2 className="gradientFont text-center">
                         See it in action
@@ -17,7 +17,7 @@ export default function InAction() {
                             <p className="text-2xl font-normal leading-7 text-white leading-relaxed">
                                 The Credmark Model Framework abstracts away the complexity of coding Python in web3, enabling rapid development.
                             </p>
-                            <div className="flex pb-10 md:pb-52 pt-6">
+                            <div className="flex pt-6">
                                 <button
                                     type="button"
                                     className="md:mx-4 lg:mx-0 text-white border-green border-2 px-2 py-1 shadow-sm text-sm font-medium mt-3"
@@ -37,7 +37,7 @@ export default function InAction() {
                             </div>
                         </div>
                         <div>
-                            <img className="rounded-t-md width2x" alt="Credmark model framework" src="../assets/credmark-model-framework.png" />
+                            <img className="rounded-t-md width2x" alt="Credmark model framework" src="../assets/credmark-model-framework.gif" />
                         </div>
                     </div>
                 </div>

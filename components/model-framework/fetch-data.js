@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function FetchData() {
     return (
         <>
-            <div className="pt-20 pb-20 md:py-28">
+            <div className="py-10">
                 <div className="max-w-7xl block mx-auto">
                     <h2 className="gradientFont text-center">
                         Fetch Any Data in a few steps
