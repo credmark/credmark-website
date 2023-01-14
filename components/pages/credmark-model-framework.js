@@ -20,7 +20,7 @@ export default function CFM() {
                         <p className="px-4 md:px-0 text-white leading-snug max-w-xl">
                             The Credmark Model Framework (CMF) is an open source Python framework for quants, data scientists, and web3 developers to create their own crypto data and expose it via API.
                         </p>
-                        <div className="flex flex-wrap md:pb-52 pt-6">
+                        <div className="flex flex-wrap pb-16 md:pb-28 pt-6">
                             <button
                                 type="button"
                                 className="mx-4 lg:mx-0 text-white heroButton px-2 py-2 shadow-sm text-sm font-medium"
@@ -39,6 +39,7 @@ export default function CFM() {
                             </button>
                         </div>
                     </div>
+                    <img className="block mx-auto mb-10" src="/assets/dropdown-button-icon.svg" alt="dropdown button" />
                 </div>
                 <WhatItIs />
                 <QueryData />

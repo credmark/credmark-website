@@ -781,4 +781,5 @@ li {
   background: url("/assets/models.gif");
   background-size: contain;
   background-position: right;
+  background-repeat: no-repeat;
 }
