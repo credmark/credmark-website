@@ -16,7 +16,7 @@ export default function FetchData() {
                                 Create an API Key
                             </p>
                             <p className="text-base font-normal leading-7 text-white">
-                                Get a 30-day free trial  instantly after you sign up.
+                                Get a 30-day free trial instantly after you sign up.
                             </p>
                             <button
                                 type="button"
@@ -33,7 +33,7 @@ export default function FetchData() {
                                 Call the API
                             </p>
                             <p className="text-base font-normal leading-7 text-white">
-                                Connect to teh API to retrieve the data you need.
+                                Connect to the API to retrieve the data you need.
                             </p>
                             <button
                                 type="button"
@@ -64,7 +64,7 @@ export default function FetchData() {
                         <div className="whatItIsBg p-8 my-5 lg:my-0 mx-5 rounded-md shadow-sm cursor-pointer text-center">
                             <img className="mx-auto block" src="../assets/4.svg" alt="4" />
                             <p className="text-base font-normal text-green pt-5">
-                                You're Done!
+                                You&apos;re Done!
                             </p>
                             <p className="text-base font-normal leading-7 text-white">
                                 Use the DeFi API to call your models.
