@@ -33,7 +33,7 @@ export default function FetchData() {
                                 Call the API
                             </p>
                             <p className="text-base font-normal leading-7 text-white">
-                                Connect to teh API to retrieve the data you need
+                                Connect to teh API to retrieve the data you need.
                             </p>
                             <button
                                 type="button"
