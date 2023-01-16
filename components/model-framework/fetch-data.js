@@ -30,10 +30,10 @@ export default function FetchData() {
                         <div className="whatItIsBg p-8 my-5 lg:my-0 mx-5 rounded-md shadow-sm cursor-pointer text-center">
                             <img className="mx-auto block" src="../assets/2.svg" alt="2" />
                             <p className="text-base font-normal text-green pt-5">
-                                Create an API Key
+                                Call the API
                             </p>
                             <p className="text-base font-normal leading-7 text-white">
-                                Get a 30-day free trial  instantly after you sign up.
+                                Connect to teh API to retrieve the data you need
                             </p>
                             <button
                                 type="button"
@@ -47,10 +47,10 @@ export default function FetchData() {
                         <div className="whatItIsBg p-8 my-5 lg:my-0 mx-5 rounded-md shadow-sm cursor-pointer text-center">
                             <img className="mx-auto block" src="../assets/3.svg" alt="3" />
                             <p className="text-base font-normal text-green pt-5">
-                                Create an API Key
+                               Build new Models
                             </p>
                             <p className="text-base font-normal leading-7 text-white">
-                                Get a 30-day free trial  instantly after you sign up.
+                                Fork the CMF repo. Write models.
                             </p>
                             <button
                                 type="button"
@@ -64,10 +64,10 @@ export default function FetchData() {
                         <div className="whatItIsBg p-8 my-5 lg:my-0 mx-5 rounded-md shadow-sm cursor-pointer text-center">
                             <img className="mx-auto block" src="../assets/4.svg" alt="4" />
                             <p className="text-base font-normal text-green pt-5">
-                                Create an API Key
+                                You're Done!
                             </p>
                             <p className="text-base font-normal leading-7 text-white">
-                                Get a 30-day free trial  instantly after you sign up.
+                                Use the DeFi API to call your models.
                             </p>
                             <button
                                 type="button"
