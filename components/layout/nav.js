@@ -380,7 +380,7 @@ export default function Nav() {
                                         </Popover.Button>
                                     </div>
                                 </div>
-                                <div className="mt-5 pb-2 ml-8">
+                                <div className="mt-5">
                                     <Link
                                         href="/"
                                         target="_blank"
@@ -520,6 +520,16 @@ export default function Nav() {
                                         </>
                                     )}
                                 </Popover>
+
+                                <Link
+                                    href="/credmark-model-framework"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <div className='group text-credmarkpurple rounded-md inline-flex items-center text-base pt-5'>
+                                        <span>Credmark Model Framework</span>
+                                    </div>
+                                </Link>
 
                             </div>
                         </div>
