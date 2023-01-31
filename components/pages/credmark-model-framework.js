@@ -1,6 +1,4 @@
 import Link from 'next/link'
-import Subscribe from '../subscribe/subscribe'
-import Footer from '../layout/footer'
 import React from "react";
 import Nav from '../layout/nav'
 import WhatItIs from '../model-framework/what-it-is';
@@ -68,8 +66,6 @@ export default function CFM() {
                     </div>
                 </div>
             </div>
-            <Subscribe />
-            <Footer />
         </>
     )
 }
