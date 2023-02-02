@@ -60,13 +60,13 @@ const Applications = () => {
                         </div>
                         <div>
                             <img className="block mx-auto h-24 w-20 pt-10 lg:pt-0" src="/assets/polygon-logo.svg" alt="polygon logo" />
-                            <p className="text-green text-center bungee">Polygon <br /> (coming soon)</p>
+                            <p className="text-green text-center bungee">Polygon</p>
                         </div>
                         <div>
                             <div className="w-16 block mx-auto">
                                 <img className="block mx-auto w-48 pt-10 lg:pt-6" width={150} src="/assets/binance.svg" alt="binance logo" />
                             </div>
-                            <p className="text-green text-center bungee">BSC <br /> (coming soon)</p>
+                            <p className="text-green text-center bungee">BSC</p>
                         </div>
 
                     </div>

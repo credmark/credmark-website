@@ -27,6 +27,7 @@ export default function TryApi() {
     return (
         <>
             <div className="mx-5 pt-20 pb-20 max-w-7xl block lg:mx-auto">
+                
                 <div>
                     <h1 className="gradientFont">Try our APIs</h1>
                     <p>Access institutional-grade historical and real-time blockchain data instantly.</p>
