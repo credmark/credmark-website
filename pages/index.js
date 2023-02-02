@@ -38,7 +38,7 @@ export default function Home({ data }) {
       <div className="py-2 stickyCta text-center relative">
         <div>
           <Link href="/product?tokenApi=true#learnMore" rel="noreferrer"><p className="text-white text-base flex justify-center flex-wrap cursor-pointer"><span className="float-left pr-3">
-            The only source of DeFi prices: our Token API. Simple. Powerful. Try it.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></Link>        
+            The only source of DeFi prices: our Token API. Simple. Powerful. Try it.</span><img className="hover:animate-pulse" src="../assets/arrow-white.svg" alt="Right arrow" /></p></Link>
         </div>
       </div>
       <div className="bg-credmarkpurple heroBg w-screen" >
@@ -86,6 +86,26 @@ export default function Home({ data }) {
           </dl>
         </div>
       </div>
+      <div className="px-4 lg:px-0 bg-black py-20">
+        <h1 className="tracking-tight font-bold gradientFont text-center pb-5 lg:pb-0">Chains we support</h1>
+        <div className="grid grid-cols-1 lg:flex flex-wrap justify-between max-w-2xl mx-auto">
+          <div>
+            <img className="block mx-auto h-24" src="/assets/etheruem.svg" alt="etheruem logo" />
+            <p className="text-green text-center bungee">Ethereum</p>
+          </div>
+          <div>
+            <img className="block mx-auto h-24 w-20 pt-10 lg:pt-0" src="/assets/polygon-logo.svg" alt="polygon logo" />
+            <p className="text-green text-center bungee">Polygon</p>
+          </div>
+          <div>
+            <div className="w-16 block mx-auto">
+              <img className="block mx-auto w-48 pt-10 lg:pt-6" width={150} src="/assets/binance.svg" alt="binance logo" />
+            </div>
+            <p className="text-green text-center bungee">BSC</p>
+          </div>
+
+        </div>
+      </div>
       <TryApi />
       <BuildModels />
       <div>
@@ -96,13 +116,13 @@ export default function Home({ data }) {
         </div>
         <div className="max-w-4xl block m-auto">
           <div className="grid grid-cols-1 m-auto block md:grid-cols-4 px-5 pb-0 md:pb-10">
-          <a href="https://coinshift.xyz/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={150} src="../assets/Coinshift.svg" alt="Coinshift logo" /></a>
-          <a href="https://www.yield.app/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={130} src="../assets/yieldapp-logo.svg" alt="Yield App logo" /></a>
-          <a href="https://picante.io/" target="_blank" rel="noreferrer"><img className="block mx-auto py-7" width={150} src="../assets/picante-logo.svg" alt="Picante logo" /></a>
-          <a href="https://exponent.cx/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={170} src="../assets/exponent.jpeg" alt="Exponent logo" /></a>
+            <a href="https://coinshift.xyz/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={150} src="../assets/Coinshift.svg" alt="Coinshift logo" /></a>
+            <a href="https://www.yield.app/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={130} src="../assets/yieldapp-logo.svg" alt="Yield App logo" /></a>
+            <a href="https://picante.io/" target="_blank" rel="noreferrer"><img className="block mx-auto py-7" width={150} src="../assets/picante-logo.svg" alt="Picante logo" /></a>
+            <a href="https://exponent.cx/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={170} src="../assets/exponent.jpeg" alt="Exponent logo" /></a>
           </div>
           <div className="max-w-5xl block m-auto grid grid-cols-1 m-auto block md:grid-cols-5 px-5 pb-10 md:pb-20 md:px-0">
-          <a href="https://dlab.vc/" target="_blank" rel="noreferrer"><img className="py-5 block mx-auto" width={130} src="../assets/dlab-logo.svg" alt="DLAB logo" /></a>
+            <a href="https://dlab.vc/" target="_blank" rel="noreferrer"><img className="py-5 block mx-auto" width={130} src="../assets/dlab-logo.svg" alt="DLAB logo" /></a>
             <a href="https://www.longhash.com/en" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-10" width={150} src="../assets/longhash-logo.svg" alt="Long Hash Ventures logo" /></a>
             <a href="https://api3.org/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-10" width={130} src="../assets/API3-logo.svg" alt="API3 logo" /></a>
             <a href="https://irulast.com/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-10" width={130} src="../assets/irulast-logo.svg" alt="Irulast logo" /></a>

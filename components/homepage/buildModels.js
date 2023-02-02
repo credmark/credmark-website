@@ -30,11 +30,9 @@ export default function BuildModels() {
                                 className="mx-2 lg:mx-0 text-black bg-green mt-5 px-5 py-2 mb-10 shadow-sm text-sm font-bold"
                             >
                                 <a 
-                                href="https://docs.credmark.com/cmf-model-guide/"
-                                target="_blank"
-                                rel="noreferrer"
+                                href="/credmark-model-framework"
                                 >
-                                    <p>Start building</p>
+                                    <p>Learn more</p>
                                 </a>
                             </button>
                         </div>
