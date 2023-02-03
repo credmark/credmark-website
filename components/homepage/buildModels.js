@@ -29,11 +29,11 @@ export default function BuildModels() {
                                 type="button"
                                 className="mx-2 lg:mx-0 text-black bg-green mt-5 px-5 py-2 mb-10 shadow-sm text-sm font-bold"
                             >
-                                <a 
+                                <Link 
                                 href="/credmark-model-framework"
                                 >
                                     <p>Learn more</p>
-                                </a>
+                                </Link>
                             </button>
                         </div>
                     </div>
