@@ -52,7 +52,7 @@ const Applications = () => {
                 </div>
 
                 <div className="px-4 lg:px-0">
-                    <h1 className="tracking-tight font-bold gradientFont text-center pb-5 lg:pb-0">Chains we support</h1>
+                    <h1 className="tracking-tight font-bold gradientFont text-center pb-5 lg:pb-0">Available on</h1>
                     <div className="grid grid-cols-1 lg:flex flex-wrap justify-between max-w-2xl mx-auto pb-20">
                         <div>
                             <img className="block mx-auto h-24" src="/assets/etheruem.svg" alt="etheruem logo" />

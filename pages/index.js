@@ -85,9 +85,8 @@ export default function Home({ data }) {
             </div>
           </dl>
         </div>
-      </div>
-      <div className="px-4 lg:px-0 bg-black py-20">
-        <h1 className="tracking-tight font-bold gradientFont text-center pb-5 lg:pb-0">Chains we support</h1>
+        <div className="px-4 lg:px-0 bg-black py-20">
+        <h1 className="tracking-tight font-bold gradientFont text-center pb-5 lg:pb-0">Available On</h1>
         <div className="grid grid-cols-1 lg:flex flex-wrap justify-between max-w-2xl mx-auto">
           <div>
             <img className="block mx-auto h-24" src="/assets/etheruem.svg" alt="etheruem logo" />
@@ -103,9 +102,10 @@ export default function Home({ data }) {
             </div>
             <p className="text-green text-center bungee">BSC</p>
           </div>
-
         </div>
       </div>
+      </div>
+     
       <TryApi />
       <BuildModels />
       <div>
