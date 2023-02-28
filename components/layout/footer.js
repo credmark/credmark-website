@@ -183,7 +183,7 @@ export default function Footer() {
                                 </a>
                             ))}
                         </div>
-                        <p className="text-base text-white">&copy; 2022 Credmark Labs, Inc. All rights reserved.</p>
+                        <p className="text-base text-white">&copy; 2023 Credmark Labs, Inc. All rights reserved.</p>
                     </div>
                     <div className="mt-12 grid grid-cols-2 xl:mt-0 xl:col-span-2">
                         <div className="md:grid md:grid-cols-2">

@@ -783,3 +783,80 @@ li {
   background-position: right;
   background-repeat: no-repeat;
 }
+
+
+/* Contact Form */
+
+body #mc_embed_signup .mc-field-group {
+  @apply mb-6;
+}
+
+body #mc_embed_signup .mc-field-group label {
+  @apply block;
+  @apply mb-2;
+  font-family: 'Work Sans Light';
+}
+
+body #mc_embed_signup .mc-field-group label .asterisk {
+  @apply text-red-600;
+}
+
+body #mc_embed_signup .mc-field-group input,
+body #mc_embed_signup .mc-field-group textarea,
+body #mc_embed_signup .mc-field-group select {
+  @apply w-full;
+  @apply py-1;
+  @apply px-4;
+  @apply rounded-lg;
+  background-color: transparent;
+  border: 2px solid white;
+  height: 70px;
+}
+
+textarea#mce-MESSAGE{
+  height: 150px !important;
+}
+
+body #mc_embed_signup .mc-field-group input:focus,
+body #mc_embed_signup .mc-field-group textarea:focus,
+body #mc_embed_signup .mc-field-group select:focus {
+  @apply outline-none;
+}
+body #mc_embed_signup .mc-field-group input.mce_inline_error,
+body #mc_embed_signup .mc-field-group textarea.mce_inline_error,
+body #mc_embed_signup .mc-field-group select.mce_inline_error {
+  @apply border-red-600;
+}
+
+body #mc_embed_signup div.mce_inline_error {
+  @apply absolute;
+  @apply h-0;
+  @apply overflow-hidden;
+  @apply opacity-0;
+}
+
+body #mc_embed_signup input[type="submit"] {
+  @apply py-2;
+  @apply px-10;
+  @apply rounded-sm;
+  @apply text-black;
+  @apply font-semibold;
+  @apply cursor-pointer;
+  @apply bg-green;
+
+}
+body #mc_embed_signup input[type="submit"]:focus {
+  @apply outline-none;
+}
+body #mc_embed_signup .response {
+  @apply text-center;
+  @apply font-semibold;
+  @apply mb-6;
+}
+body #mc_embed_signup #mce-success-response {
+
+}
+body #mc_embed_signup #mce-error-response {
+  @apply text-red-500;
+}
+
