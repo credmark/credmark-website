@@ -795,6 +795,7 @@ body #mc_embed_signup .mc-field-group label {
   @apply block;
   @apply mb-2;
   font-family: 'Work Sans Light';
+  
 }
 
 body #mc_embed_signup .mc-field-group label .asterisk {

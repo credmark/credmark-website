@@ -1,7 +1,12 @@
 import * as React from 'react';
-import Link from 'next/link';
 
 const navigation = {
+    support: [
+        {
+            name: 'Contact us',
+            href: '/contact-us',
+        },
+    ],
     projects: [
         {
             name: 'All Products',
@@ -185,8 +190,8 @@ export default function Footer() {
                         </div>
                         <p className="text-base text-white">&copy; 2023 Credmark Labs, Inc. All rights reserved.</p>
                     </div>
-                    <div className="mt-12 grid grid-cols-2 xl:mt-0 xl:col-span-2">
-                        <div className="md:grid md:grid-cols-2">
+                    <div className="mt-12 xl:mt-0">
+                        <div className="grid grid-cols-1 lg:flex lg:space-x-10">
                         <div>
                                 <h4 className="text-xl font-light text-white tracking-wider">Products</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
@@ -212,8 +217,6 @@ export default function Footer() {
                                 </ul>
                             </div>
                         
-                        </div>
-                        <div className="md:grid md:grid-cols-2">
                             <div>
                                 <h4 className="text-xl font-light text-white tracking-wider">Resources</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
@@ -230,6 +233,18 @@ export default function Footer() {
                                 <h4 className="text-xl font-light text-white tracking-wider">About</h4>
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.community.map((item) => (
+                                        <li className="list-none" key={item.name}>
+                                            <a href={item.href} className="text-base text-white">
+                                                {item.name}
+                                            </a>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 className="text-xl font-light text-white tracking-wider">Support</h4>
+                                <ul role="list" className="mt-4 space-y-4 pl-0">
+                                    {navigation.support.map((item) => (
                                         <li className="list-none" key={item.name}>
                                             <a href={item.href} className="text-base text-white">
                                                 {item.name}
