@@ -3,9 +3,14 @@ import * as React from 'react';
 const navigation = {
     support: [
         {
+            name: 'Status',
+            href: 'https://status.credmark.com/',
+        },
+        {
             name: 'Contact us',
             href: '/contact-us',
         },
+
     ],
     projects: [
         {
