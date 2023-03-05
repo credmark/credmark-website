@@ -3,7 +3,7 @@ import * as React from 'react';
 export default function TrustedBy() {
     return (
         <>
-            <div>
+            <div className="bg-white">
                 <div className="px-5 py-10 md:pt-28">
                     <h2 className="text-black max-w-7xl block m-auto font-extrabold text-center">
                         TRUSTED BY
