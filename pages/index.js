@@ -7,6 +7,7 @@ import Nav from '../components/layout/nav'
 import TryApi from '../components/homepage/tryApi'
 import BuildModels from '../components/homepage/buildModels'
 import TrustedBy from '../components/global/trusted-by';
+import AvailableOn from '../components/layout/availableOn';
 
 
 export default function Home({ data }) {
@@ -86,25 +87,7 @@ export default function Home({ data }) {
             </div>
           </dl>
         </div>
-        <div className="px-4 lg:px-0 bg-black py-20">
-        <h1 className="tracking-tight font-bold gradientFont text-center pb-5 lg:pb-0">Available On</h1>
-        <div className="grid grid-cols-1 lg:flex flex-wrap justify-between max-w-2xl mx-auto">
-          <div>
-            <img className="block mx-auto h-24" src="/assets/etheruem.svg" alt="etheruem logo" />
-            <p className="text-green text-center bungee">Ethereum</p>
-          </div>
-          <div>
-            <img className="block mx-auto h-24 w-20 pt-10 lg:pt-0" src="/assets/polygon-logo.svg" alt="polygon logo" />
-            <p className="text-green text-center bungee">Polygon</p>
-          </div>
-          <div>
-            <div className="w-16 block mx-auto">
-              <img className="block mx-auto w-48 pt-10 lg:pt-6" width={150} src="/assets/binance.svg" alt="binance logo" />
-            </div>
-            <p className="text-green text-center bungee">BSC</p>
-          </div>
-        </div>
-      </div>
+        <AvailableOn />
       </div>
      
       <TryApi />

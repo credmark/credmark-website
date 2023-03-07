@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const people = [
     { documentation: 'Concepts (Coming soon)', image: '/assets/documentation-api.svg' },
-    { documentation: 'Reference (Coming soon)', image: '/assets/documentation-api.svg' },
+    { documentation: 'Referenceb (Coming soon)', image: '/assets/documentation-api.svg' },
 ]
 
 function classNames(...classes) {

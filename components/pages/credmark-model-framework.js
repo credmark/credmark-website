@@ -6,6 +6,7 @@ import FetchData from '../model-framework/fetch-data';
 import InAction from '../model-framework/inAction';
 import QueryData from '../model-framework/queryAnyData';
 import TrustedBy from '../global/trusted-by';
+import AvailableOn from '../layout/availableOn';
 
 export default function CFM() {
     return (
@@ -44,6 +45,7 @@ export default function CFM() {
                 <QueryData />
                 <FetchData />
                 <InAction />
+                <AvailableOn />
             </div>
             <TrustedBy />
         </>
