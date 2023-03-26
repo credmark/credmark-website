@@ -214,7 +214,7 @@ export default function Footer() {
                                 <ul role="list" className="mt-4 space-y-4 pl-0">
                                     {navigation.documentation.map((item) => (
                                         <li className="list-none" key={item.name}>
-                                            <a href={item.href} className="text-base text-white">
+                                            <a href={item.href} target="_blank" rel="noreferrer" className="text-base text-white">
                                                 {item.name}
                                             </a>
                                         </li>
