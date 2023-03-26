@@ -14,8 +14,8 @@ export default function Home({ data }) {
   return (
     <>
       <Head>
-        <title>CREDMARK</title>
-        <meta content="Credmark" property="og:title" key="og:title" />
+        <title>Credmark - Where DeFi Builds Financial Models</title>
+        <meta content="Credmark - Where DeFi Builds Financial Models" property="og:title" key="og:title" />
         <meta property="og:image" content="https://credmark.com/assets/credmark-og-image.png" />
         <link rel="icon" href="/favicon.ico" />
         {/* Global Site Tag (gtag.js) - Google Analytics */}
