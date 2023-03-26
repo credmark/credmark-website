@@ -62,7 +62,7 @@ const documentation = [
     },
     {
         name: 'Model Reference',
-        href: 'https://gateway.credmark.com/model-docs',
+        href: 'https://app.credmark.com/models',
     },
     {
         name: 'Framework Reference',
