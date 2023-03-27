@@ -10,8 +10,7 @@ export default function TrustedBy() {
                     </h2>
                 </div>
                 <div className="max-w-4xl block m-auto">
-                    <div className="grid grid-cols-1 m-auto block md:grid-cols-4 px-5 pb-0 md:pb-10">
-                        <a href="https://www.yield.app/" target="_blank" rel="noreferrer"><img className="block mx-auto py-7" width={128} src="../assets/yieldapp-logo.svg" alt="Yield App logo" /></a>
+                    <div className="grid grid-cols-1 m-auto block md:grid-cols-3 px-5 pb-0 md:pb-10">
                         <a href="https://picante.io/" target="_blank" rel="noreferrer"><img className="block mx-auto py-9" width={150} src="../assets/picante-logo.svg" alt="Picante logo" /></a>
                         <a href="https://exponent.cx/" target="_blank" rel="noreferrer"><img className="block mx-auto py-5" width={194} src="../assets/exponent.jpeg" alt="Exponent logo" /></a>
                         <a href="https://docs.debtdao.finance/overview/what-is-debt-dao" target="_blank" rel="noreferrer"><img className="block mx-auto py-5 md:py-8" width={80} src="../assets/debt-dao-logo.png" alt="Debt dao logo" /></a>
