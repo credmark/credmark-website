@@ -33,11 +33,11 @@ export default function TryApi() {
                     <p>Query historical and real-time data instantly. Start with a 30-day free trial.</p>
                     <button
                         type="button"
-                        className="mt-5 text-white heroButton px-6 py-2 shadow-sm text-sm font-medium"
+                        className="mt-5 heroButton px-6 py-2 shadow-sm text-sm font-medium"
                     >
-                        <Link href="https://access.credmark.com/login">
-                            <p className="flex">Start for free <img className="pt-0.5 pl-2" alt="arrow right" src="../assets/arrow-white.svg" /></p>
-                        </Link>
+                        <a href="https://access.credmark.com/login" target="_blank" rel="noreferrer">
+                            <p className="flex text-white">Start for free <img className="pt-0.5 pl-2" alt="arrow right" src="../assets/arrow-white.svg" /></p>
+                        </a>
                     </button>
                 </div>
                 <div>
@@ -59,7 +59,7 @@ export default function TryApi() {
                                         href="/product/?tokenApi=true#learnMore"
                                     >
                                         <div className="cursor-pointer lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
-                                            Learn more
+                                            <p>Learn more</p>
                                         </div>
                                     </Link>
                                 </div>
@@ -80,7 +80,7 @@ export default function TryApi() {
                                         href="/product/?portfolioApi=true#learnMore"
                                     >
                                         <div className="cursor-pointer lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
-                                            Learn more
+                                            <p>Learn more</p>
                                         </div>
                                     </Link>
                                 </div>
@@ -101,7 +101,7 @@ export default function TryApi() {
                                         href="/product/?defiApi=true#learnMore"
                                     >
                                         <div className="cursor-pointer lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
-                                            Learn more
+                                            <p>Learn more</p>
                                         </div>
                                     </Link>
                                 </div>
@@ -121,13 +121,11 @@ export default function TryApi() {
                                         href="/product/?rawData=true#learnMore"
                                     >
                                         <div className="cursor-pointer lg:absolute lg:inset-x-0 lg:bottom-0 mb-5 mx-4 block bg-green border py-2 text-sm font-semibold text-black shadow-lg text-center">
-
-                                            Learn more
+                                            <p>Learn more</p>
                                         </div>
                                     </Link>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
