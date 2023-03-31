@@ -27,10 +27,18 @@ export default function TryApi() {
     return (
         <>
             <div className="mx-5 pt-20 pb-20 max-w-7xl block lg:mx-auto">
-                
+
                 <div>
-                    <h1 className="gradientFont">Try our APIs</h1>
-                    <p>Access institutional-grade historical and real-time blockchain data instantly.</p>
+                    <h1 className="gradientFont">On-chain data made easy</h1>
+                    <p>Query historical and real-time data instantly. Start with a 30-day free trial.</p>
+                    <button
+                        type="button"
+                        className="mt-5 text-white heroButton px-6 py-2 shadow-sm text-sm font-medium"
+                    >
+                        <Link href="https://access.credmark.com/login">
+                            <p className="flex">Start for free <img className="pt-0.5 pl-2" alt="arrow right" src="../assets/arrow-white.svg" /></p>
+                        </Link>
+                    </button>
                 </div>
                 <div>
                     <div className="max-w-7xl mx-auto px-4 lg:px-0">
