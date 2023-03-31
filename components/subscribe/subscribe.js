@@ -29,6 +29,7 @@ const Subscribe = () => {
                 <div className="max-w-7xl block m-auto">
                     <div className="px-5 pb-15 text-center">
                             <h1 className="text-green">Ready to get started?</h1>
+                            <p className="text-white">30 day free trial</p>
                             <div className="flex justify-center">
                             <Link href="/contact-us" rel="noreferrer">
                                     <button
@@ -38,12 +39,12 @@ const Subscribe = () => {
                                         Contact us
                                     </button>
                                 </Link>
-                                <Link href="https://credmark.us19.list-manage.com/subscribe?u=b6dfe393113892a064b435044&id=c295a3edd2" rel="noreferrer">
+                                <Link href="https://access.credmark.com/" rel="noreferrer" target="_blank">
                                     <button
                                         type="button"
                                         className="font-bold mx-2 workSans flex justify-center text-white font-semibold mt-5 items-center px-8 py-2 shadow-sm text-sm font-medium bg-credmarkpurple"
                                     >
-                                        Sign-up
+                                        Start for free
                                         <img className="pt-0.5 pl-2" alt="arrow right" src="../assets/arrow-white.svg" />
                                     </button>
                                 </Link>
