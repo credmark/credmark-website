@@ -12,7 +12,7 @@ export default function Contact() {
                         Have any business inquiries or questions about our data products? Contact us through this form and we’ll get back ASAP.
                         <br />
                         <br />
-                        Or join our growing community of developers and quants on discord to learn how our API is being used.
+                        Or join our growing community of developers and quants on <a className="font-bold text-white underline" href="https://discord.gg/nEwjVwzmZc" target="_blank" rel="noreferrer">discord</a> to learn how our API is being used.
                     </p>
                     {/* Begin Mailchimp Signup Form */}
                     <div className="flex-1 p-3 mt-10 large:pt-0">
