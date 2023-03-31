@@ -38,11 +38,11 @@ export default function Media({ posts }) {
       <div className="advisorBg">
         <div className="px-5 max-w-6xl md:m-auto">
           <div className="pt-10 md:pt-20 border-b-1 border-gray-700 block m-auto md:m-auto space-x-5 md:space-x-20">
-            <button className="hover:text-green pb-3 pl-5" onClick={() => { setSelectedCategory("all") }}>All</button>
-            <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("press") }}>Press</button>
-            <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("announcements") }}>Announcements</button>
-            <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("videos") }}>Videos</button>
-            <button className="hover:text-green pb-5" onClick={() => { setSelectedCategory("newsletter") }}>Newsletter</button>
+            <button className="hover:text-green pb-3 pl-5" onClick={() => { setSelectedCategory("all") }}><p>All</p></button>
+            <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("press") }}><p>Press</p></button>
+            <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("announcements") }}><p>Announcements</p></button>
+            <button className="hover:text-green pb-3" onClick={() => { setSelectedCategory("videos") }}><p>Videos</p></button>
+            <button className="hover:text-green pb-5" onClick={() => { setSelectedCategory("newsletter") }}><p>Newsletter</p></button>
           </div>
         </div>
         <div className="block m-auto max-w-6xl">

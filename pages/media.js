@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Media from '../components/pages/media'
-import Nav from '../components/layout/nav'
 
 import { getAllMediaPosts } from "../lib/api"
 import { useGetMediaPosts } from '../actions'
