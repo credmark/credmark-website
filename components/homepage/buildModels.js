@@ -24,7 +24,19 @@ export default function BuildModels() {
                                 <p className="text-white">Write your models in Python. We’ve integrated all the data science libraries you need. And we support Jupyter Notebook.</p>
                             </div>
                         </div>
-                        <div className="flex lg:ml-3 pt-10">
+                        <div className="flex justify-center gap-6 flex-wrap lg:ml-3 pt-10">
+                        <button
+                                type="button"
+                                className="mx-2 lg:mx-0 border-white border-2 mt-5 px-7 py-2 mb-10 shadow-sm text-sm font-bold"
+                            >
+                                <a 
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://app.credmark.com/models"
+                                >
+                                    <p className="text-white">View methods</p>
+                                </a>
+                            </button>
                             <button
                                 type="button"
                                 className="mx-2 lg:mx-0 text-black bg-green mt-5 px-5 py-2 mb-10 shadow-sm text-sm font-bold"
@@ -32,7 +44,7 @@ export default function BuildModels() {
                                 <Link 
                                 href="/credmark-model-framework"
                                 >
-                                    <p>Learn more</p>
+                                    <p className="flex">Learn more<img className="pt-0.5 pl-2" alt="arrow right" src="../assets/arrow.svg" /></p>
                                 </Link>
                             </button>
                         </div>
