@@ -9,6 +9,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import TrustedBy from '../global/trusted-by';
 import AvailableOn from '../layout/availableOn';
+import Testimonials from './testimonials';
 
 
 
@@ -55,6 +56,7 @@ const Applications = () => {
 
                <AvailableOn />
                <TrustedBy />
+               <Testimonials />
             </div>
             <Subscribe />
             <Footer />
