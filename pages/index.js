@@ -8,6 +8,7 @@ import TryApi from '../components/homepage/tryApi'
 import BuildModels from '../components/homepage/buildModels'
 import TrustedBy from '../components/global/trusted-by';
 import AvailableOn from '../components/layout/availableOn';
+import Testimonials from '../components/product/testimonials';
 
 
 export default function Home({ data }) {
@@ -93,6 +94,7 @@ export default function Home({ data }) {
       <TryApi />
       <BuildModels />
       <TrustedBy />
+      <Testimonials />
       <Subscribe />
       <Footer />
     </>

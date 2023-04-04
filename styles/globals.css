@@ -567,6 +567,14 @@ mono
   background: linear-gradient(90deg, #7000BF 0%, #8300E0 0.01%, #AA32FF 100%);
 }
 
+.testimonialBg {
+  background: url("/assets/background-arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 1350px;
+  margin: auto;
+}
+
 /* Blog */
 
 p {
