@@ -29,10 +29,6 @@ export default function AvailableOn() {
                         <p className="text-green text-center bungee">Optimism</p>
                     </div>
                     <div>
-                        <img className="block mx-auto h-24 w-20 pt-10 lg:pt-0" src="/assets/harmony-logo.svg" alt="harmony logo" />
-                        <p className="text-green text-center bungee">Harmony</p>
-                    </div>
-                    <div>
                         <img className="block mx-auto h-24 w-20 pt-10 lg:pt-0" src="/assets/fantom-logo.svg" alt="fantom logo" />
                         <p className="text-green text-center bungee">Fantom</p>
                     </div>
