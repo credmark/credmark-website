@@ -1,8 +1,12 @@
 import Head from 'next/head'
-import ProductHero from '../components/product/hero'
-import Applications from '../components/product/applications'
+import PricingPlan from '../components/product/pricingPlan'
+import PricingHero from '../components/pricing/hero'
+import TrustedBy from '../components/global/trusted-by'
+import Testimonials from '../components/product/testimonials'
+import Footer from '../components/layout/footer'
+import MultiChainSupport from '../components/pricing/multiChainSupport'
 
-export default function ProductPage() {
+export default function PricingPage() {
     return (
     <>
       <Head>
@@ -30,9 +34,13 @@ export default function ProductPage() {
           />
       </Head>
 
-      <div className="productBg">
-        <ProductHero />
-        <Applications />
+      <div className="heroBg">
+        <PricingHero />
+        <PricingPlan />
+        <MultiChainSupport />
+        <TrustedBy />
+        <Testimonials />
+        <Footer />
       </div>
     </>
   )

@@ -50,9 +50,9 @@ export default function PricingPlan() {
             30 day free trial
           </p>
         </div>
-        <div className="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4">
+        <div className="mt-12 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4">
           {tiers.map((tier) => (
-            <div key={tier.name} className="hApi relative border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200 bg-white">
+            <div key={tier.name} className="hApi relative border-1 border-gray-200 shadow-sm divide-y divide-gray-200 bg-white">
               <div className="px-6 pt-8 pb-3">
                 <h2 className="text-3xl leading-6 font-bold openSansMedium text-credmarkpurple text-center">{tier.name}</h2>
                 <p className="mt-5 text-center">
@@ -75,14 +75,14 @@ export default function PricingPlan() {
                   href={tier.href}
                   className="lg:absolute inset-x-0 bottom-0 mb-5 mx-4 block bg-green border border-gray-800 py-2 text-sm font-semibold text-black shadow-lg text-center"
                 >
-                  Learn more
+                  Start building
                 </a>
               </div>
               
             </div>
           ))}
 
-          <div className="relative border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200 bg-white">
+          <div className="relative border-1 border-gray-200 shadow-sm divide-y divide-gray-200 bg-white">
             <div className="px-6 pt-8 pb-3">
               <h2 className="text-3xl leading-6 font-bold openSansMedium text-credmarkpurple text-center">Raw Data</h2>
               <div className="mt-5">
@@ -145,7 +145,7 @@ export default function PricingPlan() {
                 rel="noreferrer"
                 className="absolute inset-x-0 bottom-0 my-5 mx-4 block bg-green border border-gray-800 py-2 text-sm font-semibold text-black shadow-lg text-center"
               >
-                Learn more
+                Start building
               </a>
             </div>
           </div>
