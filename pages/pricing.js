@@ -10,7 +10,7 @@ export default function PricingPage() {
     return (
     <>
       <Head>
-        <title>Product | CREDMARK</title>
+        <title>Pricing | CREDMARK</title>
         <meta content="Product | Credmark" property="og:title" key="og:title" />
         <meta name="description" content="Check out our product" />
         <meta property="og:image" content="https://credmark.com/assets/credmark-og-image.png"/>
