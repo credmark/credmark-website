@@ -37,7 +37,7 @@ export default function ProductHero() {
                         type="button"
                         className="w-36 mx-2 text-white border-2 border-white mt-5 px-2 py-2 shadow-sm text-sm font-medium"
                     >
-                        <Link href="/pricing">
+                        <Link href="/pricing?tokenApi=true">
                             <p>See pricing</p>
                         </Link>
                     </button>
