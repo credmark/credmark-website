@@ -22,7 +22,7 @@ export default function FetchData() {
                                 type="button"
                                 className="mx-4 lg:mx-0 text-white border-green border-2 px-2 py-1 shadow-sm text-sm font-medium mt-3"
                             >
-                                <Link href="https://access.credmark.com/" target="_blank" rel="noreferrer">
+                                <Link href="https://access.credmark.com/register" target="_blank" rel="noreferrer">
                                     <p className="px-4 text-base">Sign up →</p>
                                 </Link>
                             </button>
