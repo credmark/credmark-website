@@ -202,14 +202,14 @@ export default function PricingPlan() {
                     Requests/min: {tier.requestsPerMin}
                   </p>
                 )}
-                {tier.requestsPerMin && (
+                {tier.requestsPerMonth && (
                   <p className="text-gray-400 text-sm pb-0">
-                    Requests/month: {tier.requestsPerMin}
+                    Requests/month: {tier.requestsPerMonth}
                   </p>
                 )}
                 {tier.historicalData && (
                   <p className="text-gray-400 text-sm pb-0">
-                    Historical Data: {tier.historicalData}
+                    Historical Data: {tier.historicalData}/request
                   </p>
                 )}
                 <div className="mt-5">

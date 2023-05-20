@@ -76,11 +76,11 @@ export default function Home({ data }) {
           <dl className="rounded-lg bg-black shadow-lg sm:grid sm:grid-cols-3">
             <div className="flex flex-col text-center statBorder">
               <dt className="mt-2 text-xs leading-6 text-white courier">Raw data</dt>
-              <dd className="text-4xl text-green py-2 bungee">10.5<span className="text-3xl"> TB</span></dd>
+              <dd className="text-4xl text-green py-2 bungee">25<span className="text-3xl"> TB</span></dd>
             </div>
             <div className="flex flex-col text-center statBorder">
               <dt className="mt-2 text-xs leading-6 text-white courier">Number of models</dt>
-              <dd className="text-4xl text-green py-2 bungee">114</dd>
+              <dd className="text-4xl text-green py-2 bungee">280</dd>
             </div>
             <div className="flex flex-col text-center">
               <dt className="mt-2 text-xs leading-6 text-white courier">API calls</dt>
