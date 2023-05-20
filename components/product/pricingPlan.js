@@ -2,10 +2,6 @@ import { ArrowRightIcon, CheckIcon } from "@heroicons/react/solid";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
-
 const Tab = ({ href, isSelected, title }) => (
   <Link href={href}>
     <div
@@ -130,7 +126,7 @@ export default function PricingPlan() {
             Instant DeFi Data
           </h1>
           <p className="mt-5 text-xl text-white text-center">
-            Simple and transparent pricing. Cancel anytime.
+            Simple and transparent pricing.
           </p>
         </div>
         <div className="mt-12 grid grid-cols-2 lg:grid-cols-4 max-w-6xl block mx-auto">
