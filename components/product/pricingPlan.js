@@ -130,7 +130,7 @@ export default function PricingPlan() {
             Instant DeFi Data
           </h1>
           <p className="mt-5 text-xl text-white text-center">
-            Simple and transparent pricing. Cancel anytime.
+            Simple and transparent pricing.
           </p>
         </div>
         <div className="mt-12 grid grid-cols-2 lg:grid-cols-4 max-w-6xl block mx-auto">
