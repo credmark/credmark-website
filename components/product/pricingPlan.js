@@ -88,21 +88,25 @@ const defiApiTiers = [
 
 const rawDataTiers = [
   {
-    name: "Core",
-    href: "https://www.snowflake.com/datasets/credmark-labs-ethereum-core",
+    name: "Ethereum - Core",
+    href: "https://app.snowflake.com/marketplace/listing/GZSTZPNMOXH/credmark-labs-ethereum-core",
+    priceMonthly: 500,
     learnMoreHref: "/product?rawData=true#learnMore",
-    includedFeatures: ["Blocks", "Transactions", "Contracts"],
+    includedFeatures: ["Blocks", "Transactions", "Contracts", "Tokens"],
+    freeTrial: 'All data upto 2023'
   },
   {
-    name: "Smart Contract",
-    href: "https://www.snowflake.com/datasets/credmark-labs-ethereum-core",
+    name: "Ethereum - Decoded & Core",
+    href: "https://app.snowflake.com/marketplace/listing/GZSTZPNMOXD/credmark-labs-ethereum-decoded-core",
     learnMoreHref: "/product?rawData=true#learnMore",
-    priceMonthly: 500,
+    priceMonthly: 1500,
     includedFeatures: [
+      "Everything in core",
       "Decoded events",
       "Decoded function calls",
-      "Protocol Groupings",
+      "Contract ABIs",
     ],
+    freeTrial: 'All data upto 2023'
   },
 ];
 
@@ -210,6 +214,11 @@ export default function PricingPlan() {
                 {tier.historicalData && (
                   <p className="text-gray-400 text-sm pb-0">
                     Historical Data: {tier.historicalData}/request
+                  </p>
+                )}
+                {tier.freeTrial && (
+                  <p className="text-gray-400 text-sm pb-0">
+                    Free Trial: {tier.freeTrial}
                   </p>
                 )}
                 <div className="mt-5">

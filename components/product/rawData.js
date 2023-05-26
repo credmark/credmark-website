@@ -2,21 +2,27 @@ import ClosingCta from "./closingCta";
 
 const rawData = [
   {
-    documentation: "Etheruem Core",
+    documentation: "Etheruem - Core",
     documentationLink:
-      "https://www.snowflake.com/datasets/credmark-labs-ethereum-core/",
-    price: "Free",
-  },
-  {
-    documentation: "Ethereum Smart Contract (coming soon)",
-    documentationLink:
-      "https://www.snowflake.com/datasets/credmark-labs-ethereum-core/",
+      "https://app.snowflake.com/marketplace/listing/GZSTZPNMOXH/credmark-labs-ethereum-core",
     price: "$500",
   },
   {
-    documentation: "Polygon Smart Contract (coming soon)",
+    documentation: "Ethereum - Core & Decoded",
     documentationLink:
-      "https://www.snowflake.com/datasets/credmark-labs-ethereum-core/",
+      "https://app.snowflake.com/marketplace/listing/GZSTZPNMOXD/credmark-labs-ethereum-decoded-core",
+    price: "$1500",
+  },
+  {
+    documentation: "BSC - Core (coming soon)",
+    documentationLink:
+      "https://app.snowflake.com/marketplace/listings/Credmark%20Labs",
+    price: "TBD",
+  },
+  {
+    documentation: "BSC - Core & Decoded (coming soon)",
+    documentationLink:
+      "https://app.snowflake.com/marketplace/listings/Credmark%20Labs",
     price: "TBD",
   },
 ];
@@ -37,14 +43,15 @@ export default function RawData() {
                 </p>
                 <p className="text-base">
                   Underpinning all of our software is an incredible collection
-                  of blockchain data, over 15 terabytes of data.
+                  of blockchain data, over 25 terabytes of data.
                 </p>
                 <p className="text-base">
                   We have organized{" "}
                   <span className="openSansMedium">
                     every byte of the Ethereum blockchain into a database
                   </span>{" "}
-                  that is easily searchable. We call this dataset Ethereum Core.{" "}
+                  that is easily searchable. We call this dataset{" "}
+                  <i>Ethereum - Core</i>.{" "}
                 </p>
                 <p className="text-base">
                   In addition we have decoded the inputs and outputs of every
@@ -53,7 +60,7 @@ export default function RawData() {
                   blobs, which makes it 100% useless in its native state. Thanks
                   to some clever automation, we decode and index all of this
                   data so that our platform developers can use it. We call this
-                  dataset Ethereum Smart Contract.
+                  dataset <i>Ethereum - Decoded & Core</i>.
                 </p>
                 <p className="text-base">
                   Lots more datasets just like these are coming soon.
@@ -111,17 +118,6 @@ export default function RawData() {
                           </td>
                         </tr>
                       ))}
-                      <tr>
-                        <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
-                          Polygon Core (coming soon)
-                        </td>
-                        <td className="hidden whitespace-nowrap px-3 py-4 text-sm text-gray-500 sm:table-cell">
-                          Coming Soon
-                        </td>
-                        <td className="hidden whitespace-nowrap px-3 py-4 text-sm text-gray-500 lg:table-cell">
-                          Free
-                        </td>
-                      </tr>
                     </tbody>
                   </table>
                 </div>
@@ -131,31 +127,51 @@ export default function RawData() {
                   What you get
                 </p>
                 <p className="text-base">
-                  Data sets that auto-update every block. Really. That’s what’s
-                  so cool about the Snowflake setup. Every time we update our
-                  dataset, yours is updated as well. It’s magic.
+                  Data sets that auto-update every hour. That’s what’s so cool
+                  about the Snowflake setup. Every time we update our dataset,
+                  yours is updated as well. It’s magic.
+                </p>
+                <p className="text-base">
+                  If you need to evaluate our datasets, a trial is also
+                  available. For the Ethereum datasets,{" "}
+                  <span className="openSansMedium">
+                    all data upto 2023 is available for free
+                  </span>
+                  .
                 </p>
                 <div className="grid grid-cols-1 lg:grid-cols-2 border-1 border-y-credmarkpurple border-bggray mt-5">
-                  <span className="flex pb-3 border-1 lg:border-r-credmarkpurple border-bggray lg:pl-5">
-                    <img
-                      src="/assets/ethereum-core.svg"
-                      alt="tick"
-                      width={80}
-                    />
-                    <p className="text-lg lg:text-3xl text-credmarkpurple py-14 pl-3 lg:pl-5">
-                      Ethereum Core
-                    </p>
-                  </span>
-                  <span className="flex pb-3 lg:pl-5">
-                    <img
-                      src="/assets/ethereum-smart-contract.svg"
-                      alt="tick"
-                      width={80}
-                    />
-                    <p className="text-lg lg:text-3xl text-credmarkpurple py-14 pl-3 lg:pl-5">
-                      Ethereum Smart Contract
-                    </p>
-                  </span>
+                  <a
+                    href="https://app.snowflake.com/marketplace/listing/GZSTZPNMOXH/credmark-labs-ethereum-core"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="flex pb-3 border-1 lg:border-r-credmarkpurple border-bggray lg:pl-5">
+                      <img
+                        src="/assets/ethereum-core.svg"
+                        alt="tick"
+                        width={80}
+                      />
+                      <p className="text-lg lg:text-2xl text-credmarkpurple py-14 pl-3 lg:pl-5">
+                        Ethereum - Core
+                      </p>
+                    </span>
+                  </a>
+                  <a
+                    href="https://app.snowflake.com/marketplace/listing/GZSTZPNMOXD/credmark-labs-ethereum-decoded-core"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span className="flex pb-3 lg:pl-5">
+                      <img
+                        src="/assets/ethereum-smart-contract.svg"
+                        alt="tick"
+                        width={80}
+                      />
+                      <p className="text-lg lg:text-2xl text-credmarkpurple py-14 pl-3 lg:pl-5">
+                        Ethereum - Decoded & Core
+                      </p>
+                    </span>
+                  </a>
                 </div>
                 <p className="uppercase text-credmarkpurple text-3xl pt-10 pb-3 openSansMedium">
                   Who needs it?
@@ -173,24 +189,10 @@ export default function RawData() {
                 </p>
                 <p className="text-base">
                   We’ve just released our first two data sets and are curious to
-                  see how they are used. The current pricing is introductory.
-                  Anyone who signs up now will pay that price for life. Once we
-                  figure out what these data sets are worth to our customers,
-                  we’ll adjust the price accordingly.
+                  see how they are used. <span className="openSansMedium">If you’re a data analyst, quant, or
+                  data scientist working in crypto and find yourself needing to
+                  dig into DeFi, start here.</span>
                 </p>
-                <p className="text-base">
-                  <span className="openSansMedium">
-                    If you’re a data analyst, quant, or data scientist working
-                    in crypto and find yourself needing to dig into DeFi, start
-                    here.
-                  </span>{" "}
-                  Besides getting curated, reliable data (Have we mentioned that
-                  Credmark depends on it?), you’ll be getting an incredible
-                  deal. In exchange we’d like to ask you to talk to us about
-                  what you’re doing so that we can improve things, and maybe
-                  even get a bit of marketing juice from a testimonial.
-                </p>
-
                 <ClosingCta />
               </div>
             </div>
