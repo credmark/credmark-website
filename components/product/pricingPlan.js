@@ -31,6 +31,7 @@ const Tab = ({ href, isSelected, title }) => (
 const tokenApiTiers = [
   {
     name: "Discover",
+    category: "Token API",
     href: "https://access.credmark.com/register",
     learnMoreHref: "/product?tokenApi=true#learnMore",
     requestsPerMin: "30",
@@ -40,6 +41,7 @@ const tokenApiTiers = [
   },
   {
     name: "Build",
+    category: "Token API",
     href: "https://access.credmark.com/register",
     learnMoreHref: "/product?tokenApi=true#learnMore",
     priceMonthly: 49,
@@ -50,6 +52,7 @@ const tokenApiTiers = [
   },
   {
     name: "Scale",
+    category: "Token API",
     href: "https://access.credmark.com/register",
     learnMoreHref: "/product?tokenApi=true#learnMore",
     priceMonthly: 199,
@@ -73,11 +76,40 @@ const portfolioApiTiers = [
 
 const defiApiTiers = [
   {
-    name: "DeFi API",
+    name: "Discover",
+    category: 'DeFi API',
     href: "https://access.credmark.com/register",
     learnMoreHref: "/product?defiApi=true#learnMore",
-    priceMonthly: 1500,
+    requestsPerMin: "10",
+    requestsPerMonth: "100,000",
+    includedFeatures: [
+      "All current and historical chain data",
+      "All verified smart contract inputs and outputs",
+      "Outputs of all models currently published on the Credmark platform",
+    ],
+  },
+  {
+    name: "Build",
+    category: 'DeFi API',
+    href: "https://access.credmark.com/register",
+    learnMoreHref: "/product?defiApi=true#learnMore",
+    priceMonthly: 999,
     requestsPerMin: "120",
+    requestsPerMonth: "1,000,000",
+    includedFeatures: [
+      "All current and historical chain data",
+      "All verified smart contract inputs and outputs",
+      "Outputs of all models currently published on the Credmark platform",
+    ],
+  },
+  {
+    name: "Scale",
+    category: 'DeFi API',
+    href: "https://access.credmark.com/register",
+    learnMoreHref: "/product?defiApi=true#learnMore",
+    priceMonthly: 2499,
+    requestsPerMin: "600",
+    requestsPerMonth: "10,000,000",
     includedFeatures: [
       "All current and historical chain data",
       "All verified smart contract inputs and outputs",
@@ -88,15 +120,17 @@ const defiApiTiers = [
 
 const rawDataTiers = [
   {
-    name: "Ethereum - Core",
+    name: "Core",
+    category: "Ethereum",
     href: "https://app.snowflake.com/marketplace/listing/GZSTZPNMOXH/credmark-labs-ethereum-core",
     priceMonthly: 500,
     learnMoreHref: "/product?rawData=true#learnMore",
     includedFeatures: ["Blocks", "Transactions", "Contracts", "Tokens"],
-    freeTrial: 'All data upto 2023'
+    freeTrial: "All data upto 2023",
   },
   {
-    name: "Ethereum - Decoded & Core",
+    name: "Decoded & Core",
+    category: "Ethereum",
     href: "https://app.snowflake.com/marketplace/listing/GZSTZPNMOXD/credmark-labs-ethereum-decoded-core",
     learnMoreHref: "/product?rawData=true#learnMore",
     priceMonthly: 1500,
@@ -106,7 +140,7 @@ const rawDataTiers = [
       "Decoded function calls",
       "Contract ABIs",
     ],
-    freeTrial: 'All data upto 2023'
+    freeTrial: "All data upto 2023",
   },
 ];
 
@@ -172,10 +206,15 @@ export default function PricingPlan() {
                 <h2 className="text-3xl leading-6 font-bold openSansMedium text-credmarkpurple text-center">
                   {tier.name}
                 </h2>
+                {tier.category && (
+                  <div className="text-sm leading-6 workSans text-credmarkpurple text-center mt-1">
+                    {tier.category}
+                  </div>
+                )}
                 <p className="mt-5 text-center">
                   {tier.priceMonthly ? (
                     <>
-                      <span className="text-4xl tracking-tight font-bold text-mutedGreen">
+                      <span className="text-3xl tracking-tight font-bold text-mutedGreen">
                         ${tier.priceMonthly}
                       </span>{" "}
                       <span className="text-base font-medium text-mutedGreen">
@@ -183,7 +222,7 @@ export default function PricingPlan() {
                       </span>
                     </>
                   ) : (
-                    <span className="text-4xl tracking-tight font-bold text-mutedGreen">
+                    <span className="text-3xl tracking-tight font-bold text-mutedGreen">
                       FREE
                     </span>
                   )}
