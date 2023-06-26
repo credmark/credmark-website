@@ -2,11 +2,14 @@ import ClosingCta from "./closingCta";
 
 const people = [
   {
-    documentation: "Concepts (Coming soon)",
+    documentation: "Concepts",
+    documentationLink: "https://gateway.credmark.com/api/#/Portfolio%20API",
     image: "/assets/documentation-api.svg",
   },
   {
-    documentation: "Referenceb (Coming soon)",
+    documentation: "Reference",
+    documentationLink:
+      "https://docs.credmark.com/portfolio-api-concepts/basics/introduction",
     image: "/assets/documentation-api.svg",
   },
 ];

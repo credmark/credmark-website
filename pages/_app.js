@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
   useEffect(() => {
     const handleRouteChange = (url) => {
-      window.dataLayer.push({
+      window.dataLayer?.push({
         event: "pageview",
         page: url,
       });
