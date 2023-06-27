@@ -151,8 +151,6 @@ export default function QuestionsDeFi() {
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
                     <p className="text-base leading-7">The DeFI API costs $1500/month. 
                     <br />
-                    This is an introductory price. The first 100 subscribers will never pay more.
-                    <br />
                     If you are a non-profit or academic institution, <a className="openSansMedium" href="mailto:support@credmark.com" target="_blank" rel="noreferrer">contact us</a> for discounts.
                     <br />
                     If you need to deploy private models, please <a className="openSansMedium" href="mailto:support@credmark.com" target="_blank" rel="noreferrer">contact us</a>.</p>

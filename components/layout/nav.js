@@ -49,6 +49,14 @@ const documentation = [
         href: 'https://gateway.credmark.com/api/#/Token%20API',
     },
     {
+        name: 'Portfolio API Concepts',
+        href: 'https://docs.credmark.com/portfolio-api-concepts/basics/introduction',
+    },
+    {
+        name: 'Portfolio API Reference',
+        href: 'https://gateway.credmark.com/api/#/Portfolio%20API',
+    },
+    {
         name: 'DeFi API Concepts',
         href: 'https://docs.credmark.com/defi-api-concepts',
     },

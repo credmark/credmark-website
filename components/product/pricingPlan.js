@@ -324,10 +324,6 @@ export default function PricingPlan() {
             </div>
           ))}
         </div>
-        <p className="text-white text-sm pt-10">
-          Introductory pricing. The first 100 customers will enjoy this price
-          forever.
-        </p>
         <p className="text-white">
           Need higher rate limits? Academic? Non-profit?{" "}
           <a

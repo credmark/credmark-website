@@ -30,34 +30,40 @@ export default function PortfolioApi() {
                 </p>
                 <p className="text-base font-bold">
                   You need to show your users what they own, how much it’s worth
-                  today, how much it was worth, and how risky the portfolio is?
-                  You’ve come to the right place. We’ll give you fast, easy
-                  access to the portfolio data your users want.
-                </p>
-                <p className="text-base font-bold">But not today.</p>
-                <p className="text-base font-bold">
-                  This API is still under development. If this is something
-                  you’re going to need, get in touch so that we can make sure we
-                  include the data you want. Also, you might want to be part of
-                  our private beta.
+                  today, how much it was worth, and how the portfolio has
+                  performed over time? You’ve come to the right place. We give
+                  you{" "}
+                  <span className="openSansMedium">
+                    fast, easy access to the portfolio data
+                  </span>{" "}
+                  your users want.
                 </p>
               </div>
               <div>
                 <p className="uppercase text-credmarkpurple text-3xl pt-10 pb-3 openSansMedium">
                   What you get
                 </p>
-                <p className="text-base">
-                  We’re still working on this. Our internal wish list is very
-                  long. When we first publish, you’ll be able to:
-                </p>
                 <ul>
+                  <li className="text-base openSansMedium">
+                    retrieve positions in a portfolio,
+                  </li>
                   <li className="text-base openSansMedium">
                     price a portfolio,
                   </li>
                   <li className="text-base openSansMedium">
+                    retrieve returns for a portfolio
+                  </li>
+                </ul>
+
+                <p className="text-base">
+                  This API is still under development. Our internal wish list is very
+                  long. Soon, you’ll also be able to:
+                </p>
+                <ul>
+                  <li className="text-base">
                     retrieve portfolio activity (cashflow, transactions), and
                   </li>
-                  <li className="text-base openSansMedium">
+                  <li className="text-base">
                     retrieve basic risk metrics (VaR and Sharpe ratio ).
                   </li>
                 </ul>
