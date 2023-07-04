@@ -43,10 +43,10 @@ const testimonials = [
                 body: 'Our deal with REDACTED was only made possible with Credmark’s DeFi API and the Credmark Model Framework. With the platforms, lenders can know the facility is backed by verifiable on-chain data.',
                 author: {
                     name: 'Cwalk, Founder',
-                    company: 'Debt dao',
-                    companyUrl: 'https://debtdao.finance/',
+                    company: 'Credit coop',
+                    companyUrl: 'https://www.creditcoop.xyz/#/mainnet/market',
                     imageUrl:
-                        '../assets/debt-dao.svg',
+                        '../assets/credit-coop-logo.png',
                 },
             },
         ],
