@@ -165,25 +165,16 @@ const defiApiTiers = [
 
 const rawDataTiers = [
   {
-    name: "Core",
+    name: "Prices & Pools",
     category: "Ethereum",
-    href: "https://app.snowflake.com/marketplace/listing/GZSTZPNMOXH/credmark-labs-ethereum-core",
-    priceMonthly: 500,
-    learnMoreHref: "/product?rawData=true#learnMore",
-    includedFeatures: ["Blocks", "Transactions", "Contracts", "Tokens"],
-    freeTrial: "All data upto 2023",
-  },
-  {
-    name: "Decoded & Core",
-    category: "Ethereum",
-    href: "https://app.snowflake.com/marketplace/listing/GZSTZPNMOXD/credmark-labs-ethereum-decoded-core",
-    learnMoreHref: "/product?rawData=true#learnMore",
+    href: "https://app.snowflake.com/marketplace/listing/GZSTZPNMOXT/credmark-labs-ethereum-prices-pools",
     priceMonthly: 1500,
+    learnMoreHref: "/product?rawData=true#learnMore",
     includedFeatures: [
-      "Everything in core",
-      "Decoded events",
-      "Decoded function calls",
-      "Contract ABIs",
+      "Prices for >1000 tokens",
+      "Fiat Prices in 16 currencies",
+      "Pool metrics",
+      "Tokens",
     ],
     freeTrial: "All data upto 2023",
   },

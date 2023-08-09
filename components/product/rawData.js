@@ -2,28 +2,10 @@ import ClosingCta from "./closingCta";
 
 const rawData = [
   {
-    documentation: "Etheruem - Core",
+    documentation: "Etheruem - Prices & Pools",
     documentationLink:
-      "https://app.snowflake.com/marketplace/listing/GZSTZPNMOXH/credmark-labs-ethereum-core",
-    price: "$500",
-  },
-  {
-    documentation: "Ethereum - Core & Decoded",
-    documentationLink:
-      "https://app.snowflake.com/marketplace/listing/GZSTZPNMOXD/credmark-labs-ethereum-decoded-core",
+      "https://app.snowflake.com/marketplace/listing/GZSTZPNMOXT/credmark-labs-ethereum-prices-pools",
     price: "$1500",
-  },
-  {
-    documentation: "BSC - Core (coming soon)",
-    documentationLink:
-      "https://app.snowflake.com/marketplace/listings/Credmark%20Labs",
-    price: "TBD",
-  },
-  {
-    documentation: "BSC - Core & Decoded (coming soon)",
-    documentationLink:
-      "https://app.snowflake.com/marketplace/listings/Credmark%20Labs",
-    price: "TBD",
   },
 ];
 
@@ -42,25 +24,27 @@ export default function RawData() {
                   This is a new initiative. We hope you find it useful.
                 </p>
                 <p className="text-base">
-                  Underpinning all of our software is an incredible collection
-                  of blockchain data, over 25 terabytes of data.
+                  Token prices are the heartbeat of the DeFi space. Credmark
+                  uses on-chain DEX data to produce transparent, verifiable
+                  pricing for tokens. These decentralized prices are derived
+                  from liquidity and swap data from Uniswap and other DEXes.
                 </p>
                 <p className="text-base">
                   We have organized{" "}
                   <span className="openSansMedium">
-                    every byte of the Ethereum blockchain into a database
+                    prices of more than 1000 ERC-20 tokens
                   </span>{" "}
-                  that is easily searchable. We call this dataset{" "}
-                  <i>Ethereum - Core</i>.{" "}
-                </p>
-                <p className="text-base">
-                  In addition we have decoded the inputs and outputs of every
-                  validated smart contract and made that data easily searchable.
-                  This is a big deal. This data is stored on chain as binary
-                  blobs, which makes it 100% useless in its native state. Thanks
-                  to some clever automation, we decode and index all of this
-                  data so that our platform developers can use it. We call this
-                  dataset <i>Ethereum - Decoded & Core</i>.
+                  paired with 16 fiat currencies into a database that is easily
+                  searchable. Along with the prices, we have also provided table
+                  containing{" "}
+                  <span className="openSansMedium">
+                    crucial metrics of various liquidity pools
+                  </span>{" "}
+                  for each block. This data is available with impeccable{" "}
+                  <span className="openSansMedium">
+                    precision down to the block level
+                  </span>
+                  . We call this dataset <i>Ethereum - Prices & Pools</i>.{" "}
                 </p>
                 <p className="text-base">
                   Lots more datasets just like these are coming soon.
@@ -141,34 +125,18 @@ export default function RawData() {
                 </p>
                 <div className="grid grid-cols-1 lg:grid-cols-2 border-1 border-y-credmarkpurple border-bggray mt-5">
                   <a
-                    href="https://app.snowflake.com/marketplace/listing/GZSTZPNMOXH/credmark-labs-ethereum-core"
+                    href="https://app.snowflake.com/marketplace/listing/GZSTZPNMOXT/credmark-labs-ethereum-prices-pools"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span className="flex pb-3 border-1 lg:border-r-credmarkpurple border-bggray lg:pl-5">
+                    <span className="flex pb-3 border-1 border-bggray lg:pl-5">
                       <img
                         src="/assets/ethereum-core.svg"
                         alt="tick"
                         width={80}
                       />
                       <p className="text-lg lg:text-2xl text-credmarkpurple py-14 pl-3 lg:pl-5">
-                        Ethereum - Core
-                      </p>
-                    </span>
-                  </a>
-                  <a
-                    href="https://app.snowflake.com/marketplace/listing/GZSTZPNMOXD/credmark-labs-ethereum-decoded-core"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span className="flex pb-3 lg:pl-5">
-                      <img
-                        src="/assets/ethereum-smart-contract.svg"
-                        alt="tick"
-                        width={80}
-                      />
-                      <p className="text-lg lg:text-2xl text-credmarkpurple py-14 pl-3 lg:pl-5">
-                        Ethereum - Decoded & Core
+                        Ethereum - Prices & Pools
                       </p>
                     </span>
                   </a>
@@ -188,10 +156,22 @@ export default function RawData() {
                   </span>
                 </p>
                 <p className="text-base">
-                  We’ve just released our first two data sets and are curious to
-                  see how they are used. <span className="openSansMedium">If you’re a data analyst, quant, or
-                  data scientist working in crypto and find yourself needing to
-                  dig into DeFi, start here.</span>
+                  We’ve just released our first price data set and are curious
+                  to see how it is used. If you’re a{" "}
+                  <span className="openSansMedium">
+                    data analyst, quant, or data scientist working in crypto
+                  </span>{" "}
+                  and you need the raw materials to uncover meaningful patterns
+                  and trends, build robust risk assessment models, refine your
+                  investment strategies, or optimize your portfolio allocation,{" "}
+                  <a
+                    href="https://app.snowflake.com/marketplace/providers/GZSTZPNMOWO/Credmark%20Labs"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    start here
+                  </a>
+                  .
                 </p>
                 <ClosingCta />
               </div>
