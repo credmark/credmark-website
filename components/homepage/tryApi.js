@@ -32,7 +32,7 @@ export default function TryApi() {
         <div>
           <div className="max-w-7xl mx-auto px-4 lg:px-0">
             <div className="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4">
-              <div className="hApi relative border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200 bg-black">
+              <div className="relative border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200 bg-black">
                 <div className="px-6 pt-8">
                   <h2 className="text-3xl leading-6 font-bold openSansMedium text-green text-center">
                     Token API
