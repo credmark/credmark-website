@@ -15,8 +15,8 @@ export default function Home({ data }) {
   return (
     <>
       <Head>
-        <title>Credmark - Where DeFi Builds Financial Models</title>
-        <meta content="Credmark - Where DeFi Builds Financial Models" property="og:title" key="og:title" />
+        <title>Credmark - DeFi Transformations</title>
+        <meta content="Credmark - DeFi Transformations" property="og:title" key="og:title" />
         <meta property="og:image" content="https://credmark.com/assets/credmark-og-image.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -31,16 +31,17 @@ export default function Home({ data }) {
         <Nav />
         <div className="max-w-7xl block mx-auto">
           <h1 className="px-4 md:px-0 text-green pt-10 md:pt-24 leading-snug pb-3">
-            Simple. Powerful.
+            DeFi Transformations
             <br />
-            Accessible Blockchain Data</h1>
+	    Build. Access. Power.  
+          </h1>
           <p className="px-4 md:px-0 text-white block mx-auto leading-snug">
             We curate blockchain data for developers. We keep it simple. We give you power.
           </p>
           <ul>
             <li className="text-white">Raw data for explorers.</li>
             <li className="text-white">Simple APIs for developers.</li>
-            <li className="text-white">A modeling platform for quants.</li>
+            <li className="text-white">A transormation platform for quants.</li>
           </ul>
           <div className="flex flex-wrap pb-52 pt-6">
             <button
@@ -59,15 +60,15 @@ export default function Home({ data }) {
           <dl className="rounded-lg bg-black shadow-lg sm:grid sm:grid-cols-3">
             <div className="flex flex-col text-center statBorder">
               <dt className="mt-2 text-xs leading-6 text-white courier">Raw data</dt>
-              <dd className="text-4xl text-green py-2 bungee">25<span className="text-3xl"> TB</span></dd>
+              <dd className="text-4xl text-green py-2 bungee">40<span className="text-3xl"> TB</span></dd>
             </div>
             <div className="flex flex-col text-center statBorder">
               <dt className="mt-2 text-xs leading-6 text-white courier">Number of models</dt>
-              <dd className="text-4xl text-green py-2 bungee">280</dd>
+              <dd className="text-4xl text-green py-2 bungee">400</dd>
             </div>
             <div className="flex flex-col text-center">
               <dt className="mt-2 text-xs leading-6 text-white courier">API calls</dt>
-              <dd className="text-4xl text-green py-2 bungee">2<span className="text-3xl"> billion</span></dd>
+              <dd className="text-4xl text-green py-2 bungee">4<span className="text-3xl"> billion</span></dd>
             </div>
           </dl>
         </div>

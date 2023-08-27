@@ -308,7 +308,7 @@ export default function Nav() {
                                 rel="noreferrer"
                             >
                                 <div className='cursor-pointer text-white workSans group rounded-md inline-flex items-center text-base pt-1'>
-                                    <span>Credmark Model Framework</span>
+                                    <span>Transformation Framework</span>
                                 </div>
                             </Link>
 

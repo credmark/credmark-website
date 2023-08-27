@@ -16,9 +16,9 @@ export default function CFM() {
                 <div className="cmfHeroBg">
                     <div className="max-w-7xl block mx-auto">
                         <h1 className="px-4 md:px-0 text-green pt-10 md:pt-24 leading-snug pb-3">
-                            Build any crypto <br /> data Model</h1>
+                            Build any transformation</h1>
                         <p className="px-4 md:px-0 text-white leading-snug max-w-xl">
-                            The Credmark Model Framework (CMF) is an open source Python framework for quants, data scientists, and web3 developers to create their own crypto data and expose it via API.
+                            The Credmark Transformation Framework (CTF) is an open source Python framework for quants, data scientists, and web3 developers. It lets them build and deploy powerful transformations fast.
                         </p>
                         <div className="flex flex-wrap pb-16 md:pb-28 pt-6">
                             <button

@@ -8,7 +8,7 @@ export default function CMFPage() {
     return (
         <>
             <Head>
-                <title>Data | CREDMARK</title>
+                <title>CTF | CREDMARK</title>
                 <meta content="Data | CREDMARK" property="og:title" key="og:title" />
                 <meta name="description" content="Find out the answers to any of your Credmark related questions." />
                 <meta property="og:image" content="https://credmark.com/assets/credmark-og-image.png" />
