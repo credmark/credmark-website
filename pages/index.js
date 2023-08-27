@@ -33,7 +33,7 @@ export default function Home({ data }) {
           <h1 className="px-4 md:px-0 text-green pt-10 md:pt-24 leading-snug pb-3">
             DeFi Transformations
             <br />
-	    Build. Access. Power.  
+	    Build. Access.
           </h1>
           <p className="px-4 md:px-0 text-white block mx-auto leading-snug">
             We curate blockchain data for developers. We keep it simple. We give you power.
