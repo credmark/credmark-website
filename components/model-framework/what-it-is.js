@@ -21,7 +21,7 @@ export default function WhatItIs() {
                                 Plug and Play
                             </p>
                             <p className="text-base font-normal leading-7 pb-7 text-white">
-                                Develop instantly with 150+ data models or customize the model to your needs by simply adjusting the inputs.                             </p>
+                                Develop starting with 400+ existing transformations.</p>
                         </div>
                         <div className="whatItIsBg p-8 my-5 lg:my-0 mx-5 rounded-md shadow-sm cursor-pointer">
                             <img src="../assets/build-your-own.svg" alt="All in one" />
@@ -29,7 +29,7 @@ export default function WhatItIs() {
                                 Build Your Own
                             </p>
                             <p className="text-base font-normal leading-7 pt-3 text-white">
-                                Create new models or build on top of existing data outputs locally or publicly. We also support Jupyter Notebook.                             </p>
+                                Create new transformations or build on top of existing data outputs locally or publicly. We also support Jupyter Notebook.                             </p>
                         </div>
                     </div>
                 </div>

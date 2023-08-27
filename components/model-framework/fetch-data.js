@@ -47,10 +47,10 @@ export default function FetchData() {
                         <div className="whatItIsBg p-8 my-5 lg:my-0 mx-5 rounded-md shadow-sm cursor-pointer text-center">
                             <img className="mx-auto block" src="../assets/3.svg" alt="3" />
                             <p className="text-base font-normal text-green pt-5">
-                               Build new Models
+                               Build new Transformations
                             </p>
                             <p className="text-base font-normal leading-7 text-white">
-                                Fork the CMF repo. Write models.
+                                Fork the CTF repo. Write transformations.
                             </p>
                             <button
                                 type="button"

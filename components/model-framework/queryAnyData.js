@@ -8,19 +8,19 @@ export default function QueryData() {
             <div className="py-10 mx-5 md:mx-0">
                 <div className="max-w-6xl block mx-auto">
                     <h2 className="gradientFont text-center">
-                        Query any data fast
+                        Transform any data fast
                     </h2>
-                    <p className="text-green text-center max-w-2xl mx-auto pt-5 md:pt-10">The CMF provides a framework, base models, and data access facilities to make writing these models easy</p>
+                    <p className="text-green text-center max-w-2xl mx-auto pt-5 md:pt-10">The CTF provides a framework, base models, and data access facilities to make writing transformations easy</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 py-16">
                         <div className="whatItIsBg p-7 rounded-md mt-0 lg:mt-9">
                             <div className="flex">
                             <img src="/assets/lightbulb-icon.svg" alt="lightbulb icon" />
                             <h3 className="gradientFont text-3xl font-normal text-green pt-5">
-                                What are crypto data models
+                                What are transformations?
                             </h3>
                             </div>
                             <p className="text-xl font-normal text-white">
-                                A model is a code that ingests data, transform it, and outputs new data. The inputs to the model can be created by the developer or fetched from a database or both.
+                                A transformation is code that ingests data, transform it, and outputs new data. Inputs can be provided by the developer, a user, or fetched from a database.
                             </p>
                             <div className="flex pt-6">
                                 <button
@@ -34,11 +34,11 @@ export default function QueryData() {
                             </div>
                         </div>
                         <div className="pl-0 md:pl-10 mt-10 md:mt-0">
-                            <p className="text-green font-semibold text-3xl mb-5 lg:mb-10">Various models</p>
-                            <QueryList description="CMF models will have priority access to blockchain data as it has been pre-indexed and decoded" />
-                            <QueryList description="A simple model without inputs would return results of the most recently processed blocks" />
-                            <QueryList description="A more complicated model will have inputs like token symbol which will return its current price" />
-                            <QueryList description="A sophisticated model can input a portfolio and output the value and history accrued over time" />
+                            <p className="text-green font-semibold text-3xl mb-5 lg:mb-10">Various transformations</p>
+                            <QueryList description="CTF transformations have priority access to decoded, indexed historical blockchain data" />
+                            <QueryList description="A simple transformations could return the most recently processed block" />
+                            <QueryList description="A more complicated tranformation could take a token symbol and return its current price" />
+                            <QueryList description="A sophisticated tranformation could take a wallet address and return the performance of its holdings" />
                         </div>
                     </div>
                 </div>

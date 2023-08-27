@@ -12,10 +12,10 @@ export default function InAction() {
                     <div className="grid grid-cols-1 md:grid-cols-2 py-16">
                         <div>
                             <p className="text-3xl font-normal text-green pt-5">
-                                Build Data Models Faster
+                                Build Transformations Faster
                             </p>
                             <p className="text-2xl font-normal leading-7 text-white leading-relaxed">
-                                The Credmark Model Framework abstracts away the complexity of coding Python in web3, enabling rapid development.
+                                The Credmark Transformation Framework (CTF) abstracts away a lot of web3 complexity, enabling rapid development.
                             </p>
                             <div className="flex pt-6">
                                 <button
@@ -31,7 +31,7 @@ export default function InAction() {
                                     className="ml-0 md:ml-5 mx-4 lg:mx-0 text-white border-2 border-transparent px-2 py-1 shadow-sm text-sm font-medium mt-3"
                                 >
                                     <Link href="https://gateway.credmark.com/api/?urls.primaryName=Credmark%20APIs" target="_blank" rel="noreferrer">
-                                        <p>See Our Models →</p>
+                                        <p>See Our Transformations →</p>
                                     </Link>
                                 </button>
                             </div>

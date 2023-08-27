@@ -5,10 +5,9 @@ export default function TryApi() {
     <>
       <div className="mx-5 pt-20 pb-20 max-w-7xl block lg:mx-auto">
         <div>
-          <h1 className="gradientFont">On-chain data made easy</h1>
+          <h1 className="gradientFont">Easy-to-use APIs</h1>
           <p>
-            Query historical and real-time data instantly. Start with our free
-            token API.
+            Access historical and real-time data instantly. Free.
           </p>
           <button
             type="button"
@@ -39,7 +38,7 @@ export default function TryApi() {
                     Token API
                   </h2>
                   <p className="text-white pt-10 text-sm">
-                    Access granular token data made for deep analysis and dApps.
+                    Access granular token data.
                   </p>
                 </div>
                 <div className="pb-4 px-6">
@@ -71,8 +70,7 @@ export default function TryApi() {
                     Portfolio API
                   </h2>
                   <p className="text-white pt-10 text-sm">
-                    Trace all wallet activity and manage your portfolio with
-                    integrated risk models
+                    Trace portfolio activity.
                   </p>
                 </div>
                 <div className="pb-4 px-6">
@@ -101,21 +99,19 @@ export default function TryApi() {
                     DeFi API
                   </h2>
                   <p className="text-white pt-10 text-sm">
-                    The gateway to DeFi, purpose-built for quants, modelers and
-                    web3 builders.
+                    Run any transformation with one endpoint.
                   </p>
                 </div>
                 <div className="pb-4 px-6">
                   <ul className="tick">
                     <li className="text-white text-sm whiteTick py-2 pl-1">
-                      Access 150+ financial models with one endpoint
+                      Access 400+ existing transformations
                     </li>
                     <li className="text-white text-sm whiteTick py-2 pl-1">
-                      Create your own models with web3’s most robust modeling
-                      platform
+	              Build your own transformations and access
                     </li>
                     <li className="text-white text-sm whiteTick py-2 pl-1">
-                      Check out Credmark Terminal, powered by our DeFi API
+                      Check out the Credmark Terminal, powered by our DeFi API
                     </li>
                   </ul>
                   <Link href="/product/?defiApi=true#learnMore">
@@ -145,6 +141,9 @@ export default function TryApi() {
                     </li>
                     <li className="text-white text-sm whiteTick py-2 pl-1">
                       Polygon
+                    </li>
+                    <li className="text-white text-sm whiteTick py-2 pl-1">
+                      BSC
                     </li>
                   </ul>
                   <Link href="/product/?rawData=true#learnMore">
