@@ -99,10 +99,6 @@ const learn = [
         name: 'Media',
         href: '/media',
     },
-    {
-        name: 'White Paper',
-        href: 'https://docs.credmark.com/credmark/',
-    },
 ]
 
 const community = [
