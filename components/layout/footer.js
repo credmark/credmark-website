@@ -69,11 +69,11 @@ const navigation = {
             href: 'https://gateway.credmark.com/api/#/DeFi%20API',
         },
         {
-            name: 'Model Development Concepts',
+            name: 'Transformation Development Concepts',
             href: 'https://docs.credmark.com/cmf-model-guide/',
         },
         {
-            name: 'Model Reference',
+            name: 'Transformation Reference',
             href: 'https://app.credmark.com/models',
         },
         {
