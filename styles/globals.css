@@ -115,7 +115,7 @@ background-clip: text;
 @media screen and (max-width: 800px) {
   h1{
     font-family: 'Bungee';
-    font-size: 42px;
+    font-size: 30px;
   }
 }
 
