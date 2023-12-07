@@ -41,7 +41,7 @@ export default function Home({ data }) {
           <ul>
             <li className="text-white">Raw data for explorers.</li>
             <li className="text-white">Simple APIs for developers.</li>
-            <li className="text-white">A transormation platform for quants.</li>
+            <li className="text-white">A transformation platform for quants.</li>
           </ul>
           <div className="flex flex-wrap pb-52 pt-6">
             <button
