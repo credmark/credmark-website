@@ -18,14 +18,14 @@ export default function InAction() {
                                 The Credmark Transformation Framework (CTF) abstracts away a lot of web3 complexity, enabling rapid development.
                             </p>
                             <div className="flex pt-6">
-                                <button
+                                {/* <button
                                     type="button"
                                     className="md:mx-4 lg:mx-0 text-white border-green border-2 px-2 py-1 shadow-sm text-sm font-medium mt-3"
                                 >
                                     <Link href="https://docs.credmark.com/cmf-model-guide/getting-started/installation-and-setup" target="_blank" rel="noreferrer">
                                         <p>Build Now</p>
                                     </Link>
-                                </button>
+                                </button> */}
                                 <button
                                     type="button"
                                     className="ml-0 md:ml-5 mx-4 lg:mx-0 text-white border-2 border-transparent px-2 py-1 shadow-sm text-sm font-medium mt-3"

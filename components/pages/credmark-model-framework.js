@@ -21,14 +21,14 @@ export default function CFM() {
                             The Credmark Transformation Framework (CTF) is an open source Python framework for quants, data scientists, and web3 developers. It lets them build and deploy powerful transformations fast.
                         </p>
                         <div className="flex flex-wrap pb-16 md:pb-28 pt-6">
-                            <button
+                            {/* <button
                                 type="button"
                                 className="mx-4 lg:mx-0 text-white heroButton px-2 py-2 shadow-sm text-sm font-medium"
                             >
                                 <Link href="https://docs.credmark.com/cmf-model-guide/" target="_blank" rel="noreferrer">
                                     <p>Develop Faster Now →</p>
                                 </Link>
-                            </button>
+                            </button> */}
                             <button
                                 type="button"
                                 className="mx-4 lg:mx-0 text-white px-2 py-2 shadow-sm text-sm font-medium lg:ml-5"

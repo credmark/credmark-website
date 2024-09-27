@@ -7,10 +7,10 @@ const navigation = {
             name: 'Credmark Terminal',
             href: 'https://app.credmark.com/',
         },
-        {
-            name: 'Credmark Wiki',
-            href: 'https://docs.credmark.com/credmark-wiki/',
-        },
+        // {
+        //     name: 'Credmark Wiki',
+        //     href: 'https://docs.credmark.com/credmark-wiki/',
+        // },
         {   name: 'Reports', 
             href: '/reports',  
             },
@@ -27,10 +27,10 @@ const navigation = {
         {   name: 'FAQ', 
             href: '/faq', 
         },
-        {
-            name: 'White Paper',
-            href: 'https://docs.credmark.com/credmark/',
-        },
+        // {
+        //     name: 'White Paper',
+        //     href: 'https://docs.credmark.com/credmark/',
+        // },
         {
             name: 'Privacy Policy',
             href: '/legal/privacy-policy',

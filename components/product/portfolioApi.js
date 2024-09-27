@@ -6,12 +6,12 @@ const people = [
     documentationLink: "https://gateway.credmark.com/api/#/Portfolio%20API",
     image: "/assets/documentation-api.svg",
   },
-  {
-    documentation: "Reference",
-    documentationLink:
-      "https://docs.credmark.com/portfolio-api-concepts/basics/introduction",
-    image: "/assets/documentation-api.svg",
-  },
+  // {
+  //   documentation: "Reference",
+  //   documentationLink:
+  //     "https://docs.credmark.com/portfolio-api-concepts/basics/introduction",
+  //   image: "/assets/documentation-api.svg",
+  // },
 ];
 
 export default function PortfolioApi() {

@@ -35,14 +35,14 @@ export default function FetchData() {
                             <p className="text-base font-normal leading-7 text-white">
                                 Connect to the API to retrieve the data you need.
                             </p>
-                            <button
+                            {/* <button
                                 type="button"
                                 className="mx-4 lg:mx-0 text-white border-green border-2 px-2 py-1 shadow-sm text-sm font-medium mt-3"
                             >
                                 <Link href="https://docs.credmark.com/cmf-model-guide/getting-started/installation-and-setup" target="_blank" rel="noreferrer">
                                     <p className="px-4 text-base">Set Up Now →</p>
                                 </Link>
-                            </button>
+                            </button> */}
                         </div>
                         <div className="whatItIsBg p-8 my-5 lg:my-0 mx-5 rounded-md shadow-sm cursor-pointer text-center">
                             <img className="mx-auto block" src="../assets/3.svg" alt="3" />
@@ -52,14 +52,14 @@ export default function FetchData() {
                             <p className="text-base font-normal leading-7 text-white">
                                 Fork the CTF repo. Write transformations.
                             </p>
-                            <button
+                            {/* <button
                                 type="button"
                                 className="mx-4 lg:mx-0 text-white border-green border-2 px-2 py-1 shadow-sm text-sm font-medium mt-3"
                             >
                                 <Link href="https://docs.credmark.com/cmf-model-guide/how-to-access-models-and-data/how-to-get-api-access" target="_blank" rel="noreferrer">
                                     <p className="px-4 text-base">Learn How →</p>
                                 </Link>
-                            </button>
+                            </button> */}
                         </div>
                         <div className="whatItIsBg p-8 my-5 lg:my-0 mx-5 rounded-md shadow-sm cursor-pointer text-center">
                             <img className="mx-auto block" src="../assets/4.svg" alt="4" />
@@ -69,14 +69,14 @@ export default function FetchData() {
                             <p className="text-base font-normal leading-7 text-white">
                                 Use the DeFi API to call your models.
                             </p>
-                            <button
+                            {/* <button
                                 type="button"
                                 className="mx-4 lg:mx-0 text-white border-green border-2 px-2 py-1 shadow-sm text-sm font-medium mt-3"
                             >
                                 <Link href="https://docs.credmark.com/cmf-model-guide/how-to-build-a-model/create-the-model-skeleton" target="_blank" rel="noreferrer">
                                     <p className="px-4 text-base">Quickstart →</p>
                                 </Link>
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </div>

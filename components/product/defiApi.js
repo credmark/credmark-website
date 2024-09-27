@@ -1,12 +1,12 @@
 import ClosingCta from "./closingCta";
 
 const people = [
-  {
-    documentation: "DeFi API Concepts",
-    documentationLink:
-      "https://docs.credmark.com/defi-api-concepts/basics/introduction",
-    image: "/assets/documentation-api.svg",
-  },
+  // {
+  //   documentation: "DeFi API Concepts",
+  //   documentationLink:
+  //     "https://docs.credmark.com/defi-api-concepts/basics/introduction",
+  //   image: "/assets/documentation-api.svg",
+  // },
   {
     documentation: "DeFi API reference",
     documentationLink: "https://gateway.credmark.com/api/#/DeFi%20API",

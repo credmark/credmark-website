@@ -15,10 +15,10 @@ const navigation = {
             name: 'Credmark Terminal',
             href: 'https://app.credmark.com/',
         },
-        {
-            name: 'Credmark Wiki',
-            href: 'https://docs.credmark.com/credmark-wiki/',
-        },
+        // {
+        //     name: 'Credmark Wiki',
+        //     href: 'https://docs.credmark.com/credmark-wiki/',
+        // },
     ],
     learn: [
         {
@@ -33,10 +33,10 @@ const navigation = {
             name: 'FAQ',
             href: '/faq',
         },
-        {
-            name: 'White Paper',
-            href: 'https://docs.credmark.com/credmark/',
-        },
+        // {
+        //     name: 'White Paper',
+        //     href: 'https://docs.credmark.com/credmark/',
+        // },
         {
             name: 'Reports',
             href: '/reports',

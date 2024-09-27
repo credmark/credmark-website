@@ -22,7 +22,7 @@ export default function QueryData() {
                             <p className="text-xl font-normal text-white">
                                 A transformation is code that ingests data, transform it, and outputs new data. Inputs can be provided by the developer, a user, or fetched from a database.
                             </p>
-                            <div className="flex pt-6">
+                            {/* <div className="flex pt-6">
                                 <button
                                     type="button"
                                     className="mx-4 lg:mx-0 text-white border-2 border-transparent py-1 shadow-sm text-sm font-medium mt-3"
@@ -31,7 +31,7 @@ export default function QueryData() {
                                         <p>Build Now →</p>
                                     </Link>
                                 </button>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="pl-0 md:pl-10 mt-10 md:mt-0">
                             <p className="text-green font-semibold text-3xl mb-5 lg:mb-10">Various transformations</p>
