@@ -32,42 +32,42 @@ const projects = [
 ]
 
 const documentation = [
-    {
-        name: 'All',
-        href: 'https://docs.credmark.com/technical-docs/',
-    },
-    {
-        name: 'API Basics',
-        href: 'https://docs.credmark.com/api-how-to-guide/account-setup/initial-sign-up',
-    },
-    {
-        name: 'Token API Concepts',
-        href: 'https://docs.credmark.com/token-api-concepts/basics/introduction',
-    },
+    // {
+    //     name: 'All',
+    //     href: 'https://docs.credmark.com/technical-docs/',
+    // },
+    // {
+    //     name: 'API Basics',
+    //     href: 'https://docs.credmark.com/api-how-to-guide/account-setup/initial-sign-up',
+    // },
+    // {
+    //     name: 'Token API Concepts',
+    //     href: 'https://docs.credmark.com/token-api-concepts/basics/introduction',
+    // },
     {
         name: 'Token API Reference',
         href: 'https://gateway.credmark.com/api/#/Token%20API',
     },
-    {
-        name: 'Portfolio API Concepts',
-        href: 'https://docs.credmark.com/portfolio-api-concepts/basics/introduction',
-    },
+    // {
+    //     name: 'Portfolio API Concepts',
+    //     href: 'https://docs.credmark.com/portfolio-api-concepts/basics/introduction',
+    // },
     {
         name: 'Portfolio API Reference',
         href: 'https://gateway.credmark.com/api/#/Portfolio%20API',
     },
-    {
-        name: 'DeFi API Concepts',
-        href: 'https://docs.credmark.com/defi-api-concepts',
-    },
+    // {
+    //     name: 'DeFi API Concepts',
+    //     href: 'https://docs.credmark.com/defi-api-concepts',
+    // },
     {
         name: 'DeFi API Reference',
         href: 'https://gateway.credmark.com/api/#/DeFi%20API',
     },
-    {
-        name: 'Model Development Concepts',
-        href: 'https://docs.credmark.com/cmf-model-guide/',
-    },
+    // {
+    //     name: 'Model Development Concepts',
+    //     href: 'https://docs.credmark.com/cmf-model-guide/',
+    // },
     {
         name: 'Model Reference',
         href: 'https://app.credmark.com/models',
@@ -83,10 +83,10 @@ const learn = [
         name: 'FAQ',
         href: '/faq',
     },
-    {
-        name: 'Credmark Wiki',
-        href: 'https://docs.credmark.com/credmark-wiki/',
-    },
+    // {
+    //     name: 'Credmark Wiki',
+    //     href: 'https://docs.credmark.com/credmark-wiki/',
+    // },
     {
         name: 'Blog',
         href: '/blog',
@@ -99,10 +99,10 @@ const learn = [
         name: 'Media',
         href: '/media',
     },
-    {
-        name: 'White Paper',
-        href: 'https://docs.credmark.com/credmark/',
-    },
+    // {
+    //     name: 'White Paper',
+    //     href: 'https://docs.credmark.com/credmark/',
+    // },
 ]
 
 const community = [

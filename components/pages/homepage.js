@@ -27,14 +27,14 @@ export default function Homepage() {
                                     <p>Get Started</p>
                                 </Link>
                             </button>
-                            <button
+                            {/* <button
                                 type="button"
                                 className="w-36 mx-2 mt-7 text-white mt-5 px-2 py-2 shadow-sm text-sm font-medium rounded-md border-2 border-solid border-white hover:text-white hover:bg-credmarkpurple"
                             >
                                 <Link href="https://docs.credmark.com/credmark/">
                                     <p className="text-white">How it Works</p>
                                 </Link>
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </div>

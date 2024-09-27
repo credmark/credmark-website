@@ -22,7 +22,7 @@ export default function WhatWeDo() {
                             <p className="text-base font-normal leading-7 pt-3 pb-7">
                             Collective research and insights designed to help modelers understand DeFi protocols and build models with best practices
                             </p>
-                            <div className="buttonTextHover">
+                            {/* <div className="buttonTextHover">
                                 <button
                                     type="button"
                                     className="mt-7 text-credmarkpurple mt-5 inline-flex items-center px-10 py-2 shadow-sm text-sm font-medium rounded-md border-2 border-solid border-credmarkpurple"
@@ -32,7 +32,7 @@ export default function WhatWeDo() {
                                         <img className="float-right pt-2 pl-2" alt="arrow right" src="../assets/arrow.svg" />
                                     </a>
                                 </button>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="bg-white p-8 my-5 lg:my-0 mx-5 rounded-md shadow-sm bg-green cursor-pointer">
                             <h3 className="font-bold text-credmarkpurple text-3xl">

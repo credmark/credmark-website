@@ -814,7 +814,7 @@ function DotAnimation() {
                 </p>
               </button>
             </a>
-            <a
+            {/* <a
               href="https://docs.credmark.com/credmark/"
               target="_blank"
               rel="noreferrer"
@@ -827,7 +827,7 @@ function DotAnimation() {
                   White Paper 
                 </p>
               </button>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

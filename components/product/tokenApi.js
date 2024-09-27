@@ -6,12 +6,12 @@ const people = [
     documentationLink: "https://gateway.credmark.com/api/#/Token%20API",
     image: "/assets/documentation-api.svg",
   },
-  {
-    documentation: "Token concepts",
-    documentationLink:
-      "https://docs.credmark.com/token-api-concepts/basics/introduction",
-    image: "/assets/documentation-api.svg",
-  },
+  // {
+  //   documentation: "Token concepts",
+  //   documentationLink:
+  //     "https://docs.credmark.com/token-api-concepts/basics/introduction",
+  //   image: "/assets/documentation-api.svg",
+  // },
 ];
 
 export default function TokenApi() {

@@ -35,10 +35,10 @@ const learn = [
         name: 'FAQ',
         href: '/faq',
     },
-    {
-        name: 'Credmark Wiki',
-        href: 'https://docs.credmark.com/credmark-wiki/',
-    },
+    // {
+    //     name: 'Credmark Wiki',
+    //     href: 'https://docs.credmark.com/credmark-wiki/',
+    // },
     {
         name: 'Blog',
         href: '/blog',
@@ -51,10 +51,10 @@ const learn = [
         name: 'Media',
         href: '/media',
     },
-    {
-        name: 'White Paper',
-        href: 'https://docs.credmark.com/credmark/',
-    },
+    // {
+    //     name: 'White Paper',
+    //     href: 'https://docs.credmark.com/credmark/',
+    // },
 ]
 
 const community = [
