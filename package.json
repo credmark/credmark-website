@@ -14,7 +14,7 @@
     "@sanity/client": "^2.23.2",
     "caniuse-lite": "^1.0.30001380",
     "moment": "^2.31.0",
-    "next": "12.0.7",
+    "next": "16.3.8",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-hotjar": "^4.0.0",
@@ -26,7 +26,7 @@
     "autoprefixer": "^10.4.2",
     "eslint": "8.6.0",
     "eslint-config-next": "12.0.7",
-    "postcss": "^8.4.5",
+    "postcss": "^8.5.23",
     "tailwindcss": "^3.0.12"
   }
 }
