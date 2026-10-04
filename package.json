@@ -15,18 +15,21 @@
     "caniuse-lite": "^1.0.30001380",
     "moment": "^2.31.0",
     "next": "^16.3.8",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-hotjar": "^4.0.0",
     "react-syntax-highlighter": "^16.1.1",
-    "react-type-animation": "^1.1.2",
+    "react-type-animation": "^3.0.0",
     "swr": "^1.1.2"
   },
   "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
     "autoprefixer": "^10.4.2",
-    "eslint": "8.6.0",
+    "eslint": "^9.0.0",
     "eslint-config-next": "^16.3.8",
     "postcss": "^8.4.5",
-    "tailwindcss": "^4.3.3"
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.5.0"
   }
 }
